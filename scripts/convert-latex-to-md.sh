@@ -56,7 +56,7 @@ echo "=== Converting LaTeX to Markdown at $(date) ==="
 echo "Input: $INPUT_FILE"
 echo "Output: $OUTPUT_FILE"
 
-# Convert using pandoc
-pandoc -f latex -t markdown -o "$OUTPUT_FILE" "$INPUT_FILE"
+# Convert using pandoc (with options for better markdown output)
+pandoc -f latex -t markdown --wrap=preserve --standalone -o "$OUTPUT_FILE" "$INPUT_FILE"
 
 echo "=== Conversion complete: $OUTPUT_FILE ==="

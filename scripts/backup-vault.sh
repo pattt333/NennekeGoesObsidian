@@ -35,7 +35,7 @@ echo "=== Creating vault backup at $(date) ==="
 echo "Source: $VAULT_DIR"
 echo "Destination: $BACKUP_FILE"
 
-# Create the zip archive
-zip -r "$BACKUP_FILE" "$VAULT_DIR"
+# Create the zip archive (quiet mode for cleaner output)
+zip -rq "$BACKUP_FILE" "$VAULT_DIR"
 
 echo "=== Backup complete: $BACKUP_FILE ==="

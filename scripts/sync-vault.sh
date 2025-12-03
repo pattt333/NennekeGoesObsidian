@@ -13,9 +13,9 @@ cd "$REPO_ROOT"
 
 echo "=== Syncing vault at $(date) ==="
 
-# Pull latest changes from remote
+# Pull latest changes from remote (fast-forward only for safety)
 echo "Pulling latest changes..."
-git pull
+git pull --ff-only
 
 # Stage all changes
 echo "Staging changes..."
