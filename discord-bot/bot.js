@@ -14,38 +14,81 @@ const client = new Client({
 
 const VAULT_PATH = path.resolve(__dirname, '..', 'vault');
 
+// File size limit for !rules show command (50KB)
+const MAX_FILE_SIZE = 50 * 1024;
+
+// Emoji constants for command feedback
+const EMOJI_PROCESSING = '⏳';
+const EMOJI_SUCCESS = '✅';
+const EMOJI_FAILURE = '❌';
+
 // Command handlers map for maintainability
 const commands = {
   '!rules sync': handleSync,
-  '!rules status': handleStatus
+  '!rules status': handleStatus,
+  '!rules help': handleHelp
 };
 
-function handleSync(message) {
+/**
+ * Helper to update emoji reaction on message
+ * @param {Message} message - The Discord message object
+ * @param {string} oldEmoji - The emoji to remove
+ * @param {string} newEmoji - The emoji to add
+ */
+async function updateReaction(message, oldEmoji, newEmoji) {
+  try {
+    await message.reactions.cache.get(oldEmoji)?.remove();
+    await message.react(newEmoji);
+  } catch (error) {
+    console.error(`Error updating reaction: ${error.message}`);
+  }
+}
+
+async function handleSync(message) {
   message.channel.send('Syncing vault with remote...');
   
-  execFile('git', ['pull', 'origin', 'main'], { cwd: VAULT_PATH }, (error, stdout, stderr) => {
+  execFile('git', ['pull', 'origin', 'main'], { cwd: VAULT_PATH }, async (error, stdout, stderr) => {
     if (error) {
       console.error(`Error executing git pull: ${error.message}`);
       message.channel.send(`Error syncing: ${error.message}`);
+      await updateReaction(message, EMOJI_PROCESSING, EMOJI_FAILURE);
       return;
     }
     
     const output = stdout.trim() || 'Already up to date.';
     message.channel.send(`Sync complete:\n\`\`\`\n${output}\n\`\`\``);
+    await updateReaction(message, EMOJI_PROCESSING, EMOJI_SUCCESS);
   });
 }
 
-function handleStatus(message) {
-  execFile('git', ['log', '--oneline', '-5'], { cwd: VAULT_PATH }, (error, stdout) => {
+async function handleStatus(message) {
+  execFile('git', ['log', '--oneline', '-5'], { cwd: VAULT_PATH }, async (error, stdout) => {
     if (error) {
       console.error(`Error executing git log: ${error.message}`);
       message.channel.send(`Error getting status: ${error.message}`);
+      await updateReaction(message, EMOJI_PROCESSING, EMOJI_FAILURE);
       return;
     }
     
     const commits = stdout.trim() || 'No commits found.';
     message.channel.send(`Last 5 commits:\n\`\`\`\n${commits}\n\`\`\``);
+    await updateReaction(message, EMOJI_PROCESSING, EMOJI_SUCCESS);
   });
+}
+
+async function handleHelp(message) {
+  const helpText = `**Available Commands:**
+
+\`!rules help\` - Display this help message with all available commands
+\`!rules sync\` - Sync the vault with the remote repository (git pull)
+\`!rules status\` - Show the last 5 commits in the vault
+\`!rules show <path>\` - Display the contents of a Markdown file from the vault
+  • Example: \`!rules show rules/combat/initiative\`
+  • File path should be relative to the vault directory
+  • Files larger than 50KB cannot be displayed`;
+  
+  await message.channel.send(helpText);
+  await updateReaction(message, EMOJI_PROCESSING, EMOJI_SUCCESS);
 }
 
 // Discord message limit
@@ -87,13 +130,46 @@ function paginateContent(content) {
 const RESOLVED_VAULT_PATH = path.resolve(VAULT_PATH);
 
 /**
- * Handles the !rules find command to display content of a Markdown file
+ * Sanitizes user input for file paths to prevent directory traversal attacks
+ * @param {string} filePath - The user-provided file path
+ * @returns {Object} - { isValid: boolean, sanitizedPath: string, errorMessage: string }
+ */
+function sanitizeFilePath(filePath) {
+  // Block explicit directory traversal patterns
+  if (filePath.includes('../') || filePath.includes('..\\')) {
+    return { isValid: false, sanitizedPath: '', errorMessage: 'Error: Directory traversal patterns (../) are not allowed.' };
+  }
+  
+  // Block paths that start with / or \ (absolute paths)
+  if (filePath.startsWith('/') || filePath.startsWith('\\')) {
+    return { isValid: false, sanitizedPath: '', errorMessage: 'Error: Absolute paths are not allowed.' };
+  }
+  
+  // Block null bytes which can be used to bypass security checks
+  if (filePath.includes('\0')) {
+    return { isValid: false, sanitizedPath: '', errorMessage: 'Error: Invalid characters in file path.' };
+  }
+  
+  return { isValid: true, sanitizedPath: filePath, errorMessage: '' };
+}
+
+/**
+ * Handles the !rules show command to display content of a Markdown file
  * @param {Message} message - The Discord message object
  * @param {string} filePath - The path to the file relative to the vault
  */
-async function handleFind(message, filePath) {
+async function handleShow(message, filePath) {
   if (!filePath) {
-    message.channel.send('Usage: `!rules find <file-path>`\nExample: `!rules find rules/combat/initiative`');
+    await message.channel.send('Usage: `!rules show <file-path>`\nExample: `!rules show rules/combat/initiative`');
+    await updateReaction(message, EMOJI_PROCESSING, EMOJI_FAILURE);
+    return;
+  }
+  
+  // Sanitize user input for file paths
+  const sanitizeResult = sanitizeFilePath(filePath);
+  if (!sanitizeResult.isValid) {
+    await message.channel.send(sanitizeResult.errorMessage);
+    await updateReaction(message, EMOJI_PROCESSING, EMOJI_FAILURE);
     return;
   }
   
@@ -107,15 +183,25 @@ async function handleFind(message, filePath) {
   // Security check: Ensure the resolved path is within the vault directory
   // This prevents directory traversal attacks (e.g., ../../../etc/passwd)
   if (!resolvedPath.startsWith(RESOLVED_VAULT_PATH + path.sep) && resolvedPath !== RESOLVED_VAULT_PATH) {
-    message.channel.send('Error: Invalid file path. Path must be within the vault directory.');
+    await message.channel.send('Error: Invalid file path. Path must be within the vault directory.');
+    await updateReaction(message, EMOJI_PROCESSING, EMOJI_FAILURE);
     return;
   }
   
   try {
+    // Check file size before reading to prevent spam
+    const stats = await fs.stat(resolvedPath);
+    if (stats.size > MAX_FILE_SIZE) {
+      await message.channel.send(`Error: File is too large (${Math.round(stats.size / 1024)}KB). Maximum allowed size is 50KB.`);
+      await updateReaction(message, EMOJI_PROCESSING, EMOJI_FAILURE);
+      return;
+    }
+    
     const content = await fs.readFile(resolvedPath, 'utf-8');
     
     if (!content.trim()) {
-      message.channel.send(`File \`${fullFileName}\` is empty.`);
+      await message.channel.send(`File \`${fullFileName}\` is empty.`);
+      await updateReaction(message, EMOJI_PROCESSING, EMOJI_SUCCESS);
       return;
     }
     
@@ -129,15 +215,18 @@ async function handleFind(message, filePath) {
         await new Promise(resolve => setTimeout(resolve, 500));
       }
     }
+    
+    await updateReaction(message, EMOJI_PROCESSING, EMOJI_SUCCESS);
   } catch (error) {
     if (error.code === 'ENOENT') {
-      message.channel.send(`Error: File not found: \`${fullFileName}\``);
+      await message.channel.send(`Error: File not found: \`${fullFileName}\``);
     } else if (error.code === 'EISDIR') {
-      message.channel.send(`Error: \`${fullFileName}\` is a directory, not a file.`);
+      await message.channel.send(`Error: \`${fullFileName}\` is a directory, not a file.`);
     } else {
       console.error(`Error reading file ${fullFileName}: ${error.message}`);
-      message.channel.send('Error: An unexpected error occurred while reading the file.');
+      await message.channel.send('Error: An unexpected error occurred while reading the file.');
     }
+    await updateReaction(message, EMOJI_PROCESSING, EMOJI_FAILURE);
   }
 }
 
@@ -148,39 +237,57 @@ client.once('ready', () => {
 client.on('messageCreate', async (message) => {
   if (message.author.bot) return;
 
+  // Check if the message is a !rules command
+  if (!message.content.startsWith('!rules')) return;
+
+  // Add processing emoji at the start of command handling
+  try {
+    await message.react(EMOJI_PROCESSING);
+  } catch (error) {
+    console.error(`Error adding processing reaction: ${error.message}`);
+  }
+
   // Check for exact command matches first
   const handler = commands[message.content];
   if (handler) {
     try {
-      handler(message);
+      await handler(message);
     } catch (error) {
       console.error(`Unexpected error: ${error.message}`);
-      message.channel.send(`Unexpected error: ${error.message}`);
+      await message.channel.send(`Unexpected error: ${error.message}`);
+      await updateReaction(message, EMOJI_PROCESSING, EMOJI_FAILURE);
     }
     return;
   }
   
-  // Check for !rules find command with arguments
-  if (message.content.startsWith('!rules find ')) {
-    const filePath = message.content.slice('!rules find '.length).trim();
+  // Check for !rules show command with arguments
+  if (message.content.startsWith('!rules show ')) {
+    const filePath = message.content.slice('!rules show '.length).trim();
     try {
-      await handleFind(message, filePath);
+      await handleShow(message, filePath);
     } catch (error) {
       console.error(`Unexpected error: ${error.message}`);
-      message.channel.send(`Unexpected error: ${error.message}`);
+      await message.channel.send(`Unexpected error: ${error.message}`);
+      await updateReaction(message, EMOJI_PROCESSING, EMOJI_FAILURE);
     }
     return;
   }
   
-  // Handle !rules find without arguments
-  if (message.content === '!rules find') {
+  // Handle !rules show without arguments
+  if (message.content === '!rules show') {
     try {
-      await handleFind(message, '');
+      await handleShow(message, '');
     } catch (error) {
       console.error(`Unexpected error: ${error.message}`);
-      message.channel.send(`Unexpected error: ${error.message}`);
+      await message.channel.send(`Unexpected error: ${error.message}`);
+      await updateReaction(message, EMOJI_PROCESSING, EMOJI_FAILURE);
     }
+    return;
   }
+
+  // Unknown !rules command - show help suggestion
+  await message.channel.send('Unknown command. Use `!rules help` to see available commands.');
+  await updateReaction(message, EMOJI_PROCESSING, EMOJI_FAILURE);
 });
 
 const token = process.env.DISCORD_TOKEN;
