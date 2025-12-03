@@ -1,6 +1,6 @@
 require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
-const { exec } = require('child_process');
+const { execFile } = require('child_process');
 const path = require('path');
 
 const client = new Client({
@@ -13,6 +13,40 @@ const client = new Client({
 
 const VAULT_PATH = path.resolve(__dirname, '..', 'vault');
 
+// Command handlers map for maintainability
+const commands = {
+  '!rules sync': handleSync,
+  '!rules status': handleStatus
+};
+
+function handleSync(message) {
+  message.channel.send('Syncing vault with remote...');
+  
+  execFile('git', ['pull', 'origin', 'main'], { cwd: VAULT_PATH }, (error, stdout, stderr) => {
+    if (error) {
+      console.error(`Error executing git pull: ${error.message}`);
+      message.channel.send(`Error syncing: ${error.message}`);
+      return;
+    }
+    
+    const output = stdout.trim() || 'Already up to date.';
+    message.channel.send(`Sync complete:\n\`\`\`\n${output}\n\`\`\``);
+  });
+}
+
+function handleStatus(message) {
+  execFile('git', ['log', '--oneline', '-5'], { cwd: VAULT_PATH }, (error, stdout) => {
+    if (error) {
+      console.error(`Error executing git log: ${error.message}`);
+      message.channel.send(`Error getting status: ${error.message}`);
+      return;
+    }
+    
+    const commits = stdout.trim() || 'No commits found.';
+    message.channel.send(`Last 5 commits:\n\`\`\`\n${commits}\n\`\`\``);
+  });
+}
+
 client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}`);
 });
@@ -20,42 +54,10 @@ client.once('ready', () => {
 client.on('messageCreate', async (message) => {
   if (message.author.bot) return;
 
-  if (message.content === '!rules sync') {
+  const handler = commands[message.content];
+  if (handler) {
     try {
-      message.channel.send('Syncing vault with remote...');
-      
-      exec('git pull origin main', { cwd: VAULT_PATH }, (error, stdout, stderr) => {
-        if (error) {
-          console.error(`Error executing git pull: ${error.message}`);
-          message.channel.send(`Error syncing: ${error.message}`);
-          return;
-        }
-        
-        if (stderr && !stderr.includes('Already up to date') && !stderr.includes('From')) {
-          console.error(`Git stderr: ${stderr}`);
-        }
-        
-        const output = stdout.trim() || 'Already up to date.';
-        message.channel.send(`Sync complete:\n\`\`\`\n${output}\n\`\`\``);
-      });
-    } catch (error) {
-      console.error(`Unexpected error: ${error.message}`);
-      message.channel.send(`Unexpected error: ${error.message}`);
-    }
-  }
-
-  if (message.content === '!rules status') {
-    try {
-      exec('git log --oneline -5', { cwd: VAULT_PATH }, (error, stdout, stderr) => {
-        if (error) {
-          console.error(`Error executing git log: ${error.message}`);
-          message.channel.send(`Error getting status: ${error.message}`);
-          return;
-        }
-        
-        const commits = stdout.trim() || 'No commits found.';
-        message.channel.send(`Last 5 commits:\n\`\`\`\n${commits}\n\`\`\``);
-      });
+      handler(message);
     } catch (error) {
       console.error(`Unexpected error: ${error.message}`);
       message.channel.send(`Unexpected error: ${error.message}`);
