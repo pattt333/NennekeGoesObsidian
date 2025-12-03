@@ -1,1 +1,6 @@
-{"file-explorer": true, "global-search": true, "switcher": true, "outline": true}
+{
+  "file-explorer": true,
+  "global-search": true,
+  "switcher": true,
+  "outline": true
+}

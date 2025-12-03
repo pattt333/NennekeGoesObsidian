@@ -32,4 +32,4 @@ If one side is unaware of the other at the start of combat:
 
 ---
 
-*See also: [[../|Combat Rules Overview]]*
+*Return to: [[../../index|Vault Index]]*
