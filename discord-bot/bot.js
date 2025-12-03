@@ -2,6 +2,7 @@ require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
 const { execFile } = require('child_process');
 const path = require('path');
+const fs = require('fs').promises;
 
 const client = new Client({
   intents: [
@@ -47,6 +48,92 @@ function handleStatus(message) {
   });
 }
 
+// Discord message limit
+const DISCORD_MAX_LENGTH = 2000;
+// Reserve space for code block formatting (```md\n...\n```)
+const CODE_BLOCK_OVERHEAD = 10;
+const MAX_CONTENT_LENGTH = DISCORD_MAX_LENGTH - CODE_BLOCK_OVERHEAD;
+
+/**
+ * Paginates content into chunks that fit within Discord's message limit
+ * @param {string} content - The content to paginate
+ * @returns {string[]} - Array of content chunks
+ */
+function paginateContent(content) {
+  const chunks = [];
+  let remaining = content;
+  
+  while (remaining.length > 0) {
+    if (remaining.length <= MAX_CONTENT_LENGTH) {
+      chunks.push(remaining);
+      break;
+    }
+    
+    // Find a good breaking point (newline) within the limit
+    let breakPoint = remaining.lastIndexOf('\n', MAX_CONTENT_LENGTH);
+    if (breakPoint === -1 || breakPoint === 0) {
+      // No newline found, break at max length
+      breakPoint = MAX_CONTENT_LENGTH;
+    }
+    
+    chunks.push(remaining.substring(0, breakPoint));
+    remaining = remaining.substring(breakPoint).replace(/^\n/, ''); // Remove leading newline
+  }
+  
+  return chunks;
+}
+
+/**
+ * Handles the !rules find command to display content of a Markdown file
+ * @param {Message} message - The Discord message object
+ * @param {string} filePath - The path to the file relative to the vault
+ */
+async function handleFind(message, filePath) {
+  if (!filePath) {
+    message.channel.send('Usage: `!rules find <file-path>`\nExample: `!rules find rules/combat/initiative`');
+    return;
+  }
+  
+  // Sanitize the file path to prevent directory traversal
+  const normalizedPath = path.normalize(filePath).replace(/^(\.\.[\/\\])+/, '');
+  
+  // Add .md extension if not present
+  const fullFileName = normalizedPath.endsWith('.md') ? normalizedPath : `${normalizedPath}.md`;
+  const fullPath = path.join(VAULT_PATH, fullFileName);
+  
+  // Ensure the resolved path is still within the vault directory
+  const resolvedPath = path.resolve(fullPath);
+  if (!resolvedPath.startsWith(path.resolve(VAULT_PATH))) {
+    message.channel.send('Error: Invalid file path. Path must be within the vault directory.');
+    return;
+  }
+  
+  try {
+    const content = await fs.readFile(resolvedPath, 'utf-8');
+    
+    if (!content.trim()) {
+      message.channel.send(`File \`${fullFileName}\` is empty.`);
+      return;
+    }
+    
+    const chunks = paginateContent(content);
+    
+    for (let i = 0; i < chunks.length; i++) {
+      const pageInfo = chunks.length > 1 ? ` (Page ${i + 1}/${chunks.length})` : '';
+      await message.channel.send(`\`\`\`md\n${chunks[i]}\n\`\`\`${pageInfo}`);
+    }
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      message.channel.send(`Error: File not found: \`${fullFileName}\``);
+    } else if (error.code === 'EISDIR') {
+      message.channel.send(`Error: \`${fullFileName}\` is a directory, not a file.`);
+    } else {
+      console.error(`Error reading file: ${error.message}`);
+      message.channel.send(`Error reading file: ${error.message}`);
+    }
+  }
+}
+
 client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}`);
 });
@@ -54,10 +141,34 @@ client.once('ready', () => {
 client.on('messageCreate', async (message) => {
   if (message.author.bot) return;
 
+  // Check for exact command matches first
   const handler = commands[message.content];
   if (handler) {
     try {
       handler(message);
+    } catch (error) {
+      console.error(`Unexpected error: ${error.message}`);
+      message.channel.send(`Unexpected error: ${error.message}`);
+    }
+    return;
+  }
+  
+  // Check for !rules find command with arguments
+  if (message.content.startsWith('!rules find ')) {
+    const filePath = message.content.slice('!rules find '.length).trim();
+    try {
+      await handleFind(message, filePath);
+    } catch (error) {
+      console.error(`Unexpected error: ${error.message}`);
+      message.channel.send(`Unexpected error: ${error.message}`);
+    }
+    return;
+  }
+  
+  // Handle !rules find without arguments
+  if (message.content === '!rules find') {
+    try {
+      await handleFind(message, '');
     } catch (error) {
       console.error(`Unexpected error: ${error.message}`);
       message.channel.send(`Unexpected error: ${error.message}`);
