@@ -37,7 +37,10 @@ const commands = {
  */
 async function updateReaction(message, oldEmoji, newEmoji) {
   try {
-    await message.reactions.cache.get(oldEmoji)?.remove();
+    const reaction = message.reactions.cache.get(oldEmoji);
+    if (reaction) {
+      await reaction.users.remove(message.client.user);
+    }
     await message.react(newEmoji);
   } catch (error) {
     console.error(`Error updating reaction: ${error.message}`);
@@ -135,13 +138,22 @@ const RESOLVED_VAULT_PATH = path.resolve(VAULT_PATH);
  * @returns {Object} - { isValid: boolean, sanitizedPath: string, errorMessage: string }
  */
 function sanitizeFilePath(filePath) {
-  // Block explicit directory traversal patterns
-  if (filePath.includes('../') || filePath.includes('..\\')) {
+  // Block explicit directory traversal patterns (including URL-encoded variants)
+  const decodedPath = decodeURIComponent(filePath);
+  if (decodedPath.includes('../') || decodedPath.includes('..\\') || 
+      filePath.includes('../') || filePath.includes('..\\')) {
     return { isValid: false, sanitizedPath: '', errorMessage: 'Error: Directory traversal patterns (../) are not allowed.' };
   }
   
+  // Normalize the path and check for any remaining .. segments
+  const normalizedPath = path.normalize(filePath);
+  if (normalizedPath.includes('..')) {
+    return { isValid: false, sanitizedPath: '', errorMessage: 'Error: Directory traversal patterns are not allowed.' };
+  }
+  
   // Block paths that start with / or \ (absolute paths)
-  if (filePath.startsWith('/') || filePath.startsWith('\\')) {
+  if (filePath.startsWith('/') || filePath.startsWith('\\') ||
+      normalizedPath.startsWith('/') || normalizedPath.startsWith('\\')) {
     return { isValid: false, sanitizedPath: '', errorMessage: 'Error: Absolute paths are not allowed.' };
   }
   
@@ -150,7 +162,7 @@ function sanitizeFilePath(filePath) {
     return { isValid: false, sanitizedPath: '', errorMessage: 'Error: Invalid characters in file path.' };
   }
   
-  return { isValid: true, sanitizedPath: filePath, errorMessage: '' };
+  return { isValid: true, sanitizedPath: normalizedPath, errorMessage: '' };
 }
 
 /**
@@ -173,15 +185,18 @@ async function handleShow(message, filePath) {
     return;
   }
   
+  // Use sanitized path for all subsequent operations
+  const sanitizedPath = sanitizeResult.sanitizedPath;
+  
   // Add .md extension if not present
-  const fullFileName = filePath.endsWith('.md') ? filePath : `${filePath}.md`;
+  const fullFileName = sanitizedPath.endsWith('.md') ? sanitizedPath : `${sanitizedPath}.md`;
   
   // Construct and resolve the full path
   const fullPath = path.join(VAULT_PATH, fullFileName);
   const resolvedPath = path.resolve(fullPath);
   
   // Security check: Ensure the resolved path is within the vault directory
-  // This prevents directory traversal attacks (e.g., ../../../etc/passwd)
+  // This is a defense-in-depth check after sanitization
   if (!resolvedPath.startsWith(RESOLVED_VAULT_PATH + path.sep) && resolvedPath !== RESOLVED_VAULT_PATH) {
     await message.channel.send('Error: Invalid file path. Path must be within the vault directory.');
     await updateReaction(message, EMOJI_PROCESSING, EMOJI_FAILURE);
