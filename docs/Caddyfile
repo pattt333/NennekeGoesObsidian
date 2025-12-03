@@ -4,15 +4,15 @@
 # Place this file in your Caddy configuration directory and adjust the domain.
 #
 # Usage:
-#   1. Copy this file to your server's Caddy configuration location
-#   2. Replace 'your-domain.com' with your actual domain
+#   1. Copy this file to /etc/caddy/Caddyfile or your Caddy configuration location
+#   2. Replace 'rules.yourdomain.com' with your actual subdomain
 #   3. Adjust the root path to point to your vault directory
-#   4. Run: caddy start
+#   4. Reload Caddy: sudo systemctl reload caddy
 #
 # For local testing without HTTPS:
 #   caddy file-server --listen :8080 --root ./vault
 
-your-domain.com {
+rules.yourdomain.com {
     root * /path/to/NennekeObsidian/vault
     file_server
     
