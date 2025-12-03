@@ -23,7 +23,7 @@ SyslogIdentifier=nenneke-discord-bot
 NoNewPrivileges=true
 ProtectSystem=strict
 ProtectHome=true
-ReadWritePaths=/opt/NennekeObsidian
+ReadWritePaths=/opt/NennekeObsidian/vault /opt/NennekeObsidian/discord-bot
 
 [Install]
 WantedBy=multi-user.target

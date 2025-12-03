@@ -308,7 +308,7 @@ Caddy automatically handles HTTPS certificates via Let's Encrypt.
    ```
 
    Update the following:
-   - Replace `your-domain.com` with your actual domain
+   - Replace `rules.yourdomain.com` with your actual subdomain
    - Update the root path to `/opt/NennekeObsidian/vault`
 
 3. Enable the site and test:
@@ -319,12 +319,14 @@ Caddy automatically handles HTTPS certificates via Let's Encrypt.
    sudo systemctl reload nginx
    ```
 
-4. For HTTPS, use Certbot to obtain a Let's Encrypt certificate:
+4. For HTTPS with nginx, use Certbot to obtain a Let's Encrypt certificate:
 
    ```bash
    sudo apt install -y certbot python3-certbot-nginx
    sudo certbot --nginx -d rules.yourdomain.com
    ```
+
+   Note: When running Certbot, use your actual domain that matches the `server_name` directive in the nginx configuration.
 
 ### 3.3 Verify the Web View
 
