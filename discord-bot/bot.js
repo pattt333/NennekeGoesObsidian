@@ -83,6 +83,9 @@ function paginateContent(content) {
   return chunks;
 }
 
+// Resolved vault path for security validation
+const RESOLVED_VAULT_PATH = path.resolve(VAULT_PATH);
+
 /**
  * Handles the !rules find command to display content of a Markdown file
  * @param {Message} message - The Discord message object
@@ -94,16 +97,16 @@ async function handleFind(message, filePath) {
     return;
   }
   
-  // Sanitize the file path to prevent directory traversal
-  const normalizedPath = path.normalize(filePath).replace(/^(\.\.[\/\\])+/, '');
-  
   // Add .md extension if not present
-  const fullFileName = normalizedPath.endsWith('.md') ? normalizedPath : `${normalizedPath}.md`;
-  const fullPath = path.join(VAULT_PATH, fullFileName);
+  const fullFileName = filePath.endsWith('.md') ? filePath : `${filePath}.md`;
   
-  // Ensure the resolved path is still within the vault directory
+  // Construct and resolve the full path
+  const fullPath = path.join(VAULT_PATH, fullFileName);
   const resolvedPath = path.resolve(fullPath);
-  if (!resolvedPath.startsWith(path.resolve(VAULT_PATH))) {
+  
+  // Security check: Ensure the resolved path is within the vault directory
+  // This prevents directory traversal attacks (e.g., ../../../etc/passwd)
+  if (!resolvedPath.startsWith(RESOLVED_VAULT_PATH + path.sep) && resolvedPath !== RESOLVED_VAULT_PATH) {
     message.channel.send('Error: Invalid file path. Path must be within the vault directory.');
     return;
   }
@@ -121,6 +124,10 @@ async function handleFind(message, filePath) {
     for (let i = 0; i < chunks.length; i++) {
       const pageInfo = chunks.length > 1 ? ` (Page ${i + 1}/${chunks.length})` : '';
       await message.channel.send(`\`\`\`md\n${chunks[i]}\n\`\`\`${pageInfo}`);
+      // Small delay between messages to avoid rate limiting
+      if (i < chunks.length - 1) {
+        await new Promise(resolve => setTimeout(resolve, 500));
+      }
     }
   } catch (error) {
     if (error.code === 'ENOENT') {
@@ -128,8 +135,8 @@ async function handleFind(message, filePath) {
     } else if (error.code === 'EISDIR') {
       message.channel.send(`Error: \`${fullFileName}\` is a directory, not a file.`);
     } else {
-      console.error(`Error reading file: ${error.message}`);
-      message.channel.send(`Error reading file: ${error.message}`);
+      console.error(`Error reading file ${fullFileName}: ${error.message}`);
+      message.channel.send('Error: An unexpected error occurred while reading the file.');
     }
   }
 }
