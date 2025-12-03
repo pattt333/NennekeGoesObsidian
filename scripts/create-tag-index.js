@@ -17,10 +17,6 @@ const REPO_ROOT = path.dirname(SCRIPT_DIR);
 const VAULT_PATH = path.join(REPO_ROOT, 'vault');
 const OUTPUT_FILE = path.join(VAULT_PATH, '00-Tag-Index.md');
 
-// Regex to match hashtags (excluding those inside code blocks)
-// Matches #tag but not ##heading or #123 or tags inside URLs
-const TAG_REGEX = /(?:^|[\s\[({])#([a-zA-Z][a-zA-Z0-9_-]*)/g;
-
 /**
  * Recursively finds all Markdown files in a directory
  * @param {string} dir - Directory to search
@@ -73,15 +69,14 @@ function extractTags(filePath) {
   content = removeCodeBlocks(content);
   
   const tags = new Set();
+  // Use local regex to avoid state issues between function calls
+  const tagRegex = /(?:^|[\s\[({])#([a-zA-Z][a-zA-Z0-9_-]*)/g;
   let match;
   
-  while ((match = TAG_REGEX.exec(content)) !== null) {
+  while ((match = tagRegex.exec(content)) !== null) {
     // Convert to lowercase for consistency
     tags.add(match[1].toLowerCase());
   }
-  
-  // Reset regex state
-  TAG_REGEX.lastIndex = 0;
   
   return Array.from(tags).sort();
 }

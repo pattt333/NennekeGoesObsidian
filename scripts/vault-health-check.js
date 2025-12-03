@@ -56,7 +56,8 @@ function resolveLink(link, sourceFile) {
   const linkWithoutAnchor = link.split('#')[0].trim();
   
   if (!linkWithoutAnchor) {
-    // Link to a heading in the same file
+    // Link to a heading in the same file (e.g., [[#section]])
+    // sourceFile is already known to exist since we're reading from it
     return sourceFile;
   }
   

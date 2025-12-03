@@ -20,10 +20,6 @@ const VAULT_PATH = path.join(REPO_ROOT, 'vault');
 // Hub files that serve as entry points
 const HUB_FILES = ['index.md', '_sidebar.md', 'README.md'];
 
-// Regex patterns for different link types
-const WIKI_LINK_REGEX = /\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g;
-const MARKDOWN_LINK_REGEX = /\[([^\]]*)\]\(([^)]+)\)/g;
-
 /**
  * Recursively finds all Markdown files in a directory
  * @param {string} dir - Directory to search
@@ -106,28 +102,24 @@ function extractLinks(filePath) {
   const content = fs.readFileSync(filePath, 'utf-8');
   const links = new Set();
   
-  // Extract wiki links
+  // Extract wiki links using local regex to avoid state issues
+  const wikiLinkRegex = /\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g;
   let match;
-  while ((match = WIKI_LINK_REGEX.exec(content)) !== null) {
+  while ((match = wikiLinkRegex.exec(content)) !== null) {
     const normalized = normalizeLink(match[1], filePath);
     if (normalized) {
       links.add(normalized);
     }
   }
   
-  // Reset regex state
-  WIKI_LINK_REGEX.lastIndex = 0;
-  
-  // Extract markdown links
-  while ((match = MARKDOWN_LINK_REGEX.exec(content)) !== null) {
+  // Extract markdown links using local regex to avoid state issues
+  const markdownLinkRegex = /\[([^\]]*)\]\(([^)]+)\)/g;
+  while ((match = markdownLinkRegex.exec(content)) !== null) {
     const normalized = normalizeLink(match[2], filePath);
     if (normalized) {
       links.add(normalized);
     }
   }
-  
-  // Reset regex state
-  MARKDOWN_LINK_REGEX.lastIndex = 0;
   
   return Array.from(links);
 }
