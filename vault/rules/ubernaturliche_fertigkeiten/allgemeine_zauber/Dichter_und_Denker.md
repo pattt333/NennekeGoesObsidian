@@ -1,0 +1,23 @@
+[]{#subsubsec:z-Dichter label="subsubsec:z-Dichter"}
+
+##  Dichter und Denker 
+
+Dein Opfer kann sich nur noch in Reimen ausdrücken. Zauber können nur noch gewirkt werden, wenn ihm ein passender Reim auf den Zaubernamen einfällt.
+
+**Probenschwierigkeit:** Magieresistenz
+
+**Vorbereitungszeit:** 2 Aktionen
+
+**Ziel:** Einzelperson
+
+**Reichweite:** 4 Schritt
+
+**Wirkungsdauer:** 1 Stunde
+
+**AsP-Kosten:** 8 AsP
+
+**Fertigkeiten:** Einfluss
+
+**Erlernen:** Sch 20
+
+**EP-Kosten:** 20 EP

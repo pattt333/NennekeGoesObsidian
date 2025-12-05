@@ -1,14 +1,15 @@
-# Welcome to the TTRPG Rulebook Vault
+# Willkommen auf dem Nenneke Rulebook Vault
 
-This is the central knowledge base for our tabletop role-playing game rules and resources.
+Das ist die zentrale Wissenbasis unserer Regel.
 
-## Main Sections
+## Kapitel
 
-- [Combat Rules](rules/combat/) - Rules for combat encounters and initiative
-- [Magic Rules](rules/magic/) - Rules for spellcasting and magical effects
-- [Characters](characters/) - Character sheets and NPC information
+- [Proben](rules/01_Proben.md) - Allgemeine Regeln zu Würfelproben
+- [Schicksalspunkte](rules/02_Schicksalspunkte.md) - Regeln zu Schicksalspunkten
+- [Eigenschaften](rules/03_Eigenschaften.md) - Alles zu Eigenschaften und abgeleiteten Eigenschaften
+- [Fertigkeiten](rules/04_Fertigkeiten/) - Alles an Regeln zu Fertigkeiten
 - [Notes](notes/) - Session notes and general documentation
 
 ## Getting Started
 
-Explore the sections above to find the rules and information you need. Use the search function to quickly find specific topics.
+Explore the sections above to find the rules and information you need. Use the search function (Ctrl/Cmd + O) to quickly find specific topics.

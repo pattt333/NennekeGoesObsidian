@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "b25bf995dd688260",
+    "type": "split",
+    "children": [
+      {
+        "id": "92a6b2c049976329",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5c2c130f3ea1c9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vault/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "699920b5551ac7d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "71ebde027fd6eeaa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "796f8ad81c62294f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b07eafd30e6e6e9f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c908f0008293a2e4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4232127a09e80bf4",
+    "type": "split",
+    "children": [
+      {
+        "id": "c02945bf40d20297",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "acebcee37bedf1b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/DEPLOYMENT.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for DEPLOYMENT"
+            }
+          },
+          {
+            "id": "e8446f84b17feb19",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/DEPLOYMENT.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from DEPLOYMENT"
+            }
+          },
+          {
+            "id": "ff9e5162a7f5ce8d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "24d721139ea629dd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "cccb82ee51287cc3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/DEPLOYMENT.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of DEPLOYMENT"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c5c2c130f3ea1c9a",
+  "lastOpenFiles": [
+    "vault/README.md",
+    "vault/rules/04_Fertigkeiten/04_Fertigkeiten.md",
+    "vault/index.md",
+    "vault/rules/01_Proben.md",
+    "vault/rules/02_Schicksalspunkte.md",
+    "02_Schicksalspunkte.md",
+    "rules/02_Schicksalspunkte.md",
+    "rules",
+    "rules/01_Proben.md",
+    "vault/rules/02_Schicksalspunkte 1.md",
+    "vault/rules/01_Proben 1.md",
+    "rules/01_Proben 1.md",
+    "docs/DEPLOYMENT.md",
+    "scripts/convert-all-latex.ps1",
+    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Zungenschwellung.tex",
+    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Zaubersiegel.tex",
+    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Zaubermelodie.tex",
+    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Wirbelnder_Luftschild.tex",
+    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Wild_finden.tex",
+    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Wesen_des_tieres.tex",
+    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Weisung_des_Dolches.tex",
+    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Weindegrunde_finden.tex",
+    "README.md",
+    "vault/00-Tag-Index.md",
+    "vault/_sidebar.md"
+  ]
+}

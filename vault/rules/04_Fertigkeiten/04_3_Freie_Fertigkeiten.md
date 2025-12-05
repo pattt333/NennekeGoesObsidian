@@ -1,0 +1,7 @@
+[]{#sec:freiefertigkeiten label="sec:freiefertigkeiten"}
+
+# Freie Fertigkeiten
+
+Freie Fertigkeiten sind verschiedene Handwerkskünste, Sprachen, Schriften und andere Fähigkeiten deines Charakters -- kurz alles, das nicht in obiger Liste enthalten ist. Alle freien Fertigkeiten sind in drei Stufen geteilt: Unerfahren, erfahren und meisterlich. Ein in Tulamidya unerfahrener Charakter kann mit Händen und Füßen einfache Sätze stammeln, während sich ein erfahrener Sprecher schon ganz gut über Wasser halten kann. Ein meisterlicher Sprachkenner ist hingegen schon kaum mehr von einem Muttersprachler zu unterscheiden.
+
+Die Stufen kosten 4/8/16 EP. Um in Tulamidya erfahren zu sein, musst du also 12 EP (4 für unerfahren + 8 für erfahren) ausgeben. Auf diese Fertigkeiten werden normalerweise keine Proben abgelegt. Der Spielleiter entscheidet, ob das Können deines Charakters ausreicht. Alternativ könnt ihr auch Proben auf Freie Fertigkeiten würfeln. Der Probenwert ist auf meisterlich der höchste verfügbare Probenwert für ein Talent (PW(T)). Probenwert unerfahren ist der höchste verfügbare Probenwert mal 1/3. Probenwert erfahren ist der höchste verfügbare Probenwert mal 2/3.
