@@ -1,0 +1,13 @@
+{
+  "name": "nenneke-obsidian-rulebook",
+  "version": "1.0.0",
+  "description": "TTRPG Rulebook Documentation",
+  "scripts": {
+    "serve": "docsify serve vault",
+    "pdf": "cd vault && docsify-pdf-converter",
+    "pdf:custom": "cd vault && docsify-pdf-converter --cover _coverpage.md"
+  },
+  "keywords": ["docsify", "documentation", "ttrpg"],
+  "author": "",
+  "license": "MIT"
+}
