@@ -1,0 +1,2165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nenneke Rules Editor</title>
+    <script src="https://cdn.tiny.cloud/1/3o6z6edk7h96kks2st2psl7ayvq4satq7tkudpuks99z413h/tinymce/8/tinymce.min.js" referrerpolicy="origin" crossorigin="anonymous"></script>    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .container.expanded {
+            max-width: 1400px;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="url"] {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .help-text {
+            font-size: 12px;
+            color: #888;
+            margin-top: 5px;
+        }
+
+        .help-text a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .help-text a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .error-message {
+            background: #fee;
+            border-left: 4px solid #f44336;
+            padding: 12px 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            color: #c62828;
+            font-size: 14px;
+            display: none;
+        }
+
+        .success-message {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 12px 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            color: #2e7d32;
+            font-size: 14px;
+            display: none;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .editor-view {
+            display: none;
+        }
+
+        .editor-view.active {
+            display: block;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .user-info {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .user-info strong {
+            color: #333;
+        }
+
+        .logout-btn {
+            background: #f44336;
+            padding: 10px 20px;
+            width: auto;
+            font-size: 14px;
+        }
+
+        .logout-btn:hover {
+            box-shadow: 0 5px 15px rgba(244, 67, 54, 0.4);
+        }
+
+        .loading {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            border: 2px solid #ffffff;
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .editor-content {
+            color: #333;
+            line-height: 1.8;
+        }
+
+        .editor-layout {
+            display: flex;
+            height: 90vh;
+            overflow: hidden;
+        }
+
+        .sidebar {
+            width: 350px;
+            background: #f8f9fa;
+            border-right: 2px solid #e0e0e0;
+            overflow-y: auto;
+            padding: 20px;
+        }
+
+        .content-area {
+            flex: 1;
+            overflow-y: auto;
+            padding: 30px;
+        }
+
+        .nav-tree {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-tree ul {
+            list-style: none;
+            padding-left: 20px;
+            margin: 5px 0;
+        }
+
+        .nav-item {
+            margin: 5px 0;
+        }
+
+        .nav-item-button {
+            width: 100%;
+            text-align: left;
+            padding: 10px 12px;
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            color: #333;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-item-button:hover {
+            background: #e3f2fd;
+            border-color: #667eea;
+        }
+
+        .nav-item-button.selected {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: #667eea;
+            font-weight: 600;
+        }
+
+        .nav-item-button .level-indicator {
+            font-size: 10px;
+            background: #667eea;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+
+        .nav-item-button.selected .level-indicator {
+            background: white;
+            color: #667eea;
+        }
+
+        .toggle-icon {
+            font-size: 12px;
+            color: #888;
+            transition: transform 0.3s;
+            display: inline-block;
+            width: 16px;
+        }
+
+        .nav-item.collapsed .toggle-icon {
+            transform: rotate(-90deg);
+        }
+
+        .nav-item.collapsed > ul {
+            display: none;
+        }
+
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .loading-content {
+            background: white;
+            padding: 30px 40px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top-color: #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        .section-content h1,
+        .section-content h2,
+        .section-content h3 {
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+
+        .section-content h1 {
+            font-size: 28px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .section-content h2 {
+            font-size: 24px;
+            color: #667eea;
+        }
+
+        .section-content h3 {
+            font-size: 20px;
+            color: #764ba2;
+        }
+
+        .section-info {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .section-info strong {
+            color: #333;
+        }
+
+        .empty-state {
+            text-align: center;
+            color: #888;
+            padding: 60px 20px;
+        }
+
+        .empty-state-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .editor-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-success {
+            background: #4caf50;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4);
+        }
+
+        .btn-secondary {
+            background: #757575;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #616161;
+            transform: translateY(-2px);
+        }
+
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .section-content.editing {
+            border: 2px solid #667eea;
+            border-radius: 8px;
+            padding: 20px;
+            background: #fafafa;
+        }
+
+        .draft-indicator {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #856404;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .draft-indicator strong {
+            color: #856404;
+        }
+
+        #editorContainer {
+            min-height: 400px;
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 15px;
+        }
+
+        .editor-status {
+            font-size: 12px;
+            color: #888;
+            margin-top: 10px;
+        }
+
+        .publish-controls {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 2px solid #e0e0e0;
+        }
+
+        .publish-controls h3 {
+            margin: 0 0 15px 0;
+            color: #333;
+            font-size: 18px;
+        }
+
+        .publish-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .btn-publish {
+            background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-publish:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4);
+        }
+
+        .btn-reload {
+            background: linear-gradient(135deg, #2196f3 0%, #1976d2 100%);
+            color: white;
+        }
+
+        .btn-reload:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(33, 150, 243, 0.4);
+        }
+
+        .btn-clear {
+            background: #f44336;
+            color: white;
+        }
+
+        .btn-clear:hover {
+            background: #d32f2f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(244, 67, 54, 0.4);
+        }
+
+        .drafts-summary {
+            margin-top: 15px;
+            padding: 12px;
+            background: white;
+            border-radius: 6px;
+            font-size: 13px;
+        }
+
+        .drafts-summary.has-drafts {
+            border-left: 4px solid #ffc107;
+            background: #fff3cd;
+        }
+
+        .drafts-summary.no-drafts {
+            border-left: 4px solid #4caf50;
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .draft-list {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0 0;
+        }
+
+        .draft-list li {
+            padding: 8px;
+            background: white;
+            margin: 5px 0;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #e0e0e0;
+        }
+
+        .draft-list li strong {
+            color: #333;
+        }
+
+        .draft-list li small {
+            color: #888;
+        }
+
+        .confirm-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 500px;
+            width: 90%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-content h3 {
+            margin: 0 0 15px 0;
+            color: #333;
+        }
+
+        .modal-content p {
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .modal-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+
+        .status-bar {
+            background: #f8f9fa;
+            border-bottom: 2px solid #e0e0e0;
+            padding: 10px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+            color: #666;
+        }
+
+        .status-bar-left {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .status-bar-right {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .status-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .status-item strong {
+            color: #333;
+        }
+
+        .status-badge {
+            background: #4caf50;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .status-badge.warning {
+            background: #ff9800;
+        }
+
+        .conflict-modal .modal-content {
+            max-width: 600px;
+        }
+
+        .conflict-warning {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .conflict-warning h4 {
+            color: #856404;
+            margin: 0 0 10px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .conflict-warning p {
+            margin: 5px 0;
+            color: #856404;
+        }
+
+        .conflict-actions {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .conflict-actions h4 {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .conflict-actions ul {
+            margin: 10px 0;
+            padding-left: 20px;
+            color: #666;
+            font-size: 13px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Login Form -->
+        <div id="loginForm">
+            <h1>🔐 Nenneke Rules Editor</h1>
+            <p class="subtitle">Login with your NextCloud credentials</p>
+
+            <div id="errorMessage" class="error-message"></div>
+
+            <form id="authForm">
+                <div class="form-group">
+                    <label for="serverUrl">NextCloud Server URL</label>
+                    <input 
+                        type="url" 
+                        id="serverUrl" 
+                        name="serverUrl" 
+                        value="https://nextcloud.dsameeting.de"
+                        placeholder="https://nextcloud.dsameeting.de"
+                        required
+                    >
+                    <div class="help-text">Enter your NextCloud server URL (including https://)</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input 
+                        type="text" 
+                        id="username" 
+                        name="username" 
+                        placeholder="your-username"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="appPassword">App Password</label>
+                    <input 
+                        type="password" 
+                        id="appPassword" 
+                        name="appPassword" 
+                        placeholder="Your app password"
+                        required
+                    >
+                    <div class="help-text">
+                        Create an app password in NextCloud Settings → Security → Devices & sessions
+                    </div>
+                </div>
+
+                <button type="submit" id="loginBtn">
+                    Login
+                </button>
+            </form>
+        </div>
+
+        <!-- Editor View (shown after successful login) -->
+        <div id="editorView" class="editor-view">
+            <div class="header" style="padding: 20px 30px;">
+                <div>
+                    <h1>📝 Nenneke Rules Editor</h1>
+                    <div class="user-info">
+                        Logged in as: <strong id="loggedUsername"></strong>
+                    </div>
+                </div>
+                <button class="logout-btn" id="logoutBtn">Logout</button>
+            </div>
+
+            <div class="status-bar">
+                <div class="status-bar-left">
+                    <div class="status-item">
+                        <span>👤</span>
+                        <span><strong>User:</strong> <span id="statusUsername">—</span></span>
+                    </div>
+                    <div class="status-item">
+                        <span>🕒</span>
+                        <span><strong>Loaded:</strong> <span id="statusLoadTime">—</span></span>
+                    </div>
+                </div>
+                <div class="status-bar-right">
+                    <div class="status-item">
+                        <span class="status-badge" id="statusSyncBadge">Synced</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="successMessage" class="success-message" style="margin: 0 30px;"></div>
+            
+            <div style="padding: 0 30px;">
+                <div class="publish-controls">
+                    <h3>🚀 Publish Changes</h3>
+                    <div class="publish-buttons">
+                        <button class="btn btn-publish" id="publishBtn" onclick="publishToNextCloud()">
+                            <span>📤</span> Publish to NextCloud
+                        </button>
+                        <button class="btn btn-reload" id="reloadBtn" onclick="loadLatestFromServer()">
+                            <span>🔄</span> Load Latest from Server
+                        </button>
+                        <button class="btn btn-clear" id="clearDraftsBtn" onclick="clearAllDrafts()">
+                            <span>🗑️</span> Clear All Drafts
+                        </button>
+                    </div>
+                    <div class="drafts-summary" id="draftsSummary">
+                        No pending drafts
+                    </div>
+                </div>
+            </div>
+            
+            <div class="editor-layout">
+                <div class="sidebar">
+                    <h3 style="margin-bottom: 15px; color: #333;">📑 Navigation</h3>
+                    <div id="navigationTree" class="nav-tree">
+                        <!-- Navigation will be populated here -->
+                    </div>
+                </div>
+                
+                <div class="content-area">
+                    <div id="sectionContent">
+                        <div class="empty-state">
+                            <div class="empty-state-icon">📖</div>
+                            <p>Select a section from the navigation to view its content</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading Overlay -->
+        <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+            <div class="loading-content">
+                <div class="loading-spinner"></div>
+                <p style="color: #333; font-weight: 600;">Loading rulebook...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        const STORAGE_KEY = 'nenneke_editor_creds';
+        const STORAGE_KEY_IV = 'nenneke_editor_iv';
+        const STORAGE_KEY_SALT = 'nenneke_editor_salt';
+        const RULEBOOK_PATH = 'nenneke_rules.html'; // Path relative to user's root
+
+        // Global State
+        window.editorState = {
+            currentSelection: null,
+            rulebookDOM: null,
+            navigationTree: null,
+            credentials: null,
+            isEditing: false,
+            tinyMCEInstance: null,
+            originalContent: null,
+            etag: null,
+            lastLoadedTime: null
+        };
+
+        // Draft storage key
+        const DRAFT_STORAGE_PREFIX = 'nenneke_draft_';
+
+        // DOM Elements
+        const loginForm = document.getElementById('loginForm');
+        const authForm = document.getElementById('authForm');
+        const editorView = document.getElementById('editorView');
+        const errorMessage = document.getElementById('errorMessage');
+        const successMessage = document.getElementById('successMessage');
+        const loginBtn = document.getElementById('loginBtn');
+        const logoutBtn = document.getElementById('logoutBtn');
+        const loggedUsername = document.getElementById('loggedUsername');
+        const navigationTree = document.getElementById('navigationTree');
+        const sectionContent = document.getElementById('sectionContent');
+        const loadingOverlay = document.getElementById('loadingOverlay');
+        const container = document.querySelector('.container');
+        
+        // Status bar elements (initialized after DOM load)
+        let statusUsername, statusLoadTime, statusSyncBadge;
+
+        // Utility Functions
+        function showError(message) {
+            errorMessage.textContent = message;
+            errorMessage.style.display = 'block';
+            setTimeout(() => {
+                errorMessage.style.display = 'none';
+            }, 5000);
+        }
+
+        function showSuccess(message) {
+            successMessage.textContent = message;
+            successMessage.style.display = 'block';
+            setTimeout(() => {
+                successMessage.style.display = 'none';
+            }, 5000);
+        }
+
+        function updateStatusBar(username = null, loadTime = null) {
+            if (username && statusUsername) {
+                statusUsername.textContent = username;
+            }
+            
+            if (loadTime && statusLoadTime) {
+                const date = new Date(loadTime);
+                statusLoadTime.textContent = date.toLocaleString();
+                statusLoadTime.title = 'Last time the rulebook was loaded from the server';
+            }
+            
+            updateSyncStatus();
+        }
+
+        function updateSyncStatus() {
+            if (!statusSyncBadge) return;
+            
+            const drafts = getAllDrafts();
+            if (drafts.length > 0) {
+                statusSyncBadge.textContent = `${drafts.length} Draft${drafts.length > 1 ? 's' : ''}`;
+                statusSyncBadge.className = 'status-badge warning';
+            } else {
+                statusSyncBadge.textContent = 'Synced';
+                statusSyncBadge.className = 'status-badge';
+            }
+        }
+
+        function setLoading(isLoading) {
+            loginBtn.disabled = isLoading;
+            if (isLoading) {
+                loginBtn.innerHTML = 'Logging in...<span class="loading"></span>';
+            } else {
+                loginBtn.textContent = 'Login';
+            }
+        }
+
+        // Crypto Functions
+        async function generateKey(password, salt) {
+            const encoder = new TextEncoder();
+            const keyMaterial = await crypto.subtle.importKey(
+                'raw',
+                encoder.encode(password),
+                'PBKDF2',
+                false,
+                ['deriveBits', 'deriveKey']
+            );
+
+            return crypto.subtle.deriveKey(
+                {
+                    name: 'PBKDF2',
+                    salt: salt,
+                    iterations: 100000,
+                    hash: 'SHA-256'
+                },
+                keyMaterial,
+                { name: 'AES-GCM', length: 256 },
+                false,
+                ['encrypt', 'decrypt']
+            );
+        }
+
+        async function encryptData(data, password) {
+            const encoder = new TextEncoder();
+            const salt = crypto.getRandomValues(new Uint8Array(16));
+            const iv = crypto.getRandomValues(new Uint8Array(12));
+            const key = await generateKey(password, salt);
+
+            const encryptedData = await crypto.subtle.encrypt(
+                { name: 'AES-GCM', iv: iv },
+                key,
+                encoder.encode(JSON.stringify(data))
+            );
+
+            return {
+                encrypted: Array.from(new Uint8Array(encryptedData)),
+                iv: Array.from(iv),
+                salt: Array.from(salt)
+            };
+        }
+
+        async function decryptData(encryptedObj, password) {
+            const key = await generateKey(password, new Uint8Array(encryptedObj.salt));
+            
+            const decryptedData = await crypto.subtle.decrypt(
+                { name: 'AES-GCM', iv: new Uint8Array(encryptedObj.iv) },
+                key,
+                new Uint8Array(encryptedObj.encrypted)
+            );
+
+            const decoder = new TextDecoder();
+            return JSON.parse(decoder.decode(decryptedData));
+        }
+
+        // Storage Functions
+        async function storeCredentials(serverUrl, username, appPassword) {
+            try {
+                // Use a combination of username and a random value as encryption key
+                const encryptionKey = username + '_' + Date.now();
+                const encrypted = await encryptData(
+                    { serverUrl, username, appPassword },
+                    encryptionKey
+                );
+
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(encrypted.encrypted));
+                localStorage.setItem(STORAGE_KEY_IV, JSON.stringify(encrypted.iv));
+                localStorage.setItem(STORAGE_KEY_SALT, JSON.stringify(encrypted.salt));
+                // Store the key material (in production, you'd use a more secure method)
+                sessionStorage.setItem('auth_key', encryptionKey);
+                
+                return true;
+            } catch (error) {
+                console.error('Storage error:', error);
+                return false;
+            }
+        }
+
+        async function retrieveCredentials() {
+            try {
+                const encrypted = localStorage.getItem(STORAGE_KEY);
+                const iv = localStorage.getItem(STORAGE_KEY_IV);
+                const salt = localStorage.getItem(STORAGE_KEY_SALT);
+                const key = sessionStorage.getItem('auth_key');
+
+                if (!encrypted || !iv || !salt || !key) {
+                    return null;
+                }
+
+                const encryptedObj = {
+                    encrypted: JSON.parse(encrypted),
+                    iv: JSON.parse(iv),
+                    salt: JSON.parse(salt)
+                };
+
+                return await decryptData(encryptedObj, key);
+            } catch (error) {
+                console.error('Retrieval error:', error);
+                clearStoredCredentials();
+                return null;
+            }
+        }
+
+        function clearStoredCredentials() {
+            localStorage.removeItem(STORAGE_KEY);
+            localStorage.removeItem(STORAGE_KEY_IV);
+            localStorage.removeItem(STORAGE_KEY_SALT);
+            sessionStorage.removeItem('auth_key');
+        }
+
+        // NextCloud WebDAV Functions
+        async function fetchFileFromWebDAV(serverUrl, username, appPassword, filePath) {
+            const normalizedUrl = serverUrl.replace(/\/$/, '');
+            const fileUrl = `${normalizedUrl}/remote.php/dav/files/${username}/${filePath}`;
+            const credentials = btoa(`${username}:${appPassword}`);
+
+            try {
+                const response = await fetch(fileUrl, {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Basic ${credentials}`
+                    }
+                });
+
+                if (response.ok) {
+                    // Capture ETag for optimistic locking
+                    const etag = response.headers.get('ETag') || response.headers.get('etag');
+                    const content = await response.text();
+                    
+                    console.log('Fetched file with ETag:', etag);
+                    
+                    return { 
+                        success: true, 
+                        content: content,
+                        etag: etag
+                    };
+                } else if (response.status === 404) {
+                    return { success: false, error: `File not found: ${filePath}` };
+                } else {
+                    return { success: false, error: `Failed to fetch file (status ${response.status})` };
+                }
+            } catch (error) {
+                console.error('File fetch error:', error);
+                return { success: false, error: 'Network error while fetching file' };
+            }
+        }
+
+        async function uploadFileToWebDAV(serverUrl, username, appPassword, filePath, content, etag = null) {
+            const normalizedUrl = serverUrl.replace(/\/$/, '');
+            const fileUrl = `${normalizedUrl}/remote.php/dav/files/${username}/${filePath}`;
+            const credentials = btoa(`${username}:${appPassword}`);
+
+            const headers = {
+                'Authorization': `Basic ${credentials}`,
+                'Content-Type': 'text/html; charset=utf-8'
+            };
+
+            // Add If-Match header for optimistic locking if ETag is provided
+            if (etag) {
+                headers['If-Match'] = etag;
+                console.log('Using If-Match header with ETag:', etag);
+            }
+
+            try {
+                const response = await fetch(fileUrl, {
+                    method: 'PUT',
+                    headers: headers,
+                    body: content
+                });
+
+                if (response.ok || response.status === 201 || response.status === 204) {
+                    // Capture new ETag after successful upload
+                    const newEtag = response.headers.get('ETag') || response.headers.get('etag');
+                    return { success: true, etag: newEtag };
+                } else if (response.status === 412) {
+                    // Precondition Failed - file was modified by someone else
+                    return { success: false, error: 'CONFLICT', status: 412 };
+                } else if (response.status === 403) {
+                    return { success: false, error: 'Permission denied. Check your access rights.' };
+                } else if (response.status === 404) {
+                    return { success: false, error: 'Target directory not found.' };
+                } else {
+                    return { success: false, error: `Upload failed with status ${response.status}` };
+                }
+            } catch (error) {
+                console.error('File upload error:', error);
+                return { success: false, error: 'Network error while uploading file' };
+            }
+        }
+
+        async function testWebDAVConnection(serverUrl, username, appPassword) {
+            // Normalize server URL
+            const normalizedUrl = serverUrl.replace(/\/$/, '');
+            const webdavUrl = `${normalizedUrl}/remote.php/dav/files/${username}/`;
+
+            // Create Basic Auth header
+            const credentials = btoa(`${username}:${appPassword}`);
+            
+            try {
+                const response = await fetch(webdavUrl, {
+                    method: 'PROPFIND',
+                    headers: {
+                        'Authorization': `Basic ${credentials}`,
+                        'Depth': '0'
+                    }
+                });
+
+                if (response.status === 207) {
+                    return { success: true };
+                } else if (response.status === 401) {
+                    return { success: false, error: 'Invalid username or password' };
+                } else if (response.status === 404) {
+                    return { success: false, error: 'NextCloud server not found or WebDAV not accessible' };
+                } else {
+                    return { success: false, error: `Connection failed with status ${response.status}` };
+                }
+            } catch (error) {
+                console.error('Connection error:', error);
+                return { 
+                    success: false, 
+                    error: 'Network error: Unable to connect to the server. Check the URL and your internet connection.'
+                };
+            }
+        }
+
+        // Rulebook Parsing Functions
+        function parseRulebookHTML(htmlString) {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(htmlString, 'text/html');
+            window.editorState.rulebookDOM = doc;
+            return doc;
+        }
+
+        function buildNavigationTree(doc) {
+            const headings = doc.querySelectorAll('h1[id], h2[id], h3[id]');
+            const tree = [];
+            const stack = [{ level: 0, children: tree }];
+
+            headings.forEach(heading => {
+                const level = parseInt(heading.tagName.substring(1));
+                const node = {
+                    id: heading.id,
+                    title: heading.textContent.trim(),
+                    level: level,
+                    children: [],
+                    element: heading
+                };
+
+                // Find the correct parent
+                while (stack.length > 0 && stack[stack.length - 1].level >= level) {
+                    stack.pop();
+                }
+
+                // Add to parent's children
+                const parent = stack[stack.length - 1];
+                parent.children.push(node);
+
+                // Push current node to stack
+                stack.push(node);
+            });
+
+            window.editorState.navigationTree = tree;
+            return tree;
+        }
+
+        function renderNavigationTree(tree, parentElement) {
+            if (tree.length === 0) {
+                parentElement.innerHTML = '<p style="color: #888; font-size: 14px;">No sections found in rulebook</p>';
+                return;
+            }
+
+            const ul = document.createElement('ul');
+            ul.className = 'nav-tree';
+
+            tree.forEach(node => {
+                const li = document.createElement('li');
+                li.className = 'nav-item';
+                if (node.children.length > 0) {
+                    li.classList.add('has-children');
+                }
+
+                const button = document.createElement('button');
+                button.className = 'nav-item-button';
+                button.dataset.sectionId = node.id;
+
+                // Add collapse/expand icon if has children
+                if (node.children.length > 0) {
+                    const toggleIcon = document.createElement('span');
+                    toggleIcon.className = 'toggle-icon';
+                    toggleIcon.textContent = '▼';
+                    button.appendChild(toggleIcon);
+
+                    // Toggle children on icon click
+                    toggleIcon.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        li.classList.toggle('collapsed');
+                    });
+                }
+
+                // Add level indicator
+                const levelIndicator = document.createElement('span');
+                levelIndicator.className = 'level-indicator';
+                levelIndicator.textContent = `H${node.level}`;
+                button.appendChild(levelIndicator);
+
+                // Add title
+                const titleSpan = document.createElement('span');
+                titleSpan.textContent = node.title;
+                titleSpan.style.flex = '1';
+                button.appendChild(titleSpan);
+
+                // Add click handler
+                button.addEventListener('click', () => selectSection(node.id));
+
+                li.appendChild(button);
+
+                // Recursively render children
+                if (node.children.length > 0) {
+                    renderNavigationTree(node.children, li);
+                }
+
+                ul.appendChild(li);
+            });
+
+            parentElement.appendChild(ul);
+        }
+
+        function extractSectionContent(sectionId) {
+            const doc = window.editorState.rulebookDOM;
+            if (!doc) return null;
+
+            const heading = doc.getElementById(sectionId);
+            if (!heading) return null;
+
+            const currentLevel = parseInt(heading.tagName.substring(1));
+            const content = [];
+            let currentElement = heading;
+
+            // Add the heading itself
+            content.push(currentElement.outerHTML);
+
+            // Collect all following siblings until we hit a heading of same or higher level
+            currentElement = currentElement.nextElementSibling;
+            while (currentElement) {
+                const tagName = currentElement.tagName;
+                
+                // Check if it's a heading of same or higher level
+                if (tagName.match(/^H[1-6]$/)) {
+                    const elementLevel = parseInt(tagName.substring(1));
+                    if (elementLevel <= currentLevel) {
+                        break; // Stop here
+                    }
+                }
+
+                content.push(currentElement.outerHTML);
+                currentElement = currentElement.nextElementSibling;
+            }
+
+            return content.join('\n');
+        }
+
+        async function selectSection(sectionId) {
+            // Exit edit mode if currently editing
+            if (window.editorState.isEditing) {
+                const confirmed = confirm('You are currently editing. Do you want to leave without saving?');
+                if (!confirmed) return;
+                
+                if (window.editorState.tinyMCEInstance) {
+                    await tinymce.remove('#editorContainer');
+                    window.editorState.tinyMCEInstance = null;
+                }
+                window.editorState.isEditing = false;
+            }
+
+            // Remove previous selection highlight
+            document.querySelectorAll('.nav-item-button.selected').forEach(btn => {
+                btn.classList.remove('selected');
+            });
+
+            // Highlight selected item
+            const button = document.querySelector(`[data-section-id="${sectionId}"]`);
+            if (button) {
+                button.classList.add('selected');
+            }
+
+            // Extract content
+            const contentHTML = extractSectionContent(sectionId);
+            const heading = window.editorState.rulebookDOM.getElementById(sectionId);
+
+            // Store in global state
+            window.editorState.currentSelection = {
+                id: sectionId,
+                title: heading ? heading.textContent.trim() : 'Unknown',
+                content: contentHTML
+            };
+
+            // Display content
+            displaySectionContent(sectionId, heading ? heading.textContent.trim() : 'Unknown', contentHTML);
+
+            // Log for debugging
+            console.log('Selected:', window.editorState.currentSelection.title);
+            console.log('Section ID:', sectionId);
+            console.log('Content length:', contentHTML.length);
+        }
+
+        function displaySectionContent(sectionId, title, contentHTML) {
+            // Check if there's a draft
+            const draft = loadDraft(sectionId);
+            const hasDraft = draft !== null;
+            const displayContent = hasDraft ? draft.content : contentHTML;
+
+            const draftIndicator = hasDraft ? `
+                <div class="draft-indicator">
+                    <span>💾</span>
+                    <div>
+                        <strong>Draft available</strong> - Last saved: ${new Date(draft.timestamp).toLocaleString()}
+                    </div>
+                </div>
+            ` : '';
+
+            sectionContent.innerHTML = `
+                <div class="section-info">
+                    <strong>Selected Section:</strong> ${title} <br>
+                    <strong>Section ID:</strong> <code>${sectionId}</code>
+                </div>
+                ${draftIndicator}
+                <div class="section-content" id="sectionContentArea">
+                    ${displayContent}
+                </div>
+                <div class="editor-actions">
+                    <button class="btn btn-primary" id="editBtn" onclick="enterEditMode()">
+                        <span>✏️</span> Edit Section
+                    </button>
+                    ${hasDraft ? `<button class="btn btn-secondary" id="discardDraftBtn" onclick="discardDraft()">
+                        <span>🗑️</span> Discard Draft
+                    </button>` : ''}
+                </div>
+            `;
+
+            // Scroll to top of content area
+            sectionContent.parentElement.scrollTop = 0;
+        }
+
+        async function enterEditMode() {
+            if (!window.editorState.currentSelection) return;
+
+            const sectionId = window.editorState.currentSelection.id;
+            const title = window.editorState.currentSelection.title;
+            
+            // Get current content (could be draft or original)
+            const draft = loadDraft(sectionId);
+            const contentToEdit = draft ? draft.content : window.editorState.currentSelection.content;
+            
+            // Store original content for cancel
+            window.editorState.originalContent = window.editorState.currentSelection.content;
+            window.editorState.isEditing = true;
+
+            // Update UI
+            sectionContent.innerHTML = `
+                <div class="section-info">
+                    <strong>Editing Section:</strong> ${title} <br>
+                    <strong>Section ID:</strong> <code>${sectionId}</code>
+                </div>
+                <div class="section-content editing">
+                    <div id="editorContainer">${contentToEdit}</div>
+                </div>
+                <div class="editor-actions">
+                    <button class="btn btn-success" id="saveDraftBtn" onclick="saveDraft()">
+                        <span>💾</span> Save Draft
+                    </button>
+                    <button class="btn btn-secondary" id="cancelEditBtn" onclick="cancelEdit()">
+                        <span>❌</span> Cancel
+                    </button>
+                </div>
+                <div class="editor-status" id="editorStatus">
+                    Ready to edit...
+                </div>
+            `;
+
+            // Initialize TinyMCE
+            await initializeTinyMCE();
+        }
+
+        async function initializeTinyMCE() {
+            try {
+                // Destroy existing instance if any
+                if (window.editorState.tinyMCEInstance) {
+                    await tinymce.remove('#editorContainer');
+                }
+
+                const editor = await tinymce.init({
+                    selector: '#editorContainer',
+                    height: 500,
+                    menubar: false,
+                    plugins: [
+                        'advlist', 'autolink', 'lists', 'link', 'image', 'charmap',
+                        'anchor', 'searchreplace', 'visualblocks', 'code', 'fullscreen',
+                        'insertdatetime', 'media', 'table', 'help', 'wordcount'
+                    ],
+                    toolbar: 'undo redo | blocks | ' +
+                        'bold italic underline strikethrough | forecolor backcolor | ' +
+                        'alignleft aligncenter alignright alignjustify | ' +
+                        'bullist numlist outdent indent | ' +
+                        'removeformat | link | code | help',
+                    content_style: 'body { font-family: Segoe UI, sans-serif; font-size: 14px; line-height: 1.6; }',
+                    block_formats: 'Paragraph=p; Heading 1=h1; Heading 2=h2; Heading 3=h3; Heading 4=h4',
+                    setup: (editor) => {
+                        editor.on('init', () => {
+                            window.editorState.tinyMCEInstance = editor;
+                            updateEditorStatus('Editor ready. Make your changes and save as draft.');
+                        });
+                        editor.on('change', () => {
+                            updateEditorStatus('Unsaved changes...');
+                        });
+                    }
+                });
+
+                return editor;
+            } catch (error) {
+                console.error('TinyMCE initialization error:', error);
+                showError('Failed to initialize editor: ' + error.message);
+            }
+        }
+
+        function updateEditorStatus(message) {
+            const statusEl = document.getElementById('editorStatus');
+            if (statusEl) {
+                statusEl.textContent = message;
+            }
+        }
+
+        function saveDraft() {
+            if (!window.editorState.tinyMCEInstance || !window.editorState.currentSelection) {
+                showError('No active editor session');
+                return;
+            }
+
+            try {
+                const sectionId = window.editorState.currentSelection.id;
+                const editedContent = window.editorState.tinyMCEInstance.getContent();
+
+                // Save to localStorage
+                const draft = {
+                    sectionId: sectionId,
+                    content: editedContent,
+                    timestamp: Date.now(),
+                    title: window.editorState.currentSelection.title
+                };
+
+                localStorage.setItem(DRAFT_STORAGE_PREFIX + sectionId, JSON.stringify(draft));
+                
+                updateEditorStatus('✅ Draft saved at ' + new Date().toLocaleTimeString());
+                showSuccess('Draft saved successfully!');
+
+                // Update the current selection content with the draft
+                window.editorState.currentSelection.content = editedContent;
+
+                // Update drafts summary and sync status
+                updateDraftsSummary();
+                updateSyncStatus();
+
+            } catch (error) {
+                console.error('Save draft error:', error);
+                showError('Failed to save draft: ' + error.message);
+            }
+        }
+
+        async function cancelEdit() {
+            if (!window.editorState.isEditing) return;
+
+            // Ask for confirmation if there are unsaved changes
+            const hasChanges = window.editorState.tinyMCEInstance && 
+                              window.editorState.tinyMCEInstance.isDirty();
+            
+            if (hasChanges) {
+                const confirmed = confirm('You have unsaved changes. Are you sure you want to cancel?');
+                if (!confirmed) return;
+            }
+
+            // Destroy TinyMCE
+            if (window.editorState.tinyMCEInstance) {
+                await tinymce.remove('#editorContainer');
+                window.editorState.tinyMCEInstance = null;
+            }
+
+            window.editorState.isEditing = false;
+
+            // Restore original content display
+            const selection = window.editorState.currentSelection;
+            if (selection) {
+                displaySectionContent(selection.id, selection.title, window.editorState.originalContent);
+            }
+        }
+
+        function loadDraft(sectionId) {
+            try {
+                const draftJson = localStorage.getItem(DRAFT_STORAGE_PREFIX + sectionId);
+                if (draftJson) {
+                    return JSON.parse(draftJson);
+                }
+                return null;
+            } catch (error) {
+                console.error('Load draft error:', error);
+                return null;
+            }
+        }
+
+        function getAllDrafts() {
+            const drafts = [];
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (key.startsWith(DRAFT_STORAGE_PREFIX)) {
+                    try {
+                        const draft = JSON.parse(localStorage.getItem(key));
+                        drafts.push(draft);
+                    } catch (error) {
+                        console.error('Error parsing draft:', error);
+                    }
+                }
+            }
+            return drafts;
+        }
+
+        function updateDraftsSummary() {
+            const summaryEl = document.getElementById('draftsSummary');
+            if (!summaryEl) return;
+
+            const drafts = getAllDrafts();
+            
+            if (drafts.length === 0) {
+                summaryEl.className = 'drafts-summary no-drafts';
+                summaryEl.innerHTML = '✅ No pending drafts - all changes published or cleared';
+            } else {
+                summaryEl.className = 'drafts-summary has-drafts';
+                const draftList = drafts.map(draft => `
+                    <li>
+                        <div>
+                            <strong>${draft.title}</strong><br>
+                            <small>Last saved: ${new Date(draft.timestamp).toLocaleString()}</small>
+                        </div>
+                    </li>
+                `).join('');
+                
+                summaryEl.innerHTML = `
+                    <strong>⚠️ ${drafts.length} pending draft${drafts.length > 1 ? 's' : ''}</strong>
+                    <ul class="draft-list">${draftList}</ul>
+                `;
+            }
+        }
+
+        function discardDraft() {
+            if (!window.editorState.currentSelection) return;
+
+            const confirmed = confirm('Are you sure you want to discard the saved draft?');
+            if (!confirmed) return;
+
+            const sectionId = window.editorState.currentSelection.id;
+            localStorage.removeItem(DRAFT_STORAGE_PREFIX + sectionId);
+
+            // Reload the section with original content
+            const selection = window.editorState.currentSelection;
+            const originalContent = extractSectionContent(sectionId);
+            window.editorState.currentSelection.content = originalContent;
+            
+            displaySectionContent(selection.id, selection.title, originalContent);
+            showSuccess('Draft discarded successfully');
+            updateDraftsSummary();
+        }
+
+        function reconstructHTMLWithDrafts() {
+            const doc = window.editorState.rulebookDOM;
+            if (!doc) {
+                throw new Error('No rulebook DOM available');
+            }
+
+            // Clone the document to avoid modifying the original
+            const clonedDoc = doc.cloneNode(true);
+            const drafts = getAllDrafts();
+
+            console.log(`Applying ${drafts.length} draft(s) to the document`);
+
+            drafts.forEach(draft => {
+                const heading = clonedDoc.getElementById(draft.sectionId);
+                if (!heading) {
+                    console.warn(`Section ${draft.sectionId} not found in document`);
+                    return;
+                }
+
+                // Parse the draft content
+                const tempDiv = clonedDoc.createElement('div');
+                tempDiv.innerHTML = draft.content;
+
+                const currentLevel = parseInt(heading.tagName.substring(1));
+                
+                // Remove all elements between this heading and the next same/higher level heading
+                let nextElement = heading.nextElementSibling;
+                const elementsToRemove = [];
+
+                while (nextElement) {
+                    const tagName = nextElement.tagName;
+                    if (tagName && tagName.match(/^H[1-6]$/)) {
+                        const elementLevel = parseInt(tagName.substring(1));
+                        if (elementLevel <= currentLevel) {
+                            break;
+                        }
+                    }
+                    elementsToRemove.push(nextElement);
+                    nextElement = nextElement.nextElementSibling;
+                }
+
+                // Remove old content
+                elementsToRemove.forEach(el => el.remove());
+
+                // Insert new content from draft (skip the heading as it already exists)
+                const newElements = Array.from(tempDiv.children);
+                let insertAfter = heading;
+                
+                newElements.forEach(newEl => {
+                    // Skip if it's the same heading (first element in draft)
+                    if (newEl.tagName === heading.tagName && newEl.id === heading.id) {
+                        // Update the heading text if it changed
+                        heading.innerHTML = newEl.innerHTML;
+                    } else {
+                        // Insert the new element
+                        insertAfter.insertAdjacentElement('afterend', newEl);
+                        insertAfter = newEl;
+                    }
+                });
+            });
+
+            // Serialize the document back to HTML
+            return '<!DOCTYPE html>\n' + clonedDoc.documentElement.outerHTML;
+        }
+
+        async function publishToNextCloud() {
+            const drafts = getAllDrafts();
+            
+            if (drafts.length === 0) {
+                showError('No drafts to publish. Make some edits first!');
+                return;
+            }
+
+            // Create confirmation modal
+            const modal = document.createElement('div');
+            modal.className = 'confirm-modal';
+            modal.innerHTML = `
+                <div class="modal-content">
+                    <h3>📤 Confirm Publish</h3>
+                    <p>
+                        You are about to publish <strong>${drafts.length} draft${drafts.length > 1 ? 's' : ''}</strong> 
+                        to NextCloud. This will overwrite the current rulebook file on the server.
+                    </p>
+                    <p><strong>Sections to be updated:</strong></p>
+                    <ul style="margin: 10px 0; padding-left: 20px; max-height: 200px; overflow-y: auto;">
+                        ${drafts.map(d => `<li>${d.title}</li>`).join('')}
+                    </ul>
+                    <p style="color: #f44336;"><strong>⚠️ Warning:</strong> This action cannot be undone!</p>
+                    <div class="modal-buttons">
+                        <button class="btn btn-secondary" onclick="this.closest('.confirm-modal').remove()">
+                            Cancel
+                        </button>
+                        <button class="btn btn-publish" onclick="confirmPublish()">
+                            Publish Now
+                        </button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+
+        async function confirmPublish() {
+            // Remove modal
+            const modal = document.querySelector('.confirm-modal');
+            if (modal) modal.remove();
+
+            const credentials = window.editorState.credentials;
+            if (!credentials) {
+                showError('No credentials found. Please log in again.');
+                return;
+            }
+
+            loadingOverlay.style.display = 'flex';
+            loadingOverlay.querySelector('p').textContent = 'Publishing changes to NextCloud...';
+
+            try {
+                // Reconstruct HTML with all drafts
+                const updatedHTML = reconstructHTMLWithDrafts();
+                
+                console.log('Publishing HTML, size:', updatedHTML.length);
+                console.log('Using ETag:', window.editorState.etag);
+
+                // Upload to NextCloud with ETag for optimistic locking
+                const result = await uploadFileToWebDAV(
+                    credentials.serverUrl,
+                    credentials.username,
+                    credentials.appPassword,
+                    RULEBOOK_PATH,
+                    updatedHTML,
+                    window.editorState.etag
+                );
+
+                if (result.success) {
+                    // Update ETag with new value
+                    if (result.etag) {
+                        window.editorState.etag = result.etag;
+                    }
+
+                    // Clear all drafts
+                    const drafts = getAllDrafts();
+                    drafts.forEach(draft => {
+                        localStorage.removeItem(DRAFT_STORAGE_PREFIX + draft.sectionId);
+                    });
+
+                    showSuccess(`✅ Successfully published ${drafts.length} change${drafts.length > 1 ? 's' : ''} to NextCloud!`);
+                    
+                    // Reload the rulebook to get the fresh version
+                    await loadRulebook();
+                    
+                    // Clear current selection to force re-selection
+                    if (window.editorState.currentSelection) {
+                        const currentId = window.editorState.currentSelection.id;
+                        window.editorState.currentSelection = null;
+                        
+                        // Re-select the same section to refresh view
+                        setTimeout(() => selectSection(currentId), 500);
+                    }
+                } else if (result.status === 412 || result.error === 'CONFLICT') {
+                    // Conflict detected - file was modified by someone else
+                    showConflictModal();
+                } else {
+                    showError('Failed to publish: ' + result.error);
+                }
+            } catch (error) {
+                console.error('Publish error:', error);
+                showError('Failed to publish: ' + error.message);
+            } finally {
+                loadingOverlay.style.display = 'none';
+                loadingOverlay.querySelector('p').textContent = 'Loading rulebook...';
+            }
+        }
+
+        function showConflictModal() {
+            const drafts = getAllDrafts();
+            const modal = document.createElement('div');
+            modal.className = 'confirm-modal conflict-modal';
+            modal.innerHTML = `
+                <div class="modal-content">
+                    <h3>⚠️ Conflict Detected</h3>
+                    
+                    <div class="conflict-warning">
+                        <h4>🚫 File Modified by Someone Else</h4>
+                        <p><strong>The rulebook file has been changed on the server since you loaded it.</strong></p>
+                        <p>Publishing now would overwrite their changes. Your drafts are safe and stored locally.</p>
+                    </div>
+
+                    <div class="conflict-actions">
+                        <h4>📋 Your Options:</h4>
+                        <ul>
+                            <li><strong>Reload & Review:</strong> Load the latest version and manually reapply your ${drafts.length} draft${drafts.length > 1 ? 's' : ''}.</li>
+                            <li><strong>Force Publish:</strong> Overwrite server changes with your edits (not recommended).</li>
+                            <li><strong>Export Drafts:</strong> Save your drafts for later before reloading.</li>
+                        </ul>
+                    </div>
+
+                    <div class="modal-buttons">
+                        <button class="btn btn-secondary" onclick="this.closest('.conflict-modal').remove()">
+                            Cancel
+                        </button>
+                        <button class="btn btn-secondary" onclick="exportDrafts(); this.closest('.conflict-modal').remove()">
+                            📥 Export Drafts
+                        </button>
+                        <button class="btn btn-reload" onclick="reloadAndReview()">
+                            🔄 Reload & Review
+                        </button>
+                        <button class="btn btn-clear" onclick="forcePublish()" title="Overwrite server changes">
+                            ⚡ Force Publish
+                        </button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+
+        async function reloadAndReview() {
+            const modal = document.querySelector('.conflict-modal');
+            if (modal) modal.remove();
+
+            // Keep drafts but reload the base document
+            const success = await loadRulebook();
+            
+            if (success) {
+                showSuccess('📥 Loaded latest version from server. Your drafts are preserved. Please review and re-publish.');
+                
+                // Show a notice in the publish controls
+                const draftsSummary = document.getElementById('draftsSummary');
+                if (draftsSummary && getAllDrafts().length > 0) {
+                    const originalContent = draftsSummary.innerHTML;
+                    draftsSummary.innerHTML = `
+                        <strong>⚠️ Conflict resolved - Review your drafts</strong>
+                        <p style="margin: 10px 0; font-size: 12px;">
+                            The base file has been updated. Review your ${getAllDrafts().length} draft(s) and publish again.
+                        </p>
+                    `;
+                }
+            }
+        }
+
+        async function forcePublish() {
+            const confirmed = confirm(
+                '⚠️ WARNING: Force publishing will overwrite all changes made by others since you loaded the file.\n\n' +
+                'This may result in data loss!\n\nAre you absolutely sure?'
+            );
+            
+            if (!confirmed) return;
+
+            const modal = document.querySelector('.conflict-modal');
+            if (modal) modal.remove();
+
+            const credentials = window.editorState.credentials;
+            if (!credentials) {
+                showError('No credentials found. Please log in again.');
+                return;
+            }
+
+            loadingOverlay.style.display = 'flex';
+            loadingOverlay.querySelector('p').textContent = 'Force publishing...';
+
+            try {
+                const updatedHTML = reconstructHTMLWithDrafts();
+                
+                // Upload WITHOUT ETag check (no If-Match header)
+                const result = await uploadFileToWebDAV(
+                    credentials.serverUrl,
+                    credentials.username,
+                    credentials.appPassword,
+                    RULEBOOK_PATH,
+                    updatedHTML,
+                    null  // No ETag = no conflict check
+                );
+
+                if (result.success) {
+                    // Update ETag
+                    if (result.etag) {
+                        window.editorState.etag = result.etag;
+                    }
+
+                    // Clear all drafts
+                    const drafts = getAllDrafts();
+                    drafts.forEach(draft => {
+                        localStorage.removeItem(DRAFT_STORAGE_PREFIX + draft.sectionId);
+                    });
+
+                    showSuccess(`⚡ Force published ${drafts.length} change${drafts.length > 1 ? 's' : ''}. Previous server changes were overwritten.`);
+                    await loadRulebook();
+                } else {
+                    showError('Force publish failed: ' + result.error);
+                }
+            } catch (error) {
+                console.error('Force publish error:', error);
+                showError('Failed to force publish: ' + error.message);
+            } finally {
+                loadingOverlay.style.display = 'none';
+                loadingOverlay.querySelector('p').textContent = 'Loading rulebook...';
+            }
+        }
+
+        function exportDrafts() {
+            const drafts = getAllDrafts();
+            if (drafts.length === 0) {
+                showError('No drafts to export.');
+                return;
+            }
+
+            const exportData = {
+                timestamp: new Date().toISOString(),
+                user: window.editorState.credentials?.username || 'unknown',
+                drafts: drafts
+            };
+
+            const dataStr = JSON.stringify(exportData, null, 2);
+            const blob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `nenneke-drafts-${Date.now()}.json`;
+            a.click();
+            
+            URL.revokeObjectURL(url);
+            showSuccess(`📥 Exported ${drafts.length} draft${drafts.length > 1 ? 's' : ''} to file`);
+        }
+
+        async function loadLatestFromServer() {
+            const drafts = getAllDrafts();
+            
+            if (drafts.length > 0) {
+                const confirmed = confirm(
+                    `⚠️ Warning: You have ${drafts.length} unsaved draft${drafts.length > 1 ? 's' : ''}. ` +
+                    'Loading from server will discard all local drafts. Continue?'
+                );
+                if (!confirmed) return;
+            }
+
+            // Clear all drafts
+            drafts.forEach(draft => {
+                localStorage.removeItem(DRAFT_STORAGE_PREFIX + draft.sectionId);
+            });
+
+            // Exit edit mode if active
+            if (window.editorState.isEditing && window.editorState.tinyMCEInstance) {
+                await tinymce.remove('#editorContainer');
+                window.editorState.tinyMCEInstance = null;
+                window.editorState.isEditing = false;
+            }
+
+            // Reload the rulebook
+            const success = await loadRulebook();
+            
+            if (success) {
+                showSuccess('📥 Loaded latest version from NextCloud. All local drafts cleared.');
+                
+                // Clear selection and refresh view
+                const currentId = window.editorState.currentSelection?.id;
+                window.editorState.currentSelection = null;
+                sectionContent.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📖</div>
+                        <p>Select a section from the navigation to view its content</p>
+                    </div>
+                `;
+                
+                // Re-select if there was a selection
+                if (currentId) {
+                    setTimeout(() => selectSection(currentId), 300);
+                }
+            }
+        }
+
+        function clearAllDrafts() {
+            const drafts = getAllDrafts();
+            
+            if (drafts.length === 0) {
+                showError('No drafts to clear.');
+                return;
+            }
+
+            const confirmed = confirm(
+                `Are you sure you want to clear all ${drafts.length} draft${drafts.length > 1 ? 's' : ''}? ` +
+                'This action cannot be undone!'
+            );
+            
+            if (!confirmed) return;
+
+            drafts.forEach(draft => {
+                localStorage.removeItem(DRAFT_STORAGE_PREFIX + draft.sectionId);
+            });
+
+            updateDraftsSummary();
+            updateSyncStatus();
+            showSuccess(`🗑️ Cleared ${drafts.length} draft${drafts.length > 1 ? 's' : ''}`);
+
+            // Refresh current view if viewing a section
+            if (window.editorState.currentSelection) {
+                const selection = window.editorState.currentSelection;
+                const originalContent = extractSectionContent(selection.id);
+                displaySectionContent(selection.id, selection.title, originalContent);
+            }
+        }
+
+        async function loadRulebook() {
+            const credentials = window.editorState.credentials;
+            if (!credentials) {
+                showError('No credentials found. Please log in again.');
+                return false;
+            }
+
+            loadingOverlay.style.display = 'flex';
+
+            try {
+                const result = await fetchFileFromWebDAV(
+                    credentials.serverUrl,
+                    credentials.username,
+                    credentials.appPassword,
+                    RULEBOOK_PATH
+                );
+
+                if (result.success) {
+                    // Store ETag for optimistic locking
+                    window.editorState.etag = result.etag;
+                    window.editorState.lastLoadedTime = Date.now();
+                    
+                    // Parse HTML
+                    const doc = parseRulebookHTML(result.content);
+                    
+                    // Build navigation tree
+                    const tree = buildNavigationTree(doc);
+                    
+                    // Render navigation
+                    navigationTree.innerHTML = '';
+                    renderNavigationTree(tree, navigationTree);
+                    
+                    // Update drafts summary
+                    updateDraftsSummary();
+                    
+                    // Update status bar
+                    updateStatusBar(credentials.username, window.editorState.lastLoadedTime);
+                    
+                    showSuccess(`Rulebook loaded successfully! Found ${doc.querySelectorAll('h1[id], h2[id], h3[id]').length} sections.`);
+                    return true;
+                } else {
+                    showError(result.error);
+                    return false;
+                }
+            } catch (error) {
+                console.error('Rulebook loading error:', error);
+                showError('Failed to load rulebook: ' + error.message);
+                return false;
+            } finally {
+                loadingOverlay.style.display = 'none';
+            }
+        }
+
+        // UI Functions
+        async function showEditor(username) {
+            window.editorState.credentials = await retrieveCredentials();
+            loginForm.style.display = 'none';
+            editorView.classList.add('active');
+            container.classList.add('expanded');
+            loggedUsername.textContent = username;
+            
+            // Load the rulebook
+            await loadRulebook();
+        }
+
+        function showEditor_old(username) {
+            loginForm.style.display = 'none';
+            editorView.classList.add('active');
+            loggedUsername.textContent = username;
+            showSuccess('Successfully authenticated with NextCloud!');
+        }
+
+        async function showLogin() {
+            // Clean up TinyMCE if active
+            if (window.editorState.tinyMCEInstance) {
+                await tinymce.remove('#editorContainer');
+            }
+
+            loginForm.style.display = 'block';
+            editorView.classList.remove('active');
+            container.classList.remove('expanded');
+            authForm.reset();
+            
+            // Clear state
+            window.editorState = {
+                currentSelection: null,
+                rulebookDOM: null,
+                navigationTree: null,
+                credentials: null,
+                isEditing: false,
+                tinyMCEInstance: null,
+                originalContent: null
+            };
+        }
+
+        // Event Handlers
+        authForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            setLoading(true);
+
+            const serverUrl = document.getElementById('serverUrl').value.trim();
+            const username = document.getElementById('username').value.trim();
+            const appPassword = document.getElementById('appPassword').value.trim();
+
+            // Validate inputs
+            if (!serverUrl || !username || !appPassword) {
+                showError('All fields are required');
+                setLoading(false);
+                return;
+            }
+
+            // Test connection
+            const result = await testWebDAVConnection(serverUrl, username, appPassword);
+
+            if (result.success) {
+                // Store credentials securely
+                const stored = await storeCredentials(serverUrl, username, appPassword);
+                
+                if (stored) {
+                    showEditor(username);
+                } else {
+                    showError('Authentication successful but failed to store credentials');
+                }
+            } else {
+                showError(result.error);
+            }
+
+            setLoading(false);
+        });
+
+        logoutBtn.addEventListener('click', async () => {
+            clearStoredCredentials();
+            await showLogin();
+            showSuccess('Logged out successfully');
+        });
+
+        // Auto-login on page load
+        window.addEventListener('DOMContentLoaded', async () => {
+            // Initialize status bar elements
+            statusUsername = document.getElementById('statusUsername');
+            statusLoadTime = document.getElementById('statusLoadTime');
+            statusSyncBadge = document.getElementById('statusSyncBadge');
+            
+            const credentials = await retrieveCredentials();
+            
+            if (credentials) {
+                // Verify credentials are still valid
+                const result = await testWebDAVConnection(
+                    credentials.serverUrl,
+                    credentials.username,
+                    credentials.appPassword
+                );
+
+                if (result.success) {
+                    await showEditor(credentials.username);
+                } else {
+                    // Credentials expired or invalid
+                    clearStoredCredentials();
+                    showLogin();
+                }
+            }
+        });
+    </script>
+</body>
+</html>

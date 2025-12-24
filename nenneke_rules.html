@@ -5,17 +5,319 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nenneke</title>
     <style>
-      /* Your CSS will go here later */
-      body {
-        font-family: sans-serif;
-        line-height: 1.6;
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
       }
+
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        display: flex;
+        min-height: 100vh;
+      }
+
+      /* Sidebar Styles */
+      .sidebar {
+        width: 320px;
+        background: #2c3e50;
+        color: #ecf0f1;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        overflow-y: auto;
+        padding: 20px;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+      }
+
+      .sidebar h2 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        color: #3498db;
+      }
+
+      /* Search Box */
+      .search-container {
+        margin-bottom: 20px;
+      }
+
+      .search-box {
+        width: 100%;
+        padding: 10px 12px;
+        border: 2px solid #34495e;
+        border-radius: 6px;
+        background: #34495e;
+        color: #ecf0f1;
+        font-size: 14px;
+        transition: all 0.3s;
+      }
+
+      .search-box:focus {
+        outline: none;
+        border-color: #3498db;
+        background: #2c3e50;
+      }
+
+      .search-box::placeholder {
+        color: #95a5a6;
+      }
+
+      .search-results {
+        margin-top: 15px;
+        display: none;
+      }
+
+      .search-results.active {
+        display: block;
+      }
+
+      .search-result-item {
+        padding: 10px;
+        margin-bottom: 8px;
+        background: #34495e;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.2s;
+        border-left: 3px solid #3498db;
+      }
+
+      .search-result-item:hover {
+        background: #3d566e;
+        transform: translateX(3px);
+      }
+
+      .search-result-title {
+        font-weight: 600;
+        color: #3498db;
+        font-size: 13px;
+        margin-bottom: 4px;
+      }
+
+      .search-result-context {
+        font-size: 12px;
+        color: #bdc3c7;
+        line-height: 1.4;
+      }
+
+      .search-highlight {
+        background: #f39c12;
+        color: #2c3e50;
+        padding: 2px 4px;
+        border-radius: 3px;
+        font-weight: 600;
+      }
+
+      .search-count {
+        color: #95a5a6;
+        font-size: 13px;
+        margin-bottom: 10px;
+      }
+
+      /* Navigation Tree */
+      .nav-tree {
+        list-style: none;
+      }
+
+      .nav-tree ul {
+        list-style: none;
+        margin-left: 15px;
+        margin-top: 5px;
+      }
+
+      .nav-tree li {
+        margin-bottom: 5px;
+      }
+
+      .nav-tree a {
+        color: #ecf0f1;
+        text-decoration: none;
+        display: block;
+        padding: 8px 10px;
+        border-radius: 6px;
+        transition: all 0.2s;
+        font-size: 14px;
+      }
+
+      .nav-tree a:hover {
+        background: #34495e;
+        color: #3498db;
+        transform: translateX(3px);
+      }
+
+      .nav-tree a.active {
+        background: #3498db;
+        color: white;
+        font-weight: 600;
+      }
+
+      /* Different heading levels */
+      .nav-tree .nav-h1 {
+        font-weight: 700;
+        font-size: 15px;
+      }
+
+      .nav-tree .nav-h2 {
+        font-weight: 600;
+        font-size: 14px;
+      }
+
+      .nav-tree .nav-h3 {
+        font-weight: 500;
+        font-size: 13px;
+        opacity: 0.95;
+      }
+
+      .nav-tree .nav-h4 {
+        font-weight: 400;
+        font-size: 12px;
+        opacity: 0.9;
+      }
+
+      /* Main Content */
+      .main-wrapper {
+        flex: 1;
+        margin-left: 320px;
+        padding: 40px;
+        max-width: 1200px;
+      }
+
+      header {
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 3px solid #3498db;
+      }
+
+      header h1 {
+        color: #2c3e50;
+        font-size: 2.5rem;
+      }
+
       .chapter {
         margin-bottom: 3rem;
+        scroll-margin-top: 20px;
+      }
+
+      h2, h3, h4, h5, h6 {
+        color: #2c3e50;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        scroll-margin-top: 20px;
+      }
+
+      h2 {
+        font-size: 2rem;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        color: #34495e;
+      }
+
+      h4 {
+        font-size: 1.2rem;
+        color: #34495e;
+      }
+
+      p {
+        margin-bottom: 1rem;
+        color: #555;
+      }
+
+      /* Scrollbar styling for sidebar */
+      .sidebar::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      .sidebar::-webkit-scrollbar-track {
+        background: #34495e;
+      }
+
+      .sidebar::-webkit-scrollbar-thumb {
+        background: #3498db;
+        border-radius: 4px;
+      }
+
+      .sidebar::-webkit-scrollbar-thumb:hover {
+        background: #5dade2;
+      }
+
+      /* Clear search button */
+      .search-container {
+        position: relative;
+      }
+
+      .clear-search {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        background: none;
+        border: none;
+        color: #95a5a6;
+        cursor: pointer;
+        font-size: 18px;
+        padding: 0;
+        width: 20px;
+        height: 20px;
+        display: none;
+      }
+
+      .clear-search.visible {
+        display: block;
+      }
+
+      .clear-search:hover {
+        color: #e74c3c;
+      }
+
+      /* Responsive design */
+      @media (max-width: 768px) {
+        .sidebar {
+          width: 100%;
+          position: relative;
+          height: auto;
+        }
+
+        .main-wrapper {
+          margin-left: 0;
+        }
       }
     </style>
   </head>
   <body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>📖 Navigation</h2>
+      
+      <!-- Search Box -->
+      <div class="search-container">
+        <input 
+          type="text" 
+          id="searchBox" 
+          class="search-box" 
+          placeholder="Search chapters..." 
+        />
+        <button class="clear-search" id="clearSearch">×</button>
+      </div>
+      
+      <!-- Search Results -->
+      <div class="search-results" id="searchResults">
+        <div class="search-count" id="searchCount"></div>
+        <div id="searchResultsList"></div>
+      </div>
+      
+      <!-- Navigation Tree -->
+      <nav id="navigationTree" class="nav-tree">
+        <!-- Will be populated by JavaScript -->
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-wrapper">
     <header>
       <h1>Nenneke</h1>
     </header>
@@ -16181,8 +16483,265 @@
         </table>
       </section>
     </main>
+    </div><!-- End main-wrapper -->
+
     <script>
-      // Your JavaScript will go here later
+      // Build navigation tree from document headings
+      function buildNavigationTree() {
+        const navTree = document.getElementById('navigationTree');
+        const main = document.querySelector('main');
+        const headings = main.querySelectorAll('h1[id], h2[id], h3[id], h4[id]');
+        
+        if (headings.length === 0) return;
+
+        const tree = document.createElement('ul');
+        const stack = [{ level: 0, element: tree }];
+
+        headings.forEach(heading => {
+          const level = parseInt(heading.tagName.substring(1));
+          const id = heading.id;
+          const text = heading.textContent.trim();
+
+          // Find the correct parent level
+          while (stack.length > 1 && stack[stack.length - 1].level >= level) {
+            stack.pop();
+          }
+
+          const parent = stack[stack.length - 1].element;
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          
+          a.href = '#' + id;
+          a.textContent = text;
+          a.className = 'nav-h' + level;
+          a.dataset.target = id;
+          
+          // Click handler for smooth scroll
+          a.addEventListener('click', (e) => {
+            e.preventDefault();
+            navigateToHeading(id);
+          });
+
+          li.appendChild(a);
+          parent.appendChild(li);
+
+          // If this heading might have children, add it to the stack
+          if (level < 4) {
+            const childUl = document.createElement('ul');
+            li.appendChild(childUl);
+            stack.push({ level: level, element: childUl });
+          }
+        });
+
+        navTree.appendChild(tree);
+      }
+
+      // Navigate to heading with smooth scroll
+      function navigateToHeading(id) {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          
+          // Update active state
+          document.querySelectorAll('.nav-tree a').forEach(a => a.classList.remove('active'));
+          const activeLink = document.querySelector(`.nav-tree a[data-target=\"${id}\"]`);
+          if (activeLink) activeLink.classList.add('active');
+        }
+      }
+
+      // Search functionality
+      const searchBox = document.getElementById('searchBox');
+      const searchResults = document.getElementById('searchResults');
+      const searchResultsList = document.getElementById('searchResultsList');
+      const searchCount = document.getElementById('searchCount');
+      const clearSearch = document.getElementById('clearSearch');
+      const navTree = document.getElementById('navigationTree');
+
+      searchBox.addEventListener('input', (e) => {
+        const query = e.target.value.trim();
+        
+        if (query.length === 0) {
+          clearSearchResults();
+          return;
+        }
+
+        clearSearch.classList.add('visible');
+        performSearch(query);
+      });
+
+      clearSearch.addEventListener('click', () => {
+        searchBox.value = '';
+        clearSearchResults();
+      });
+
+      function clearSearchResults() {
+        searchResults.classList.remove('active');
+        navTree.style.display = 'block';
+        searchResultsList.innerHTML = '';
+        searchCount.textContent = '';
+        clearSearch.classList.remove('visible');
+      }
+
+      function performSearch(query) {
+        const main = document.querySelector('main');
+        const allElements = main.querySelectorAll('p, li, h1, h2, h3, h4, h5, h6, td, th');
+        const results = [];
+        const queryLower = query.toLowerCase();
+
+        allElements.forEach(element => {
+          const text = element.textContent;
+          if (text.toLowerCase().includes(queryLower)) {
+            // Find the nearest heading
+            const heading = findNearestHeading(element);
+            if (heading) {
+              // Get context around the match
+              const context = getContextAroundMatch(text, query);
+              
+              results.push({
+                heading: heading,
+                context: context,
+                element: element
+              });
+            }
+          }
+        });
+
+        displaySearchResults(results, query);
+      }
+
+      function findNearestHeading(element) {
+        let current = element;
+        
+        // Walk up the DOM tree
+        while (current && current !== document.body) {
+          // Check previous siblings
+          let sibling = current.previousElementSibling;
+          while (sibling) {
+            if (sibling.tagName && sibling.tagName.match(/^H[1-4]$/) && sibling.id) {
+              return sibling;
+            }
+            sibling = sibling.previousElementSibling;
+          }
+          current = current.parentElement;
+        }
+        
+        return null;
+      }
+
+      function getContextAroundMatch(text, query) {
+        const index = text.toLowerCase().indexOf(query.toLowerCase());
+        const contextLength = 80;
+        
+        let start = Math.max(0, index - contextLength / 2);
+        let end = Math.min(text.length, index + query.length + contextLength / 2);
+        
+        let context = text.substring(start, end);
+        
+        if (start > 0) context = '...' + context;
+        if (end < text.length) context = context + '...';
+        
+        // Highlight the query
+        const regex = new RegExp(`(${escapeRegex(query)})`, 'gi');
+        context = context.replace(regex, '<span class="search-highlight">$1</span>');
+        
+        return context;
+      }
+
+      function escapeRegex(string) {
+        return string.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');
+      }
+
+      function displaySearchResults(results, query) {
+        // Group results by heading to avoid duplicates
+        const groupedResults = {};
+        
+        results.forEach(result => {
+          const headingId = result.heading.id;
+          if (!groupedResults[headingId]) {
+            groupedResults[headingId] = {
+              heading: result.heading,
+              contexts: []
+            };
+          }
+          if (groupedResults[headingId].contexts.length < 3) {
+            groupedResults[headingId].contexts.push(result.context);
+          }
+        });
+
+        const uniqueResults = Object.values(groupedResults);
+
+        if (uniqueResults.length === 0) {
+          searchCount.textContent = 'No results found';
+          searchResultsList.innerHTML = '<p style=\"color: #95a5a6; font-size: 13px; padding: 10px;\">No matches found for \"' + escapeHtml(query) + '\"</p>';
+        } else {
+          searchCount.textContent = `Found ${uniqueResults.length} section${uniqueResults.length > 1 ? 's' : ''}`;
+          
+          searchResultsList.innerHTML = uniqueResults.map(result => {
+            const headingText = result.heading.textContent.trim();
+            const headingId = result.heading.id;
+            
+            return `
+              <div class=\"search-result-item\" data-target=\"${headingId}\">
+                <div class=\"search-result-title\">${escapeHtml(headingText)}</div>
+                ${result.contexts.map(ctx => `<div class=\"search-result-context\">${ctx}</div>`).join('')}
+              </div>
+            `;
+          }).join('');
+
+          // Add click handlers to search results
+          document.querySelectorAll('.search-result-item').forEach(item => {
+            item.addEventListener('click', () => {
+              const targetId = item.dataset.target;
+              navigateToHeading(targetId);
+            });
+          });
+        }
+
+        searchResults.classList.add('active');
+        navTree.style.display = 'none';
+      }
+
+      function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+      }
+
+      // Highlight active section while scrolling
+      let ticking = false;
+      function updateActiveSection() {
+        const scrollPosition = window.scrollY + 100;
+        const headings = document.querySelectorAll('main h1[id], main h2[id], main h3[id], main h4[id]');
+        
+        let activeHeading = null;
+        headings.forEach(heading => {
+          if (heading.offsetTop <= scrollPosition) {
+            activeHeading = heading;
+          }
+        });
+
+        if (activeHeading) {
+          document.querySelectorAll('.nav-tree a').forEach(a => a.classList.remove('active'));
+          const activeLink = document.querySelector(`.nav-tree a[data-target=\"${activeHeading.id}\"]`);
+          if (activeLink) activeLink.classList.add('active');
+        }
+      }
+
+      window.addEventListener('scroll', () => {
+        if (!ticking) {
+          window.requestAnimationFrame(() => {
+            updateActiveSection();
+            ticking = false;
+          });
+          ticking = true;
+        }
+      });
+
+      // Initialize on page load
+      document.addEventListener('DOMContentLoaded', () => {
+        buildNavigationTree();
+        updateActiveSection();
+      });
     </script>
   </body>
 </html>
