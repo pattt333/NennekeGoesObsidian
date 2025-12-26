@@ -31,21 +31,59 @@
         left: 0;
         top: 0;
         bottom: 0;
-        overflow-y: auto;
-        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
         box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
         z-index: 1000;
       }
 
+      /* Sticky Sidebar Header */
+      #sidebar-header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: #2c3e50;
+        padding: 20px;
+        border-bottom: 2px solid #34495e;
+      }
+
       .sidebar h2 {
         font-size: 1.5rem;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         color: #3498db;
+      }
+
+      /* Collapse All Button */
+      #collapse-all-btn {
+        width: 100%;
+        padding: 8px 12px;
+        margin-bottom: 15px;
+        background: #34495e;
+        color: #ecf0f1;
+        border: 1px solid #3498db;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 600;
+        transition: all 0.3s;
+      }
+
+      #collapse-all-btn:hover {
+        background: #3498db;
+        color: white;
+      }
+
+      /* Scrollable Navigation Area */
+      #navigation-scroll-area {
+        flex: 1;
+        overflow-y: auto;
+        padding: 0 20px 20px 20px;
       }
 
       /* Search Box */
       .search-container {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
       }
 
       .search-box {
@@ -280,6 +318,62 @@
 
       .clear-search:hover {
         color: #e74c3c;
+      }
+
+      /* Collapsible Chapter Groups */
+      .chapter-group {
+        margin-bottom: 8px;
+      }
+
+      .group-toggle {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 12px;
+        background: #34495e;
+        color: #ecf0f1;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: left;
+        transition: all 0.2s;
+      }
+
+      .group-toggle:hover {
+        background: #3d566e;
+        color: #3498db;
+      }
+
+      .group-toggle .chevron {
+        display: inline-block;
+        transition: transform 0.3s ease;
+        font-size: 12px;
+        min-width: 12px;
+      }
+
+      .chapter-group.collapsed .group-toggle .chevron {
+        transform: rotate(-90deg);
+      }
+
+      .subchapter-list {
+        max-height: 2000px;
+        overflow: hidden;
+        transition: max-height 0.4s ease, opacity 0.3s ease;
+        opacity: 1;
+        margin-top: 4px;
+        padding-left: 0;
+      }
+
+      .chapter-group.collapsed .subchapter-list {
+        max-height: 0;
+        opacity: 0;
+      }
+
+      .subchapter-list > li {
+        list-style: none;
       }
 
       /* Tooltip styles */
@@ -571,29 +665,37 @@
 
     <!-- Sidebar -->
     <aside class="sidebar" id="sidebar">
-      <h2>📖 Navigation</h2>
+      <!-- Sticky Header -->
+      <div id="sidebar-header">
+        <h2>📖 Navigation</h2>
+        
+        <!-- Collapse All Button -->
+        <button id="collapse-all-btn" title="Expand or collapse all chapters">[-] Collapse All</button>
 
-      <!-- Search Box -->
-      <div class="search-container">
-        <input
-          type="text"
-          id="searchBox"
-          class="search-box"
-          placeholder="Search chapters..."
-        />
-        <button class="clear-search" id="clearSearch">×</button>
+        <!-- Search Box -->
+        <div class="search-container">
+          <input
+            type="text"
+            id="searchBox"
+            class="search-box"
+            placeholder="Search chapters..."
+          />
+          <button class="clear-search" id="clearSearch">×</button>
+        </div>
+
+        <!-- Search Results -->
+        <div class="search-results" id="searchResults">
+          <div class="search-count" id="searchCount"></div>
+          <div id="searchResultsList"></div>
+        </div>
       </div>
 
-      <!-- Search Results -->
-      <div class="search-results" id="searchResults">
-        <div class="search-count" id="searchCount"></div>
-        <div id="searchResultsList"></div>
+      <!-- Scrollable Navigation Area -->
+      <div id="navigation-scroll-area">
+        <nav id="navigationTree" class="nav-tree">
+          <!-- Will be populated by JavaScript -->
+        </nav>
       </div>
-
-      <!-- Navigation Tree -->
-      <nav id="navigationTree" class="nav-tree">
-        <!-- Will be populated by JavaScript -->
-      </nav>
     </aside>
 
     <!-- Main Content -->
@@ -17641,7 +17743,7 @@
     <!-- End main-wrapper -->
 
     <script>
-      // Build navigation tree from document headings
+      // Build navigation tree with collapsible chapters
       function buildNavigationTree() {
         const navTree = document.getElementById("navigationTree");
         const main = document.querySelector("main");
@@ -17651,46 +17753,200 @@
 
         if (headings.length === 0) return;
 
+        navTree.innerHTML = ''; // Clear existing content
         const tree = document.createElement("ul");
-        const stack = [{ level: 0, element: tree }];
+        let currentChapterGroup = null;
+        let currentH2 = null;
+        let currentH3List = null;
 
         headings.forEach((heading) => {
           const level = parseInt(heading.tagName.substring(1));
           const id = heading.id;
           const text = heading.textContent.trim();
 
-          // Find the correct parent level
-          while (stack.length > 1 && stack[stack.length - 1].level >= level) {
-            stack.pop();
-          }
+          if (level === 1) {
+            // H1: Just add as top-level item
+            const li = document.createElement("li");
+            const a = createNavLink(id, text, level);
+            li.appendChild(a);
+            tree.appendChild(li);
+          } else if (level === 2) {
+            // H2: Create new collapsible chapter group
+            currentChapterGroup = document.createElement("li");
+            currentChapterGroup.className = "chapter-group";
 
-          const parent = stack[stack.length - 1].element;
-          const li = document.createElement("li");
-          const a = document.createElement("a");
+            const toggleBtn = document.createElement("button");
+            toggleBtn.className = "group-toggle";
+            toggleBtn.setAttribute("aria-expanded", "true");
+            toggleBtn.innerHTML = `<span class="chevron">▼</span><span>${text}</span>`;
+            toggleBtn.dataset.chapterId = id;
 
-          a.href = "#" + id;
-          a.textContent = text;
-          a.className = "nav-h" + level;
-          a.dataset.target = id;
+            // Click handler for toggle
+            toggleBtn.addEventListener("click", (e) => {
+              e.preventDefault();
+              toggleChapterGroup(currentChapterGroup);
+            });
 
-          // Click handler for smooth scroll
-          a.addEventListener("click", (e) => {
-            e.preventDefault();
-            navigateToHeading(id);
-          });
+            // Also navigate when clicking the text
+            toggleBtn.addEventListener("dblclick", (e) => {
+              e.preventDefault();
+              navigateToHeading(id);
+            });
 
-          li.appendChild(a);
-          parent.appendChild(li);
+            const subList = document.createElement("ul");
+            subList.className = "subchapter-list";
 
-          // If this heading might have children, add it to the stack
-          if (level < 4) {
-            const childUl = document.createElement("ul");
-            li.appendChild(childUl);
-            stack.push({ level: level, element: childUl });
+            currentChapterGroup.appendChild(toggleBtn);
+            currentChapterGroup.appendChild(subList);
+            tree.appendChild(currentChapterGroup);
+
+            currentH2 = subList;
+            currentH3List = null;
+          } else if (level === 3) {
+            // H3: Add to current chapter's sublist
+            if (currentH2) {
+              const li = document.createElement("li");
+              const a = createNavLink(id, text, level);
+              li.appendChild(a);
+              
+              // Create nested list for h4s
+              const h4List = document.createElement("ul");
+              li.appendChild(h4List);
+              currentH3List = h4List;
+              
+              currentH2.appendChild(li);
+            }
+          } else if (level === 4) {
+            // H4: Add to current h3's sublist
+            if (currentH3List) {
+              const li = document.createElement("li");
+              const a = createNavLink(id, text, level);
+              li.appendChild(a);
+              currentH3List.appendChild(li);
+            }
           }
         });
 
         navTree.appendChild(tree);
+        
+        // Restore collapsed state from localStorage
+        restoreCollapsedState();
+      }
+
+      // Create navigation link
+      function createNavLink(id, text, level) {
+        const a = document.createElement("a");
+        a.href = "#" + id;
+        a.textContent = text;
+        a.className = "nav-h" + level;
+        a.dataset.target = id;
+
+        // Click handler for smooth scroll
+        a.addEventListener("click", (e) => {
+          e.preventDefault();
+          navigateToHeading(id);
+        });
+
+        return a;
+      }
+
+      // Toggle individual chapter group
+      function toggleChapterGroup(chapterGroup) {
+        const isCollapsed = chapterGroup.classList.toggle("collapsed");
+        const toggleBtn = chapterGroup.querySelector(".group-toggle");
+        
+        if (toggleBtn) {
+          toggleBtn.setAttribute("aria-expanded", !isCollapsed);
+        }
+        
+        // Save state to localStorage
+        saveCollapsedState();
+      }
+
+      // Toggle all chapters at once
+      function toggleAllChapters() {
+        const collapseBtn = document.getElementById("collapse-all-btn");
+        const chapterGroups = document.querySelectorAll(".chapter-group");
+        
+        // Check if any are expanded
+        const anyExpanded = Array.from(chapterGroups).some(
+          group => !group.classList.contains("collapsed")
+        );
+        
+        chapterGroups.forEach(group => {
+          const toggleBtn = group.querySelector(".group-toggle");
+          
+          if (anyExpanded) {
+            // Collapse all
+            group.classList.add("collapsed");
+            if (toggleBtn) toggleBtn.setAttribute("aria-expanded", "false");
+          } else {
+            // Expand all
+            group.classList.remove("collapsed");
+            if (toggleBtn) toggleBtn.setAttribute("aria-expanded", "true");
+          }
+        });
+        
+        // Update button text
+        collapseBtn.textContent = anyExpanded ? "[+] Expand All" : "[-] Collapse All";
+        
+        // Save state
+        saveCollapsedState();
+      }
+
+      // Save collapsed state to localStorage
+      function saveCollapsedState() {
+        const chapterGroups = document.querySelectorAll(".chapter-group");
+        const state = {};
+        
+        chapterGroups.forEach(group => {
+          const toggleBtn = group.querySelector(".group-toggle");
+          if (toggleBtn && toggleBtn.dataset.chapterId) {
+            state[toggleBtn.dataset.chapterId] = group.classList.contains("collapsed");
+          }
+        });
+        
+        localStorage.setItem("sidebar-collapsed-state", JSON.stringify(state));
+      }
+
+      // Restore collapsed state from localStorage
+      function restoreCollapsedState() {
+        try {
+          const savedState = localStorage.getItem("sidebar-collapsed-state");
+          if (!savedState) return;
+          
+          const state = JSON.parse(savedState);
+          const chapterGroups = document.querySelectorAll(".chapter-group");
+          
+          chapterGroups.forEach(group => {
+            const toggleBtn = group.querySelector(".group-toggle");
+            if (toggleBtn && toggleBtn.dataset.chapterId) {
+              const chapterId = toggleBtn.dataset.chapterId;
+              if (state[chapterId] === true) {
+                group.classList.add("collapsed");
+                toggleBtn.setAttribute("aria-expanded", "false");
+              }
+            }
+          });
+          
+          // Update collapse-all button text
+          updateCollapseAllButtonText();
+        } catch (e) {
+          console.error("Failed to restore sidebar state:", e);
+        }
+      }
+
+      // Update collapse-all button text based on current state
+      function updateCollapseAllButtonText() {
+        const collapseBtn = document.getElementById("collapse-all-btn");
+        const chapterGroups = document.querySelectorAll(".chapter-group");
+        const anyExpanded = Array.from(chapterGroups).some(
+          group => !group.classList.contains("collapsed")
+        );
+        
+        if (collapseBtn) {
+          collapseBtn.textContent = anyExpanded ? "[-] Collapse All" : "[+] Expand All";
+        }
       }
 
       // Navigate to heading with smooth scroll
@@ -17935,6 +18191,12 @@
         updateActiveSection();
         initializeTooltips();
         initializeMobileMenu();
+        
+        // Collapse All button handler
+        const collapseAllBtn = document.getElementById('collapse-all-btn');
+        if (collapseAllBtn) {
+          collapseAllBtn.addEventListener('click', toggleAllChapters);
+        }
       });
 
       // Mobile Menu Toggle
