@@ -29,7 +29,7 @@ openspec new change "<change-name>"
 openspec status --change "<change-name>" --json
 openspec instructions <artifact-id> --change "<change-name>" --json
 openspec instructions apply --change "<change-name>" --json
-openspec validate --change "<change-name>"
+openspec validate "<change-name>" --strict
 ```
 
 The configuration is in `openspec/config.yaml`. The workflow commands are `/opsx:explore`, `/opsx:propose`, `/opsx:apply`, `/opsx:sync`, and `/opsx:archive`.
