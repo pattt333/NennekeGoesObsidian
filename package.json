@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "docsify serve vault",
     "pdf": "cd vault && docsify-pdf-converter",
-    "pdf:custom": "cd vault && docsify-pdf-converter --cover _coverpage.md"
+    "pdf:custom": "cd vault && docsify-pdf-converter --cover _coverpage.md",
+    "validate:links": "node scripts/vault-health-check.js",
+    "validate:orphans": "node scripts/find-orphaned-files.js"
   },
   "keywords": ["docsify", "documentation", "ttrpg"],
   "author": "",

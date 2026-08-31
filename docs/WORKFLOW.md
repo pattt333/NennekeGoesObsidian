@@ -9,7 +9,7 @@ This guide explains our standard workflow for collaborating on the TTRPG ruleboo
 1. **Pull** latest changes
 2. **Edit** rules in Obsidian
 3. **Commit & Push** your changes
-4. **Use Discord bot** to search or notify others
+4. **Notify collaborators** about significant changes
 
 ---
 
@@ -98,26 +98,10 @@ This automatically pulls, commits, and pushes in one step.
 
 ---
 
-### Step 4: Use Discord Bot to Search or Notify Others
+### Step 4: Notify Collaborators
 
-After pushing your changes, you can use our Discord bot to:
+After pushing your changes, let the group know about significant updates.
 
-**Look up a rule quickly:**
-```
-!rules find rules/combat/initiative
-```
-
-**Sync the bot with latest changes:**
-```
-!rules sync
-```
-
-**See recent changes:**
-```
-!rules status
-```
-
-**Notify the group:**
 Post a message in the Discord channel to let others know what you changed:
 > "Hey everyone, I just added rules for surprise rounds in combat. Check out `rules/combat/initiative` for details!"
 
@@ -158,7 +142,7 @@ Two people edited the same lines. Ask for help from someone experienced with Git
 
 ### "Push rejected"
 You need to pull first:
-1. Run `!rules sync` or pull in Obsidian
+1. Pull in Obsidian or run `git pull`
 2. Then try pushing again
 
 ---

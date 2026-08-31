@@ -1,10 +1,10 @@
 # NennekeObsidian
 # TTRPG Rulebook System
-**Central Git repo for our shared Obsidian vault and Discord bot.**
+**Central Git repository for our shared Obsidian vault and its web view.**
 - `./vault/` - The main Obsidian vault (Markdown files)
-- `./discord-bot/` - Node.js bot for Discord commands
 - `./scripts/` - Utility scripts for sync, backup, etc.
 - `./docs/` - Documentation and deployment configurations
+- `./openspec/` - Specifications and change proposals for significant work
 
 ## Web View with Docsify
 

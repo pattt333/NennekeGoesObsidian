@@ -1,0 +1,32 @@
+schema: spec-driven
+
+context: |
+    **NennekeObsidian** — a shared Obsidian vault for a TTRPG rulebook, with a Docsify web view.
+
+    **Content**: Markdown in `vault/`, including Obsidian wikilinks.
+    **Tooling**: Node.js utility scripts in `scripts/`; deployment and contributor documentation in `docs/`.
+    **Validation**: Run `npm run validate:links` after Markdown, link, or navigation changes. Run `npm run validate:orphans` when adding or moving vault content. Preview affected Docsify pages with `npm run serve` when presentation changes.
+
+    **Repository conventions**:
+    - Preserve the existing language and TTRPG terminology in each file.
+    - Keep paths and Obsidian wikilinks valid when content is moved or renamed.
+    - Avoid committing personal `.obsidian/workspace.json` changes or unrelated work.
+    - After required validation passes, automatically commit task-scoped changes with a concise imperative Conventional Commit message.
+
+rules:
+    proposal:
+        - 'State whether the change adds, modifies, removes, or reorganizes content or tooling'
+        - 'Identify the vault sections, scripts, deployment files, and documentation affected'
+        - "Include a 'Validation Impact' section for user-facing content, navigation, or script changes"
+    design:
+        - "Include a 'Content and Link Impact' section for changes that add, move, rename, or remove vault files"
+        - "Include a 'Validation Strategy' section when the change affects links, navigation, Docsify presentation, or scripts"
+        - 'Describe migration or redirect handling when paths or wikilinks change'
+    specs:
+        - 'Use clear, testable SHALL requirements and WHEN/THEN scenarios'
+        - 'Describe observable reader or maintainer outcomes rather than implementation details alone'
+    tasks:
+        - 'Include a task to run npm run validate:links for Markdown, link, or navigation changes'
+        - 'Include a task to run npm run validate:orphans when vault content is added or moved'
+        - 'Include a focused manual Docsify preview task when presentation or navigation changes'
+        - 'Include a final task to review the scoped diff and automatically commit after validation passes'
