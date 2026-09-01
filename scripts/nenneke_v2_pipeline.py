@@ -188,7 +188,7 @@ def source_manifest(archive: Archive, labels: dict[str, dict[str, str]]) -> dict
 def source_only_markdown(archive: Archive) -> list[str]:
     mapped = {destination(source) for source in archive.converted_sources()}
     current: set[str] = set()
-    ignored_names = {"index.md", "_sidebar.md", "README.md", "00-Tag-Index.md"}
+    ignored_names = {"index.md", "_sidebar.md"}
     for path in VAULT.rglob("*.md"):
         relative = path.relative_to(VAULT)
         if path.name in ignored_names or any(part.startswith(".") for part in relative.parts):

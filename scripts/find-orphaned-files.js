@@ -18,7 +18,7 @@ const REPO_ROOT = path.dirname(SCRIPT_DIR);
 const VAULT_PATH = path.join(REPO_ROOT, 'vault');
 
 // Hub files that serve as entry points
-const HUB_FILES = ['index.md', '_sidebar.md', 'README.md'];
+const HUB_FILES = ['index.md', '_sidebar.md'];
 
 /**
  * Recursively finds all Markdown files in a directory
@@ -203,12 +203,8 @@ function main() {
   // Find orphaned files (files that exist but are not reachable)
   const allFiles = Array.from(linkMap.keys());
   const orphaned = allFiles.filter(file => {
-    // Exclude hub files themselves and special files
+    // Exclude hub files themselves
     if (HUB_FILES.includes(file)) {
-      return false;
-    }
-    // Exclude files starting with 00- (index files like Tag Index)
-    if (path.basename(file).startsWith('00-')) {
       return false;
     }
     return !reachable.has(file);

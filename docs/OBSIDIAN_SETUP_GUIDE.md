@@ -133,4 +133,4 @@ The Git plugin lets you sync changes directly from within Obsidian.
 
 ## Need Help?
 
-If you get stuck, reach out to the group on Discord. Someone will be happy to help!
+If you get stuck, contact the repository maintainer through the collaboration channel agreed for your project.
