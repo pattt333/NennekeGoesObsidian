@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.lied-des-wanderers
+title: "Lied_des_Wanderers"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Lied_des_Wanderers.tex -->
 
 ### Gespür des Dolches

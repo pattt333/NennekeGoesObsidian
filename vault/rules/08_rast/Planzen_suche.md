@@ -1,3 +1,10 @@
+---
+id: rule.rast.planzen-suche
+title: "Planzen_suche"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/Planzen_suche.tex -->
 
 ## Suche nach Pflanzen

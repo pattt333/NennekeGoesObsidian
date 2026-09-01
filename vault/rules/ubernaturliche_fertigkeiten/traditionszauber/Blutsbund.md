@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.blutsbund
+title: "Blutsbund"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Blutsbund.tex -->
 
 ### Gespür des Dolches

@@ -1,3 +1,10 @@
+---
+id: rule.rast.stoff
+title: "stoff"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/stoff.tex -->
 
 ## Stoffbearbeitung

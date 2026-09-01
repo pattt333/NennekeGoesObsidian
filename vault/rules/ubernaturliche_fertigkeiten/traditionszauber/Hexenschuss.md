@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.hexenschuss
+title: "Hexenschuss"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Hexenschuss.tex -->
 
 ### Gespür des Dolches

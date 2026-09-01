@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.macht-der-luft
+title: "Macht_der_Luft"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Macht_der_Luft.tex -->
 
 ### Gespür des Dolches

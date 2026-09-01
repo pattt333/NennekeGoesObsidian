@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.weg-durch-sumus-leib
+title: "Weg_durch_Sumus_Leib"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Weg_durch_Sumus_Leib.tex -->
 
 ### Gespür des Dolches

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.wesen-des-tieres
+title: "Wesen_des_tieres"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Wesen_des_tieres.tex -->
 
 ### Gespür des Dolches

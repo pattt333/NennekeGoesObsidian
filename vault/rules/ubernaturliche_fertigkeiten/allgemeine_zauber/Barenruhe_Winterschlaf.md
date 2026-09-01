@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.barenruhe-winterschlaf
+title: "Barenruhe_Winterschlaf"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Barenruhe_Winterschlaf.tex -->
 
 <a id="subsubsec-z-barenruhewinterschlaf"></a>

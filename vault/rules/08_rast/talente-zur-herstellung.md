@@ -1,3 +1,10 @@
+---
+id: rule.rast.talente-zur-herstellung
+title: "talente-zur-herstellung"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/talente-zur-herstellung.tex -->
 
 ## Talente zur Herstellung von Gegenständen

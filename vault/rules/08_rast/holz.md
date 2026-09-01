@@ -1,3 +1,10 @@
+---
+id: rule.rast.holz
+title: "holz"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/holz.tex -->
 
 ## Holzbearbeitung

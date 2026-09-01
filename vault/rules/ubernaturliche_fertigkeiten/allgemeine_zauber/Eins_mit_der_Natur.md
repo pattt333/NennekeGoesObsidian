@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.eins-mit-der-natur
+title: "Eins_mit_der_Natur"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Eins_mit_der_Natur.tex -->
 
 <a id="subsubsec-z-einsmitdernatur"></a>

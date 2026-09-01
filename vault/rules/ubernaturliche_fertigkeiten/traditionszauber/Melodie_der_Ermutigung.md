@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.melodie-der-ermutigung
+title: "Melodie_der_Ermutigung"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Melodie_der_Ermutigung.tex -->
 
 ### Gespür des Dolches

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.memorabia
+title: "Memorabia"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Memorabia.tex -->
 
 <a id="subsubsec-z-memorabia"></a>

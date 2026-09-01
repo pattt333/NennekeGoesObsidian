@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.herbeirufung-des-feuers
+title: "Herbeirufung_des_Feuers"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Herbeirufung_des_Feuers.tex -->
 
 <a id="subsubsec-z-herbeirufunghumus"></a>

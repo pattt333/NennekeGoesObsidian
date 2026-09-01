@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.aufmerksamer-wachter
+title: "Aufmerksamer_Wachter"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Aufmerksamer_Wachter.tex -->
 
 ### Aufmerksamer Wächter

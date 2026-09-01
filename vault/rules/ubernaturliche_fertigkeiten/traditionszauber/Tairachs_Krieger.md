@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.tairachs-krieger
+title: "Tairachs_Krieger"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Tairachs_Krieger.tex -->
 
 ### Gespür des Dolches

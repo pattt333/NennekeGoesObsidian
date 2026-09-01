@@ -1,3 +1,10 @@
+---
+id: rule.kampf.kampfmanover.fernkampf-basismanover
+title: "Fernkampf_Basismanover"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/kampfmanover/Fernkampf_Basismanover.tex -->
 
 <a id="subsec-fernkampfbasismanover"></a>

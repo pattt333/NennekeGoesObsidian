@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.super-vorteile.uebernatuerliche-stile
+title: "Uebernatuerliche_Stile"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Super_Vorteile/Uebernatuerliche_Stile.tex -->
 
 ### Übernatürliche Stile

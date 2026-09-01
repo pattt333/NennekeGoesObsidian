@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.tauschrausch
+title: "Tauschrausch"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Tauschrausch.tex -->
 
 ### Tauschrausch

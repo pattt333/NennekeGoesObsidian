@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.chrononautus-zeitenfahrt
+title: "Chrononautus_Zeitenfahrt"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Chrononautus_Zeitenfahrt.tex -->
 
 <a id="subsubsec-z-chrononautos"></a>

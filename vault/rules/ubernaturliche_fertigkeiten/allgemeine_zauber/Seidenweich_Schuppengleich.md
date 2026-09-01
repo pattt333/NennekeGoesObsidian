@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.seidenweich-schuppengleich
+title: "Seidenweich_Schuppengleich"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Seidenweich_Schuppengleich.tex -->
 
 ### Seidenweich Schuppengleich

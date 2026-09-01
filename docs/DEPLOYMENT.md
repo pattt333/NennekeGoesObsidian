@@ -68,11 +68,19 @@ Use the repository scripts to update and back up the vault. Before deploying a c
 
 ```bash
 npm run validate:links
+npm run validate:metadata
+npm run validate:orphans
 ./scripts/backup-vault.sh
 ./scripts/sync-vault.sh
 ```
 
 Review `docs/MAINTENANCE.md` for the full maintenance-script reference.
+
+## PDF-Ausgabe
+
+Nach jedem Push auf main erstellt GitHub Actions die Regelbuch-PDF und stellt sie ausschließlich als Workflow-Artefakt Nenneke-PDF bereit. Es wird kein Release und keine PDF-Datei im Repository erzeugt. Lokal ist dieselbe Ausgabe mit `npm run pdf` möglich; sie benötigt Pandoc und Typst.
+
+Zum Herunterladen öffnest du im GitHub-Repository den Reiter Actions, wählst den erfolgreichen Lauf Regelbuch-PDF und lädst im Abschnitt Artifacts das Paket Nenneke-PDF herunter. Es enthält build/Nenneke.pdf.
 
 ## Troubleshooting
 

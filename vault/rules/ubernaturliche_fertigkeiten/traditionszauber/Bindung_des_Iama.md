@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.bindung-des-iama
+title: "Bindung_des_Iama"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Bindung_des_Iama.tex -->
 
 ### Bindung des Dolches

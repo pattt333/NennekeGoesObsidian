@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.super-vorteile.super-vorteile
+title: "Super_Vorteile"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Super_Vorteile/Super_Vorteile.tex -->
 
 ## Übernatürliche Vorteile

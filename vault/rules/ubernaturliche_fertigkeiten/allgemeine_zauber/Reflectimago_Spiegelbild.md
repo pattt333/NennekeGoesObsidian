@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.reflectimago-spiegelbild
+title: "Reflectimago_Spiegelbild"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Reflectimago_Spiegelbild.tex -->
 
 ### Reflectimago Spiegelschein

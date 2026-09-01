@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.tanz-der-ermutigung
+title: "Tanz_der_Ermutigung"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Tanz_der_Ermutigung.tex -->
 
 ### Gespür des Dolches

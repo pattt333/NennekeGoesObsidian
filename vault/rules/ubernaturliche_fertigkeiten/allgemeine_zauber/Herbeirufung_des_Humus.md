@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.herbeirufung-des-humus
+title: "Herbeirufung_des_Humus"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Herbeirufung_des_Humus.tex -->
 
 <a id="subsubsec-z-herbeirufungluft"></a>

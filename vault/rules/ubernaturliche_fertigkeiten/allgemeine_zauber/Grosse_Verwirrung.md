@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.grosse-verwirrung
+title: "Grosse_Verwirrung"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Grosse_Verwirrung.tex -->
 
 <a id="subsubsec-z-grosseverwirrung"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.anhang.appendix-a
+title: "Anhang"
+type: rule
+tags:
+  - anhang
+---
 <!-- Source: Chapters/Anhang/Appendix_A.tex -->
 
 # Anhang

@@ -1,3 +1,10 @@
+---
+id: rule.fertigkeiten.1-kampffertgikeiten
+title: "04_1_Kampffertgikeiten"
+type: rule
+tags:
+  - fertigkeiten
+---
 <!-- Source: Chapters/04_Fertigkeiten/04_1_Kampffertgikeiten.tex -->
 
 <a id="sec-kampffertigkeiten"></a>

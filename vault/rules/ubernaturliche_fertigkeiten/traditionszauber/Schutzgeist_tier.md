@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.schutzgeist-tier
+title: "Schutzgeist_tier"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Schutzgeist_tier.tex -->
 
 ### Gespür des Dolches

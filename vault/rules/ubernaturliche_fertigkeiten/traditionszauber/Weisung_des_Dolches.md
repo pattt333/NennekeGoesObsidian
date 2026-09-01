@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.weisung-des-dolches
+title: "Weisung_des_Dolches"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Weisung_des_Dolches.tex -->
 
 ### Gespür des Dolches

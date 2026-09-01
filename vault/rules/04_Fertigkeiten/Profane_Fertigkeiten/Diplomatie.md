@@ -1,3 +1,10 @@
+---
+id: rule.fertigkeiten.profane-fertigkeiten.diplomatie
+title: "Diplomatie"
+type: rule
+tags:
+  - fertigkeiten
+---
 <!-- Source: Chapters/04_Fertigkeiten/Profane_Fertigkeiten/Diplomatie.tex -->
 
 <a id="subsec-diplomatie"></a>

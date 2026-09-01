@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.caldofrigo-heiss-und-kalt
+title: "Caldofrigo_heiss_und_kalt"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Caldofrigo_heiss_und_kalt.tex -->
 
 <a id="subsubsec-z-caldofrigo"></a>

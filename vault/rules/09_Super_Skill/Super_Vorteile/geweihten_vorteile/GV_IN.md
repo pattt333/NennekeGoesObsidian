@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.super-vorteile.geweihten-vorteile.gv-in
+title: "GV_IN"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Super_Vorteile/geweihten_vorteile/GV_IN.tex -->
 
 | **Voraussetzung** | **IN** |

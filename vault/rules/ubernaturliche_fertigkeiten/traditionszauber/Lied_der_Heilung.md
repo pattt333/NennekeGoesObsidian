@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.lied-der-heilung
+title: "Lied_der_Heilung"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Lied_der_Heilung.tex -->
 
 ### Gespür des Dolches

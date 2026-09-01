@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.krabbelnder-schrecken
+title: "Krabbelnder_Schrecken"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Krabbelnder_Schrecken.tex -->
 
 <a id="subsubsec-z-krabbelnder"></a>

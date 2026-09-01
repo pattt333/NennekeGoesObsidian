@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.blick-aufs-wesen
+title: "Blick_aufs_Wesen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Blick_aufs_Wesen.tex -->
 
 <a id="subsubsec-z-blickaufswesen"></a>

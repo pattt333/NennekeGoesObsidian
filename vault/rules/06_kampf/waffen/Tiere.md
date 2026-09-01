@@ -1,3 +1,10 @@
+---
+id: rule.kampf.waffen.tiere
+title: "Tiere"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/waffen/Tiere.tex -->
 
 <a id="subsec-tiere"></a>

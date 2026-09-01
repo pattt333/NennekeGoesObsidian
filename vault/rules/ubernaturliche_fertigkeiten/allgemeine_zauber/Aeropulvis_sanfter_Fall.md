@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.aeropulvis-sanfter-fall
+title: "Aeropulvis_sanfter_Fall"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Aeropulvis_sanfter_Fall.tex -->
 
 <a id="subsubsec-z-aeropulvis-sanfter-fall"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.rhythmen-der-jagd
+title: "Rhythmen_der_Jagd"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Rhythmen_der_Jagd.tex -->
 
 ### Gespür des Dolches

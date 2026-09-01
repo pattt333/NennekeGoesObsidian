@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.animatio-stummer-diener
+title: "Animatio_stummer_Diener"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Animatio_stummer_Diener.tex -->
 
 <a id="subsubsec-z-animatio"></a>

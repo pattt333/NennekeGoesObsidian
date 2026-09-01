@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.kv-kl
+title: "KV_KL"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/KV_KL.tex -->
 
 ### KL-Vorteile

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.tanz-der-unantastbarkeit
+title: "Tanz_der_Unantastbarkeit"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Tanz_der_Unantastbarkeit.tex -->
 
 ### Gespür des Dolches

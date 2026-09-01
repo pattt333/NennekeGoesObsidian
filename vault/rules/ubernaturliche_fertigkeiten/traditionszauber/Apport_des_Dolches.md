@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.apport-des-dolches
+title: "Apport_des_Dolches"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Apport_des_Dolches.tex -->
 
 <a id="subsubsec-z-apportdolch"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.fertigkeiten.profane-fertigkeiten.selbstbeherrschung
+title: "Selbstbeherrschung"
+type: rule
+tags:
+  - fertigkeiten
+---
 <!-- Source: Chapters/04_Fertigkeiten/Profane_Fertigkeiten/Selbstbeherrschung.tex -->
 
 <a id="subsec-selbstbeherrschung"></a>

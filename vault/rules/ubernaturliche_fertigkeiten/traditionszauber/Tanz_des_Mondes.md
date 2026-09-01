@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.tanz-des-mondes
+title: "Tanz_des_Mondes"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Tanz_des_Mondes.tex -->
 
 ### Gespür des Dolches

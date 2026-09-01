@@ -1,3 +1,10 @@
+---
+id: rule.fertigkeiten.profane-fertigkeiten.fortbewegungsmittel
+title: "Fortbewegungsmittel"
+type: rule
+tags:
+  - fertigkeiten
+---
 <!-- Source: Chapters/04_Fertigkeiten/Profane_Fertigkeiten/Fortbewegungsmittel.tex -->
 
 <a id="subsec-fortbewegungsmittel"></a>

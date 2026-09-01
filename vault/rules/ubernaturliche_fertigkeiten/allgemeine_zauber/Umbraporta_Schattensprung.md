@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.umbraporta-schattensprung
+title: "Umbraporta_Schattensprung"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Umbraporta_Schattensprung.tex -->
 
 ### Umbraporta Schattensprung

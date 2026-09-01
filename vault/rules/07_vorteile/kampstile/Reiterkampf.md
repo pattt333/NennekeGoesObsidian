@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampstile.reiterkampf
+title: "Reiterkampf"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampstile/Reiterkampf.tex -->
 
 <a id="ks-reiterkampf"></a>

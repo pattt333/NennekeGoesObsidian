@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.aerofugo-vakuum
+title: "Aerofugo_Vakuum"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Aerofugo_Vakuum.tex -->
 
 <a id="subsubsec-z-aerofugo"></a>

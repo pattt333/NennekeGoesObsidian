@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-zwergennase
+title: "AV_Zwergennase"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Zwergennase.tex -->
 
 <a id="subsec-av-zwergennase"></a>

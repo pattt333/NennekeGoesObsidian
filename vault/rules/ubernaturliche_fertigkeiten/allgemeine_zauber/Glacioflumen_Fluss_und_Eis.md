@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.glacioflumen-fluss-und-eis
+title: "Glacioflumen_Fluss_und_Eis"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Glacioflumen_Fluss_und_Eis.tex -->
 
 <a id="subsubsec-z-glacioflumen"></a>

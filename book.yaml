@@ -1,0 +1,14 @@
+book:
+  entrypoint: vault/book/index.md
+
+output:
+  file: build/Nenneke.pdf
+  title: Nenneke
+
+pandoc:
+  toc: true
+  number_sections: true
+  pdf_engine: typst
+
+resources:
+  - vault

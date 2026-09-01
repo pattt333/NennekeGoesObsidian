@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.axxeleratus-bliutzgeschwind
+title: "Axxeleratus_Bliutzgeschwind"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Axxeleratus_Bliutzgeschwind.tex -->
 
 <a id="subsubsec-z-axxeleratus"></a>

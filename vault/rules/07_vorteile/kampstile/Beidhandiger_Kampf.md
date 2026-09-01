@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampstile.beidhandiger-kampf
+title: "Beidhandiger_Kampf"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampstile/Beidhandiger_Kampf.tex -->
 
 | **Voraussetzung** | **Beihändiger Kampf(GE)** |

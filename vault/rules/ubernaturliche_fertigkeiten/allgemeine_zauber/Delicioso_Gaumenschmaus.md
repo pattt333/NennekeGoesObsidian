@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.delicioso-gaumenschmaus
+title: "Delicioso_Gaumenschmaus"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Delicioso_Gaumenschmaus.tex -->
 
 <a id="subsubsec-z-delicioso"></a>

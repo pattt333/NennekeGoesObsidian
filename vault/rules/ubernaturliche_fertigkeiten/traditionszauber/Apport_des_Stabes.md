@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.apport-des-stabes
+title: "Apport_des_Stabes"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Apport_des_Stabes.tex -->
 
 ### Apport des Stabes

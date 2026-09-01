@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.foramen-foraminor
+title: "Foramen_Foraminor"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Foramen_Foraminor.tex -->
 
 <a id="subsubsec-z-foramen"></a>

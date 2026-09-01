@@ -1,3 +1,10 @@
+---
+id: rule.fertigkeiten.profane-fertigkeiten.arkane-kunste
+title: "Arkane_Kunste"
+type: rule
+tags:
+  - fertigkeiten
+---
 <!-- Source: Chapters/04_Fertigkeiten/Profane_Fertigkeiten/Arkane_Kunste.tex -->
 
 <a id="subsec-magiekunde"></a>

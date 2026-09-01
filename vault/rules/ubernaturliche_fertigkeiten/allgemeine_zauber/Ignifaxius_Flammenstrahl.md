@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.ignifaxius-flammenstrahl
+title: "Ignifaxius_Flammenstrahl"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Ignifaxius_Flammenstrahl.tex -->
 
 <a id="subsubsec-z-ignifaxius"></a>

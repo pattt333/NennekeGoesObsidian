@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.sensibar-empathicus
+title: "Sensibar_Empathicus"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Sensibar_Empathicus.tex -->
 
 ### Sensibar Empathicus

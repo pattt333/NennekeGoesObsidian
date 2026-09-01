@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.kugel-des-illusionisten
+title: "Kugel_des_Illusionisten"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Kugel_des_Illusionisten.tex -->
 
 ### Gespür des Dolches

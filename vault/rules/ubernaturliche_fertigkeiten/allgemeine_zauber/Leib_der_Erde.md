@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.leib-der-erde
+title: "Leib_der_Erde"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Leib_der_Erde.tex -->
 
 <a id="subsubsec-z-leiberde"></a>

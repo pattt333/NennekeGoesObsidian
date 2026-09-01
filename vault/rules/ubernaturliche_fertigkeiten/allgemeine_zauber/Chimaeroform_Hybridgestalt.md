@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.chimaeroform-hybridgestalt
+title: "Chimaeroform_Hybridgestalt"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Chimaeroform_Hybridgestalt.tex -->
 
 <a id="subsubsec-z-chimaeroform"></a>

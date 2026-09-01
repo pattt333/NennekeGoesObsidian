@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.brazoraghs-hieb
+title: "Brazoraghs_Hieb"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Brazoraghs_Hieb.tex -->
 
 ### Gespür des Dolches

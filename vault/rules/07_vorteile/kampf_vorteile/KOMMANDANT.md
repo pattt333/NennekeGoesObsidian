@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.kommandant
+title: "KOMMANDANT"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/KOMMANDANT.tex -->
 
 ### Kommandant

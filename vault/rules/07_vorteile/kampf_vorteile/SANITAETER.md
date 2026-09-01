@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.sanitaeter
+title: "SANITAETER"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/SANITAETER.tex -->
 
 ### Sanitäter

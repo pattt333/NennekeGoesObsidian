@@ -1,3 +1,10 @@
+---
+id: rule.rast.alchymie
+title: "Alchymie"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/Alchymie.tex -->
 
 ## Alchymie

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.antimagie.illusion-auflosen
+title: "Illusion_auflosen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/antimagie/Illusion_auflosen.tex -->
 
 <a id="subsubsec-z-illusionauflosen"></a>

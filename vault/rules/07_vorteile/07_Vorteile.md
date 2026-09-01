@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.vorteile
+title: "Vorteile"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/07_Vorteile.tex -->
 
 # Vorteile

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.macht-des-wassers
+title: "Macht_des_Wassers"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Macht_des_Wassers.tex -->
 
 ### Gespür des Dolches

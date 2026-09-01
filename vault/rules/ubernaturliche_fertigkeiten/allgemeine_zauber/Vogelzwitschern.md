@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.vogelzwitschern
+title: "Vogelzwitschern"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Vogelzwitschern.tex -->
 
 ### Vogelzwitschern Glockenspiel

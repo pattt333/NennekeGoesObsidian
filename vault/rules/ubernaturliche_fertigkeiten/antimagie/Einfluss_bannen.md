@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.antimagie.einfluss-bannen
+title: "Einfluss_bannen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/antimagie/Einfluss_bannen.tex -->
 
 <a id="subsubsec-z-einfluss"></a>

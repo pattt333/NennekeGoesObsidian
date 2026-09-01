@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-gefahreninstinkt
+title: "AV_Gefahreninstinkt"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Gefahreninstinkt.tex -->
 
 <a id="subsec-av-gefahreninstinkt"></a>

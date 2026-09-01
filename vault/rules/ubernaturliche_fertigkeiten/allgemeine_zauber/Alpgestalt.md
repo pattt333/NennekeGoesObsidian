@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.alpgestalt
+title: "Alpgestalt"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Alpgestalt.tex -->
 
 <a id="subsubsec-z-alpgestalt"></a>

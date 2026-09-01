@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.diplomat
+title: "DIPLOMAT"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/DIPLOMAT.tex -->
 
 ### Diplomat

@@ -1,3 +1,10 @@
+---
+id: rule.kampf.kampfmanover.basismanover
+title: "Basismanover"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/kampfmanover/Basismanover.tex -->
 
 <a id="subsec-nahkampfbasismanover"></a>

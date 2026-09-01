@@ -1,3 +1,10 @@
+---
+id: rule.kampf.kampf
+title: "Kampf"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/06_Kampf.tex -->
 
 # Kampf

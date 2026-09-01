@@ -1,3 +1,10 @@
+---
+id: rule.kampf.kampfmanover
+title: "Kampfmanover"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/Kampfmanover.tex -->
 
 <a id="sec-kampfmanover"></a>

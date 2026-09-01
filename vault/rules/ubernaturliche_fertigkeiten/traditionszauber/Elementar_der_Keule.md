@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.elementar-der-keule
+title: "Elementar_der_Keule"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Elementar_der_Keule.tex -->
 
 ### Gespür des Dolches

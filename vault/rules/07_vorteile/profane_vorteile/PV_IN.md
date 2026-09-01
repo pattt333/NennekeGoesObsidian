@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.profane-vorteile.pv-in
+title: "PV_IN"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/profane_vorteile/PV_IN.tex -->
 
 <a id="pv-in"></a>

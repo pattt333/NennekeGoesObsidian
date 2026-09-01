@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.komm-kobold
+title: "Komm_Kobold"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Komm_Kobold.tex -->
 
 <a id="subsubsec-z-kommkobold"></a>

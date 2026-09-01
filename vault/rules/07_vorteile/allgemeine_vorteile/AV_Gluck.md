@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-gluck
+title: "AV_Gluck"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Gluck.tex -->
 
 <a id="subsec-v-gluck"></a>

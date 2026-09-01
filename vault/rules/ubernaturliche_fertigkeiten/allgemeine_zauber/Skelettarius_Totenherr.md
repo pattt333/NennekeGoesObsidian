@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.skelettarius-totenherr
+title: "Skelettarius_Totenherr"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Skelettarius_Totenherr.tex -->
 
 ### Skelettarius Totenherr

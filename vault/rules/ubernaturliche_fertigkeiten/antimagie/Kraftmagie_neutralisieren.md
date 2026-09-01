@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.antimagie.kraftmagie-neutralisieren
+title: "Kraftmagie_neutralisieren"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/antimagie/Kraftmagie_neutralisieren.tex -->
 
 <a id="subsubsec-z-kraftmagieneutralisieren"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.bindung-des-vertrauten
+title: "Bindung_des_Vertrauten"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Bindung_des_Vertrauten.tex -->
 
 ### Bindung des Dolches

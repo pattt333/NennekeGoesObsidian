@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.dichter-und-denker
+title: "Dichter_und_Denker"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Dichter_und_Denker.tex -->
 
 <a id="subsubsec-z-dichter"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.schleier-der-unwissenheit
+title: "Schleier_der_Unwissenheit"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Schleier_der_Unwissenheit.tex -->
 
 ### Schleier der Unwissenheit

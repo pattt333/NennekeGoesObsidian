@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.zauberwesen-der-natur
+title: "Zauberwesen_der_Natur"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Zauberwesen_der_Natur.tex -->
 
 ### Zauberwesen der Natur

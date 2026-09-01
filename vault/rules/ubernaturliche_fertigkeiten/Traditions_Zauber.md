@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditions-zauber
+title: "Traditions_Zauber"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/Traditions_Zauber.tex -->
 
 <a id="sec-traditionszauber"></a>

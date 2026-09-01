@@ -1,3 +1,10 @@
+---
+id: rule.rast.stein
+title: "stein"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/stein.tex -->
 
 ## Steinbearbeitung

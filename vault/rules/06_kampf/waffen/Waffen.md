@@ -1,3 +1,10 @@
+---
+id: rule.kampf.waffen.waffen
+title: "Waffen"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/waffen/Waffen.tex -->
 
 <a id="sec-waffen"></a>

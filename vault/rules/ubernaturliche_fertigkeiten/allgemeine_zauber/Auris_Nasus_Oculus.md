@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.auris-nasus-oculus
+title: "Auris_Nasus_Oculus"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Auris_Nasus_Oculus.tex -->
 
 <a id="subsubsec-z-aurisnasusoculus"></a>

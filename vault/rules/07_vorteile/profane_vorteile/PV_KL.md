@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.profane-vorteile.pv-kl
+title: "PV_KL"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/profane_vorteile/PV_KL.tex -->
 
 <a id="pv-kl"></a>

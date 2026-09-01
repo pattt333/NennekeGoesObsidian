@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-tierempathie
+title: "AV_Tierempathie"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Tierempathie.tex -->
 
 <a id="subsec-av-tierempathie"></a>

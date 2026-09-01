@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.zorn-der-elemente
+title: "Zorn_der_Elemente"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Zorn_der_Elemente.tex -->
 
 ### Zorn der Elemente

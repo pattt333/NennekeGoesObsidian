@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.super-vorteile.geweihten-vorteile.gv-mu
+title: "GV_MU"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Super_Vorteile/geweihten_vorteile/GV_MU.tex -->
 
 | **Voraussetzung** | **MU** |

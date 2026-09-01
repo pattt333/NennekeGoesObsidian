@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.adlerauge-luchsenohr
+title: "Adlerauge_Luchsenohr"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Adlerauge_Luchsenohr.tex -->
 
 <a id="subsubsec-z-adlerauge"></a>

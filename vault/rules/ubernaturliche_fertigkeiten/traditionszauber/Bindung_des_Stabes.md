@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.bindung-des-stabes
+title: "Bindung_des_Stabes"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Bindung_des_Stabes.tex -->
 
 ### Bindung des Dolches

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.stimme-des-nipakau
+title: "Stimme_des_Nipakau"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Stimme_des_Nipakau.tex -->
 
 ### Gespür des Dolches

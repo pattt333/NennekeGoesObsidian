@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-reskalte
+title: "AV_ResKalte"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_ResKalte.tex -->
 
 <a id="subsec-av-resistenz-kalte"></a>

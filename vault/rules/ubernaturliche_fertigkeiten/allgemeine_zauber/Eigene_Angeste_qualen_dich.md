@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.eigene-angeste-qualen-dich
+title: "Eigene_Angeste_qualen_dich"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Eigene_Angeste_qualen_dich.tex -->
 
 <a id="subsubsec-z-eigeneangste"></a>

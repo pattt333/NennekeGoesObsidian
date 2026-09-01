@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.kugel-des-astrologen
+title: "Kugel_des_Astrologen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Kugel_des_Astrologen.tex -->
 
 ### Gespür des Dolches

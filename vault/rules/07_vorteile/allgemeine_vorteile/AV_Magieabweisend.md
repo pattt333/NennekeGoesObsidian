@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-magieabweisend
+title: "AV_Magieabweisend"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Magieabweisend.tex -->
 
 <a id="subsec-av-magieabweisend"></a>

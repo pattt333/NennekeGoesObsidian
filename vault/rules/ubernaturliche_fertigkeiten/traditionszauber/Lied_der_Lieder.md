@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.lied-der-lieder
+title: "Lied_der_Lieder"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Lied_der_Lieder.tex -->
 
 ### Gespür des Dolches

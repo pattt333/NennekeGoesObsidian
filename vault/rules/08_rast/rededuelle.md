@@ -1,3 +1,10 @@
+---
+id: rule.rast.rededuelle
+title: "rededuelle"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/rededuelle.tex -->
 
 <a id="sec-rededuelle"></a>

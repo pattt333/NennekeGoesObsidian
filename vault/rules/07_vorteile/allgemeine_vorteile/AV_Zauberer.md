@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-zauberer
+title: "AV_Zauberer"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Zauberer.tex -->
 
 <a id="subsec-av-zauberer"></a>

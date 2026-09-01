@@ -1,6 +1,6 @@
 # Nenneke
 
-Aktuelle, aus `NennekeV2.zip` erzeugte Regelwerksfassung.
+Aktuelle Regelwerksfassung. Die Markdown-Dateien dieses Vaults sind die maßgebliche Quelle.
 
 ## Regelbuch lesen
 

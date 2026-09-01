@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.grosse-geistheilung
+title: "Grosse_Geistheilung"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Grosse_Geistheilung.tex -->
 
 ### Gespür des Dolches

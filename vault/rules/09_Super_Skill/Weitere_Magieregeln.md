@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.weitere-magieregeln
+title: "Weitere_Magieregeln"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Weitere_Magieregeln.tex -->
 
 ## Weitere Magieregeln

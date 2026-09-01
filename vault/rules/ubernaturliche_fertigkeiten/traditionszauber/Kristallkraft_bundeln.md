@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.kristallkraft-bundeln
+title: "Kristallkraft_bundeln"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Kristallkraft_bundeln.tex -->
 
 ### Gespür des Dolches

@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-reshitze
+title: "AV_ResHitze"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_ResHitze.tex -->
 
 <a id="subsec-av-resistenz-hitze"></a>

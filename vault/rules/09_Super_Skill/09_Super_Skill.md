@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.super-skill
+title: "Übernatürliche Fähigkeiten"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/09_Super_Skill.tex -->
 
 # Übernatürliche Fähigkeiten

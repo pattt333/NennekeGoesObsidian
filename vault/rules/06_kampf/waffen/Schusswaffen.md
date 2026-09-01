@@ -1,3 +1,10 @@
+---
+id: rule.kampf.waffen.schusswaffen
+title: "Schusswaffen"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/waffen/Schusswaffen.tex -->
 
 <a id="subsec-schusswaffen"></a>

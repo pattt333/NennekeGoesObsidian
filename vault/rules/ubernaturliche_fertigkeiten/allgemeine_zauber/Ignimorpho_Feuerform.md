@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.ignimorpho-feuerform
+title: "Ignimorpho_Feuerform"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Ignimorpho_Feuerform.tex -->
 
 <a id="subsubsec-z-ignimorpho"></a>

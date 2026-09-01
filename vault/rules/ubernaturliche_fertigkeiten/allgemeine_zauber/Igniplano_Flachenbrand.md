@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.igniplano-flachenbrand
+title: "Igniplano_Flachenbrand"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Igniplano_Flachenbrand.tex -->
 
 <a id="subsubsec-z-igniplano"></a>

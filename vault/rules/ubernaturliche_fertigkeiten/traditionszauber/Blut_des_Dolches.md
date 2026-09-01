@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.blut-des-dolches
+title: "Blut_des_Dolches"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Blut_des_Dolches.tex -->
 
 ### Blut des Dolches (passiv)

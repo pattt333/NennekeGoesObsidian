@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.leib-des-erzes
+title: "Leib_des_Erzes"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Leib_des_Erzes.tex -->
 
 <a id="subsubsec-z-leiberz"></a>

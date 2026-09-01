@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.transmutation-der-elemente
+title: "Transmutation_der_Elemente"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Transmutation_der_Elemente.tex -->
 
 ### Gespür des Dolches

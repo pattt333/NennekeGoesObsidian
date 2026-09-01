@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.korperlose-reise
+title: "Korperlose_Reise"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Korperlose_Reise.tex -->
 
 <a id="subsubsec-z-korperlosereise"></a>

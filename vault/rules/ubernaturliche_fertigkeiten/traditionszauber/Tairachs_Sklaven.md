@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.tairachs-sklaven
+title: "Tairachs_Sklaven"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Tairachs_Sklaven.tex -->
 
 ### Gespür des Dolches

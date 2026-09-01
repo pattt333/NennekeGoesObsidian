@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.pfeil-des-humus
+title: "Pfeil_des_Humus"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Pfeil_des_Humus.tex -->
 
 ### Pfeil des Humus

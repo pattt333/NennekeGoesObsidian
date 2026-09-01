@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.super-vorteile.gemiensame-vorteile.sv-ko
+title: "SV_KO"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Super_Vorteile/gemiensame_vorteile/SV_KO.tex -->
 
 <a id="zv-ko"></a>

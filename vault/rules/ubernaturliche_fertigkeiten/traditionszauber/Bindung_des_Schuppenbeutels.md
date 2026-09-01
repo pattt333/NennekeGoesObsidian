@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.bindung-des-schuppenbeutels
+title: "Bindung_des_Schuppenbeutels"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Bindung_des_Schuppenbeutels.tex -->
 
 ### Bindung des Dolches

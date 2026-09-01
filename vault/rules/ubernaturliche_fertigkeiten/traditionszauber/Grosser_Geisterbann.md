@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.grosser-geisterbann
+title: "Grosser_Geisterbann"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Grosser_Geisterbann.tex -->
 
 ### Gespür des Dolches

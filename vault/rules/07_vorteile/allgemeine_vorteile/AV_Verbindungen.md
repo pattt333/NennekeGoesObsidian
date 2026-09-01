@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-verbindungen
+title: "AV_Verbindungen"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Verbindungen.tex -->
 
 <a id="subsec-av-verbindungen"></a>

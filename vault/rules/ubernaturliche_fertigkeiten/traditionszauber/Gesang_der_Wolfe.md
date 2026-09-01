@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.gesang-der-wolfe
+title: "Gesang_der_Wolfe"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Gesang_der_Wolfe.tex -->
 
 ### Gespür des Dolches

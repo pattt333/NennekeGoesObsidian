@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.miniatur-des-dolches
+title: "Miniatur_des_Dolches"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Miniatur_des_Dolches.tex -->
 
 ### Gespür des Dolches

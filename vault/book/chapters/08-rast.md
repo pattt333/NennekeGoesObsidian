@@ -1,0 +1,8 @@
+![[../../rules/08_rast/08_Rast.md]]
+![[../../rules/08_rast/talente-zur-herstellung.md]]
+![[../../rules/08_rast/Alchymie.md]]
+![[../../rules/08_rast/holz.md]]
+![[../../rules/08_rast/metal.md]]
+![[../../rules/08_rast/mechanik.md]]
+![[../../rules/08_rast/stein.md]]
+![[../../rules/08_rast/stoff.md]]

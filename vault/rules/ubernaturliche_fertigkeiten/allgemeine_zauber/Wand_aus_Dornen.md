@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.wand-aus-dornen
+title: "Wand_aus_Dornen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Wand_aus_Dornen.tex -->
 
 ### Wand aus Dornen

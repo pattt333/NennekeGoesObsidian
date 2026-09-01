@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.berserker
+title: "BERSERKER"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/BERSERKER.tex -->
 
 ### Berserker

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.schutz-der-jurte
+title: "Schutz_der_Jurte"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Schutz_der_Jurte.tex -->
 
 ### Gespür des Dolches

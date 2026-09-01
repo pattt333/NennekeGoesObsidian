@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.frigisphaero
+title: "Frigisphaero"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Frigisphaero.tex -->
 
 <a id="subsubsec-z-frigisphaero"></a>

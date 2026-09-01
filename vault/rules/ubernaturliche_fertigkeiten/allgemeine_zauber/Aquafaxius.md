@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.aquafaxius
+title: "Aquafaxius"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Aquafaxius.tex -->
 
 <a id="subsubsec-z-aquafaxius"></a>

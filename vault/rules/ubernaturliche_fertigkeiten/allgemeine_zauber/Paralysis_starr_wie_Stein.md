@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.paralysis-starr-wie-stein
+title: "Paralysis_starr_wie_Stein"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Paralysis_starr_wie_Stein.tex -->
 
 ### Paralysis starr wie Stein

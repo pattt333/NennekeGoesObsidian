@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.melodie-der-verwirrung
+title: "Melodie_der_Verwirrung"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Melodie_der_Verwirrung.tex -->
 
 ### Gespür des Dolches

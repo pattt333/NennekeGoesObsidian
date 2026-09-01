@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.kugel-des-hellsehers
+title: "Kugel_des_Hellsehers"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Kugel_des_Hellsehers.tex -->
 
 ### Gespür des Dolches

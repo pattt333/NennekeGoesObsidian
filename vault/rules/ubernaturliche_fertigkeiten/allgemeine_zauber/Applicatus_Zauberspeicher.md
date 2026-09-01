@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.applicatus-zauberspeicher
+title: "Applicatus_Zauberspeicher"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Applicatus_Zauberspeicher.tex -->
 
 <a id="subsubsec-z-applicatus"></a>

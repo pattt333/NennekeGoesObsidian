@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.apport-des-iama
+title: "Apport_des_Iama"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Apport_des_Iama.tex -->
 
 <a id="subsubsec-z-apportiama"></a>

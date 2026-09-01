@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.odem-arcanum
+title: "Odem_Arcanum"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Odem_Arcanum.tex -->
 
 <a id="subsubsec-z-odemarcanum"></a>

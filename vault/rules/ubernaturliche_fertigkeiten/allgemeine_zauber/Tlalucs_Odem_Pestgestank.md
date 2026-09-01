@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.tlalucs-odem-pestgestank
+title: "Tlalucs_Odem_Pestgestank"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Tlalucs_Odem_Pestgestank.tex -->
 
 ### Tlalucs Odem Pestgestank

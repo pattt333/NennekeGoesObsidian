@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.verletzung-der-miniatur
+title: "Verletzung_der_Miniatur"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Verletzung_der_Miniatur.tex -->
 
 ### Gespür des Dolches

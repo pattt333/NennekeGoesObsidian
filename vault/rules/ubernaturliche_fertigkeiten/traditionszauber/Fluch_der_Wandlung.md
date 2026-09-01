@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.fluch-der-wandlung
+title: "Fluch_der_Wandlung"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Fluch_der_Wandlung.tex -->
 
 ### Gespür des Dolches

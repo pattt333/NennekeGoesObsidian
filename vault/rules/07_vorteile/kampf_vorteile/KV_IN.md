@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.kv-in
+title: "KV_IN"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/KV_IN.tex -->
 
 ### IN-Vorteile

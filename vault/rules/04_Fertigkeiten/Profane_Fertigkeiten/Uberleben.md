@@ -1,3 +1,10 @@
+---
+id: rule.fertigkeiten.profane-fertigkeiten.uberleben
+title: "Uberleben"
+type: rule
+tags:
+  - fertigkeiten
+---
 <!-- Source: Chapters/04_Fertigkeiten/Profane_Fertigkeiten/Uberleben.tex -->
 
 <a id="subsec-uberleben"></a>

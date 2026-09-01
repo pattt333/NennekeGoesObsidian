@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.letzter-ausweg
+title: "Letzter_Ausweg"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Letzter_Ausweg.tex -->
 
 ### Gespür des Dolches

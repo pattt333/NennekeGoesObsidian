@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.ungesehener-beobachter
+title: "Ungesehener_Beobachter"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Ungesehener_Beobachter.tex -->
 
 ### Gespür des Dolches

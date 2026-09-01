@@ -1,3 +1,10 @@
+---
+id: rule.rast.mechanik
+title: "mechanik"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/mechanik.tex -->
 
 ## Mechanik

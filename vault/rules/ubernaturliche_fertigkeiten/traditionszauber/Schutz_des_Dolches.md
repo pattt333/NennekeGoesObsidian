@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.schutz-des-dolches
+title: "Schutz_des_Dolches"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Schutz_des_Dolches.tex -->
 
 ### Gespür des Dolches

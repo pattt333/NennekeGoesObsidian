@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.projektimago-ebenbild
+title: "Projektimago_Ebenbild"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Projektimago_Ebenbild.tex -->
 
 ### Projektimago Ebenbild

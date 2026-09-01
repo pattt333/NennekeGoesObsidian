@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampstile.schusswaffenkampf
+title: "Schusswaffenkampf"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampstile/Schusswaffenkampf.tex -->
 
 | **Voraussetzung** | **Schusswaffenkampf(FF)** |

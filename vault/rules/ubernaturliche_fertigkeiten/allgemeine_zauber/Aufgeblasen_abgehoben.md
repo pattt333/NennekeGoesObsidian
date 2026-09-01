@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.aufgeblasen-abgehoben
+title: "Aufgeblasen_abgehoben"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Aufgeblasen_abgehoben.tex -->
 
 <a id="subsubsec-z-aufgeblasen"></a>

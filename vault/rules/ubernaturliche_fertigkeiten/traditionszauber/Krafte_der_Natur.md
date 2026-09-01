@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.krafte-der-natur
+title: "Krafte_der_Natur"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Krafte_der_Natur.tex -->
 
 ### Gespür des Dolches

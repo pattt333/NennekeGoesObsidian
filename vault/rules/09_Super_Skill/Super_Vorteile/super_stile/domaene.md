@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.super-vorteile.super-stile.domaene
+title: "domaene"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Super_Vorteile/super_stile/domaene.tex -->
 
 <a id="stil-spezialist"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.schildwache
+title: "SCHILDWACHE"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/SCHILDWACHE.tex -->
 
 ### Schildwache

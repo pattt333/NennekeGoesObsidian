@@ -1,3 +1,10 @@
+---
+id: rule.kampf.haupt-nebenwaffen
+title: "Haupt_Nebenwaffen"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/Haupt_Nebenwaffen.tex -->
 
 <a id="sec-hauptnebenwaffen"></a>

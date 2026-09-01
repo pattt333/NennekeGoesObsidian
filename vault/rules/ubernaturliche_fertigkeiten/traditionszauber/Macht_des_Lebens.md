@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.macht-des-lebens
+title: "Macht_des_Lebens"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Macht_des_Lebens.tex -->
 
 ### Gespür des Dolches

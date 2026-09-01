@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.angste-lindern
+title: "Angste_Lindern"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Angste_Lindern.tex -->
 
 <a id="subsubsec-z-angestlindern"></a>

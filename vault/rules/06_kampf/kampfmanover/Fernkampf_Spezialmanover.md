@@ -1,3 +1,10 @@
+---
+id: rule.kampf.kampfmanover.fernkampf-spezialmanover
+title: "Fernkampf_Spezialmanover"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/kampfmanover/Fernkampf_Spezialmanover.tex -->
 
 <a id="subsec-fernkampfspezialmanover"></a>

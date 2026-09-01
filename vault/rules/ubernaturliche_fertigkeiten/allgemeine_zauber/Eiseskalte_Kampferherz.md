@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.eiseskalte-kampferherz
+title: "Eiseskalte_Kampferherz"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Eiseskalte_Kampferherz.tex -->
 
 <a id="subsubsec-z-eiseskalte"></a>

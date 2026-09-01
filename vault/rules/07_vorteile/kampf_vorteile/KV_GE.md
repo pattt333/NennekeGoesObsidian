@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.kv-ge
+title: "KV_GE"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/KV_GE.tex -->
 
 ### GE-Vorteile

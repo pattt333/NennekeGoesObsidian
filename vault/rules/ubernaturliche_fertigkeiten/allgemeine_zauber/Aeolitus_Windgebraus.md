@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.aeolitus-windgebraus
+title: "Aeolitus_Windgebraus"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Aeolitus_Windgebraus.tex -->
 
 <a id="subsubsec-z-aeolitus"></a>

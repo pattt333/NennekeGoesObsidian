@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.erinnerungsmelodie
+title: "Erinnerungsmelodie"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Erinnerungsmelodie.tex -->
 
 ### Gespür des Dolches

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.dinge-aufspuren
+title: "Dinge_aufspuren"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Dinge_aufspuren.tex -->
 
 ### Gespür des Dolches

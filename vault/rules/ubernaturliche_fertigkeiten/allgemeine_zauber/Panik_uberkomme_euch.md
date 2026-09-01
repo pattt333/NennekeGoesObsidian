@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.panik-uberkomme-euch
+title: "Panik_uberkomme_euch"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Panik_uberkomme_euch.tex -->
 
 <a id="subsubsec-z-panikuberkomme"></a>

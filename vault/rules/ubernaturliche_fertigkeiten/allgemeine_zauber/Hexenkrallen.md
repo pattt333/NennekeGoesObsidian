@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.hexenkrallen
+title: "Hexenkrallen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Hexenkrallen.tex -->
 
 <a id="subsubsec-z-hexenkrallen"></a>

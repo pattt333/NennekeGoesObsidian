@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.korper-des-blutgeistes
+title: "Korper_des_Blutgeistes"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Korper_des_Blutgeistes.tex -->
 
 ### Gespür des Dolches

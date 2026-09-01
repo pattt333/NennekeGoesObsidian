@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.ignisphaero
+title: "Ignisphaero"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Ignisphaero.tex -->
 
 <a id="subsubsec-z-ignisphaero"></a>

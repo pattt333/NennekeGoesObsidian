@@ -33,4 +33,4 @@ npm run serve
 
 ## Für Mitwirkende
 
-Das Regelwerk wird aus `NennekeV2.zip` erzeugt. Hinweise zur Konvertierung und Pflege stehen in [docs/NENNEKE_V2_CONVERSION.md](docs/NENNEKE_V2_CONVERSION.md) und [docs/MAINTENANCE.md](docs/MAINTENANCE.md).
+Markdown im Verzeichnis [vault/](vault/) ist die alleinige Quelle des Regelbuchs. Den Schreibstandard, IDs, Querverweise und den PDF-Build beschreibt die [Autor*innenanleitung](docs/MARKDOWN_AUTHORING.md). Laufende Pflege- und Prüfhinweise stehen in [docs/MAINTENANCE.md](docs/MAINTENANCE.md).

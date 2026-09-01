@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.aufpeitschender-klang
+title: "Aufpeitschender_Klang"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Aufpeitschender_Klang.tex -->
 
 ### Aufpeitschender Klang

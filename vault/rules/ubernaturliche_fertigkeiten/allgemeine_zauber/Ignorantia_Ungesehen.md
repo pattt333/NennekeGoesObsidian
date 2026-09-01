@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.ignorantia-ungesehen
+title: "Ignorantia_Ungesehen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Ignorantia_Ungesehen.tex -->
 
 <a id="subsubsec-z-ignorantia"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.blick-in-die-vergangenheit
+title: "Blick_in_die_Vergangenheit"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Blick_in_die_Vergangenheit.tex -->
 
 <a id="subsubsec-z-blickindievergangenheit"></a>

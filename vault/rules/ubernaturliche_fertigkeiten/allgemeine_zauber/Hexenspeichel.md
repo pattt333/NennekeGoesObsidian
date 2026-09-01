@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.hexenspeichel
+title: "Hexenspeichel"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Hexenspeichel.tex -->
 
 <a id="subsubsec-z-hexenspeichel"></a>

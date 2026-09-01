@@ -1,3 +1,10 @@
+---
+id: rule.eigenschaften
+title: "Eigenschaften"
+type: rule
+tags:
+  - eigenschaften-md
+---
 <!-- Source: Chapters/03_Eigenschaften.tex -->
 
 # Eigenschaften

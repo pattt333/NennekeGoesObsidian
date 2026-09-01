@@ -1,3 +1,10 @@
+---
+id: rule.kampf.waffen.wurfwaffen
+title: "Wurfwaffen"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/waffen/Wurfwaffen.tex -->
 
 <a id="subsec-wurfwaffen"></a>

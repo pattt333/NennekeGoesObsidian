@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.hartes-schmelze
+title: "Hartes_Schmelze"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Hartes_Schmelze.tex -->
 
 <a id="subsubsec-z-hartesschmelze"></a>

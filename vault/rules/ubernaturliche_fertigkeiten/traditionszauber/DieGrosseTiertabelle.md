@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.diegrossetiertabelle
+title: "DieGrosseTiertabelle"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/DieGrosseTiertabelle.tex -->
 
 # DieGrosseTiertabelle

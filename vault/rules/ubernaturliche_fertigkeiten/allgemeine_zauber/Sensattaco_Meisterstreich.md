@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.sensattaco-meisterstreich
+title: "Sensattaco_Meisterstreich"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Sensattaco_Meisterstreich.tex -->
 
 ### Sensattaco Meisterstreich

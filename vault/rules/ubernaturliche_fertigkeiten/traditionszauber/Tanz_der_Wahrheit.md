@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.tanz-der-wahrheit
+title: "Tanz_der_Wahrheit"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Tanz_der_Wahrheit.tex -->
 
 ### Gespür des Dolches

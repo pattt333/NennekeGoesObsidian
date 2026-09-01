@@ -1,3 +1,10 @@
+---
+id: rule.rast.handwerk
+title: "Handwerk"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/Handwerk.tex -->
 
 ## Handwerk

@@ -1,3 +1,10 @@
+---
+id: rule.fertigkeiten.profane-fertigkeiten.beeinflussung
+title: "Beeinflussung"
+type: rule
+tags:
+  - fertigkeiten
+---
 <!-- Source: Chapters/04_Fertigkeiten/Profane_Fertigkeiten/Beeinflussung.tex -->
 
 <a id="subsec-beeinflussung"></a>

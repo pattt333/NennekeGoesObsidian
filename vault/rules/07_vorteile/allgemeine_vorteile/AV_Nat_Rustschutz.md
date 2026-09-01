@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-nat-rustschutz
+title: "AV_Nat_Rustschutz"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Nat_Rustschutz.tex -->
 
 <a id="subsec-av-natrustungsschutz"></a>

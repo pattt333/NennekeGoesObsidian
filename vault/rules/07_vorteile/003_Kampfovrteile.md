@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampfovrteile
+title: "003_Kampfovrteile"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/003_Kampfovrteile.tex -->
 
 <a id="sec-kampfvorteile"></a>
@@ -45,7 +52,6 @@ Allgemeine Kampfvorteile haben meist mehrere Eigenschaftsvoraussetzungen, z.B. F
 
 - [RITTER](kampf_vorteile/RITTER.md)
 
-- [Kampfvorteile](kampf_vorteile/Kampfvorteile.md)
 
 
 ---

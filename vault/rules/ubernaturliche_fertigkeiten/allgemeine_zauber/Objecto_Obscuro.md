@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.objecto-obscuro
+title: "Objecto_Obscuro"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Objecto_Obscuro.tex -->
 
 <a id="subsubsec-z-objecto-obscuro"></a>

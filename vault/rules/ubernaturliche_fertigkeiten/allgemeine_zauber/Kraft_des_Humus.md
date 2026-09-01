@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.kraft-des-humus
+title: "Kraft_des_Humus"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Kraft_des_Humus.tex -->
 
 <a id="subsubsec-z-kraft-des-humus"></a>

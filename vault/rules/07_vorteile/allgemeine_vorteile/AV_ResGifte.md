@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-resgifte
+title: "AV_ResGifte"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_ResGifte.tex -->
 
 <a id="subsec-av-resistenz-immunitat-gifte"></a>

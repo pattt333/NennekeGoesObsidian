@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.raub-der-geisterkraft
+title: "Raub_der_Geisterkraft"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Raub_der_Geisterkraft.tex -->
 
 ### Gespür des Dolches

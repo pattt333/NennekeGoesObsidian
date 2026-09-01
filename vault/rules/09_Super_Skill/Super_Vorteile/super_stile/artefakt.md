@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.super-vorteile.super-stile.artefakt
+title: "artefakt"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Super_Vorteile/super_stile/artefakt.tex -->
 
 <a id="stil-artefakt"></a>

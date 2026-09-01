@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.kv-ff
+title: "KV_FF"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/KV_FF.tex -->
 
 ### FF-Vorteile

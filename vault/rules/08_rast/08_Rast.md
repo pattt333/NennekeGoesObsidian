@@ -1,3 +1,10 @@
+---
+id: rule.rast.rast
+title: "Rast und Talente"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/08_Rast.tex -->
 
 <a id="ch-rast"></a>

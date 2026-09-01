@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.profane-vorteile.pv-mu
+title: "PV_MU"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/profane_vorteile/PV_MU.tex -->
 
 <a id="pv-mu"></a>

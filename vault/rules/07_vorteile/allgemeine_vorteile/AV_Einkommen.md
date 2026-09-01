@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-einkommen
+title: "AV_Einkommen"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Einkommen.tex -->
 
 <a id="subsec-av-einkommen"></a>

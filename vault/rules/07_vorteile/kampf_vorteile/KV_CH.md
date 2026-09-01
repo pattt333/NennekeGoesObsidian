@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.kv-ch
+title: "KV_CH"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/KV_CH.tex -->
 
 <a id="subsec-ch-vorteile"></a>

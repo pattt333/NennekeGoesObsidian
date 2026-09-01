@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.herzschlag-ruhe
+title: "Herzschlag_ruhe"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Herzschlag_ruhe.tex -->
 
 <a id="subsubsec-z-herzschlag-ruhe"></a>

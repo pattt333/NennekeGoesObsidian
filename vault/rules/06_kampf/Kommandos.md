@@ -1,3 +1,10 @@
+---
+id: rule.kampf.kommandos
+title: "Kommandos"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/Kommandos.tex -->
 
 <a id="subsec-kommandos"></a>

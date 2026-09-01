@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.fluch-des-gewurms
+title: "Fluch_des_Gewurms"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Fluch_des_Gewurms.tex -->
 
 ### Gespür des Dolches

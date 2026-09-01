@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.plumbumbarum-schwerer-arm
+title: "Plumbumbarum_schwerer_Arm"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Plumbumbarum_schwerer_Arm.tex -->
 
 ### Plumbumbarum schwerer Arm

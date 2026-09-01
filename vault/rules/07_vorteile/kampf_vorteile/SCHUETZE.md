@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.schuetze
+title: "SCHUETZE"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/SCHUETZE.tex -->
 
 ### Schütze

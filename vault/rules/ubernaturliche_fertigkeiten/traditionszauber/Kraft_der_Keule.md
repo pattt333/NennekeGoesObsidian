@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.kraft-der-keule
+title: "Kraft_der_Keule"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Kraft_der_Keule.tex -->
 
 ### Gespür des Dolches

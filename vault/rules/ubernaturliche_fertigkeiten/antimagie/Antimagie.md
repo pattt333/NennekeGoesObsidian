@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.antimagie.antimagie
+title: "Antimagie"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/antimagie/Antimagie.tex -->
 
 Mit Antimagie kannst du Zauber während der Vorbereitung stören, bereits gewirkte Zauber aufheben und beschworene Wesenheiten bannen. Gerade Magier der Weißen Gilde gelten als Experten der Antimagie.

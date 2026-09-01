@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-reskrankheiten
+title: "AV_ResKrankheiten"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_ResKrankheiten.tex -->
 
 <a id="subsec-av-resistenz-immunitat-krankheiten"></a>

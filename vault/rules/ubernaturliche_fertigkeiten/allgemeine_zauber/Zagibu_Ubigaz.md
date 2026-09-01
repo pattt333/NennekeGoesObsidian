@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.zagibu-ubigaz
+title: "Zagibu_Ubigaz"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Zagibu_Ubigaz.tex -->
 
 ### Zagibu Ubigaz

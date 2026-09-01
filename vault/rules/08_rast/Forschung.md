@@ -1,3 +1,10 @@
+---
+id: rule.rast.forschung
+title: "Forschung"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/Forschung.tex -->
 
 ## Forschung

@@ -1,3 +1,10 @@
+---
+id: rule.anhang.liturgien
+title: "liturgien"
+type: rule
+tags:
+  - anhang
+---
 <!-- Source: Chapters/Anhang/liturgien.tex -->
 
 <a id="subsubsec-l-eidsegen"></a>

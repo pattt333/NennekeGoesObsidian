@@ -1,3 +1,10 @@
+---
+id: rule.rast.metal
+title: "metal"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/metal.tex -->
 
 ## Metallbearbeitung

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.blick-ins-geisterreich
+title: "Blick_ins_Geisterreich"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Blick_ins_Geisterreich.tex -->
 
 ### Gespür des Dolches

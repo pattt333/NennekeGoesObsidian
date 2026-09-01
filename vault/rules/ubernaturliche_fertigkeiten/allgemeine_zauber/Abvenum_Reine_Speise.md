@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.abvenum-reine-speise
+title: "Abvenum_Reine_Speise"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Abvenum_Reine_Speise.tex -->
 
 <a id="subsubsec-z-abvenum"></a>

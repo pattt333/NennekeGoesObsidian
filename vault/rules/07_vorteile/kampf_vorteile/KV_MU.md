@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.kv-mu
+title: "KV_MU"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/KV_MU.tex -->
 
 ### MU-Vorteile

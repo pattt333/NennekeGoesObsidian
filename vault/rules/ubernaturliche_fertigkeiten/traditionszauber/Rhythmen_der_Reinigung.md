@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.rhythmen-der-reinigung
+title: "Rhythmen_der_Reinigung"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Rhythmen_der_Reinigung.tex -->
 
 ### Gespür des Dolches

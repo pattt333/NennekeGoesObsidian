@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.klarum-purum
+title: "Klarum_Purum"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Klarum_Purum.tex -->
 
 <a id="subsubsec-z-klarum"></a>

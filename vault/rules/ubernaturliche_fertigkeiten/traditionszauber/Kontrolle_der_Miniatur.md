@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.kontrolle-der-miniatur
+title: "Kontrolle_der_Miniatur"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Kontrolle_der_Miniatur.tex -->
 
 ### Gespür des Dolches

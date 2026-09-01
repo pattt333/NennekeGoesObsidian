@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.super-vorteile.super-stile.akoluth
+title: "akoluth"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Super_Vorteile/super_stile/akoluth.tex -->
 
 <a id="stil-unausgebildete"></a>

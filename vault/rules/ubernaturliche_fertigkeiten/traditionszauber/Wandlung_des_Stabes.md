@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.wandlung-des-stabes
+title: "Wandlung_des_Stabes"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Wandlung_des_Stabes.tex -->
 
 ### Gespür des Dolches

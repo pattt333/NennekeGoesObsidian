@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.aureolus-guldenglanz
+title: "Aureolus_Guldenglanz"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Aureolus_Guldenglanz.tex -->
 
 <a id="subsubsec-z-aureolus"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.sichere-aufbewahrung
+title: "Sichere_Aufbewahrung"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Sichere_Aufbewahrung.tex -->
 
 ### Gespür des Dolches

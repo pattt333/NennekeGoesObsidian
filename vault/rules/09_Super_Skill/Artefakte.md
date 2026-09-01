@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.artefakte
+title: "Artefakte"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Artefakte.tex -->
 
 <a id="subsec-artefakte"></a>

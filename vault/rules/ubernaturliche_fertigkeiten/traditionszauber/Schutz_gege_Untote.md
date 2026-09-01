@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.schutz-gege-untote
+title: "Schutz_gege_Untote"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Schutz_gege_Untote.tex -->
 
 ### Gespür des Dolches

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.erinnerung-verlasse-dich
+title: "Erinnerung_verlasse_dich"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Erinnerung_verlasse_dich.tex -->
 
 <a id="subsubsec-z-erinnerung"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.chymische-hochzeit
+title: "Chymische_Hochzeit"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Chymische_Hochzeit.tex -->
 
 ### Gespür des Dolches

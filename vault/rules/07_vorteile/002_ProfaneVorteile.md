@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.profanevorteile
+title: "002_ProfaneVorteile"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/002_ProfaneVorteile.tex -->
 
 <a id="sec-profanevorteile"></a>

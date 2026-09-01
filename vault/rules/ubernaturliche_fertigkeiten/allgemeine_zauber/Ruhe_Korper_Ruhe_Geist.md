@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.ruhe-korper-ruhe-geist
+title: "Ruhe_Korper_Ruhe_Geist"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Ruhe_Korper_Ruhe_Geist.tex -->
 
 ### Ruhe Körper, Ruhe Geist

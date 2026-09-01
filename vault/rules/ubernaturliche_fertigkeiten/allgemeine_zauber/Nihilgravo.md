@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.nihilgravo
+title: "Nihilgravo"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Nihilgravo.tex -->
 
 <a id="subsubsec-z-nihilogravo"></a>

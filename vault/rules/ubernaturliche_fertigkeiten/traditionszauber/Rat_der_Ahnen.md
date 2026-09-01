@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.rat-der-ahnen
+title: "Rat_der_Ahnen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Rat_der_Ahnen.tex -->
 
 ### Gespür des Dolches

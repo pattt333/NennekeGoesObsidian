@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.levthans-feuer
+title: "Levthans_Feuer"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Levthans_Feuer.tex -->
 
 <a id="subsubsec-z-levthansfeuer"></a>

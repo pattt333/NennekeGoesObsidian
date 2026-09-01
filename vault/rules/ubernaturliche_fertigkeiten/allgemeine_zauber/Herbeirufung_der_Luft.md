@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.herbeirufung-der-luft
+title: "Herbeirufung_der_Luft"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Herbeirufung_der_Luft.tex -->
 
 <a id="subsubsec-z-herbeirufungeis"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.kampf.weitere-kampfregeln
+title: "Weitere_Kampfregeln"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/Weitere_Kampfregeln.tex -->
 
 <a id="sec-weiterekampfregeln"></a>

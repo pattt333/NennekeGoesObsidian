@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.corpfesso-gliederschmerzen
+title: "Corpfesso_Gliederschmerzen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Corpfesso_Gliederschmerzen.tex -->
 
 <a id="subsubsec-z-corpofesso"></a>

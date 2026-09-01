@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.granit-und-marmor
+title: "Granit_und_Marmor"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Granit_und_Marmor.tex -->
 
 <a id="subsubsec-z-granitundmarmor"></a>

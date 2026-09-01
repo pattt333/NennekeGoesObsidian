@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.unberuhrt-von-satinav
+title: "Unberuhrt_von_Satinav"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Unberuhrt_von_Satinav.tex -->
 
 ### Unberührt von Satinav

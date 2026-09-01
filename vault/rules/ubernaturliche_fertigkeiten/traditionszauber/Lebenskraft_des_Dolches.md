@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.lebenskraft-des-dolches
+title: "Lebenskraft_des_Dolches"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Lebenskraft_des_Dolches.tex -->
 
 ### Gespür des Dolches

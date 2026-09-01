@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.oculus-astralis
+title: "Oculus_Astralis"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Oculus_Astralis.tex -->
 
 <a id="subsubsec-z-oculus"></a>

@@ -207,6 +207,10 @@ function main() {
     if (HUB_FILES.includes(file)) {
       return false;
     }
+    // The PDF-only include tree has its own entry point and resolver.
+    if (file.startsWith('book\\')) {
+      return false;
+    }
     return !reachable.has(file);
   });
   

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.brennglas-und-prisma
+title: "Brennglas_und_Prisma"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Brennglas_und_Prisma.tex -->
 
 ### Gespür des Dolches

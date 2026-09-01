@@ -1,3 +1,10 @@
+---
+id: design.regeldesign
+title: "Grundideen des Regeldesigns"
+type: design-principles
+tags:
+  - design
+---
 # Grundideen des Regeldesigns
 
 ## Grundgedanke des Regeldesigns

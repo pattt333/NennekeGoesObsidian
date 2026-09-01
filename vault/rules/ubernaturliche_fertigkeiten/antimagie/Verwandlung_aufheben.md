@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.antimagie.verwandlung-aufheben
+title: "Verwandlung_aufheben"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/antimagie/Verwandlung_aufheben.tex -->
 
 #### Verwandlung beenden

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.fluch-der-pestilenz
+title: "Fluch_der_Pestilenz"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Fluch_der_Pestilenz.tex -->
 
 <a id="subsubsec-z-fluchderpestilenz"></a>

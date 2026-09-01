@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-hasenfuss
+title: "AV_Hasenfuss"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Hasenfuss.tex -->
 
 <a id="subsec-av-hasenfuss"></a>

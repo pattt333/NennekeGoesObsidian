@@ -1,3 +1,10 @@
+---
+id: rule.fertigkeiten.fertigkeiten
+title: "Fertigkeiten"
+type: rule
+tags:
+  - fertigkeiten
+---
 <!-- Source: Chapters/04_Fertigkeiten/04_Fertigkeiten.tex -->
 
 # Fertigkeiten

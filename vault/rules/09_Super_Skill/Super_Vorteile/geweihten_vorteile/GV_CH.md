@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.super-vorteile.geweihten-vorteile.gv-ch
+title: "GV_CH"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Super_Vorteile/geweihten_vorteile/GV_CH.tex -->
 
 | **Voraussetzung** | **CH** |

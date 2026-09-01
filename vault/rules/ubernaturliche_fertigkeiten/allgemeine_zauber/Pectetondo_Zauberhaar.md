@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.pectetondo-zauberhaar
+title: "Pectetondo_Zauberhaar"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Pectetondo_Zauberhaar.tex -->
 
 ### Pectetondo Zauberhaar

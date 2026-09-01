@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.geisterbann-des-dolches
+title: "Geisterbann_des_Dolches"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Geisterbann_des_Dolches.tex -->
 
 ### Geisterbann des Dolches

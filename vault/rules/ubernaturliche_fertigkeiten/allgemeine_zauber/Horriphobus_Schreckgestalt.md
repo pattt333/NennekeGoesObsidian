@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.horriphobus-schreckgestalt
+title: "Horriphobus_Schreckgestalt"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Horriphobus_Schreckgestalt.tex -->
 
 <a id="subsubsec-z-horriphobus"></a>

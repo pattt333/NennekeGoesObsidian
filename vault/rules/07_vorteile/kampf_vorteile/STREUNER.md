@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.streuner
+title: "STREUNER"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/STREUNER.tex -->
 
 <a id="kv-streuner"></a>

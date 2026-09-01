@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.koboldgeschenk
+title: "Koboldgeschenk"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Koboldgeschenk.tex -->
 
 <a id="subsubsec-z-koboldgeschenk"></a>

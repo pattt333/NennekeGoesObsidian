@@ -1,3 +1,10 @@
+---
+id: rule.kampf.fernkampf
+title: "Fernkampf"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/Fernkampf.tex -->
 
 <a id="sec-fernkampf"></a>

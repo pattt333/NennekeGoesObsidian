@@ -1,3 +1,10 @@
+---
+id: rule.rast.informationssuche
+title: "Informationssuche"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/Informationssuche.tex -->
 
 ## Informationen suchen

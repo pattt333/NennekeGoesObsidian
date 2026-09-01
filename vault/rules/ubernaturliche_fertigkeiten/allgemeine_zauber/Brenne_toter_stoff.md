@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.brenne-toter-stoff
+title: "Brenne_toter_stoff"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Brenne_toter_stoff.tex -->
 
 <a id="subsubsec-z-brennetoterstoff"></a>

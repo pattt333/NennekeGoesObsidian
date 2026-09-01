@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.energie
+title: "Energie"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Energie.tex -->
 
 <a id="sec-energie"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.herbeirufung-des-erzes
+title: "Herbeirufung_des_Erzes"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Herbeirufung_des_Erzes.tex -->
 
 <a id="subsubsec-z-herbeirufungfeuer"></a>

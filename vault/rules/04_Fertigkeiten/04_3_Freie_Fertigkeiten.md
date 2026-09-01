@@ -1,3 +1,10 @@
+---
+id: rule.fertigkeiten.3-freie-fertigkeiten
+title: "04_3_Freie_Fertigkeiten"
+type: rule
+tags:
+  - fertigkeiten
+---
 <!-- Source: Chapters/04_Fertigkeiten/04_3_Freie_Fertigkeiten.tex -->
 
 <a id="sec-freiefertigkeiten"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.antimagie.eigenschaften-wiederherstellen
+title: "Eigenschaften_wiederherstellen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/antimagie/Eigenschaften_wiederherstellen.tex -->
 
 <a id="subsubsec-z-eigenschaft"></a>

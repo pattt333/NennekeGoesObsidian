@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.claudibus-clavistibor
+title: "Claudibus_Clavistibor"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Claudibus_Clavistibor.tex -->
 
 <a id="subsubsec-z-claudibus"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampstile.wurfwaffenkampf
+title: "Wurfwaffenkampf"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampstile/Wurfwaffenkampf.tex -->
 
 | **Voraussetzung** | **Wurfwaffenkampf(FF)** |

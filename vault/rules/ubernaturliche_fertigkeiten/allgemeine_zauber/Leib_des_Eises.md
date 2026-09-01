@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.leib-des-eises
+title: "Leib_des_Eises"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Leib_des_Eises.tex -->
 
 <a id="subsubsec-z-leibeis"></a>

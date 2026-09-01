@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.herr-uber-das-tierreich
+title: "Herr_uber_das_Tierreich"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Herr_uber_das_Tierreich.tex -->
 
 <a id="subsubsec-z-herrtierreich"></a>

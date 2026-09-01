@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.band-und-fessel
+title: "Band_und_Fessel"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Band_und_Fessel.tex -->
 
 <a id="subsubsec-z-bandundfessel"></a>

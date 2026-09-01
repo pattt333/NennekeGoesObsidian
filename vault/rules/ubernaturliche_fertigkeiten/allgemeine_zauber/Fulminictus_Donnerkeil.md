@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.fulminictus-donnerkeil
+title: "Fulminictus_Donnerkeil"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Fulminictus_Donnerkeil.tex -->
 
 <a id="subsubsec-z-fulminictus"></a>

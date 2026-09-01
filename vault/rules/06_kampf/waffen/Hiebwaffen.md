@@ -1,3 +1,10 @@
+---
+id: rule.kampf.waffen.hiebwaffen
+title: "Hiebwaffen"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/waffen/Hiebwaffen.tex -->
 
 <a id="subsec-hiebwaffen"></a>

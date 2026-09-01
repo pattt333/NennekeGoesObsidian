@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.geisterbann
+title: "Geisterbann"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Geisterbann.tex -->
 
 <a id="subsubsec-z-geisteraustreiben"></a>

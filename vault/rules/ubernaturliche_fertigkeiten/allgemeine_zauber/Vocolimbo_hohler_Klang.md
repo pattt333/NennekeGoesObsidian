@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.vocolimbo-hohler-klang
+title: "Vocolimbo_hohler_Klang"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Vocolimbo_hohler_Klang.tex -->
 
 ### Vocolimbo hohler Klang

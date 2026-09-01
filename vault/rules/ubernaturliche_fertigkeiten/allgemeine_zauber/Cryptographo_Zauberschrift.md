@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.cryptographo-zauberschrift
+title: "Cryptographo_Zauberschrift"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Cryptographo_Zauberschrift.tex -->
 
 <a id="subsubsec-z-cryptographo"></a>

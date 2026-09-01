@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.disharmonischer-klang
+title: "Disharmonischer_Klang"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Disharmonischer_Klang.tex -->
 
 ### Gespür des Dolches

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.rhythmen-der-ermutigung
+title: "Rhythmen_der_Ermutigung"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Rhythmen_der_Ermutigung.tex -->
 
 ### Gespür des Dolches

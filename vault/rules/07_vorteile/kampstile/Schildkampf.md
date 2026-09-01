@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampstile.schildkampf
+title: "Schildkampf"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampstile/Schildkampf.tex -->
 
 <a id="ks-schildkampf"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.herbeirufung-des-wasser
+title: "Herbeirufung_des_Wasser"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Herbeirufung_des_Wasser.tex -->
 
 <a id="subsubsec-z-herbeirufungwasser"></a>

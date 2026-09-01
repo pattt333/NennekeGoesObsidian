@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.weihrauchwolke-wohlgeruch
+title: "Weihrauchwolke_Wohlgeruch"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Weihrauchwolke_Wohlgeruch.tex -->
 
 ### Weihrauchwolke Wohlgeruch

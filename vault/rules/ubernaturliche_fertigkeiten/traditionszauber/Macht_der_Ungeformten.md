@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.macht-der-ungeformten
+title: "Macht_der_Ungeformten"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Macht_der_Ungeformten.tex -->
 
 ### Gespür des Dolches

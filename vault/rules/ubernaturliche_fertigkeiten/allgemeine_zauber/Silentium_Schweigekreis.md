@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.silentium-schweigekreis
+title: "Silentium_Schweigekreis"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Silentium_Schweigekreis.tex -->
 
 ### Silentium Schweigekreis

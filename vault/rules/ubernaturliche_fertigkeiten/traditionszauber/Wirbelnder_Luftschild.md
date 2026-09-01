@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.wirbelnder-luftschild
+title: "Wirbelnder_Luftschild"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Wirbelnder_Luftschild.tex -->
 
 ### Gespür des Dolches

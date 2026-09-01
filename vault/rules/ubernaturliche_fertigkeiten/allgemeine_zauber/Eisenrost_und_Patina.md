@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.eisenrost-und-patina
+title: "Eisenrost_und_Patina"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Eisenrost_und_Patina.tex -->
 
 <a id="subsubsec-z-eisenrost"></a>

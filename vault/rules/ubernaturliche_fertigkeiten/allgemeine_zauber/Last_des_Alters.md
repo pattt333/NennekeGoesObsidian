@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.last-des-alters
+title: "Last_des_Alters"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Last_des_Alters.tex -->
 
 <a id="subsubsec-z-lastdesalters"></a>

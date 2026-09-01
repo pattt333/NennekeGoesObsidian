@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.flim-flam-funkel
+title: "Flim_Flam_Funkel"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Flim_Flam_Funkel.tex -->
 
 <a id="subsubsec-z-flimflam"></a>

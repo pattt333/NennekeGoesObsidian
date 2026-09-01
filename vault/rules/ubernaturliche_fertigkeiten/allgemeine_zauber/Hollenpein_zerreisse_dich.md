@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.hollenpein-zerreisse-dich
+title: "Hollenpein_zerreisse_dich"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Hollenpein_zerreisse_dich.tex -->
 
 <a id="subsubsec-z-hollenpein"></a>

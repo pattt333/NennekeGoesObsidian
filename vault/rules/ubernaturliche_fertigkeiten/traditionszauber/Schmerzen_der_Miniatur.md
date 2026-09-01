@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.schmerzen-der-miniatur
+title: "Schmerzen_der_Miniatur"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Schmerzen_der_Miniatur.tex -->
 
 ### Gespür des Dolches

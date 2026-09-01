@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.arngrimms-hohle
+title: "Arngrimms_Hohle"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Arngrimms_Hohle.tex -->
 
 ### Arngrimms Höhle

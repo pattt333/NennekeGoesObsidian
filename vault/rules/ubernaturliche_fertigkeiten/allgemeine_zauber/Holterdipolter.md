@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.holterdipolter
+title: "Holterdipolter"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Holterdipolter.tex -->
 
 <a id="subsubsec-z-holterdipolter"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.rhythmen-des-gottgefalligen-zorns
+title: "Rhythmen_des_gottgefalligen_Zorns"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Rhythmen_des_gottgefalligen_Zorns.tex -->
 
 ### Gespür des Dolches

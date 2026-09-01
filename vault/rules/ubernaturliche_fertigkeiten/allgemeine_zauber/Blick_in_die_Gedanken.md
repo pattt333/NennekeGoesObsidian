@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.blick-in-die-gedanken
+title: "Blick_in_die_Gedanken"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Blick_in_die_Gedanken.tex -->
 
 <a id="subsubsec-z-blickindiegedanken"></a>

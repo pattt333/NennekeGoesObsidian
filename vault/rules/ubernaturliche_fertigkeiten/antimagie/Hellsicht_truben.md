@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.antimagie.hellsicht-truben
+title: "Hellsicht_truben"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/antimagie/Hellsicht_truben.tex -->
 
 <a id="subsubsec-z-hellsichttruben"></a>

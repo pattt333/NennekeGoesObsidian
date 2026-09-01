@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.leib-der-wogen
+title: "Leib_der_Wogen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Leib_der_Wogen.tex -->
 
 <a id="subsubsec-z-leibwogen"></a>

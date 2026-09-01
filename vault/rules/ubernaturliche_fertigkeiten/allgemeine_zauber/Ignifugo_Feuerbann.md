@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.ignifugo-feuerbann
+title: "Ignifugo_Feuerbann"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Ignifugo_Feuerbann.tex -->
 
 <a id="subsubsec-z-ignifugofeuerbann"></a>

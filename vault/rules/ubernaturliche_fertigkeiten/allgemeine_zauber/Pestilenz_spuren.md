@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.pestilenz-spuren
+title: "Pestilenz_spuren"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Pestilenz_spuren.tex -->
 
 ### Pestilenz erspüren

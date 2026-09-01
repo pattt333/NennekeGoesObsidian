@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.ruf-des-schamanen
+title: "Ruf_des_Schamanen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Ruf_des_Schamanen.tex -->
 
 ### Gespür des Dolches

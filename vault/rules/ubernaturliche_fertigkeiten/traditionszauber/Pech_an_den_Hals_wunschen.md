@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.pech-an-den-hals-wunschen
+title: "Pech_an_den_Hals_wunschen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Pech_an_den_Hals_wunschen.tex -->
 
 ### Gespür des Dolches

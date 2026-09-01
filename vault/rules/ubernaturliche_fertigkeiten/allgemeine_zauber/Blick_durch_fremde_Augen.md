@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.blick-durch-fremde-augen
+title: "Blick_durch_fremde_Augen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Blick_durch_fremde_Augen.tex -->
 
 <a id="subsubsec-z-blickdurchfremdeaugen"></a>

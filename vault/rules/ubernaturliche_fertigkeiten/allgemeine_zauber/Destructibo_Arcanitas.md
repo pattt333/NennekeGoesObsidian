@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.destructibo-arcanitas
+title: "Destructibo_Arcanitas"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Destructibo_Arcanitas.tex -->
 
 <a id="subsubsec-z-destructibo"></a>

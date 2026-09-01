@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.blitz-dich-finde
+title: "Blitz_dich_finde"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Blitz_dich_finde.tex -->
 
 <a id="subsubsec-z-blitzdichfind"></a>

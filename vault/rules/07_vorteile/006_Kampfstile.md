@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampfstile
+title: "006_Kampfstile"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/006_Kampfstile.tex -->
 
 <a id="sec-kampfstil"></a>

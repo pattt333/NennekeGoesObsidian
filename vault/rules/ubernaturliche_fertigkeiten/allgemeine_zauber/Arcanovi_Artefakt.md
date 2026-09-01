@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.arcanovi-artefakt
+title: "Arcanovi_Artefakt"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Arcanovi_Artefakt.tex -->
 
 <a id="subsubsec-z-arcanovi-artefakt"></a>

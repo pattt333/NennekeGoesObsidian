@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.saturias-herrlichkeit
+title: "Saturias_Herrlichkeit"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Saturias_Herrlichkeit.tex -->
 
 ### Satuarias Herrlichkeit

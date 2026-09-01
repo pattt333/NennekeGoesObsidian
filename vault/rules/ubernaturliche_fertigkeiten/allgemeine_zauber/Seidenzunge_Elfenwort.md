@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.seidenzunge-elfenwort
+title: "Seidenzunge_Elfenwort"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Seidenzunge_Elfenwort.tex -->
 
 ### Seidenzunge Elfenwort

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.fluch-des-siechtums
+title: "Fluch_des_Siechtums"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Fluch_des_Siechtums.tex -->
 
 ### Gespür des Dolches

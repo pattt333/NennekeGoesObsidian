@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.melodie-des-zauberschutzes
+title: "Melodie_des_Zauberschutzes"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Melodie_des_Zauberschutzes.tex -->
 
 ### Gespür des Dolches

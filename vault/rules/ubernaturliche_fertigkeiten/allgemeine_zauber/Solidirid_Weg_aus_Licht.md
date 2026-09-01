@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.solidirid-weg-aus-licht
+title: "Solidirid_Weg_aus_Licht"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Solidirid_Weg_aus_Licht.tex -->
 
 ### Solidirid Weg aus Licht

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.rhythmen-des-schutzes
+title: "Rhythmen_des_Schutzes"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Rhythmen_des_Schutzes.tex -->
 
 ### Gespür des Dolches

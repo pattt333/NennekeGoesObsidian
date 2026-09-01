@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.aerogelo-atemqual
+title: "Aerogelo_Atemqual"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Aerogelo_Atemqual.tex -->
 
 <a id="subsubsec-z-aerogelo-atemqual"></a>

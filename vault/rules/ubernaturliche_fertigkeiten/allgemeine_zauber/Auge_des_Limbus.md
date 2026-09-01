@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.auge-des-limbus
+title: "Auge_des_Limbus"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Auge_des_Limbus.tex -->
 
 <a id="subsubsec-z-augedeslimbus"></a>

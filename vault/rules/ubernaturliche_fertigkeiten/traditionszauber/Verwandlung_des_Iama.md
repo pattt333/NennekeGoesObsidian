@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.verwandlung-des-iama
+title: "Verwandlung_des_Iama"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Verwandlung_des_Iama.tex -->
 
 ### Gespür des Dolches

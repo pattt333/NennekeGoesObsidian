@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.super-vorteile.gemiensame-vorteile.sv-ff
+title: "SV_FF"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Super_Vorteile/gemiensame_vorteile/SV_FF.tex -->
 
 <a id="zv-ff"></a>

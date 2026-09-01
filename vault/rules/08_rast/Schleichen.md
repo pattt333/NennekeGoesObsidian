@@ -1,3 +1,10 @@
+---
+id: rule.rast.schleichen
+title: "Schleichen"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/Schleichen.tex -->
 
 ## Heimlichkeit

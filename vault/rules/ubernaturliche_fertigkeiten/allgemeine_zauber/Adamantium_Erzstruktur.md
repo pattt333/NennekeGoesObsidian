@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.adamantium-erzstruktur
+title: "Adamantium_Erzstruktur"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Adamantium_Erzstruktur.tex -->
 
 <a id="subsubsec-z-adamantium"></a>

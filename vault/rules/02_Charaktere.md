@@ -1,3 +1,10 @@
+---
+id: rule.charaktere
+title: "Charaktere"
+type: rule
+tags:
+  - charaktere-md
+---
 <!-- Source: Chapters/02_Charaktere.tex -->
 
 # Charaktere

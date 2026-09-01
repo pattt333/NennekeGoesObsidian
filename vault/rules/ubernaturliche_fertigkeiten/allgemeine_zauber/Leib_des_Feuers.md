@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.leib-des-feuers
+title: "Leib_des_Feuers"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Leib_des_Feuers.tex -->
 
 <a id="subsubsec-z-leibfeuer"></a>

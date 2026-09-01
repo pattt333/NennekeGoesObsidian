@@ -1,3 +1,10 @@
+---
+id: rule.kampf.waffen.grosse-waffen
+title: "Grosse_Waffen"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/waffen/Grosse_Waffen.tex -->
 
 <a id="subsec-grossewaffen"></a>

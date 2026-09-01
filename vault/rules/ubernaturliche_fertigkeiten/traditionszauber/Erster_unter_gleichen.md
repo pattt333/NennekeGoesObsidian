@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.erster-unter-gleichen
+title: "Erster_unter_gleichen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Erster_unter_gleichen.tex -->
 
 ### Gespür des Dolches

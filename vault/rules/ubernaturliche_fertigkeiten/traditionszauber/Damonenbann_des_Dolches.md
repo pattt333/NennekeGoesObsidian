@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.damonenbann-des-dolches
+title: "Damonenbann_des_Dolches"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Damonenbann_des_Dolches.tex -->
 
 ### Dämonenbann des Dolches

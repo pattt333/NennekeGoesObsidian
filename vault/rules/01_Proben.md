@@ -1,3 +1,10 @@
+---
+id: rule.proben
+title: "Proben"
+type: rule
+tags:
+  - proben-md
+---
 <!-- Source: Chapters/01_Proben.tex -->
 
 # Proben

@@ -1,3 +1,10 @@
+---
+id: rule.kampf.waffen.waffeneigenschaften
+title: "Waffeneigenschaften"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/waffen/Waffeneigenschaften.tex -->
 
 <a id="subsec-waffeneigenschaften"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.madas-spiegel
+title: "Madas_Spiegel"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Madas_Spiegel.tex -->
 
 <a id="subsubsec-z-madasspiegel"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.fertigkeiten.profane-fertigkeiten.menschenkenntnis
+title: "Menschenkenntnis"
+type: rule
+tags:
+  - fertigkeiten
+---
 <!-- Source: Chapters/04_Fertigkeiten/Profane_Fertigkeiten/Menschenkenntnis.tex -->
 
 <a id="subsec-menschenkenntnis"></a>

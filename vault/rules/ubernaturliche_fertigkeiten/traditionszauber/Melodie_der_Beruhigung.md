@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.melodie-der-beruhigung
+title: "Melodie_der_Beruhigung"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Melodie_der_Beruhigung.tex -->
 
 ### Gespür des Dolches

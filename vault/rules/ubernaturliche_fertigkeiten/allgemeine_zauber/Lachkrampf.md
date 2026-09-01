@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.lachkrampf
+title: "Lachkrampf"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Lachkrampf.tex -->
 
 <a id="subsubsec-z-lachkrampf"></a>

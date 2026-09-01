@@ -1,3 +1,10 @@
+---
+id: rule.gesundheit
+title: "Gesundheit"
+type: rule
+tags:
+  - gesundheit-md
+---
 <!-- Source: Chapters/05_Gesundheit.tex -->
 
 # Gesundheit

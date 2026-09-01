@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.sapefecta-zauberschwamm
+title: "Sapefecta_Zauberschwamm"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Sapefecta_Zauberschwamm.tex -->
 
 ### Sapefacta Zauberschwamm

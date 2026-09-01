@@ -1,3 +1,10 @@
+---
+id: rule.fertigkeiten.profane-fertigkeiten.sinnesscharfe
+title: "Sinnesscharfe"
+type: rule
+tags:
+  - fertigkeiten
+---
 <!-- Source: Chapters/04_Fertigkeiten/Profane_Fertigkeiten/Sinnesscharfe.tex -->
 
 <a id="subsec-sinnesscharfe"></a>

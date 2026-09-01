@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile
+title: "001_Allgemeine_Vorteile"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/001_Allgemeine_Vorteile.tex -->
 
 <a id="sec-allgemeinevorteile"></a>

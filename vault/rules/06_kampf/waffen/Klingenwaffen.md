@@ -1,3 +1,10 @@
+---
+id: rule.kampf.waffen.klingenwaffen
+title: "Klingenwaffen"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/waffen/Klingenwaffen.tex -->
 
 <a id="subsec-klingenwaffen"></a>

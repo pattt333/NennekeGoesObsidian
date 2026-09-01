@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.weindegrunde-finden
+title: "Weindegrunde_finden"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Weindegrunde_finden.tex -->
 
 ### Gespür des Dolches

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.mahlstrom
+title: "Mahlstrom"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Mahlstrom.tex -->
 
 <a id="subsubsec-z-mahlstrom"></a>

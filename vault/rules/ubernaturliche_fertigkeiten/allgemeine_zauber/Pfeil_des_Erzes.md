@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.pfeil-des-erzes
+title: "Pfeil_des_Erzes"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Pfeil_des_Erzes.tex -->
 
 ### Pfeil des Erzes

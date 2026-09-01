@@ -1,3 +1,10 @@
+---
+id: rule.rast.jagd
+title: "Jagd"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/Jagd.tex -->
 
 ## Jagd

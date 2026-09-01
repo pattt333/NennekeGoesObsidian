@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.allegorische-analyse
+title: "Allegorische_Analyse"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Allegorische_Analyse.tex -->
 
 <a id="subsubsec-z-allegorische"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.katzenaugen
+title: "Katzenaugen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Katzenaugen.tex -->
 
 <a id="subsubsec-z-katzenaugen"></a>

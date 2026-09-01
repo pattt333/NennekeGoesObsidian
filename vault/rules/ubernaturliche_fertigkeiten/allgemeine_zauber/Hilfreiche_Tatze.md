@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.hilfreiche-tatze
+title: "Hilfreiche_Tatze"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Hilfreiche_Tatze.tex -->
 
 <a id="subsubsec-z-hilfreiche"></a>

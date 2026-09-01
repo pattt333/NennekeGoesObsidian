@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.accuratum-zaubernadel
+title: "Accuratum_Zaubernadel"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Accuratum_Zaubernadel.tex -->
 
 <a id="subsubsec-z-accuratum"></a>

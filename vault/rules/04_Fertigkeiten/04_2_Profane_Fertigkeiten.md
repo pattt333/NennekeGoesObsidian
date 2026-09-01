@@ -1,3 +1,10 @@
+---
+id: rule.fertigkeiten.2-profane-fertigkeiten
+title: "04_2_Profane_Fertigkeiten"
+type: rule
+tags:
+  - fertigkeiten
+---
 <!-- Source: Chapters/04_Fertigkeiten/04_2_Profane_Fertigkeiten.tex -->
 
 <a id="sec-profanefertigkeiten"></a>

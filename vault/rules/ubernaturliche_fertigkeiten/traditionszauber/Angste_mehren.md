@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.angste-mehren
+title: "Angste_mehren"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Angste_mehren.tex -->
 
 <a id="subsubsec-z-angstemehren"></a>

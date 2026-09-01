@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.mut-der-ahnen
+title: "Mut_der_Ahnen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Mut_der_Ahnen.tex -->
 
 ### Gespür des Dolches

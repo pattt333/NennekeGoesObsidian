@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.aura-des-stabes
+title: "Aura_des_Stabes"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Aura_des_Stabes.tex -->
 
 ### Aufpeitschender Klang

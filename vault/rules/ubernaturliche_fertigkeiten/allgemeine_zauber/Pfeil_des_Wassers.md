@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.pfeil-des-wassers
+title: "Pfeil_des_Wassers"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Pfeil_des_Wassers.tex -->
 
 ### Pfeil des Wassers

@@ -1,0 +1,46 @@
+name: Regelbuch-PDF
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Node.js einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Pandoc einrichten
+        uses: r-lib/actions/setup-pandoc@v2
+
+      - name: Typst einrichten
+        uses: typst-community/setup-typst@v5
+
+      - name: Regelbuch prüfen
+        run: |
+          npm run rulebook:test
+          npm run validate:metadata
+          npm run validate:links
+          npm run validate:orphans
+
+      - name: PDF erzeugen
+        run: npm run pdf
+
+      - name: PDF als Artefakt hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: Nenneke-PDF
+          path: build/Nenneke.pdf
+          if-no-files-found: error

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.protectionis-kontrabann
+title: "Protectionis_Kontrabann"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Protectionis_Kontrabann.tex -->
 
 ### Protectionis Kontrabann

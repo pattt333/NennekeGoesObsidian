@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.weisheit-der-baume
+title: "Weisheit_der_Baume"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Weisheit_der_Baume.tex -->
 
 ### Weisheit der Bäume

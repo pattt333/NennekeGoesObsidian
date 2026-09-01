@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.spurlos-trittlos
+title: "Spurlos_Trittlos"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Spurlos_Trittlos.tex -->
 
 ### Spurlos Trittlos

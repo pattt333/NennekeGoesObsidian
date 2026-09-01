@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.transformatio-formgestalt
+title: "Transformatio_Formgestalt"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Transformatio_Formgestalt.tex -->
 
 ### Transformatio Formgestalt

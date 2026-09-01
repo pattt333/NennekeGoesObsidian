@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampstile.parierwaffenkampf
+title: "Parierwaffenkampf"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampstile/Parierwaffenkampf.tex -->
 
 | **Voraussetzung** | **Parierwaffenkampf(GE)** |

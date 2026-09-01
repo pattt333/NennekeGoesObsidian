@@ -1,3 +1,10 @@
+---
+id: rule.anhang.zauber
+title: "zauber"
+type: rule
+tags:
+  - anhang
+---
 <!-- Source: Chapters/Anhang/zauber.tex -->
 
 <a id="subsubsec-z-bannschwert"></a>

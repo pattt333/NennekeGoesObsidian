@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-kulturkunde
+title: "AV_Kulturkunde"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Kulturkunde.tex -->
 
 <a id="subsec-av-kulturkunde"></a>

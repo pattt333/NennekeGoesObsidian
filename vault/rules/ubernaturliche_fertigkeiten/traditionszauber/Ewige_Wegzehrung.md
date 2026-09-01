@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.ewige-wegzehrung
+title: "Ewige_Wegzehrung"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Ewige_Wegzehrung.tex -->
 
 ### Gespür des Dolches

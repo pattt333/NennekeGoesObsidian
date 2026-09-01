@@ -1,3 +1,10 @@
+---
+id: rule.kampf.waffen.handgemengewaffen
+title: "Handgemengewaffen"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/waffen/Handgemengewaffen.tex -->
 
 <a id="subsec-hangemengewaffen"></a>

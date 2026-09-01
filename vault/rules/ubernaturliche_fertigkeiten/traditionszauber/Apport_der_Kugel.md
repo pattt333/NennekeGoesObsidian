@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.apport-der-kugel
+title: "Apport_der_Kugel"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Apport_der_Kugel.tex -->
 
 <a id="subsubsec-z-apportkugel"></a>

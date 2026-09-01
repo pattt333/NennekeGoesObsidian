@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.frigifaxius
+title: "Frigifaxius"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Frigifaxius.tex -->
 
 <a id="subsubsec-z-frigifaxius"></a>

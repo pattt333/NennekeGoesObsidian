@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.arachnea-krabbeltier
+title: "Arachnea_Krabbeltier"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Arachnea_Krabbeltier.tex -->
 
 <a id="subsubsec-z-arachnea"></a>

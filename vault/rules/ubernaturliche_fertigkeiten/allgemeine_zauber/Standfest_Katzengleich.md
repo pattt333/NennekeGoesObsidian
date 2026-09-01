@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.standfest-katzengleich
+title: "Standfest_Katzengleich"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Standfest_Katzengleich.tex -->
 
 ### Standfest Katzengleich

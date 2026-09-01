@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.lach-dich-gesund
+title: "Lach_dich_Gesund"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Lach_dich_Gesund.tex -->
 
 <a id="subsubsec-z-lachdichdichgesund"></a>

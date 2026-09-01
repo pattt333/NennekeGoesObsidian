@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-privilegien
+title: "AV_Privilegien"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Privilegien.tex -->
 
 <a id="subsec-av-privilegien"></a>

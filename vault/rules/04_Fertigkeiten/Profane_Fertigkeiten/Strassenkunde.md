@@ -1,3 +1,10 @@
+---
+id: rule.fertigkeiten.profane-fertigkeiten.strassenkunde
+title: "Strassenkunde"
+type: rule
+tags:
+  - fertigkeiten
+---
 <!-- Source: Chapters/04_Fertigkeiten/Profane_Fertigkeiten/Strassenkunde.tex -->
 
 <a id="subsec-strassenkunde"></a>

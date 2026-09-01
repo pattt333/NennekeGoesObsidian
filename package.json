@@ -4,16 +4,14 @@
   "description": "TTRPG Rulebook Documentation",
   "scripts": {
     "serve": "docsify serve vault",
-    "pdf": "cd vault && docsify-pdf-converter",
-    "pdf:custom": "cd vault && docsify-pdf-converter --cover _coverpage.md",
+    "assign:ids": "node scripts/rulebook-tools.js assign-ids",
+    "book:resolve": "node scripts/rulebook-tools.js resolve-book",
+    "pdf": "node scripts/rulebook-tools.js build-pdf",
+    "rag:export": "node scripts/rulebook-tools.js export-rag",
+    "rulebook:test": "node scripts/rulebook-tools.js self-test",
+    "validate:metadata": "node scripts/rulebook-tools.js validate",
     "validate:links": "node scripts/vault-health-check.js",
-    "validate:orphans": "node scripts/find-orphaned-files.js",
-    "nenneke:inventory": "node scripts/run_nenneke_pipeline.js inventory",
-    "nenneke:convert": "node scripts/run_nenneke_pipeline.js convert",
-    "nenneke:apply": "node scripts/run_nenneke_pipeline.js apply",
-    "nenneke:validate": "node scripts/run_nenneke_pipeline.js validate",
-    "nenneke:test": "node scripts/run_nenneke_pipeline.js test",
-    "nenneke:pdf": "node scripts/run_nenneke_pipeline.js publish"
+    "validate:orphans": "node scripts/find-orphaned-files.js"
   },
   "keywords": ["docsify", "documentation", "ttrpg"],
   "author": "",

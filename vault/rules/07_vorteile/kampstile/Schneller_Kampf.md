@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampstile.schneller-kampf
+title: "Schneller_Kampf"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampstile/Schneller_Kampf.tex -->
 
 | **Voraussetzung** | **Schneller Kampf(GE)** |

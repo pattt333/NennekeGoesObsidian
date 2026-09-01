@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.kraft-des-erzes
+title: "Kraft_des_Erzes"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Kraft_des_Erzes.tex -->
 
 <a id="subsubsec-z-krafterz"></a>

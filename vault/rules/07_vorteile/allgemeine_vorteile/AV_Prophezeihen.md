@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-prophezeihen
+title: "AV_Prophezeihen"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Prophezeihen.tex -->
 
 <a id="subsec-av-prophezeien"></a>

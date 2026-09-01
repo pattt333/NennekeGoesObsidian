@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.schwarz-und-rot
+title: "Schwarz_und_Rot"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Schwarz_und_Rot.tex -->
 
 ### Schwarz und Rot

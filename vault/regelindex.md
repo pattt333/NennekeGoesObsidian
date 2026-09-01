@@ -88,7 +88,6 @@ Alle aus der maßgeblichen Quelle erzeugten Regelnotizen.
 - [BERSERKER](rules/07_vorteile/kampf_vorteile/BERSERKER.md)
 - [DIEB](rules/07_vorteile/kampf_vorteile/DIEB.md)
 - [DIPLOMAT](rules/07_vorteile/kampf_vorteile/DIPLOMAT.md)
-- [Kampfvorteile](rules/07_vorteile/kampf_vorteile/Kampfvorteile.md)
 - [KOMMANDANT](rules/07_vorteile/kampf_vorteile/KOMMANDANT.md)
 - [KV CH](rules/07_vorteile/kampf_vorteile/KV_CH.md)
 - [KV FF](rules/07_vorteile/kampf_vorteile/KV_FF.md)

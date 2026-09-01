@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampstile.kraftvoller-kampf
+title: "Kraftvoller_Kampf"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampstile/Kraftvoller_Kampf.tex -->
 
 | **Voraussetzung** | **Kraftvoller Kampf(KK)** |

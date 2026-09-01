@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-angepasst
+title: "AV_Angepasst"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Angepasst.tex -->
 
 <a id="subsec-av-angepasst"></a>

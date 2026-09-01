@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.fluch-der-verwirrung
+title: "Fluch_der_Verwirrung"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Fluch_der_Verwirrung.tex -->
 
 ### Gespür des Dolches

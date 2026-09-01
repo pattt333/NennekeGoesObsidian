@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.corpofrigo-kalteschock
+title: "Corpofrigo_Kalteschock"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Corpofrigo_Kalteschock.tex -->
 
 <a id="subsubsec-z-corpofrigo"></a>

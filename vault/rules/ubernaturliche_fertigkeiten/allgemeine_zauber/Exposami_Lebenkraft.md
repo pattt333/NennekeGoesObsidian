@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.exposami-lebenkraft
+title: "Exposami_Lebenkraft"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Exposami_Lebenkraft.tex -->
 
 <a id="subsubsec-z-exposami"></a>

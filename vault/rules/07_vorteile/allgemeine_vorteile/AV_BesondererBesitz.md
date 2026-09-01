@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-besondererbesitz
+title: "AV_BesondererBesitz"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_BesondererBesitz.tex -->
 
 <a id="subsec-av-besondererbesitz"></a>

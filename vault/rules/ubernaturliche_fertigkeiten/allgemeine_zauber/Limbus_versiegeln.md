@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.limbus-versiegeln
+title: "Limbus_versiegeln"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Limbus_versiegeln.tex -->
 
 <a id="subsubsec-z-limbusversiegeln"></a>

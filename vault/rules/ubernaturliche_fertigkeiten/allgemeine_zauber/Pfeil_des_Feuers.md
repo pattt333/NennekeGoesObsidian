@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.pfeil-des-feuers
+title: "Pfeil_des_Feuers"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Pfeil_des_Feuers.tex -->
 
 ### Pfeil des Feuers

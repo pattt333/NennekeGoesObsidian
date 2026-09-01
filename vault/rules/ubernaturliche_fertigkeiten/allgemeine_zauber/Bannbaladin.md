@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.bannbaladin
+title: "Bannbaladin"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Bannbaladin.tex -->
 
 <a id="subsubsec-z-bannbaladin"></a>

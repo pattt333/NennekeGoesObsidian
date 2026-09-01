@@ -1,3 +1,10 @@
+---
+id: rule.kampf.angriff-verteidigung
+title: "Angriff_Verteidigung"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/Angriff_Verteidigung.tex -->
 
 <a id="sec-angriffverteidigung"></a>

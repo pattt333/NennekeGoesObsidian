@@ -4,10 +4,11 @@ This file defines the shared workflow for AI agents and other automated contribu
 
 ## Project context
 
-NennekeObsidian is a shared Obsidian vault for a TTRPG rulebook, published as a static Docsify site. Content lives in `vault/`; utility scripts live in `scripts/`; server and contributor documentation lives in `docs/`.
+NennekeObsidian is a shared Obsidian vault for a TTRPG rulebook, published as a static Docsify site. Markdown in `vault/` is the authoritative source; utility scripts live in `scripts/`; server and contributor documentation lives in `docs/`.
 
 - Preserve the existing language and terminology in the file being edited.
 - Prefer focused Markdown changes and valid Obsidian wikilinks.
+- Follow [docs/MARKDOWN_AUTHORING.md](docs/MARKDOWN_AUTHORING.md) for rule IDs, citations, links, and PDF-only includes.
 - Keep generated or personal Obsidian workspace files out of task commits unless the task explicitly requires them.
 
 ## OpenSpec workflow

@@ -1,3 +1,10 @@
+---
+id: rule.kampf.waffen.stangenwaffen
+title: "Stangenwaffen"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/waffen/Stangenwaffen.tex -->
 
 <a id="subsec-stangenwaffen"></a>

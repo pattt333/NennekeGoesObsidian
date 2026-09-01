@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.haselbusch-und-ginsterkraut
+title: "Haselbusch_und_Ginsterkraut"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Haselbusch_und_Ginsterkraut.tex -->
 
 <a id="subsubsec-z-haselbusch"></a>

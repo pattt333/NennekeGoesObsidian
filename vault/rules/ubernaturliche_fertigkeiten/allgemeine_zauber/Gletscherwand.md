@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.gletscherwand
+title: "Gletscherwand"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Gletscherwand.tex -->
 
 <a id="subsubsec-z-gletscherwand"></a>

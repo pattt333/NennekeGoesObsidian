@@ -1,3 +1,10 @@
+---
+id: rule.fertigkeiten.profane-fertigkeiten.heilkunde
+title: "Heilkunde"
+type: rule
+tags:
+  - fertigkeiten
+---
 <!-- Source: Chapters/04_Fertigkeiten/Profane_Fertigkeiten/Heilkunde.tex -->
 
 <a id="subsec-heilkunde"></a>

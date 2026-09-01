@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.ecliptifactus-schattenkraft
+title: "Ecliptifactus_Schattenkraft"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Ecliptifactus_Schattenkraft.tex -->
 
 <a id="subsubsec-z-ecliptifactus"></a>

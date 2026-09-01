@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.zzzzauber-template
+title: "zzzzauber-template"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/zzzzauber-template.tex -->
 
 <a id="subsubsec-z-bannschwert"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.langer-lulatsch
+title: "Langer_Lulatsch"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Langer_Lulatsch.tex -->
 
 <a id="subsubsec-z-langerlulatsch"></a>

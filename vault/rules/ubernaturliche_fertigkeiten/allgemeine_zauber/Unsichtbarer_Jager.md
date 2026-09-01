@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.unsichtbarer-jager
+title: "Unsichtbarer_Jager"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Unsichtbarer_Jager.tex -->
 
 ### Unsichtbarer Jäger

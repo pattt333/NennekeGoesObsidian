@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.nuntiovolo
+title: "Nuntiovolo"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Nuntiovolo.tex -->
 
 <a id="subsubsec-z-nuntiovolo"></a>

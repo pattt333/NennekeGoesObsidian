@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.fortifex-arkane-wand
+title: "Fortifex_Arkane_Wand"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Fortifex_Arkane_Wand.tex -->
 
 <a id="subsubsec-z-fortifex-arkane-wand"></a>

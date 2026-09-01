@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.falkenauge-meisterschuss
+title: "Falkenauge_Meisterschuss"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Falkenauge_Meisterschuss.tex -->
 
 <a id="subsubsec-z-falkenauge"></a>

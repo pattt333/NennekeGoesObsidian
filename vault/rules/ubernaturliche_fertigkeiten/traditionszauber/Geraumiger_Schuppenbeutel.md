@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.geraumiger-schuppenbeutel
+title: "Geraumiger_Schuppenbeutel"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Geraumiger_Schuppenbeutel.tex -->
 
 ### Gespür des Dolches

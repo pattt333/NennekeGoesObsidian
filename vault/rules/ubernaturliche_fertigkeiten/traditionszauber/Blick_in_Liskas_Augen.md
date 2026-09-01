@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.blick-in-liskas-augen
+title: "Blick_in_Liskas_Augen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Blick_in_Liskas_Augen.tex -->
 
 ### Gespür des Dolches

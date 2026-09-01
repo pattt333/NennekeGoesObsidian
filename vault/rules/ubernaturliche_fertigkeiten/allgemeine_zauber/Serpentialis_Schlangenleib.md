@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.serpentialis-schlangenleib
+title: "Serpentialis_Schlangenleib"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Serpentialis_Schlangenleib.tex -->
 
 ### Serpentialis Schlangenleib

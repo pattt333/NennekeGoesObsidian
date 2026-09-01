@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.custodosigil-diebesbann
+title: "Custodosigil_Diebesbann"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Custodosigil_Diebesbann.tex -->
 
 <a id="subsubsec-z-custodosigil"></a>

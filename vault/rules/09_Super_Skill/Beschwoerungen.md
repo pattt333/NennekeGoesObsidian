@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.beschwoerungen
+title: "Beschwoerungen"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Beschwoerungen.tex -->
 
 <a id="subsec-beschworung"></a>

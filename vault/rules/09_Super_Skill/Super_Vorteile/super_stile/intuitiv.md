@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.super-vorteile.super-stile.intuitiv
+title: "intuitiv"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Super_Vorteile/super_stile/intuitiv.tex -->
 
 <a id="stil-intuitiv"></a>

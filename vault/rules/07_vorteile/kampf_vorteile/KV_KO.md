@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.kv-ko
+title: "KV_KO"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/KV_KO.tex -->
 
 <a id="kv-ko"></a>

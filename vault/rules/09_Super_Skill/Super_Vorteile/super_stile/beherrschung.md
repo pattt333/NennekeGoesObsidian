@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.super-vorteile.super-stile.beherrschung
+title: "beherrschung"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Super_Vorteile/super_stile/beherrschung.tex -->
 
 <a id="stil-beherrschung"></a>

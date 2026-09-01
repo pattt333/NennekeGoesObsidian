@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.widerwille-ungemach
+title: "Widerwille_Ungemach"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Widerwille_Ungemach.tex -->
 
 ### Widerwille Ungemach

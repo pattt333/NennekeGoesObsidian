@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.heimfuhrung-der-herde
+title: "Heimfuhrung_der_Herde"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Heimfuhrung_der_Herde.tex -->
 
 ### Gespür des Dolches

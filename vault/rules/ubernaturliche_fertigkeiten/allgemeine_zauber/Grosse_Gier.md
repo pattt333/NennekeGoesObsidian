@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.grosse-gier
+title: "Grosse_Gier"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Grosse_Gier.tex -->
 
 <a id="subsubsec-z-grossegier"></a>

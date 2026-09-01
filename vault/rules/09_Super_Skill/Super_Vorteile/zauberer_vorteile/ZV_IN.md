@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.super-vorteile.zauberer-vorteile.zv-in
+title: "ZV_IN"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Super_Vorteile/zauberer_vorteile/ZV_IN.tex -->
 
 <a id="zv-in"></a>

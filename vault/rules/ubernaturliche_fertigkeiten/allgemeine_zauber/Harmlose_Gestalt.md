@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.harmlose-gestalt
+title: "Harmlose_Gestalt"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Harmlose_Gestalt.tex -->
 
 <a id="subsubsec-z-harmlosegestalt"></a>

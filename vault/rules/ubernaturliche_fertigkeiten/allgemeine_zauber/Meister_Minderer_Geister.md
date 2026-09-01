@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.meister-minderer-geister
+title: "Meister_Minderer_Geister"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Meister_Minderer_Geister.tex -->
 
 <a id="subsubsec-z-meisterminderergeister"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.chronoklassis-urfossil
+title: "Chronoklassis_Urfossil"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Chronoklassis_Urfossil.tex -->
 
 <a id="subsubsec-z-chronoklassis"></a>

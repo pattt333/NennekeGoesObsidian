@@ -1,3 +1,10 @@
+---
+id: rule.kampf.kampfmanover.nahkmapfspezialmanover
+title: "Nahkmapfspezialmanover"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/kampfmanover/Nahkmapfspezialmanover.tex -->
 
 <a id="subsec-nahkampfspezialmanover"></a>

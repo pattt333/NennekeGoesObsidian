@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.klickeradomms
+title: "Klickeradomms"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Klickeradomms.tex -->
 
 <a id="subsubsec-z-klickeradomms"></a>

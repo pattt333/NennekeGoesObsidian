@@ -1,3 +1,10 @@
+---
+id: rule.fertigkeiten.profane-fertigkeiten.phexisches-handwerk
+title: "Phexisches_Handwerk"
+type: rule
+tags:
+  - fertigkeiten
+---
 <!-- Source: Chapters/04_Fertigkeiten/Profane_Fertigkeiten/Phexisches_Handwerk.tex -->
 
 <a id="subsec-phexischeshandwerk"></a>

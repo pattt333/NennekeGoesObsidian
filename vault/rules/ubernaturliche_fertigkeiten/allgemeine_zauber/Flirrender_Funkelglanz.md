@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.flirrender-funkelglanz
+title: "Flirrender_Funkelglanz"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Flirrender_Funkelglanz.tex -->
 
 <a id="subsubsec-z-flirrender"></a>

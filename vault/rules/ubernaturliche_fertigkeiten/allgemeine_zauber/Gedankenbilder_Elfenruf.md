@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.gedankenbilder-elfenruf
+title: "Gedankenbilder_Elfenruf"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Gedankenbilder_Elfenruf.tex -->
 
 <a id="subsubsec-z-gedankenbilder-elfenruf"></a>

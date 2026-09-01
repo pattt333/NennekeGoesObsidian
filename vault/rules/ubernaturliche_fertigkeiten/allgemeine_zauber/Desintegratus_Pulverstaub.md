@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.desintegratus-pulverstaub
+title: "Desintegratus_Pulverstaub"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Desintegratus_Pulverstaub.tex -->
 
 <a id="subsubsec-z-desintegratus"></a>

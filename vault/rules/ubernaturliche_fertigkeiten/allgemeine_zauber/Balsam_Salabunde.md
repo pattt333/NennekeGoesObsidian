@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.balsam-salabunde
+title: "Balsam_Salabunde"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Balsam_Salabunde.tex -->
 
 <a id="subsubsec-z-balsam"></a>

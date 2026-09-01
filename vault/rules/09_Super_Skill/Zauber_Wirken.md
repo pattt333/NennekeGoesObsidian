@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.zauber-wirken
+title: "Zauber_Wirken"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Zauber_Wirken.tex -->
 
 ## Übernatürliche Aktionen ausführen

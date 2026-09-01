@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.melodie-der-kunstfertigkeit
+title: "Melodie_der_Kunstfertigkeit"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Melodie_der_Kunstfertigkeit.tex -->
 
 ### Gespür des Dolches

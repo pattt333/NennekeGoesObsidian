@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.ubernaturliche-fertigkeiten
+title: "Übernatürliche Fertigkeiten (Zauber und Liturgien)"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/11_Ubernaturliche_Fertigkeiten.tex -->
 
 # Übernatürliche Fertigkeiten (Zauber und Liturgien)

@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.ritter
+title: "RITTER"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/RITTER.tex -->
 
 ### Ritter
@@ -12,4 +19,4 @@
 
 ---
 
-**Regelbuchnavigation:** ← [SCHILDWACHE](SCHILDWACHE.md) · ↑ [003 Kampfovrteile](../003_Kampfovrteile.md) · [Kampfvorteile](Kampfvorteile.md) →
+**Regelbuchnavigation:** ← [SCHILDWACHE](SCHILDWACHE.md) · ↑ [003 Kampfovrteile](../003_Kampfovrteile.md)

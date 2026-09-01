@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.allgemeine-vorteile.av-geweihter
+title: "AV_Geweihter"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Geweihter.tex -->
 
 <a id="subsec-av-geweihter"></a>

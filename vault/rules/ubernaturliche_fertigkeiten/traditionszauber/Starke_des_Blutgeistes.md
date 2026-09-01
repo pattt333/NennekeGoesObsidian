@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.starke-des-blutgeistes
+title: "Starke_des_Blutgeistes"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Starke_des_Blutgeistes.tex -->
 
 ### Gespür des Dolches

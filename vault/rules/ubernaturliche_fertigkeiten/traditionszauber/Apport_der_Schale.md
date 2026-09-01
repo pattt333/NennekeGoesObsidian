@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.apport-der-schale
+title: "Apport_der_Schale"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Apport_der_Schale.tex -->
 
 <a id="subsubsec-z-apportschale"></a>

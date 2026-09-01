@@ -1,3 +1,10 @@
+---
+id: rule.kampf.waffen.feuerwaffen
+title: "Feuerwaffen"
+type: rule
+tags:
+  - kampf
+---
 <!-- Source: Chapters/06_kampf/waffen/Feuerwaffen.tex -->
 
 <a id="subsec-feuerwaffen"></a>

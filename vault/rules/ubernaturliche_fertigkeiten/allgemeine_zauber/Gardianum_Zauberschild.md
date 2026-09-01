@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.gardianum-zauberschild
+title: "Gardianum_Zauberschild"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Gardianum_Zauberschild.tex -->
 
 <a id="subsubsec-z-gardianum"></a>

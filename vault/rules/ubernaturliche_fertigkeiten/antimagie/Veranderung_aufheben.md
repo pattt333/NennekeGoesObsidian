@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.antimagie.veranderung-aufheben
+title: "Veranderung_aufheben"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/antimagie/Veranderung_aufheben.tex -->
 
 #### Veränderung aufheben

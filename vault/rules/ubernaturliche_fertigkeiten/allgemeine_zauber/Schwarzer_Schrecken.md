@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.schwarzer-schrecken
+title: "Schwarzer_Schrecken"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Schwarzer_Schrecken.tex -->
 
 ### Schwarzer Schrecken

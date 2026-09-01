@@ -1,3 +1,10 @@
+---
+id: rule.vorteile.kampf-vorteile.meuchler
+title: "MEUCHLER"
+type: rule
+tags:
+  - vorteile
+---
 <!-- Source: Chapters/07_vorteile/kampf_vorteile/MEUCHLER.tex -->
 
 ### Meuchler

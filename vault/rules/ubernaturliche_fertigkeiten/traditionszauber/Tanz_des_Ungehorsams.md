@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.tanz-des-ungehorsams
+title: "Tanz_des_Ungehorsams"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Tanz_des_Ungehorsams.tex -->
 
 ### Gespür des Dolches

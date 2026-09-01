@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.adlerschwinge-wolfsgestalt
+title: "Adlerschwinge_Wolfsgestalt"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Adlerschwinge_Wolfsgestalt.tex -->
 
 <a id="subsubsec-z-adlerschwinge"></a>

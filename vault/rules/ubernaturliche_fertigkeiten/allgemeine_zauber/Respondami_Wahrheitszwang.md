@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.respondami-wahrheitszwang
+title: "Respondami_Wahrheitszwang"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Respondami_Wahrheitszwang.tex -->
 
 ### Respondami Wahrheitszwang

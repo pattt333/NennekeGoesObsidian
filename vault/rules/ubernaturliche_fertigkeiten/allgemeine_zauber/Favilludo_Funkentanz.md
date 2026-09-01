@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.favilludo-funkentanz
+title: "Favilludo_Funkentanz"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Favilludo_Funkentanz.tex -->
 
 <a id="subsubsec-z-favilludo"></a>

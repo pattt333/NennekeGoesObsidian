@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.sinesigill-unerkannt
+title: "Sinesigill_Unerkannt"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Sinesigill_Unerkannt.tex -->
 
 ### Sinesigill Unerkannt

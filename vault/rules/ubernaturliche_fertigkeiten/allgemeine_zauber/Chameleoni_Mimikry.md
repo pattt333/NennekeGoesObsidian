@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.chameleoni-mimikry
+title: "Chameleoni_Mimikry"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Chameleoni_Mimikry.tex -->
 
 <a id="subsubsec-z-chameleoni"></a>

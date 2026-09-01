@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.analys-arcanstruktur
+title: "Analys_Arcanstruktur"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Analys_Arcanstruktur.tex -->
 
 <a id="subsubsec-z-analys"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.rast.verfolgungsjagd
+title: "verfolgungsjagd"
+type: rule
+tags:
+  - rast
+---
 <!-- Source: Chapters/08_rast/verfolgungsjagd.tex -->
 
 <a id="sec-verfolgungsjagden"></a>

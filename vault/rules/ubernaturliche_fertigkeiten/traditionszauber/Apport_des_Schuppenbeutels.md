@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.apport-des-schuppenbeutels
+title: "Apport_des_Schuppenbeutels"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Apport_des_Schuppenbeutels.tex -->
 
 ### Apport des Schuppenbeutels

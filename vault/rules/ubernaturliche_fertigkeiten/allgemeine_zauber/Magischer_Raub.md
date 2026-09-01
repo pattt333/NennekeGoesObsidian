@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.magischer-raub
+title: "Magischer_Raub"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Magischer_Raub.tex -->
 
 <a id="subsubsec-z-magischerraub"></a>

@@ -1,3 +1,10 @@
+---
+id: rule.super-skill.super-vorteile.super-stile.kampf
+title: "kampf"
+type: rule
+tags:
+  - super-skill
+---
 <!-- Source: Chapters/09_Super_Skill/Super_Vorteile/super_stile/kampf.tex -->
 
 <a id="stil-artefakt"></a>

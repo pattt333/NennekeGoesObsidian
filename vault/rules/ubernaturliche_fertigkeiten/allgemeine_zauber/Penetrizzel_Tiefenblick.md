@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.allgemeine-zauber.penetrizzel-tiefenblick
+title: "Penetrizzel_Tiefenblick"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Penetrizzel_Tiefenblick.tex -->
 
 ### Penetrizzel Tiefenblick

@@ -1,3 +1,10 @@
+---
+id: rule.ubernaturliche-fertigkeiten.traditionszauber.blutgeistaufnehmen
+title: "Blutgeistaufnehmen"
+type: rule
+tags:
+  - ubernaturliche-fertigkeiten
+---
 <!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Blutgeistaufnehmen.tex -->
 
 ### Gespür des Dolches
