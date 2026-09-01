@@ -17,16 +17,17 @@
 - [ ] 3.2 Assign unique IDs to addressable rule notes and create a generated ID/citation index.
 - [ ] 3.3 Add validation for unique IDs, valid metadata, and canonical citation links.
 
-## 4. Configurable PDF publication
+## 4. Source-managed PDF publication
 
 - [ ] 4.1 Run a representative PDF fidelity spike and select the Markdown-first toolchain for local and CI builds.
-- [ ] 4.2 Add `publication.yml` with ordered current core chapters and the agreed initial selection of spells and liturgies.
-- [ ] 4.3 Implement the local PDF command from that manifest and validate layout, contents, selected magic material, and exclusions.
+- [ ] 4.2 Add a minimal `book.yaml` plus a dedicated Markdown build entry tree that starts at `book/index.md` and expresses the current chapter order with recursive `![[...]]` embeds.
+- [ ] 4.3 Implement and test a resolver for relative and vault-wide build embeds, duplicate detection, and cycle detection; normal links must not be included.
+- [ ] 4.4 Add the agreed initial spell/liturgy embeds and implement the local PDF command from the resolved order; validate layout, contents, selected magic material, and exclusions.
 
 ## 5. Continuous PDF build
 
 - [ ] 5.1 Add `.github/workflows/build.yml` for push-to-`main` and manual validation/PDF builds.
-- [ ] 5.2 Upload the generated PDF as a workflow artifact without committing it back to the repository.
+- [ ] 5.2 Upload the generated PDF as a workflow artifact without committing it back to the repository or creating a release.
 - [ ] 5.3 Verify a GitHub Actions run and document how maintainers retrieve the build output.
 
 ## 6. Retrieval preparation

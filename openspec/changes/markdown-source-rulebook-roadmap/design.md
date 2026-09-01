@@ -34,13 +34,17 @@ Authors use relative Markdown links for rulebook references because they render 
 
 Addressable rule notes receive YAML frontmatter with `id`, `title`, `type`, and `tags`. IDs use a readable namespace such as `combat.initiative`; file paths remain free to evolve. Major subsections use their heading anchor by default. Add an explicit subsection ID only where a future client needs a stable target beyond the note.
 
-### 4. Make PDF scope declarative and additive
+### 4. Make PDF order source-managed and additive
 
-A versioned `publication.yml` names the ordered core chapters and optional selected spell/liturgy notes. A selection is additive: new spell/liturgy content enters the PDF only when listed. The PDF implementation is selected by a small fidelity spike, with Pandoc plus Typst as the preferred Markdown-first candidate; the selected toolchain must run locally and in CI.
+A small versioned `book.yaml` contains the build configuration and identifies a dedicated build entry point such as `book/index.md`. The reader-facing `vault/index.md` remains the concise Docsify/Obsidian home page; it is not compiled as a giant book page.
 
-### 5. Build but do not commit generated PDFs in CI
+The build entry tree owns the one canonical PDF order. Its `![[...]]` embeds mean “include this Markdown file here”; normal relative Markdown links and `[[...]]` links remain cross-references and do not cause inclusion. The resolver expands embeds recursively, resolves relative and vault-wide targets, detects duplicates and cycles, and hands Pandoc the resulting linear file list. Selected spells and liturgies are added only through embeds in that tree, so the selection can grow without a second ordered manifest.
 
-`.github/workflows/build.yml` runs on pushes to `main` and manually. It validates the vault, builds the PDF, and uploads it as a workflow artifact. Release attachment, Pages publication, or another distribution channel is a later product decision.
+The PDF implementation is selected by a small fidelity spike, with Pandoc plus Typst as the preferred Markdown-first candidate; the selected toolchain must run locally and in CI.
+
+### 5. Build but do not commit or release generated PDFs in CI
+
+`.github/workflows/build.yml` runs on pushes to `main` and manually. It validates the vault, builds the PDF, and uploads it as a workflow artifact. It neither commits generated output nor creates releases; publication destinations are a later product decision.
 
 ### 6. Prepare RAG inputs, not an RAG product
 
@@ -51,14 +55,16 @@ An export command produces deterministic records containing rule ID, title, sect
 - The current `vault/` structure remains readable while its contents become directly editable.
 - Editorial design principles move from generator input to authored vault content without changing their reader-visible paths.
 - Existing relative Markdown links are preserved; rename/move work requires link updates and validation.
-- `publication.yml` controls PDF inclusion independently from whether a note exists in the vault.
+- `book/index.md` controls PDF inclusion and ordering independently from whether a note exists in the vault.
 
 ## Risks / Trade-offs
 
 - [A missed ZIP-only detail is lost] → complete the baseline audit and review its diff before deleting the archive.
 - [Frontmatter makes notes noisy] → keep required fields minimal and generate repetitive metadata where practical.
 - [PDF fidelity regresses during toolchain replacement] → require a representative visual comparison before retiring the current build.
-- [Unselected magic material is expected in the PDF] → display and document selection explicitly in the publication manifest.
+- [Unselected magic material is expected in the PDF] → keep the explicit selection visible in the build include tree.
+- [A Docsify page accidentally expands an entire book] → use a dedicated build entry point rather than the reader home page.
+- [Embed cycles or repeated notes create malformed PDFs] → fail the resolver with the resolved include chain.
 - [RAG preparation expands into a server project] → limit this repository to deterministic export and citation validation.
 
 ## Migration Plan
@@ -66,7 +72,7 @@ An export command produces deterministic records containing rule ID, title, sect
 1. Audit and promote Markdown to the source of truth; commit before deleting the conversion toolchain.
 2. Introduce conventions and normal Markdown-link validation.
 3. Add note IDs and a checked ID registry/export.
-4. Introduce declarative publication selection and migrate the PDF builder after a fidelity spike.
+4. Introduce `book.yaml`, the recursive build entry tree, and the PDF builder after a fidelity spike.
 5. Add the GitHub Actions PDF workflow.
 6. Add a retrieval export contract in a separate follow-up change.
 
@@ -74,6 +80,5 @@ Each stage is independently revertible through Git.
 
 ## Open Questions
 
-- Which exact spells and liturgies form the first PDF supplement list?
-- Should the first public CI output remain a downloadable workflow artifact only, or also be attached to a GitHub Release?
+- Which exact spells and liturgies form the first build include selection?
 - Which PDF fidelity criteria are required before selecting Pandoc plus Typst over the current ReportLab build?
