@@ -258,15 +258,28 @@ function buildPdf(root = ROOT) {
   if (!config.output) throw new Error("book.yaml is missing output.file.");
   const buildDirectory = path.join(root, "build");
   fs.mkdirSync(buildDirectory, { recursive: true });
-  const combined = files
-    .map(file => splitFrontmatter(fs.readFileSync(file, "utf8")).body
+  const parts = [];
+  let chapterBreakPending = false;
+  for (const file of files) {
+    const relative = path.relative(VAULT, file);
+    if (relative.startsWith(path.join("book", "chapters") + path.sep)) {
+      chapterBreakPending = parts.length > 0;
+      continue;
+    }
+    const content = splitFrontmatter(fs.readFileSync(file, "utf8")).body
       .replace(EMBED_RE, "")
       .replace(/<!--[\s\S]*?-->/g, "")
       .replace(/^\*\*Regelbuchnavigation:\*\*.*$/gm, "")
       .replace(/(?:\r?\n\s*---\s*)+$/g, "")
-      .trim())
-    .filter(Boolean)
-    .join("\n\n\n") + "\n";
+      .trim();
+    if (!content) continue;
+    if (chapterBreakPending) {
+      parts.push("\`\`\`{=typst}\n#pagebreak()\n\`\`\`");
+      chapterBreakPending = false;
+    }
+    parts.push(content);
+  }
+  const combined = parts.join("\n\n\n") + "\n";
   const intermediate = path.join(buildDirectory, "Nenneke.md");
   const output = path.resolve(root, config.output);
   fs.writeFileSync(intermediate, combined, "utf8");

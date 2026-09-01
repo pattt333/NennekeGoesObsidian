@@ -110,6 +110,8 @@ npm run rag:export
 
 Das PDF liegt danach unter build/Nenneke.pdf, der providerneutrale Such-Export unter build/rag/rulebook.jsonl. Beide Dateien sind erzeugte Artefakte und werden nicht eingecheckt.
 
+Jede Datei unter vault/book/chapters/ markiert ein Hauptkapitel. Der PDF-Build beginnt dessen erste eingebundene Regelnotiz automatisch auf einer neuen Seite; die Kapiteldatei selbst benötigt deshalb keine Überschrift.
+
 ## Zauber und Liturgien für die PDF auswählen
 
 Die PDF enthält zunächst keine einzelnen Zauber oder Liturgien. Für jede gewünschte Ergänzung öffne vault/book/auswahl-magie/index.md und füge dort eine eigene ![[...]]-Zeile mit dem Pfad der bestehenden Regelnotiz ein. Diese Liste ist die einzige Auswahlstelle: Die Originaldatei bleibt unter vault/rules/ und erscheint dadurch weiterhin vollständig in Obsidian und Docsify.

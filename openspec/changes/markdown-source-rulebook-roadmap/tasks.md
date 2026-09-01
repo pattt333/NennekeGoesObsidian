@@ -23,6 +23,7 @@
 - [x] 4.2 Add a minimal `book.yaml` plus a dedicated Markdown build entry tree that starts at `vault/book/index.md` and expresses the current chapter order with recursive `![[...]]` embeds.
 - [x] 4.3 Implement and test a resolver for relative and vault-wide build embeds, duplicate detection, and cycle detection; normal links must not be included.
 - [x] 4.4 Add the agreed initial spell/liturgy embeds and implement the local PDF command from the resolved order; validate layout, contents, selected magic material, and exclusions.
+- [x] 4.5 Start every primary chapter represented by `vault/book/chapters/` on a new PDF page.
 
 ## 5. Continuous PDF build
 
