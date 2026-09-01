@@ -92,7 +92,9 @@ Die unterschiedlichen Kategorien-DoTs können ganz oder teilweise durch bestimmt
 
 Stellst du dir deine Lebenspunkte auf einem kontinuierlichen Lebensbalken vor, so wird dieser für die Anwendung von Effekten wie Wundschmerz, Wundabzügen sowie Blutung in 8 Segmente unterteilt. Die erstens 6 Segmente (von Links) sind genauso groß wie dein LAW (Lebenspunkteabschnittwert) angibt, sie sind also genau gleich groß (LAW = max LeP / 8 (aufgerundet)). Die letzten beide Segmente (Wundfreisegment) ergeben sich aus dem Rest von LeP - 6*LAW. Hier siehst Du Beispiele für Charaktere mit 100, 150 und 200 LeP. Dabei wird (wie üblich) aufgerundet.
 
-| **Segment** | 1. f89883 | 2. f89883 | 3. f89883 | 4. f89883 | 5. fffea1 | 6. fffea1 | 7.+8. Wundfreisegment 80fa99 | LAW |
+**Segmentbereiche:** Kritisch (1.–4. Segment), Warnbereich (5.–6. Segment), wundfrei (7.+8. Segment).
+
+| **Segment** | <span class="health-segment--critical">1.</span> | <span class="health-segment--critical">2.</span> | <span class="health-segment--critical">3.</span> | <span class="health-segment--critical">4.</span> | <span class="health-segment--warning">5.</span> | <span class="health-segment--warning">6.</span> | <span class="health-segment--safe">7.+8. Wundfreisegment</span> | LAW |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **50 LeP** | 1-7 | 8-14 | 15-21 | 22-28 | 29-35 | 36-42 | 43-50 | 7 |
 | **100 LeP** | 1-13 | 14-26 | 27-39 | 40-52 | 53-65 | 66-78 | 79-100 | 13 |
@@ -138,14 +140,15 @@ Mit dem Basismanöver [Gezielter Schlag](06_kampf/kampfmanover/Basismanover.md#s
 
 Nachdem dein Charakter weniger LeP als in seinem Wundfreisegment zur Verfügung stehen übrig hat, erhält er in jedem Segment einen kumulativen Malus von -2. Dieser Malus wirkt auf sämtliche Proben und so lange, bis er wieder geheilt wurde.
 
-| **Segment** | 1. f89883 | 2. f89883 | 3. f89883 | 4. f89883 | 5. fffea1 | 6. fffea1 | 2|c|7.+8. Wundfreisegment 80fa99 |
+| **Segment** | <span class="health-segment--critical">1.</span> | <span class="health-segment--critical">2.</span> | <span class="health-segment--critical">3.</span> | <span class="health-segment--critical">4.</span> | <span class="health-segment--warning">5.</span> | <span class="health-segment--warning">6.</span> | <span class="health-segment--safe">7.+8. Wundfreisegment</span> |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Wundabzüge** | -12 | -10 | -8 | -6 | -4 | -2 | - |
 
 > Hat zum Beispiel ein Held mit 150 Max.-LeP (siehe [oben](05_Gesundheit.md#sec-lebensbalken)) nach einigen Verletzungen (in Summe 56 SP erhalten) nur noch 94 LeP übrig, befindet sich sein Lebensbalken im 5. Segment und er hätte -4 Erschwernisse auf alle Proben.
-| **Segment** | 1. f89883 | 2. f89883 | 3. f89883 | 4. f89883 | 5. fffea1 | 6. fffea1 | 7.+8. Wundfreisegment 80fa99 |
+
+| **Segment** | <span class="health-segment--critical">1.</span> | <span class="health-segment--critical">2.</span> | <span class="health-segment--critical">3.</span> | <span class="health-segment--critical">4.</span> | <span class="health-segment--warning">5.</span> | <span class="health-segment--warning">6.</span> | <span class="health-segment--safe">7.+8. Wundfreisegment</span> |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **150 LeP** | 1-19 | 20-38 | 39-57 | 58-76 | 77-95 DD27F5 | 96-114 | 115-150 |
+| **150 LeP** | 1-19 | 20-38 | 39-57 | 58-76 | 77-95 | 96-114 | 115-150 |
 
 
 <a id="sec-blutungentod"></a>

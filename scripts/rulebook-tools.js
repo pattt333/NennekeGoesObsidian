@@ -10,6 +10,7 @@ const { spawnSync } = require("child_process");
 
 const ROOT = path.resolve(__dirname, "..");
 const VAULT = path.join(ROOT, "vault");
+const HEALTH_SEGMENT_FILTER = path.join(ROOT, "scripts", "health-segment-tables.lua");
 const ADDRESSABLE_ROOTS = [path.join(VAULT, "rules"), path.join(VAULT, "grundideen-des-regeldesigns.md")];
 const EXTERNAL_LINK = /^(?:[a-z][a-z0-9+.-]*:|#)/i;
 const EMBED_RE = /!\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]/g;
@@ -285,7 +286,7 @@ function buildPdf(root = ROOT) {
   const output = path.resolve(root, config.output);
   fs.writeFileSync(intermediate, combined, "utf8");
   fs.mkdirSync(path.dirname(output), { recursive: true });
-  const result = spawnSync("pandoc", [intermediate, "--from=markdown", "--output", output, "--toc", "--number-sections", "--top-level-division=chapter", `--pdf-engine=${config.pdfEngine}`, "--metadata", `title=${config.title}`, "--metadata", "lang=de-DE"], { cwd: root, encoding: "utf8" });
+  const result = spawnSync("pandoc", [intermediate, "--from=markdown+raw_html", "--lua-filter", HEALTH_SEGMENT_FILTER, "--output", output, "--toc", "--number-sections", "--top-level-division=chapter", `--pdf-engine=${config.pdfEngine}`, "--metadata", `title=${config.title}`, "--metadata", "lang=de-DE"], { cwd: root, encoding: "utf8" });
   if (result.error) throw new Error(`Could not run pandoc: ${result.error.message}`);
   if (result.status !== 0) throw new Error(result.stderr || "Pandoc PDF build failed.");
   return { output, files };
@@ -350,6 +351,14 @@ function selfTest() {
     content: "## Abschnitt\n\nInhalt",
     contentHash: crypto.createHash("sha256").update("## Abschnitt\n\nInhalt").digest("hex"),
   });
+  const segmentFilter = spawnSync("pandoc", ["--from=markdown+raw_html", "--to=typst", "--lua-filter", HEALTH_SEGMENT_FILTER], {
+    input: "| Segment | <span class=\"health-segment--critical\">1.</span> | <span class=\"health-segment--safe\">7.+8.</span> |\n| --- | --- | --- |\n| **50 LeP** | 1-7 | 43-50 |\n",
+    encoding: "utf8",
+  });
+  if (segmentFilter.error) throw new Error(`Could not run health segment filter test: ${segmentFilter.error.message}`);
+  if (segmentFilter.status !== 0) throw new Error(segmentFilter.stderr || "Health segment filter test failed.");
+  assert.match(segmentFilter.stdout, /fill: rgb\("#f89883"\)/);
+  assert.match(segmentFilter.stdout, /fill: rgb\("#80fa99"\)/);
   fs.rmSync(temporary, { recursive: true, force: true });
 }
 

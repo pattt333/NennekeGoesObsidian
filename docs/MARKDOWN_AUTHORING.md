@@ -65,6 +65,23 @@ Auf eine fettgedruckte Bezeichnung kann direkt eine Aufzählung folgen. Der PDF-
 - Magiekunde: Beschreibung
 ~~~
 
+## Gesundheitssegmenttabellen
+
+Die Segmenttabellen in [Gesundheit](../vault/rules/05_Gesundheit.md) verwenden in ihren Kopfzellen semantische HTML-Spans. Sie bleiben normale Markdown-Tabellen; nur die Bezeichnungen der farbigen Bereiche erhalten eine Klasse:
+
+~~~markdown
+| Segment | <span class="health-segment--critical">1.</span> | <span class="health-segment--warning">5.</span> | <span class="health-segment--safe">7.+8. Wundfreisegment</span> |
+| --- | --- | --- | --- |
+~~~
+
+- `health-segment--critical` kennzeichnet die kritischen Segmente 1 bis 4 und wird in `#f89883` dargestellt.
+- `health-segment--warning` kennzeichnet die Segmente 5 und 6 und wird in `#fffea1` dargestellt.
+- `health-segment--safe` kennzeichnet das wundfreie Segment 7.+8. und wird in `#80fa99` dargestellt.
+
+Die Legende bei der Tabelle bleibt verpflichtend: Die Bedeutung der Bereiche muss auch ohne Farbe lesbar sein. Pflege die Werte weiter direkt als Tabellenzellen und erstelle weder eine Bildkopie noch eine gesonderte PDF-Quelle.
+
+Docsify lädt die Darstellung automatisch aus `vault/styles/health-segment-tables.css`. Für Obsidian öffnest du **Einstellungen → Darstellung → CSS-Snippets**, aktualisierst die Snippets und aktivierst `health-segment-tables`. Die Snippet-Datei liegt bereits unter `.obsidian/snippets/`; dabei wird keine persönliche `workspace.json` verändert. Der PDF-Build wertet dieselben Klassen automatisch aus.
+
 ## Überschriften zitieren
 
 Eine Fundstelle besteht aus der stabilen Notiz-ID und einer Überschrift, zum Beispiel:

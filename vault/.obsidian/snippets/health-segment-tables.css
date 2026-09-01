@@ -1,0 +1,21 @@
+/* Gesundheitssegmenttabellen: semantische Klassen in den Kopfzellen. */
+.markdown-rendered th:has(.health-segment--critical) {
+  background-color: #f89883;
+  color: #111;
+}
+
+.markdown-rendered th:has(.health-segment--warning) {
+  background-color: #fffea1;
+  color: #111;
+}
+
+.markdown-rendered th:has(.health-segment--safe) {
+  background-color: #80fa99;
+  color: #111;
+}
+
+.markdown-rendered .health-segment--critical,
+.markdown-rendered .health-segment--warning,
+.markdown-rendered .health-segment--safe {
+  font-weight: 700;
+}
