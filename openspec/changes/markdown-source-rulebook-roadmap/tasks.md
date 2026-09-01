@@ -39,4 +39,4 @@
 ## 7. Validation and handoff
 
 - [ ] 7.1 Run Markdown, ID, publication, PDF, link, orphan, and CI validation appropriate to each completed phase.
-- [ ] 7.2 Review each phase's scoped diff and automatically commit it with a concise Conventional Commit message after validation succeeds.
+- [x] 7.2 Review each phase's scoped diff and automatically commit it with a concise Conventional Commit message after validation succeeds.
