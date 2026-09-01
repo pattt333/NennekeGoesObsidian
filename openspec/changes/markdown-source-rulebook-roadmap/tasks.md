@@ -24,6 +24,7 @@
 - [x] 4.3 Implement and test a resolver for relative and vault-wide build embeds, duplicate detection, and cycle detection; normal links must not be included.
 - [x] 4.4 Add the agreed initial spell/liturgy embeds and implement the local PDF command from the resolved order; validate layout, contents, selected magic material, and exclusions.
 - [x] 4.5 Start every primary chapter represented by `vault/book/chapters/` on a new PDF page.
+- [x] 4.6 Preserve Obsidian-compatible bullet lists that directly follow a bold label in the PDF output.
 
 ## 5. Continuous PDF build
 

@@ -57,6 +57,14 @@ Ergebnis = 1W20 + Fertigkeitswert
 
 Lege Bilder nur an, wenn sie einen Regelinhalt erklären, in vault/images/ ab und verwende einen relativen Link. Ohne Bildaussage gehört kein Platzhalter ins Regelbuch.
 
+Auf eine fettgedruckte Bezeichnung kann direkt eine Aufzählung folgen. Der PDF-Build ergänzt für die Ausgabe den erforderlichen Abstand und erkennt diese in Obsidian übliche Schreibweise ebenfalls als Liste:
+
+~~~markdown
+**Talente:**
+- Alchymie: Beschreibung
+- Magiekunde: Beschreibung
+~~~
+
 ## Überschriften zitieren
 
 Eine Fundstelle besteht aus der stabilen Notiz-ID und einer Überschrift, zum Beispiel:

@@ -271,6 +271,7 @@ function buildPdf(root = ROOT) {
       .replace(/<!--[\s\S]*?-->/g, "")
       .replace(/^\*\*Regelbuchnavigation:\*\*.*$/gm, "")
       .replace(/(?:\r?\n\s*---\s*)+$/g, "")
+      .replace(/^(\*\*[^*\r\n]+:\*\*)\r?\n(?=-\s)/gm, "$1\n\n")
       .trim();
     if (!content) continue;
     if (chapterBreakPending) {
@@ -284,7 +285,7 @@ function buildPdf(root = ROOT) {
   const output = path.resolve(root, config.output);
   fs.writeFileSync(intermediate, combined, "utf8");
   fs.mkdirSync(path.dirname(output), { recursive: true });
-  const result = spawnSync("pandoc", [intermediate, "--output", output, "--toc", "--number-sections", "--top-level-division=chapter", `--pdf-engine=${config.pdfEngine}`, "--metadata", `title=${config.title}`, "--metadata", "lang=de-DE"], { cwd: root, encoding: "utf8" });
+  const result = spawnSync("pandoc", [intermediate, "--from=markdown", "--output", output, "--toc", "--number-sections", "--top-level-division=chapter", `--pdf-engine=${config.pdfEngine}`, "--metadata", `title=${config.title}`, "--metadata", "lang=de-DE"], { cwd: root, encoding: "utf8" });
   if (result.error) throw new Error(`Could not run pandoc: ${result.error.message}`);
   if (result.status !== 0) throw new Error(result.stderr || "Pandoc PDF build failed.");
   return { output, files };
