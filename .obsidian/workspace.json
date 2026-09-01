@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "92a6b2c049976329",
+        "id": "a10421afdae67012",
         "type": "tabs",
         "children": [
           {
-            "id": "c5c2c130f3ea1c9a",
+            "id": "62fed78b42045c48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vault/index.md",
+                "file": "vault/rules/05_Gesundheit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "05_Gesundheit"
             }
           }
         ]
@@ -41,10 +41,12 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Dateiexplorer"
             }
           },
           {
@@ -61,7 +63,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Suchen"
             }
           },
           {
@@ -78,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "4232127a09e80bf4",
@@ -94,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/DEPLOYMENT.md",
+                "file": "feature-based_folder_restructure_8fbdef97.plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DEPLOYMENT"
+              "title": "Backlinks for feature-based_folder_restructure_8fbdef97.plan"
             }
           },
           {
@@ -174,22 +176,44 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graph-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false,
+      "bases:Neue Base erstellen": false
     }
   },
-  "active": "c5c2c130f3ea1c9a",
+  "active": "62fed78b42045c48",
   "lastOpenFiles": [
+    "openspec/changes/clean-uncommitted-artifacts/tasks.md",
+    "openspec/changes/clean-uncommitted-artifacts/specs/repository-artifact-hygiene/spec.md",
+    "openspec/changes/clean-uncommitted-artifacts/specs/repository-artifact-hygiene",
+    "openspec/changes/clean-uncommitted-artifacts/specs",
+    "openspec/changes/clean-uncommitted-artifacts/design.md",
+    "openspec/changes/clean-uncommitted-artifacts/proposal.md",
+    "openspec/changes/clean-uncommitted-artifacts",
+    "docs/MAINTENANCE.md",
+    "openspec/changes/remove-stale-vault-and-doc-files/tasks.md",
+    "openspec/changes/remove-stale-vault-and-doc-files/specs/current-contributor-documentation/spec.md",
+    "openspec/changes/remove-stale-vault-and-doc-files/specs/current-contributor-documentation",
+    "openspec/changes/remove-stale-vault-and-doc-files/specs/source-authoritative-vault-cleanup/spec.md",
+    "openspec/changes/remove-stale-vault-and-doc-files/specs/source-authoritative-vault-cleanup",
+    "openspec/changes/remove-stale-vault-and-doc-files/specs",
+    "openspec/changes/remove-stale-vault-and-doc-files/design.md",
+    "openspec/changes/remove-stale-vault-and-doc-files/proposal.md",
+    "openspec/changes/remove-stale-vault-and-doc-files",
+    "vault/index.md",
+    "vault/rules/01_Proben.md",
+    "vault/_sidebar.md",
+    "vault/rules/04_Fertigkeiten/04_1_Kampffertgikeiten.md",
+    "Unbenannt.canvas",
+    "vault/rules/05_Gesundheit.md",
+    "feature-based_folder_restructure_8fbdef97.plan.md",
     "package.json",
     "vault/README.md",
     "vault/rules/04_Fertigkeiten/04_Fertigkeiten.md",
-    "vault/index.md",
-    "vault/rules/01_Proben.md",
     "vault/rules/02_Schicksalspunkte.md",
     "02_Schicksalspunkte.md",
     "rules/02_Schicksalspunkte.md",
@@ -199,17 +223,6 @@
     "vault/rules/01_Proben 1.md",
     "rules/01_Proben 1.md",
     "docs/DEPLOYMENT.md",
-    "scripts/convert-all-latex.ps1",
-    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Zungenschwellung.tex",
-    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Zaubersiegel.tex",
-    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Zaubermelodie.tex",
-    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Wirbelnder_Luftschild.tex",
-    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Wild_finden.tex",
-    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Wesen_des_tieres.tex",
-    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Weisung_des_Dolches.tex",
-    "NennekeV2_super_changes/Chapters/ubernaturliche_fertigkeiten/traditionszauber/Weindegrunde_finden.tex",
-    "README.md",
-    "vault/00-Tag-Index.md",
-    "vault/_sidebar.md"
+    "scripts/convert-all-latex.ps1"
   ]
 }
