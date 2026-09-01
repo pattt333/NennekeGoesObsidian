@@ -36,7 +36,7 @@ Addressable rule notes receive YAML frontmatter with `id`, `title`, `type`, and 
 
 ### 4. Make PDF order source-managed and additive
 
-A small versioned `book.yaml` contains the build configuration and identifies a dedicated build entry point such as `book/index.md`. The reader-facing `vault/index.md` remains the concise Docsify/Obsidian home page; it is not compiled as a giant book page.
+A small versioned `book.yaml` contains the build configuration and identifies a dedicated build entry point such as `vault/book/index.md`. The reader-facing `vault/index.md` remains the concise Docsify/Obsidian home page; it is not compiled as a giant book page.
 
 The build entry tree owns the one canonical PDF order. Its `![[...]]` embeds mean “include this Markdown file here”; normal relative Markdown links and `[[...]]` links remain cross-references and do not cause inclusion. The resolver expands embeds recursively, resolves relative and vault-wide targets, detects duplicates and cycles, and hands Pandoc the resulting linear file list. Selected spells and liturgies are added only through embeds in that tree, so the selection can grow without a second ordered manifest.
 
@@ -55,7 +55,7 @@ An export command produces deterministic records containing rule ID, title, sect
 - The current `vault/` structure remains readable while its contents become directly editable.
 - Editorial design principles move from generator input to authored vault content without changing their reader-visible paths.
 - Existing relative Markdown links are preserved; rename/move work requires link updates and validation.
-- `book/index.md` controls PDF inclusion and ordering independently from whether a note exists in the vault.
+- `vault/book/index.md` controls PDF inclusion and ordering independently from whether a note exists in the vault.
 
 ## Risks / Trade-offs
 
