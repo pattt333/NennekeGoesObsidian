@@ -13,3 +13,7 @@ Um den vollen Nutzen aus dem Vorteil zu ziehen muss sich der Charakter auch für
 **Voraussetzungen:** nicht Vorteil Geweihter I
 
 **EP-Wert:** 40 Erfahrungspunkte pro Stufe
+
+---
+
+**Regelbuchnavigation:** ← [AV Verbindungen](AV_Verbindungen.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV Zwergennase](AV_Zwergennase.md) →

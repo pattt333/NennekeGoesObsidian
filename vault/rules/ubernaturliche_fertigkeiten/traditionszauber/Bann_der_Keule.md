@@ -11,3 +11,7 @@ Fortan sind alle Beherrschungsproben für Elementare oder für Untote und Dämon
 **Erlernen:**Smn 14
 
 **EP-Kosten:**40 EP
+
+---
+
+**Regelbuchnavigation:** ← [Aura des Stabes](Aura_des_Stabes.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Beute](Beute.md) →

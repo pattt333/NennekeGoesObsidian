@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Schutzgeist tier](Schutzgeist_tier.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Seele des tieres](Seele_des_tieres.md) →

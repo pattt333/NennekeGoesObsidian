@@ -14,3 +14,8 @@
 | **zwei weitere Attr.** |  |
 | **auf jeweils 8** |  |
 | **80EP** | **Tradition der Intuitiven IV** Du und die Energie seid nicht länger getrennt. Sie fließt nicht nur durch dich, sondern ist ein Teil von dir – ein sechster Sinn, ein reflexhaftes Verteidigungssystem, ein Echo deiner Stimmung in der Welt. Deine "Bitten" werden zu Gedanken, die sofort erhört werden, und die Magie folgt deinen Intentionen, nicht nur deinen Worten. Du kannst beim Wirken die Aktion Konzentration als einfache Aktion ausführen dafür kostet es dich die doppleten BasisKosten. Solltest du über den [Vorteil Flinke Magie](../zauberer_vorteile/ZV_IN.md#zv-in) verfügen, verringern sich die Kosten auf das 1,5fache. |
+
+
+---
+
+**Regelbuchnavigation:** ← [domaene](domaene.md) · ↑ [Uebernatuerliche Stile](../Uebernatuerliche_Stile.md) · [kampf](kampf.md) →

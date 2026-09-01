@@ -88,3 +88,7 @@ Dein Gegner kann sich mit einer Probe auf KK(20) und einer Aktion Bewegung aus d
 **Wirkung:** Die Attacke wird um –X erschwert. Bei Erfolg werden die Trefferpunkte +X erhöht.
 
 **Erschwernis:** AT-X
+
+---
+
+**Regelbuchnavigation:** ↑ [Kampfmanover](../Kampfmanover.md) · [Nahkmapfspezialmanover](Nahkmapfspezialmanover.md) →

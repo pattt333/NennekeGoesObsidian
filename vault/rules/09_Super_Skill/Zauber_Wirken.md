@@ -90,3 +90,7 @@ Wirkung: Du kannst die Vorbereitungszeit freiwillig um 1 Minute/Stunde/Tag/Woche
 Wirkung: Beim Einsatz dieser spontanen Modifikation würfelst du den Schaden des übernatürlichen Talentes nicht aus. Das Talent verursacht seinen vollen Schaden. Der Nachteil ist, dass das Talent komplett von deiner Lebensenergie finanziert wird, wie im Kapitel [Energie über Lebenskraft](Weitere_Magieregeln.md#zv-energie-lebenskraft) beschrieben, auch wenn du über genug EN verfügst.
 
 Voraussetzung: Vorteil Verbesserter Kampfzauber
+
+---
+
+**Regelbuchnavigation:** ← [Energie](Energie.md) · ↑ [Übernatürliche Fähigkeiten](09_Super_Skill.md) · [Weitere Magieregeln](Weitere_Magieregeln.md) →

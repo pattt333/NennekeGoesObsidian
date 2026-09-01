@@ -14,3 +14,8 @@
 | **60EP** | **Geistpanzer** Direkter Schaden aus Zaubern wie Fulminictus, Ingisphaero oder Hexengalle wird um den MU-Wert des Helden reduziert. |
 | **Attribut 10** |  |
 | **80EP** | **Unbeugsamkeit** Deine MR steigt um MU/4 Punkte. Statt mit dem angegeben Talent kannst du bei Widerstandsproben gg. Zauber/Liturgien/Anrufungen einfach auf deinen MU proben. Die Proben können nicht patzen. |
+
+
+---
+
+**Regelbuchnavigation:** ← [PV KO](PV_KO.md) · ↑ [002 ProfaneVorteile](../002_ProfaneVorteile.md)

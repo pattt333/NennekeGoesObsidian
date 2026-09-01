@@ -63,3 +63,7 @@ Plattenrüstungen haben einen RS von 6.
 **Werkstattstufe:** 3
 
 **Material:** Metall
+
+---
+
+**Regelbuchnavigation:** ← [holz](holz.md) · ↑ [Rast und Herstellung](08_Rast.md) · [mechanik](mechanik.md) →

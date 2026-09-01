@@ -25,3 +25,7 @@ Beschwörungsschwierigkeit maximal 16 beträgt.
 **Erlernen:**Dru 18
 
 **EP-Kosten:**40 EP
+
+---
+
+**Regelbuchnavigation:** ← [Damon der Keule](Damon_der_Keule.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [DieGrosseTiertabelle](DieGrosseTiertabelle.md) →

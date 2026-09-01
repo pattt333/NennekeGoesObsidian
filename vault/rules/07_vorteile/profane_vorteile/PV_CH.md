@@ -14,3 +14,8 @@
 | **60EP** | **Soziale Anpassungsfähigkeit** Proben auf Autorität, Beeinflussung und Diplomatie zählen außerhalb des Kampfes schon ab einer 19 als kritischer Erfolg. |
 | **Attribut 10** |  |
 | **80EP** | **Starke Aura** Bei Proben auf Autorität, Beeinflussung und Diplomatie kannst du bei einer gelungenen CH-Probe gg. Selbstbeherrschung (Willenskraft) deines Gegenübers, die Probe wiederholen. Außerhalb des Kampfes. |
+
+
+---
+
+**Regelbuchnavigation:** ↑ [002 ProfaneVorteile](../002_ProfaneVorteile.md) · [PV FF](PV_FF.md) →

@@ -9,3 +9,7 @@
 **Voraussetzungen:** der Held beschäftigt sich mit dem Gebiet
 
 **EP-Wert:** 20 Erfahrungspunkte pro Stufe
+
+---
+
+**Regelbuchnavigation:** ← [AV Kulturkunde](AV_Kulturkunde.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV Magieabweisend](AV_Magieabweisend.md) →

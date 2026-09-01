@@ -43,3 +43,8 @@ Es ist übrigens nicht möglich, einfach „einen schmutzigen Trick“ auszufüh
 | Sand in die Augen | 1 | FF vs IN | Proben -4 |
 | Teppich wegziehen | 2 | KK(-4) vs. GE | Sturz |
 | Vorhang überwerfen | 3 | KK(-8) vs. GE | Umklammern (-4) |
+
+
+---
+
+**Regelbuchnavigation:** ← [Fernkampf](Fernkampf.md) · ↑ [Kampf](06_Kampf.md) · [Kampfmanover](Kampfmanover.md) →

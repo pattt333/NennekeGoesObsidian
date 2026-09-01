@@ -20,3 +20,8 @@ Die Werte für die Kampftiere, Such/Jagdtiere und Wachtiere beziehen sich eher a
 | **Jagdvogel** | 2W6 | 1 | 0 | 4+RS | [Hilft bei Wachsamkeit, Überleben](Waffeneigenschaften.md#wf-hilftbei), [Schwer(2)](Waffeneigenschaften.md#wf-schwer) |
 | **Kriegshund(Fernkampf)** | 3W6+1 | 8 | 0 | 8+RS | [Schwer(4)](Waffeneigenschaften.md#wf-schwer), [Umklammern(-4, 12)](../kampfmanover/Basismanover.md#subsubsec-umklammern), [Einschüchternd(+3)](Waffeneigenschaften.md#wf-einschuchternd), [Wendig](Waffeneigenschaften.md#wf-wendig), [Unberechenbar](Waffeneigenschaften.md#wf-unberechenbar) |
 | **Kriegsvogel** | 3W6+1 | 64 | 0 | 4+RS | [Einschüchternd(+2)](Waffeneigenschaften.md#wf-einschuchternd), [Unberechenbar](Waffeneigenschaften.md#wf-unberechenbar) |
+
+
+---
+
+**Regelbuchnavigation:** ← [Feuerwaffen](Feuerwaffen.md) · ↑ [Waffen](Waffen.md) · [Grosse Waffen](Grosse_Waffen.md) →

@@ -13,3 +13,8 @@
 | **zwei weitere Attr.** |  |
 | **auf jeweils 8** |  |
 | **80EP** | **Wurfwaffenkampf IV** +1Waffenschaden. Der KKZ für Wurfwaffen wird verdoppelt (sie zählen also als kopflastig). Das Manöver [Reichweite erhöhen](../../06_kampf/kampfmanover/Fernkampf_Basismanover.md#subsubsec-reichweiteerhohen), ist um +2 erleichtert. |
+
+
+---
+
+**Regelbuchnavigation:** ← [Schusswaffenkampf](Schusswaffenkampf.md) · ↑ [006 Kampfstile](../006_Kampfstile.md)

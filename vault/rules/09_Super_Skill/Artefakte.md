@@ -82,3 +82,8 @@ Auch in der Strukturanalyse kann der Analysegrad sinken. Besonders komplexe Astr
 | **3** | Auslöser | Verbleibende Haltbarkeit | Auftrag | Verbleibende Wirkungsdauer |
 | **4** | Modifikationen | Modifikationen | Besondere Vorteile | Modifikationen |
 | **5** | 4p14cm|Du erlangst vollständiges Verständnis des magischen Wirkens und du kannst dieses Wirken möglicherweise rekonstruieren. |  |  |  |
+
+
+---
+
+**Regelbuchnavigation:** ← [Weitere Magieregeln](Weitere_Magieregeln.md) · ↑ [Übernatürliche Fähigkeiten](09_Super_Skill.md) · [Beschwoerungen](Beschwoerungen.md) →

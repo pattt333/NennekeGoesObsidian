@@ -16,7 +16,7 @@ import re
 import shutil
 import sys
 import zipfile
-from collections import Counter
+from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
@@ -34,6 +34,26 @@ COMMENTED_INCLUDE_RE = re.compile(r"^\s*%\s*\\(?:input|include)\{([^}]+)\}", re.
 LABEL_RE = re.compile(r"\\label\{([^}]+)\}")
 COMMAND_RE = re.compile(r"\\([A-Za-z@]+)\*?")
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+CHAPTER_TITLES = {
+    "Chapters/01_Proben.tex": "Proben",
+    "Chapters/02_Charaktere.tex": "Charaktere",
+    "Chapters/03_Eigenschaften.tex": "Eigenschaften",
+    "Chapters/04_Fertigkeiten/04_Fertigkeiten.tex": "Fertigkeiten",
+    "Chapters/05_Gesundheit.tex": "Gesundheit",
+    "Chapters/06_kampf/06_Kampf.tex": "Kampf",
+    "Chapters/07_vorteile/07_Vorteile.tex": "Vorteile",
+    "Chapters/08_rast/08_Rast.tex": "Rast und Herstellung",
+    "Chapters/09_Super_Skill/09_Super_Skill.tex": "Übernatürliche Fähigkeiten",
+}
+TABLE_LOOKUP_SOURCES = (
+    "Chapters/01_Proben.tex",
+    "Chapters/04_Fertigkeiten/04_Fertigkeiten.tex",
+    "Chapters/05_Gesundheit.tex",
+    "Chapters/06_kampf/06_Kampf.tex",
+    "Chapters/07_vorteile/07_Vorteile.tex",
+    "Chapters/09_Super_Skill/09_Super_Skill.tex",
+)
+RULE_INDEX = "regelindex.md"
 
 
 def write_text(path: Path, content: str) -> None:
@@ -82,11 +102,48 @@ def anchor(label: str) -> str:
 
 
 def title_for(source: str) -> str:
-    return Path(source).stem.replace("_", " ")
+    return CHAPTER_TITLES.get(source, Path(source).stem.replace("_", " "))
 
 
 def relative_link(current: str, target: str) -> str:
     return posixpath.relpath(target, start=posixpath.dirname(current) or ".")
+
+
+def navigation_graph(archive: "Archive", source_map: dict[str, str]) -> tuple[dict[str, list[str]], dict[str, str]]:
+    """Return mapped include children and the first mapped parent for each source."""
+    children: dict[str, list[str]] = {}
+    parents: dict[str, str] = {}
+    for parent in ["main.tex", *source_map]:
+        mapped_children = [child for child in archive.includes(parent) if child in source_map]
+        children[parent] = mapped_children
+        for child in mapped_children:
+            parents.setdefault(child, parent)
+    return children, parents
+
+
+def link_to(current: str, target: str, title: str) -> str:
+    return f"[{title}]({relative_link(current, target)})"
+
+
+def note_navigation(source: str, source_map: dict[str, str], children: dict[str, list[str]], parents: dict[str, str]) -> str:
+    """Render compact navigation for a source note from the include graph."""
+    parent = parents.get(source)
+    if not parent:
+        return ""
+    current = source_map[source]
+    siblings = children.get(parent, [])
+    position = siblings.index(source)
+    links: list[str] = []
+    if position:
+        previous = siblings[position - 1]
+        links.append("← " + link_to(current, source_map[previous], title_for(previous)))
+    parent_target = "index.md" if parent == "main.tex" else source_map[parent]
+    parent_title = "Startseite" if parent == "main.tex" else title_for(parent)
+    links.append("↑ " + link_to(current, parent_target, parent_title))
+    if position + 1 < len(siblings):
+        following = siblings[position + 1]
+        links.append(link_to(current, source_map[following], title_for(following)) + " →")
+    return "\n\n---\n\n**Regelbuchnavigation:** " + " · ".join(links) + "\n"
 
 
 class Archive:
@@ -186,9 +243,9 @@ def source_manifest(archive: Archive, labels: dict[str, dict[str, str]]) -> dict
 
 
 def source_only_markdown(archive: Archive) -> list[str]:
-    mapped = {destination(source) for source in archive.converted_sources()}
+    mapped = {target for source in archive.entries if (target := destination(source))}
     current: set[str] = set()
-    ignored_names = {"index.md", "_sidebar.md"}
+    ignored_names = {"index.md", "_sidebar.md", RULE_INDEX}
     for path in VAULT.rglob("*.md"):
         relative = path.relative_to(VAULT)
         if path.name in ignored_names or any(part.startswith(".") for part in relative.parts):
@@ -352,18 +409,19 @@ def generate(archive: Archive, staging: Path = STAGING) -> dict[str, object]:
         shutil.rmtree(staging)
     labels = labels_for(archive)
     sources = archive.converted_sources()
-    source_map = {source: destination(source) for source in archive.entries if destination(source)}
-    assert all(source_map.values())
+    source_map = {source: target for source in archive.entries if (target := destination(source))}
+    children, parents = navigation_graph(archive, source_map)
     all_unsupported: dict[str, list[str]] = {}
     for source in sources:
-        content, unsupported = convert_tex(source, archive.text[source], labels, source_map)  # type: ignore[arg-type]
-        target = staging / source_map[source]  # type: ignore[index]
-        write_text(target, content)
+        content, unsupported = convert_tex(source, archive.text[source], labels, source_map)
+        target = staging / source_map[source]
+        write_text(target, content + note_navigation(source, source_map, children, parents))
         if unsupported:
             all_unsupported[source] = sorted(unsupported)
     for source, target in source_map.items():
         if source not in sources:
-            write_text(staging / target, f"<!-- Source: {source} -->\n\n# {title_for(source)}\n\n*Leere Quelldatei in der autoritativen Quelle.*")
+            content = f"<!-- Source: {source} -->\n\n# {title_for(source)}\n\n*Leere Quelldatei in der autoritativen Quelle.*"
+            write_text(staging / target, content + note_navigation(source, source_map, children, parents))
     assets = staging / "assets"
     for name, entry in archive.entries.items():
         if Path(name).suffix.lower() in IMAGE_EXTENSIONS:
@@ -389,32 +447,68 @@ def generate(archive: Archive, staging: Path = STAGING) -> dict[str, object]:
     )
     write_text(REPORTS / "migration-report.md", migration_report(archive))
     write_text(staging / "index.md", generated_index(archive, source_map))
-    write_text(staging / "_sidebar.md", generated_sidebar(archive, source_map))
+    write_text(staging / RULE_INDEX, generated_rule_index(source_map))
+    write_text(staging / "_sidebar.md", generated_sidebar(archive, source_map, children))
     return {"sources": len(sources), "unsupported": all_unsupported, "publicationPaths": publication_paths}
 
 
 def generated_index(archive: Archive, source_map: dict[str, str | None]) -> str:
-    links = "\n".join(
+    chapters = "\n".join(
         f"- [{title_for(source)}]({target})"
         for source in archive.includes("main.tex")
         if (target := source_map.get(source))
     )
-    return f"# Nenneke\n\nAktuelle, aus `NennekeV2.zip` erzeugte Regelwerksfassung.\n\n## Kapitel\n\n{links}\n"
-
-
-def generated_sidebar(archive: Archive, source_map: dict[str, str | None]) -> str:
-    direct = archive.includes("main.tex")
-    lines = ["- [Startseite](index.md)"]
-    for source in direct:
-        target = source_map.get(source)
-        if target:
-            lines.append(f"- [{title_for(source)}]({target})")
-    lines.extend(["", "- **Alle Quellnotizen**"])
-    lines.extend(
-        f"  - [{title_for(source)}]({target})"
-        for source, target in sorted(source_map.items())
-        if target
+    lookup = "\n".join(
+        f"- [{title_for(source)}]({target})"
+        for source in TABLE_LOOKUP_SOURCES
+        if (target := source_map.get(source))
     )
+    return (
+        "# Nenneke\n\n"
+        "Aktuelle, aus `NennekeV2.zip` erzeugte Regelwerksfassung.\n\n"
+        "## Regelbuch lesen\n\n"
+        f"{chapters}\n\n"
+        "## Am Spieltisch\n\n"
+        "Direkteinstiege für häufige Regelfragen:\n\n"
+        f"{lookup}\n\n"
+        "Für einzelne Begriffe nutze in Obsidian die Suche oder den Schnellwechsler."
+        "\n\n## Vollständigkeit\n\n"
+        f"- [Vollständiger Regelindex]({RULE_INDEX})"
+    )
+
+
+def generated_rule_index(source_map: dict[str, str]) -> str:
+    sections: dict[str, list[tuple[str, str]]] = defaultdict(list)
+    for source, target in sorted(source_map.items(), key=lambda item: item[1].lower()):
+        parts = Path(target).parts
+        section = "Grundlagen" if len(parts) < 3 else parts[1].replace("_", " ")
+        sections[section].append((source, target))
+    lines = ["# Vollständiger Regelindex", "", "Alle aus der maßgeblichen Quelle erzeugten Regelnotizen."]
+    for section, entries in sections.items():
+        lines.extend(["", f"## {section}", ""])
+        lines.extend(f"- [{title_for(source)}]({target})" for source, target in entries)
+    return "\n".join(lines)
+
+
+def generated_sidebar(archive: Archive, source_map: dict[str, str | None], children: dict[str, list[str]] | None = None) -> str:
+    if children is None:
+        mapped_sources = {source: target for source, target in source_map.items() if target}
+        children, _ = navigation_graph(archive, mapped_sources)
+
+    def render_branch(source: str, depth: int) -> list[str]:
+        target = source_map.get(source)
+        if not target:
+            return []
+        lines = ["  " * depth + f"- [{title_for(source)}]({target})"]
+        if depth < 1:
+            for child in children.get(source, []):
+                lines.extend(render_branch(child, depth + 1))
+        return lines
+
+    lines = ["- [Startseite](index.md)"]
+    for source in children.get("main.tex", []):
+        lines.extend(render_branch(source, 0))
+    lines.extend(["", f"- [Vollständiger Regelindex]({RULE_INDEX})"])
     return "\n".join(lines)
 
 

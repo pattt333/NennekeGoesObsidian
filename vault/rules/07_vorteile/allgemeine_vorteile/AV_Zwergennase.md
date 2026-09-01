@@ -9,3 +9,7 @@
 **Voraussetzungen:** keine
 
 **EP-Wert:** 60 Erfahrungspunkte
+
+---
+
+**Regelbuchnavigation:** ← [AV Zauberer](AV_Zauberer.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md)

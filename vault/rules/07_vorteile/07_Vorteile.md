@@ -19,3 +19,8 @@ Mit Vorteilen und Nachteilen kann der Spieler seinem Charakter mehr Tiefe verlei
 - [003 Kampfovrteile](003_Kampfovrteile.md)
 
 - [006 Kampfstile](006_Kampfstile.md)
+
+
+---
+
+**Regelbuchnavigation:** ← [Kampf](../06_kampf/06_Kampf.md) · ↑ [Startseite](../../index.md) · [Rast und Herstellung](../08_rast/08_Rast.md) →

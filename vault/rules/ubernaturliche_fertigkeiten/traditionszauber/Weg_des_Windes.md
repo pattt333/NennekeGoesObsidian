@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Weg des Dolches](Weg_des_Dolches.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Weg durch Sumus Leib](Weg_durch_Sumus_Leib.md) →

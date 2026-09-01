@@ -9,3 +9,8 @@
 | **20EP** | **Gewalttätiges Nachsetzen** Gegen Gegner deren GS mindestens um die Hälfte reduziert wurde, richtest du +1W6 mehr Schaden mit Nahkampfangriffen an. |
 | **80EP** | **Meisterliche Reaktion** Du kannst pro Kampfrunde eine Reaktion (Verteidigung oder Passierschlag) als freie Reaktion ausführen. |
 | **50EP** | **Auflaufen lassen** Du kannst das Manöver [Auflaufen lassen](../../06_kampf/kampfmanover/Nahkmapfspezialmanover.md#subsubsec-auflaufenlassen) ausführen. |
+
+
+---
+
+**Regelbuchnavigation:** ← [BERSERKER](BERSERKER.md) · ↑ [003 Kampfovrteile](../003_Kampfovrteile.md) · [RITTER](RITTER.md) →

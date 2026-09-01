@@ -12,3 +12,8 @@
 | **60EP** | **Schnellziehen** Erlaubt das Manöver [Schnellschuss](../../06_kampf/kampfmanover/Fernkampf_Spezialmanover.md#subsubsec-schnellschuss) im Fernkampf. Bereit machen wird zu einer einfachen Aktion und ist damit kombinierbar. |
 | **Attribut 10** |  |
 | **80EP** | **Meisterschuss** Erlaubt das Manöver [Meisterschuss](../../06_kampf/kampfmanover/Fernkampf_Spezialmanover.md#subsubsec-meisterschuss). |
+
+
+---
+
+**Regelbuchnavigation:** ← [KV CH](KV_CH.md) · ↑ [003 Kampfovrteile](../003_Kampfovrteile.md) · [KV GE](KV_GE.md) →

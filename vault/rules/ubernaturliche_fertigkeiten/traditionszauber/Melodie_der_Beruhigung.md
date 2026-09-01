@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Matrixstabilisierung](Matrixstabilisierung.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Melodie der Besanftigung](Melodie_der_Besanftigung.md) →

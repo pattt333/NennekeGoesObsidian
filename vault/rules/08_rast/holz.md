@@ -71,3 +71,7 @@ Ein Hartholzharnisch hat einen RS von 4 und BE von 2.
 **Werkstattstufe:** 3
 
 **Material:** Holz
+
+---
+
+**Regelbuchnavigation:** ← [Alchymie](Alchymie.md) · ↑ [Rast und Herstellung](08_Rast.md) · [metal](metal.md) →

@@ -15,3 +15,7 @@ Um den vollen Nutzen aus dem Vorteil zu ziehen muss sich der Charakter auch für
 **Voraussetzungen:** nicht Vorteil Zauberer I
 
 **EP-Wert:** 40 Erfahrungspunkte pro Stufe
+
+---
+
+**Regelbuchnavigation:** ← [AV Gefahreninstinkt](AV_Gefahreninstinkt.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV Gluck](AV_Gluck.md) →

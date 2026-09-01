@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Dinge aufspuren](Dinge_aufspuren.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Elementar der Keule](Elementar_der_Keule.md) →

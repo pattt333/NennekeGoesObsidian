@@ -25,3 +25,7 @@ Illusion
 **Erlernen:**Smn 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Astralspeicher](Astralspeicher.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Aufpeitschender Klang](Aufpeitschender_Klang.md) →

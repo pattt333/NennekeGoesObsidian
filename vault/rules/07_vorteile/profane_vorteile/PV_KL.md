@@ -14,3 +14,8 @@
 | **60EP** | **Vorbereitung** Wenn du bei Rast-Proben einen kritischen Erfolg erzielst, darfst du zusätzlich zu sonstigen Vorteilen durch den Erfolg, ein weiteres Rast-Talent einsetzen. |
 | **Attribut 10** |  |
 | **80EP** | **Eingebung** Bei profanen Proben für Ermittlungen, einer Informationssuche, in der Forschung oder zum Erinnern würfelst du einen W6, das Ergebnis wird als Hohe Qualität auf deine Probe gerechnet. |
+
+
+---
+
+**Regelbuchnavigation:** ← [PV KK](PV_KK.md) · ↑ [002 ProfaneVorteile](../002_ProfaneVorteile.md) · [PV KO](PV_KO.md) →

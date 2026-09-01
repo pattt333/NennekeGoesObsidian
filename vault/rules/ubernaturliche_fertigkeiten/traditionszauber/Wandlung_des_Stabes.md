@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Wachsame Augen](Wachsame_Augen.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Warndender Klang](Warndender_Klang.md) →

@@ -67,3 +67,7 @@ Das hergestellte Schloss ist mit einer Schlösser knacken-Probe (16) zu knacken.
 **Werkstattstufe:** 1
 
 **Material:** Mechanik
+
+---
+
+**Regelbuchnavigation:** ← [metal](metal.md) · ↑ [Rast und Herstellung](08_Rast.md) · [stein](stein.md) →

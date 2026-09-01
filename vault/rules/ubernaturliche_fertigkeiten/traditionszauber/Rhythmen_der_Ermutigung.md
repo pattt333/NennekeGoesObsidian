@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Reitender Geist](Reitender_Geist.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Rhythmen der Gute](Rhythmen_der_Gute.md) →

@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Optikstein](Optikstein.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Pech an den Hals wunschen](Pech_an_den_Hals_wunschen.md) →

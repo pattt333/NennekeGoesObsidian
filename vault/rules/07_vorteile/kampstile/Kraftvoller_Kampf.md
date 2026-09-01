@@ -13,3 +13,8 @@
 | **zwei weitere Attr.** |  |
 | **auf jeweils 8** |  |
 | **80EP** | **Kraftvoller Kampf IV** +1Waffenschaden. Erlaubt das [Manöver Berserkerangriff](../../06_kampf/kampfmanover/Nahkmapfspezialmanover.md#subsubsec-berserkerangriff). |
+
+
+---
+
+**Regelbuchnavigation:** ← [Beidhandiger Kampf](Beidhandiger_Kampf.md) · ↑ [006 Kampfstile](../006_Kampfstile.md) · [Parierwaffenkampf](Parierwaffenkampf.md) →

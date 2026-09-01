@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Ungesehener Beobachter](Ungesehener_Beobachter.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Verwandlung des Iama](Verwandlung_des_Iama.md) →

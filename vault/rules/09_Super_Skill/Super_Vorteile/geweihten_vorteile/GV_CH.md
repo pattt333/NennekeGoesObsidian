@@ -14,3 +14,8 @@
 | **Attribut 10** |  |
 | **Geweihter I** |  |
 | **80EP** | **Segnung der Gläubigen** Liturgien und Zeremonien, die mehrere Ziele oder eine Fläche betreffen, kosten nur die halben Basiskosten. |
+
+
+---
+
+**Regelbuchnavigation:** ← [ZV MU](../zauberer_vorteile/ZV_MU.md) · ↑ [Super Vorteile](../Super_Vorteile.md) · [GV IN](GV_IN.md) →

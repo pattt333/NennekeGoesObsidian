@@ -11,3 +11,7 @@ verfallen
 **Erlernen:**Dru 18
 
 **EP-Kosten:**40 EP
+
+---
+
+**Regelbuchnavigation:** ← [Blick ins Geisterreich](Blick_ins_Geisterreich.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Blut des tieres](Blut_des_tieres.md) →

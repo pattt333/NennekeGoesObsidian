@@ -14,3 +14,8 @@
 | **Attribut 10** |  |
 | **Geweihter I** |  |
 | **80EP** | **Liebling der Gottheit** Zeigt der gewertete Würfel bei einer Liturgie eine 16 oder höher, kostet diese keine EN und erhält eine zusätzliche Stufe Hohe Qualität. |
+
+
+---
+
+**Regelbuchnavigation:** ← [GV IN](GV_IN.md) · ↑ [Super Vorteile](../Super_Vorteile.md) · [GV MU](GV_MU.md) →

@@ -25,3 +25,7 @@ Das Opfer leidet an einer Angst deiner Wahl. Wird die Angst ausgelöst, steht es
 **Erlernen:**Hex 12
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Allegorische Analyse](Allegorische_Analyse.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Apport](Apport.md) →

@@ -17,3 +17,7 @@
 **Voraussetzungen:** Resistenz Krankheiten
 
 **EP-Wert:** 40 Erfahrungspunkte
+
+---
+
+**Regelbuchnavigation:** ← [AV ResKalte](AV_ResKalte.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV Tierempathie](AV_Tierempathie.md) →

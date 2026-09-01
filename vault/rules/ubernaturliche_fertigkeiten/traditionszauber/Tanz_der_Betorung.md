@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Tairachs Sklaven](Tairachs_Sklaven.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Tanz der Bilder](Tanz_der_Bilder.md) →

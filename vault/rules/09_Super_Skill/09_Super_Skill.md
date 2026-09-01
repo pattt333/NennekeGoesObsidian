@@ -21,3 +21,8 @@ Regeltechnisch werden diese beiden Energien unter dem Begriff Übernatürliche F
 - [Beschwoerungen](Beschwoerungen.md)
 
 - [Super Vorteile](Super_Vorteile/Super_Vorteile.md)
+
+
+---
+
+**Regelbuchnavigation:** ← [Rast und Herstellung](../08_rast/08_Rast.md) · ↑ [Startseite](../../index.md)

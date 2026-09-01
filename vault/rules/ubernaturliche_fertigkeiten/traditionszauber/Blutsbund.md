@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Blutgeistaufnehmen](Blutgeistaufnehmen.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Brazoraghs Hieb](Brazoraghs_Hieb.md) →

@@ -10,3 +10,7 @@ nächsten Aufladen kannst du die Kosten für diese Zauber teilweise oder ganz au
 **Erlernen:**Mag 18
 
 **EP-Kosten:**80 EP
+
+---
+
+**Regelbuchnavigation:** ← [Astrale Aufladung](Astrale_Aufladung.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Aufmerksamer Wachter](Aufmerksamer_Wachter.md) →

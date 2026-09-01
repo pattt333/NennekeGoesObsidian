@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Chymische Hochzeit](Chymische_Hochzeit.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Damonenbann des Dolches](Damonenbann_des_Dolches.md) →

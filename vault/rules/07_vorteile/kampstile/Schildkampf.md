@@ -15,3 +15,8 @@
 | **zwei weitere Attr.** |  |
 | **auf jeweils 8** |  |
 | **80EP** | **Schildkampf IV** +1VT. Erlaubt das [Manöver Schildwurf](../../06_kampf/kampfmanover/Nahkmapfspezialmanover.md#subsubsec-schildwurf). |
+
+
+---
+
+**Regelbuchnavigation:** ← [Reiterkampf](Reiterkampf.md) · ↑ [006 Kampfstile](../006_Kampfstile.md) · [Schneller Kampf](Schneller_Kampf.md) →

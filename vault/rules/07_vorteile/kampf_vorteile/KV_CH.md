@@ -14,3 +14,8 @@
 | **60EP** | **Kraftvolle Stimme** Die Grundwirkungsdauer von Kommandos erhöht sich auf 4 Kampfrunden. Mit einer Stufe Hohe Qualität kann die Wirkungsdauer weiterhin um +4 erhöht werden. |
 | **Attribut 10** |  |
 | **80EP** | **Komplexe Befehle** Du kannst die Aktion Kommando geben mit sich selbst kombinieren. Die Proben sind jedoch ganz normal um -4 erschwert. Du kannst deine Mistreiter dadurch von zwei unterschiedlichen Anführer-Effekten gleichzeitig profitieren lassen. |
+
+
+---
+
+**Regelbuchnavigation:** ↑ [003 Kampfovrteile](../003_Kampfovrteile.md) · [KV FF](KV_FF.md) →

@@ -16,3 +16,8 @@
 | **Attribut 10** |  |
 | **Zauberer I** |  |
 | **80EP** | **Verbesserter Schadenszauber** Du kannst die spontane Modifikation [Verbesserter Schadenszauber](../../Zauber_Wirken.md#verbesserter-schadenszauber) verwenden. |
+
+
+---
+
+**Regelbuchnavigation:** ← [ZV KL](ZV_KL.md) · ↑ [Super Vorteile](../Super_Vorteile.md) · [GV CH](../geweihten_vorteile/GV_CH.md) →

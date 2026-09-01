@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Gesang der Wolfe](Gesang_der_Wolfe.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Gespur des Dolches](Gespur_des_Dolches.md) →

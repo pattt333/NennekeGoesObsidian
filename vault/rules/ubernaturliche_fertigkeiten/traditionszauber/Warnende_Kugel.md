@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Warndender Klang](Warndender_Klang.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Warnender Stein](Warnender_Stein.md) →

@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Rhythmen des Krieges](Rhythmen_des_Krieges.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Rhythmen des Sturms](Rhythmen_des_Sturms.md) →

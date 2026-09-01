@@ -13,3 +13,8 @@
 | **zwei weitere Attr.** |  |
 | **auf jeweils 8** |  |
 | **80EP** | **Schneller Kampf IV** +1AT. Für jeden Angriff auf denselben Gegner (ohne Unterbrechung, es wurde also kein anderer Gegner nebenher angegriffen), erhältst Du (gegen diesen Gegner) +1AT, was sich bis zu +5AT summieren kann. |
+
+
+---
+
+**Regelbuchnavigation:** ← [Schildkampf](Schildkampf.md) · ↑ [006 Kampfstile](../006_Kampfstile.md) · [Schusswaffenkampf](Schusswaffenkampf.md) →

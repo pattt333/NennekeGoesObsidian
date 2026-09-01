@@ -10,8 +10,3 @@ The archive is authoritative. Files below have no direct source-file destination
 | `rules/02_Schicksalspunkte.md` | `rules/02_Charaktere.md` | Current source embeds the material in the characters chapter |
 
 ## Markdown-only Files
-
-- `historical-review`: `rules/07_vorteile/kampf_vorteile/Kampfvorteile.md`
-- `historical-review`: `rules/ubernaturliche_fertigkeiten/traditionszauber/Bindung_der_Kugel.md`
-- `historical-review`: `rules/ubernaturliche_fertigkeiten/traditionszauber/Bindung_der_Schale.md`
-- `historical-review`: `rules/ubernaturliche_fertigkeiten/traditionszauber/DieGrosseTiertabelle.md`

@@ -23,3 +23,8 @@ Fertigkeiten setzen sich aus verwandten Bereichen zusammen, von denen dein Chara
 | --- | --- |
 | **Schriften** | Kusliker Zeichen, Tulamidya, Rogolan, Imperiale Zeichen, Zhayad |
 | **Berufe** | Bildhauer, Gaukler, Koch, Schneider, Kürschner, Belagerungswaffenschütze |
+
+
+---
+
+**Regelbuchnavigation:** ← [Eigenschaften](../03_Eigenschaften.md) · ↑ [Startseite](../../index.md) · [Gesundheit](../05_Gesundheit.md) →

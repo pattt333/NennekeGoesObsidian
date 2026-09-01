@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Langer Arm](Langer_Arm.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Lebenskraft des Dolches](Lebenskraft_des_Dolches.md) →

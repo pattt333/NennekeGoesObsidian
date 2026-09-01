@@ -11,3 +11,8 @@ Die Magie ist in Aventurien zwar nicht alltäglich, aber allgegenwärtig. Daher 
 - Dämonenkunde: Dämonenkunde beschäftigt sich mit den Erzdämonen, ihren Dienern und dämonischen Zaubern. Du kannst Dämonen benennen und kennst ihre Schwachstellen.
 - Elementarkunde: Elementarkunde befasst sich mit den sechs Elementen, der Elementarbeschwörung und den elementaren Zaubern.
 - Magiekunde: Magiekunde hilft dir bei der Einschätzung und der Analyse von magischen Phänomenen, Zaubern und Ritualen.
+
+
+---
+
+**Regelbuchnavigation:** ↑ [04 2 Profane Fertigkeiten](../04_2_Profane_Fertigkeiten.md) · [Athletik](Athletik.md) →

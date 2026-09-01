@@ -101,3 +101,8 @@ Die Waffe verursacht auch bei einer 2 einen Patzer.
 <a id="wf-zweihandig"></a>
 
 **Zweihändig:** Die Waffe benötigt die Führung mit beiden Händen. Bei einhändiger Führung erleidest du einen Malus von -2 und die Waffe richtet -4 TP weniger an.
+
+
+---
+
+**Regelbuchnavigation:** ↑ [Waffen](Waffen.md) · [Hiebwaffen](Hiebwaffen.md) →

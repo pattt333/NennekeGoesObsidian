@@ -37,3 +37,7 @@ Stoffrüstungen haben einen RS von 3-4.
 **Werkstattstufe:** 3
 
 **Material:** Stoff
+
+---
+
+**Regelbuchnavigation:** ← [stein](stein.md) · ↑ [Rast und Herstellung](08_Rast.md)

@@ -47,3 +47,8 @@ Allgemeine Vorteile sind von jedem Helden erwerbbar. Sie besitzten keine Vorauss
 - [AV Zauberer](allgemeine_vorteile/AV_Zauberer.md)
 
 - [AV Zwergennase](allgemeine_vorteile/AV_Zwergennase.md)
+
+
+---
+
+**Regelbuchnavigation:** ↑ [Vorteile](07_Vorteile.md) · [002 ProfaneVorteile](002_ProfaneVorteile.md) →

@@ -11,3 +11,8 @@
 | **Hinterhältiger Stoß** | **Ein Messer in jeder Tasche** Das Manöver [Hinterhältiger Stoß](../../06_kampf/kampfmanover/Nahkmapfspezialmanover.md#subsubsec-hinterhaltigerstoss) wird im Fernkampf mit Wurfwaffen verfügbar. |
 | **60EP** |  |
 | **Hinterhältiger Stoß** | **Hinterhältigkeit des Meuchlers** Befindest du dich im Rücken des Gegners und führst eine Waffe mit Reichweite 0, verursachen Angriffe mit dieser Waffe SP statt TP (die Angriffe ignorieren also Rüstungsschutz) |
+
+
+---
+
+**Regelbuchnavigation:** ← [KV MU](KV_MU.md) · ↑ [003 Kampfovrteile](../003_Kampfovrteile.md) · [STREUNER](STREUNER.md) →

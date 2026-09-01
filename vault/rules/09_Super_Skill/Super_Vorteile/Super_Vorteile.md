@@ -42,3 +42,8 @@ Die folgenden Vorteile können nur mit dem Vorteil Geweihter gekauft werden. Sie
 - [GV KL](geweihten_vorteile/GV_KL.md)
 
 - [GV MU](geweihten_vorteile/GV_MU.md)
+
+
+---
+
+**Regelbuchnavigation:** ← [Beschwoerungen](../Beschwoerungen.md) · ↑ [Übernatürliche Fähigkeiten](../09_Super_Skill.md)

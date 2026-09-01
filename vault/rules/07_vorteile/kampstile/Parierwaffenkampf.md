@@ -13,3 +13,8 @@
 | **zwei weitere Attr.** |  |
 | **auf jeweils 8** |  |
 | **80EP** | **Parierwaffenkampf IV** +1VT. Erlaubt das [Momentum stören](../../06_kampf/kampfmanover/Nahkmapfspezialmanover.md#subsubsec-momentumstoeren). |
+
+
+---
+
+**Regelbuchnavigation:** ← [Kraftvoller Kampf](Kraftvoller_Kampf.md) · ↑ [006 Kampfstile](../006_Kampfstile.md) · [Reiterkampf](Reiterkampf.md) →

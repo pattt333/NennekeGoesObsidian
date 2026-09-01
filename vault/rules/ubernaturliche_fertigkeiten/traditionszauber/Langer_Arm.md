@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Kugel des Illusionisten](Kugel_des_Illusionisten.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Launen des Windes](Launen_des_Windes.md) →

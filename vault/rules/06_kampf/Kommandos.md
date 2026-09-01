@@ -24,3 +24,7 @@ Mit dem Vorteil Anführer schaltest du mehrere Arten von Kommandos frei.
 Vor allem durch die [Kampf-Charisma Vorteile](../07_vorteile/kampf_vorteile/KV_CH.md#subsec-ch-vorteile) kann ein Anführer seine Kompetenz beim Anführen verbessern. Darunter fallen Dinge wie die Kombination zweier Manöver oder das Verbessern des Manöver-Effektes, aber auch die simple Erhöhung der Wirkungsdauer.
 
 Kritische Erfolge bei Kommandos verdoppeln den angestrebten Effekt. Patzer kehren den Effekt des Kommandos ins Negative.
+
+---
+
+**Regelbuchnavigation:** ↑ [Weitere Kampfregeln](Weitere_Kampfregeln.md)

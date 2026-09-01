@@ -64,3 +64,8 @@ Wann immer dir ein Fernkampfpatzer unterläuft, musst du 2W6 auf die Patzertabel
 | **4-8** | Fehlschuss, du musst deine Waffe mit einer Aktion Bereit machen. |
 | **9-11** | Ein Verbündetes Ziel in Reichweite (vom Spielleiter gewählt oder nächstes Ziel in der Schusslinie) erleidet die Hälfte deines normalen Waffenschadens (aufgerundet). Falls keines vorhanden ist, verfehlt der Schuss knapp deinen eigenen Fuß. |
 | **12** | Du erleidest deinen Waffenschaden. |
+
+
+---
+
+**Regelbuchnavigation:** ← [Angriff Verteidigung](Angriff_Verteidigung.md) · ↑ [Kampf](06_Kampf.md) · [Weitere Kampfregeln](Weitere_Kampfregeln.md) →

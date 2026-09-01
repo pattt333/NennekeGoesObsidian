@@ -11,3 +11,8 @@ Die Phexischen Handwerke sind für alle Helden geeignet, die dem Herrn von List 
 - Verbergen: Wenn es gilt, sich anzuschleichen oder zu verstecken, wird auf Verbergen gewürfelt. Auch wer gerne einen Dolch zum Diner schmuggeln will, interessiert sich für dieses Talent.
 - Fallen entschärfen: Das Talent alle Arten von mechanischen Fallen zu deaktivieren oder heraus zu finden wie eine Falle theoretisch funktioniert.
 - Schlösserknacken: Wenn man nicht gerade mit Gewalt Türen aufstemmen oder Wände durchbrechen will, ist dieses Talent eine gute Wahl zum Bahnen eines Weges.
+
+
+---
+
+**Regelbuchnavigation:** ← [Menschenkenntnis](Menschenkenntnis.md) · ↑ [04 2 Profane Fertigkeiten](../04_2_Profane_Fertigkeiten.md) · [Selbstbeherrschung](Selbstbeherrschung.md) →

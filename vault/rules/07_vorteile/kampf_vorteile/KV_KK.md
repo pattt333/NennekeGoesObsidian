@@ -12,3 +12,8 @@
 | **60EP** | **Hammerschlag** Erlaubt das Manöver [Hammerschlag](../../06_kampf/kampfmanover/Nahkmapfspezialmanover.md#subsubsec-hammerschlag). |
 | **Attribut 10** |  |
 | **80EP** | **Unaufhaltsam** Selbst bei einer gelungenen gegnerischen Verteidigung richtest du halben Schaden an. Ausweichen vermeidet diesen Schaden. Manövereffekte wirken weiterhin nur bei gelungenen Attacken. |
+
+
+---
+
+**Regelbuchnavigation:** ← [KV IN](KV_IN.md) · ↑ [003 Kampfovrteile](../003_Kampfovrteile.md) · [KV KL](KV_KL.md) →

@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Melodie der Versohnung](Melodie_der_Versohnung.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Melodie des Einlullens](Melodie_des_Einlullens.md) →

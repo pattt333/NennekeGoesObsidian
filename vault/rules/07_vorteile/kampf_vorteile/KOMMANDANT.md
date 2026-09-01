@@ -9,3 +9,8 @@
 | **Anführer** | **Inspirierender Angriff** Ermöglicht das Manöver [Inspiriender Angriff](../../06_kampf/kampfmanover/Nahkmapfspezialmanover.md#subsec-inspirierender-angriff). |
 | **60EP** |  |
 | **Anführer** | **Inspirierende Worte** Du kannst den Effekt deiner Kommandos mit maximal einer Stufen Hoher Qualität um 1 Stufe erhöhen, also statt +1AT +2AT oder statt +2TP +4TP, usw. |
+
+
+---
+
+**Regelbuchnavigation:** ← [DIPLOMAT](DIPLOMAT.md) · ↑ [003 Kampfovrteile](../003_Kampfovrteile.md) · [BERSERKER](BERSERKER.md) →

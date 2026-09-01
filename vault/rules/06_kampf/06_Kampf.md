@@ -114,3 +114,8 @@ Schleichnagriffe zählen immer als im Kampfgetümmel abgegeben.
 - [Kampfmanover](Kampfmanover.md)
 
 - [Waffen](waffen/Waffen.md)
+
+
+---
+
+**Regelbuchnavigation:** ← [Gesundheit](../05_Gesundheit.md) · ↑ [Startseite](../../index.md) · [Vorteile](../07_vorteile/07_Vorteile.md) →

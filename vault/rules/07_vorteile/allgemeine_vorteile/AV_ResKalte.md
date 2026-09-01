@@ -11,3 +11,7 @@
 **EP-Wert:** 40 Erfahrungspunkte
 
 **Nachkauf:** selten
+
+---
+
+**Regelbuchnavigation:** ← [AV ResHitze](AV_ResHitze.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV ResKrankheiten](AV_ResKrankheiten.md) →

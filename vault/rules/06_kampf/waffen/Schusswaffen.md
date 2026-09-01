@@ -25,3 +25,8 @@
 | **Handarmbrust** | 2W6+2 | 8 | 0 | 4 | [Schusswaffe](Waffeneigenschaften.md#wf-schusswaffe),Bolzen |
 | **Leichte Armbrust** | 3W6 | 32 | 0 | 4 | [Zweihändig](Waffeneigenschaften.md#wf-zweihandig), [Schusswaffe](Waffeneigenschaften.md#wf-schusswaffe), Bolzen |
 | **Windenarmbrust** | 4W6+2 | 64 | 4 | 5 | [Ladezeit](Waffeneigenschaften.md#wf-ladezeit), [Zweihändig](Waffeneigenschaften.md#wf-zweihandig), [Schwer(8)](Waffeneigenschaften.md#wf-schwer), [Schusswaffe](Waffeneigenschaften.md#wf-schusswaffe), Bolzen |
+
+
+---
+
+**Regelbuchnavigation:** ← [Wurfwaffen](Wurfwaffen.md) · ↑ [Waffen](Waffen.md) · [Feuerwaffen](Feuerwaffen.md) →

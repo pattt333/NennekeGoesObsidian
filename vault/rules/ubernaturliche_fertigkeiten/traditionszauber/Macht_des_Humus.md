@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Macht des Feuers](Macht_des_Feuers.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Macht des Lebens](Macht_des_Lebens.md) →

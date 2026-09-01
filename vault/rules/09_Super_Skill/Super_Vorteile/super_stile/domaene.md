@@ -14,3 +14,8 @@
 | **zwei weitere Attr.** |  |
 | **auf jeweils 8** |  |
 | **80EP** | **Tradition der Spezialisierten IV** Du bist ein wahrer Archon deiner Domäne. In ihrem Bereich agierst du nicht mehr nur als Anwender, sondern als souveräne Autorität. Dein Wille formt die Energie mit solcher Leichtigkeit und Präzision, dass Verstärkungen, die andere anstrengen würden, für dich zur mühelosen Geste werden. Du kannst eine dir zur Verfügung stehende, weitere, übernatürliche Fertigkeit wählen. Wenn du ein Talent mit dieser verwendest, kannst du eine Basismodifikation (z.B. 1x Mächtige Magie) ohne Erschwernis ausführen. Diese erhält auch die Vorteile aus dem Vorteil Tradition der Spezialisierten I und II. |
+
+
+---
+
+**Regelbuchnavigation:** ← [beherrschung](beherrschung.md) · ↑ [Uebernatuerliche Stile](../Uebernatuerliche_Stile.md) · [intuitiv](intuitiv.md) →

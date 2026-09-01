@@ -98,3 +98,7 @@ In der Alchymie kommt es wegen der seltenen Verbrauchsmaterialien besonders oft 
 ### Schwierigkeit
 
 Die Grundschwierigkeit zum Herstellen von Gegenständen, an der sich der Meister orientiert, ist grundsätzlich die 16. Alltagsgegenstände wie normale Pfeilspitzen können auch gegen die 12 geprobt werden. Für besonders aufwändige oder große Projekte kann auch eine höhere Schwierigkeit verhängt werden. In den nachfolgenden Kapiteln findest du auch einige Rezepte für die Herstellung dort sind Schwierigkeiten auch angegeben.
+
+---
+
+**Regelbuchnavigation:** ↑ [Rast und Herstellung](08_Rast.md) · [Alchymie](Alchymie.md) →

@@ -21,3 +21,7 @@ Der Stab kehrt fliegend mit einer Geschwindigkeit von 10 Meilen pro Stunde zu di
 **Erlernen:**Mag 16
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Apport des Schuppenbeutels](Apport_des_Schuppenbeutels.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Arngrimms Hohle](Arngrimms_Hohle.md) →

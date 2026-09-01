@@ -31,3 +31,7 @@ Du fertigst 10 Pfeil- oder Bolzenspitzen.
 **Werkstattstufe:** 1
 
 **Material:** Stein
+
+---
+
+**Regelbuchnavigation:** ← [mechanik](mechanik.md) · ↑ [Rast und Herstellung](08_Rast.md) · [stoff](stoff.md) →

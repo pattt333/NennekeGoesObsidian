@@ -23,3 +23,7 @@ In einem abgeschlossenen Raum wie einer Jurte oder einer kleinen Höhle steigt d
 **Erlernen:**Smn 14
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Apport des Stabes](Apport_des_Stabes.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Astrale Aufladung](Astrale_Aufladung.md) →

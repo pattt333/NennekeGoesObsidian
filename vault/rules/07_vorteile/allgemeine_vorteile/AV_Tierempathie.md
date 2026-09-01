@@ -10,3 +10,7 @@ Magnus wird von seinem Schwein Schinken angeguckt. Er erwidert den Blick und ver
 **Voraussetzungen:** keine
 
 **EP-Wert:** 60 Erfahrungspunkte für alle Tiere; 20-40 Erfahrungspunkte für bestimmte Tiergruppen
+
+---
+
+**Regelbuchnavigation:** ← [AV ResKrankheiten](AV_ResKrankheiten.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV Verbindungen](AV_Verbindungen.md) →

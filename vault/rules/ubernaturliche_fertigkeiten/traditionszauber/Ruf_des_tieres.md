@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Ruf des Schamanen](Ruf_des_Schamanen.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Rundschliff](Rundschliff.md) →

@@ -23,3 +23,7 @@ Die Keule kehrt fliegend mit einer Geschwindigkeit von 10 Meilen pro Stunde zu d
 **Erlernen:**Smn 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Angste mehren](Angste_mehren.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Apport der Kugel](Apport_der_Kugel.md) →

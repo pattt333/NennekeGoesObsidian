@@ -12,3 +12,8 @@
 | **60EP** | **Aufmerksamkeit** Misslingt deinem Gegner eine Verteidigung gegen dich, die mit einem Manöver verstärkt wurde, darfst du sofort einen Passierschlag gegen ihn ausführen. Pro Runde kannst du einen Passierschlag als Freie Reaktion ausführen. |
 | **Attribut 10** |  |
 | **80EP** | **Klingentänzer** Ermöglicht das Manöver [Klingentanz](../../06_kampf/kampfmanover/Nahkmapfspezialmanover.md#subsubsec-klingentanz). |
+
+
+---
+
+**Regelbuchnavigation:** ← [KV GE](KV_GE.md) · ↑ [003 Kampfovrteile](../003_Kampfovrteile.md) · [KV KK](KV_KK.md) →

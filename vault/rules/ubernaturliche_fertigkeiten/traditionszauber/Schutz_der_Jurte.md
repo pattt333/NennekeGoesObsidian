@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Schriller Klang](Schriller_Klang.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Schutz des Dolches](Schutz_des_Dolches.md) →

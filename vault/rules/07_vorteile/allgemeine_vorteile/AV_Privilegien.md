@@ -14,3 +14,7 @@ Beispiele für Privilegien sind:
 **Voraussetzungen:** keine
 
 **EP-Wert:** Meister-/Gruppenentscheid
+
+---
+
+**Regelbuchnavigation:** ← [AV Nat Rustschutz](AV_Nat_Rustschutz.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV Prophezeihen](AV_Prophezeihen.md) →

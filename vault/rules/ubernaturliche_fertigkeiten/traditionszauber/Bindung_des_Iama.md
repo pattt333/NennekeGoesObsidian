@@ -25,3 +25,7 @@ Waffe
 **Erlernen:**Dru 4; Geo 12
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Bindung des Dolches](Bindung_des_Dolches.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Bindung des Ringes](Bindung_des_Ringes.md) →

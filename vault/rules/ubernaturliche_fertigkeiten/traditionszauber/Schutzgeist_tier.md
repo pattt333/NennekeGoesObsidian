@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Schutz gege Untote](Schutz_gege_Untote.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Schutzende Rotte](Schutzende_Rotte.md) →

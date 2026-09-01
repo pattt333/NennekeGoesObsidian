@@ -14,3 +14,8 @@
 | **Attribut 10** |  |
 | **Zauberer I** |  |
 | **80EP** | **Gebieter der Urgewalten** Alle Basiswerte des Wesens erhalten einen Bonus von +1. Du kannst mit allen Sinnen deines Wesens wahrnehmen und Zauber wirken, als würdest du selbst an seiner Stelle stehen. |
+
+
+---
+
+**Regelbuchnavigation:** ← [SV KO](../gemiensame_vorteile/SV_KO.md) · ↑ [Super Vorteile](../Super_Vorteile.md) · [ZV IN](ZV_IN.md) →

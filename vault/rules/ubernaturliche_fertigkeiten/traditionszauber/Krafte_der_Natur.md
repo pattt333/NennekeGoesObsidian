@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Kraft der Keule](Kraft_der_Keule.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Kristallbindung](Kristallbindung.md) →

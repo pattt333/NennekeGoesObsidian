@@ -21,3 +21,8 @@ Diese Vorteile unterstützen deinen Charakter bei körperlichen und geistigen He
 - [PV KO](profane_vorteile/PV_KO.md)
 
 - [PV MU](profane_vorteile/PV_MU.md)
+
+
+---
+
+**Regelbuchnavigation:** ← [001 Allgemeine Vorteile](001_Allgemeine_Vorteile.md) · ↑ [Vorteile](07_Vorteile.md) · [003 Kampfovrteile](003_Kampfovrteile.md) →

@@ -11,3 +11,7 @@ Fern der Zivilisation kannst du nicht auf dein Einkommen zugreifen. Das Einkomme
 **Voraussetzungen:** keine/Einkommen I/Einkommen II/Einkommen III
 
 **EP-Wert:** 5 Erfahrungspunkte pro Stufe
+
+---
+
+**Regelbuchnavigation:** ← [AV BesondererBesitz](AV_BesondererBesitz.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV Gefahreninstinkt](AV_Gefahreninstinkt.md) →

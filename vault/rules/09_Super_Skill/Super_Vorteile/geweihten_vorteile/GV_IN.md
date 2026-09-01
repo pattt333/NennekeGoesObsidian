@@ -14,3 +14,8 @@
 | **Attribut 10** |  |
 | **Geweihter I** |  |
 | **80EP** | **Göttliche Nähe** Du kannst mit Mirakeln auch Proben auf übernatürliche Talente verbessern. Du kannst aus den profanen und übernatürlichen Fertigkeiten zwei zusätzliche Fertigkeit für Mirakel wählen. |
+
+
+---
+
+**Regelbuchnavigation:** ← [GV CH](GV_CH.md) · ↑ [Super Vorteile](../Super_Vorteile.md) · [GV KL](GV_KL.md) →

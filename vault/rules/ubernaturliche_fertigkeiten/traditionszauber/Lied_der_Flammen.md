@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Lied der Feen](Lied_der_Feen.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Lied der Heilung](Lied_der_Heilung.md) →

@@ -17,3 +17,7 @@
 **Voraussetzungen:** Resistenz Gifte
 
 **EP-Wert:** 40 Erfahrungspunkte
+
+---
+
+**Regelbuchnavigation:** ← [AV Prophezeihen](AV_Prophezeihen.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV ResHitze](AV_ResHitze.md) →

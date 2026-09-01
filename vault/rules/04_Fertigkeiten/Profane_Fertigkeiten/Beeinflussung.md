@@ -9,3 +9,9 @@ Unter diese Fertigkeit fallen alle verbalen Arten seine Mitmenschen zu beeinflus
 - Betören: Beim Betören nutzt du deine persönliche Ausstrahlung, um zu bekommen, was du willst. Das reicht von Kleinigkeiten wie einem Freibier bis zum Verrat geheimer Staatsinformationen.
 - Überreden: Überreden bedeutet den geschickten Einsatz von Übertreibungen, Unwahrheiten oder Lügen, um das Gegenüber zumindest kurzfristig zu beeinflussen. Mit Überreden feilschst du am Marktplatz, bestichst eine Stadtwache oder infiltrierst ein Borbaradianerkloster.
 - Imitieren: In einigen Situationen kann es ratsam sein, als jemand anderes zu erscheinen. Vielleicht will ein von der Garde gesuchter Abenteurer als Bettler das Stadttor passieren oder ein Hochstapler als Grafensohn getarnt auf einem Bankett auftreten, um unbemerkt ein Diadem stehlen zu können. Um die Täuschung aufrechtzuerhalten, muss dem Helden eine Probe auf Verkleiden gelingen. Verkleiden umfasst aber nicht nur die Verkleidung an sich, sondern auch notwendige Gesten, Mimik und Stimme.
+
+
+
+---
+
+**Regelbuchnavigation:** ← [Autoritat](Autoritat.md) · ↑ [04 2 Profane Fertigkeiten](../04_2_Profane_Fertigkeiten.md) · [Bildung](Bildung.md) →

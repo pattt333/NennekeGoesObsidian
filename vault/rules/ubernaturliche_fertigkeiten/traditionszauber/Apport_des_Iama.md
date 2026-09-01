@@ -23,3 +23,7 @@ Das Iama kehrt fliegend mit einer Geschwindigkeit von 10 Meilen pro Stunde zu di
 **Erlernen:**Elf 16
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Apport des Dolches](Apport_des_Dolches.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Apport des Schuppenbeutels](Apport_des_Schuppenbeutels.md) →

@@ -200,3 +200,8 @@ Mehr zum Herstellen von Giften findest du im Kapitel [Alchemy: Gifte und Krankhe
 Stürze
 Stürze richten 1W6 SP pro Schritt Höhe an; bei besonders harten oder weichen Böden sogar 1W6+1 bzw. nur 1W6-1 SP. Du kannst eine Athletik (Körperbeherrschung)-Probe gegen die Standardschwierigkeit + Höhe in Schritt] ablegen, um die effektive Höhe zu halbieren.
 > Nach einem tollkühnen Akt auf dem 5 Schritt hohen Drahtseil fällt Harik dem Boden entgegen. Sein Spieler schafft die Athletik (Körperbeherrschung) gegen (12+5=19) und Harik landet zumindest auf den Beinen. Dennoch verursacht dieser Sturz bei ihm 3W6 Schaden (5/2 = 3 (aufgerundet)).
+
+
+---
+
+**Regelbuchnavigation:** ← [Fertigkeiten](04_Fertigkeiten/04_Fertigkeiten.md) · ↑ [Startseite](../index.md) · [Kampf](06_kampf/06_Kampf.md) →

@@ -9,3 +9,7 @@
 **Voraussetzungen:** keine
 
 **EP-Wert:** 80 Erfahrungspunkte
+
+---
+
+**Regelbuchnavigation:** ← [AV Landerkunde](AV_Landerkunde.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV Nat Rustschutz](AV_Nat_Rustschutz.md) →

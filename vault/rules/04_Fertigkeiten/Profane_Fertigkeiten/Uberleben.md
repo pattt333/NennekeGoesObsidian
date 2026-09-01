@@ -10,3 +10,8 @@ Hierunter fallen alle Fähigkeiten, die zum Überleben in der Wildnis erforderli
 - Fährtensuche: um die Fährte eines Wesens in der Wildnis aufnehmen zu können
 - Lagern & Nahrung: Dieses Talent befähigt dazu ein Lager aufzuschlagen. Dies beinhaltet das Suchen eines geeigneten Platzes, das Aufbauen der Zelte, das Suchen und grobe Zubereiten von Nahrung und das Entzünden des Feuers.
 - Seilkunde: Dieses Talent kommt beim Fesseln, Entfesseln zum Einsatz
+
+
+---
+
+**Regelbuchnavigation:** ← [Strassenkunde](Strassenkunde.md) · ↑ [04 2 Profane Fertigkeiten](../04_2_Profane_Fertigkeiten.md)

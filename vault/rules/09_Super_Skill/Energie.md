@@ -11,3 +11,7 @@ Magiebegabte oder geweihte Charaktere können Energie (EN) in sich aufnehmen und
 Pro Rast regenerieren Zauberer 1/8 Energie und Geweihte 1/10 Energie, aber nicht über das Maximum hinaus. Die Regeneration kann über [spezielle Vorteile](Super_Vorteile/gemiensame_vorteile/SV_KO.md#zv-ko) erhöht werden.
 
 Langfristige und mächtige, übernatürliche Wirkungen wie Artefakte erfordern, dass du einen Teil der dafür benötigten Energie bindest. Du kannst diese gebundenen Enrg (gEnrg) nicht regenerieren oder auf andere Arten zurückgewinnen, solange die Energie gebunden ist. Die Bindung kann aber jederzeit mit einem Ritual beendet werden, womit der Effekt verfliegt. Normalerweise musst du das Artefakt dazu berühren.
+
+---
+
+**Regelbuchnavigation:** ← [super skills](super_skills.md) · ↑ [Übernatürliche Fähigkeiten](09_Super_Skill.md) · [Zauber Wirken](Zauber_Wirken.md) →

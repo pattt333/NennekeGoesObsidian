@@ -23,3 +23,7 @@ Verständigung
 **Erlernen:**Dru 16
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Geisterbann](Geisterbann.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Geisterbote](Geisterbote.md) →

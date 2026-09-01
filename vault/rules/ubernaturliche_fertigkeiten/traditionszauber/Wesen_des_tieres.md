@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Weisung des Dolches](Weisung_des_Dolches.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Wild finden](Wild_finden.md) →

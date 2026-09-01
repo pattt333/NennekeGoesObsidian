@@ -25,3 +25,7 @@ Waffe
 **Erlernen:**Dru 4; Geo 12
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Bindung des Stabes](Bindung_des_Stabes.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Bindungspartner finden](Bindungspartner_finden.md) →

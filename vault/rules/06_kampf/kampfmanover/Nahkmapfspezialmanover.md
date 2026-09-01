@@ -281,3 +281,8 @@ Das Manöver ist dafür gedacht den Gegner zu erschöpfen.
 **Erschwernisse:** 4xAT-4
 
 **Voraussetzungen:** Beindhändigerkampf IV und Kampf in diesem Stil, 1KR Cooldown
+
+
+---
+
+**Regelbuchnavigation:** ← [Basismanover](Basismanover.md) · ↑ [Kampfmanover](../Kampfmanover.md) · [Fernkampf Basismanover](Fernkampf_Basismanover.md) →

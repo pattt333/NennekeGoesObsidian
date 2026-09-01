@@ -9,3 +9,7 @@
 **Voraussetzungen:** BE ohne den Vorteil Rüstungsgewöhnung maximal 1.
 
 **EP-Wert:** 80 Erfahrungspunkte
+
+---
+
+**Regelbuchnavigation:** ← [AV Gluck](AV_Gluck.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV Kulturkunde](AV_Kulturkunde.md) →

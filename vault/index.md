@@ -2,14 +2,31 @@
 
 Aktuelle, aus `NennekeV2.zip` erzeugte Regelwerksfassung.
 
-## Kapitel
+## Regelbuch lesen
 
-- [01 Proben](rules/01_Proben.md)
-- [02 Charaktere](rules/02_Charaktere.md)
-- [03 Eigenschaften](rules/03_Eigenschaften.md)
-- [04 Fertigkeiten](rules/04_Fertigkeiten/04_Fertigkeiten.md)
-- [05 Gesundheit](rules/05_Gesundheit.md)
-- [06 Kampf](rules/06_kampf/06_Kampf.md)
-- [07 Vorteile](rules/07_vorteile/07_Vorteile.md)
-- [08 Rast](rules/08_rast/08_Rast.md)
-- [09 Super Skill](rules/09_Super_Skill/09_Super_Skill.md)
+- [Proben](rules/01_Proben.md)
+- [Charaktere](rules/02_Charaktere.md)
+- [Eigenschaften](rules/03_Eigenschaften.md)
+- [Fertigkeiten](rules/04_Fertigkeiten/04_Fertigkeiten.md)
+- [Gesundheit](rules/05_Gesundheit.md)
+- [Kampf](rules/06_kampf/06_Kampf.md)
+- [Vorteile](rules/07_vorteile/07_Vorteile.md)
+- [Rast und Herstellung](rules/08_rast/08_Rast.md)
+- [Übernatürliche Fähigkeiten](rules/09_Super_Skill/09_Super_Skill.md)
+
+## Am Spieltisch
+
+Direkteinstiege für häufige Regelfragen:
+
+- [Proben](rules/01_Proben.md)
+- [Fertigkeiten](rules/04_Fertigkeiten/04_Fertigkeiten.md)
+- [Gesundheit](rules/05_Gesundheit.md)
+- [Kampf](rules/06_kampf/06_Kampf.md)
+- [Vorteile](rules/07_vorteile/07_Vorteile.md)
+- [Übernatürliche Fähigkeiten](rules/09_Super_Skill/09_Super_Skill.md)
+
+Für einzelne Begriffe nutze in Obsidian die Suche oder den Schnellwechsler.
+
+## Vollständigkeit
+
+- [Vollständiger Regelindex](regelindex.md)

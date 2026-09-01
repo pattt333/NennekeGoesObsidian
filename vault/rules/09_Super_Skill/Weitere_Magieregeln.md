@@ -16,3 +16,7 @@ Mit dem [Vorteil Verbotene Pforten](Super_Vorteile/gemiensame_vorteile/SV_KO.md#
 Mit dem [Vorteil Meditation](Super_Vorteile/gemiensame_vorteile/SV_KO.md#zv-ko) kannst du dir selbst in einem einstüdigen Ritual pro Ruhephase bis zu 4 Wunden zufügen. Jede dieser Wunden regeneriert WS+4 Energie. In Kombination mit dem Vorteil Verbotene Pforten regenerierst du sogar WS+6 Energie.
 
 Die über diese Methoden erhaltene Energie darf jedoch nicht dafür verwendet werden, um eigene Wunden direkt zu heilen. Sie kann jedoch für Aktionen, die in einer Ruhephase zum Einsatz kommen verwendet werden.
+
+---
+
+**Regelbuchnavigation:** ← [Zauber Wirken](Zauber_Wirken.md) · ↑ [Übernatürliche Fähigkeiten](09_Super_Skill.md) · [Artefakte](Artefakte.md) →

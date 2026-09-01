@@ -23,3 +23,7 @@ Die Kugel kehrt fliegend mit einer Geschwindigkeit von 10 Meilen pro Stunde zu d
 **Erlernen:**Srl 12; Mag 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Apport](Apport.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Apport der Schale](Apport_der_Schale.md) →

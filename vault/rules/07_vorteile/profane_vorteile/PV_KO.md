@@ -14,3 +14,8 @@
 | **60EP** | **Schnelle Heilung** Der Held regeneriert +LAW zusätzliche LeP bei einer Rast. |
 | **Attribut 10** |  |
 | **80EP** | **Unverwüstlich** +5*KO LeP. Wenn du durch LeP-Verlust anfängst zu bluten, bekommst du nur 1 Stack Blutung |
+
+
+---
+
+**Regelbuchnavigation:** ← [PV KL](PV_KL.md) · ↑ [002 ProfaneVorteile](../002_ProfaneVorteile.md) · [PV MU](PV_MU.md) →

@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Kugel des Hellsehers](Kugel_des_Hellsehers.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Langer Arm](Langer_Arm.md) →

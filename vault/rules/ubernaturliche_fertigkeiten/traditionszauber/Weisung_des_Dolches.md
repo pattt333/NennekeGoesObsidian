@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Weindegrunde finden](Weindegrunde_finden.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Wesen des tieres](Wesen_des_tieres.md) →

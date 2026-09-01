@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Blutsbund](Blutsbund.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Brennglas und Prisma](Brennglas_und_Prisma.md) →

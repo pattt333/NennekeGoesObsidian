@@ -18,3 +18,7 @@ Beispiele für besonderen Besitz sind:
 **Voraussetzungen:** keine
 
 **EP-Wert:** Meister-/Gruppenentscheid
+
+---
+
+**Regelbuchnavigation:** ← [AV Angepasst](AV_Angepasst.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV Einkommen](AV_Einkommen.md) →

@@ -12,3 +12,8 @@
 | **60EP** | **Gegneranalyse** Ist eine profane Aktion oder Reaktion mit einem Manöver verstärkt, bekommst du +2 auf deine Probe. |
 | **Attribut 10** |  |
 | **80EP** | **Immer einen Schritt voraus** Das Kombinieren von Aktionen ist für dich nicht wie üblich um -4 erschwert, es ist um +2 erleichtert. |
+
+
+---
+
+**Regelbuchnavigation:** ← [KV KK](KV_KK.md) · ↑ [003 Kampfovrteile](../003_Kampfovrteile.md) · [KV KO](KV_KO.md) →

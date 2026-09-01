@@ -37,3 +37,8 @@
 | **Improvisierter Diskus** | 2W6-1 | 16 | -4 | 5 | [Zerbrechlich](Waffeneigenschaften.md#wf-zerbrechlich), [Improvisiert](Waffeneigenschaften.md#wf-improvisiert),[Schwer(2)](Waffeneigenschaften.md#wf-schwer) |
 | **Jagddiskus** | 2W6+1 | 16 | 0 | 7 | [Rüstungsbrechend](Waffeneigenschaften.md#wf-rustungsbrechend), [Stumpf](Waffeneigenschaften.md#wf-stumpf) |
 | **Kampfdiskus** | 4W6 | 16 | -1 | 6 | [Rüstungsbrechend](Waffeneigenschaften.md#wf-rustungsbrechend), [Schwer(8)](Waffeneigenschaften.md#wf-schwer) |
+
+
+---
+
+**Regelbuchnavigation:** ← [Handgemengewaffen](Handgemengewaffen.md) · ↑ [Waffen](Waffen.md) · [Schusswaffen](Schusswaffen.md) →

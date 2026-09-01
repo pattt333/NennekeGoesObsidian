@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Hszints Auge](Hszints_Auge.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Korper des Blutgeistes](Korper_des_Blutgeistes.md) →

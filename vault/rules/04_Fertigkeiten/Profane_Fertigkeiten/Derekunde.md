@@ -11,3 +11,8 @@ Darunter fällt das theoretische Wissen über Natur, Tiere und Pflanzen sowie di
 - Pflanzenkunde: Pflanzenkundige erforschen die vielen nützlichen, gefährlichen oder wundersamen Gewächse Aventuriens. Sie sammeln die Kräuter für eine Heilsalbe, kennen die Gefahr von Jagdgras und finden essbare Früchte oder Wurzeln.
 - Orientierung: um sich in der Wildnis zurecht zu finden
 - Wettervorhersage: um das Wetter schon vor Reise beginn bestimmen zu können (VERBILLIGT)
+
+
+---
+
+**Regelbuchnavigation:** ← [Bildung](Bildung.md) · ↑ [04 2 Profane Fertigkeiten](../04_2_Profane_Fertigkeiten.md) · [Diplomatie](Diplomatie.md) →

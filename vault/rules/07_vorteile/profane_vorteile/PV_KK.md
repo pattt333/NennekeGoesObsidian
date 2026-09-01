@@ -14,3 +14,8 @@
 | **60EP** | **Muskelprotz** Autorität (Einschüchtern)-Proben sind um +2 erleichtert und es können ohne zusätzliche Erschwernisse bis zu 4 Gegner eingeschüchtert werden und die Grunddauer erhöht sich auf 4KR. Durch Stufen Hohe Qualität können wie gehabt die Zahl der eingeschüchterten Gegner verdoppelt (dann auf 8, 16, 32, …) oder die Dauer um +2 KR erhöht werden. |
 | **Attribut 10** |  |
 | **80EP** | **Adrenalinschub** Der Held kann sich eine Probe auf eine körperliche Tätigkeit (z.B. Schmieden, Laufen, Nahkampfangriff) um +4 Punkte erleichtern. Anschließend erhält er 2 Stacks Erschöpfung. |
+
+
+---
+
+**Regelbuchnavigation:** ← [PV IN](PV_IN.md) · ↑ [002 ProfaneVorteile](../002_ProfaneVorteile.md) · [PV KL](PV_KL.md) →

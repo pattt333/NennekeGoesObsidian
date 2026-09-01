@@ -34,3 +34,8 @@
 | **Improvisierter Schild** | 1W6+1 | 0 | -4/0 | 8 | [Schild](Waffeneigenschaften.md#wf-schild), [Stumpf](Waffeneigenschaften.md#wf-stumpf), [Schwer(2)](Waffeneigenschaften.md#wf-schwer), [Zerbrechlich](Waffeneigenschaften.md#wf-zerbrechlich), [Improvisiert](Waffeneigenschaften.md#wf-improvisiert) |
 | **Lederschild** | 1W6-1 | 0 | -1/+1 | 5 | [Schild](Waffeneigenschaften.md#wf-schild), [Stumpf](Waffeneigenschaften.md#wf-stumpf) |
 | **Turmschild** | 1W6 | 0 | -2/+2 | 7 | [Schwer(4)](Waffeneigenschaften.md#wf-schwer), [Schild](Waffeneigenschaften.md#wf-schild), [Stumpf](Waffeneigenschaften.md#wf-stumpf), Volle Deckung (statt halbe Deckung) |
+
+
+---
+
+**Regelbuchnavigation:** ← [Stangenwaffen](Stangenwaffen.md) · ↑ [Waffen](Waffen.md) · [Wurfwaffen](Wurfwaffen.md) →

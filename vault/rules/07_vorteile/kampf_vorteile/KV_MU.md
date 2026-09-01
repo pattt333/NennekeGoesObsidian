@@ -12,3 +12,8 @@
 | **60EP** | **Gegenschlag** Wenn der Held eine Attacke abwehrt, die mit einem Manöver verstärkt wurde, darf er sofort einen Passierschlag ausführen. |
 | **Attribut 10** |  |
 | **80EP** | **Kalte Wut** Der Held kann sich in kalte Wut versetzen und so die Wundabzüge. |
+
+
+---
+
+**Regelbuchnavigation:** ← [KV KO](KV_KO.md) · ↑ [003 Kampfovrteile](../003_Kampfovrteile.md) · [MEUCHLER](MEUCHLER.md) →

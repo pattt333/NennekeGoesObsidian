@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Grosser Geisterbann](Grosser_Geisterbann.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Hauch des Elements](Hauch_des_Elements.md) →

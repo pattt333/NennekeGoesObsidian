@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Transmutation der Elemente](Transmutation_der_Elemente.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Ungesehener Beobachter](Ungesehener_Beobachter.md) →

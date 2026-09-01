@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Rhythmen des gottgefalligen Zorns](Rhythmen_des_gottgefalligen_Zorns.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Ruf des Schamanen](Ruf_des_Schamanen.md) →

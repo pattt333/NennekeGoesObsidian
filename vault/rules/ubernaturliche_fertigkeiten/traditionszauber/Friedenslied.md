@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Fluch des tieres](Fluch_des_tieres.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Geist der Keule](Geist_der_Keule.md) →

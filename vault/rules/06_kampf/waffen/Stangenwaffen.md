@@ -28,3 +28,8 @@
 | **Zweililien** | 2W6+2 | 1 | +2/+1 | 5 | [Wendig](Waffeneigenschaften.md#wf-wendig), [Zweihändig](Waffeneigenschaften.md#wf-zweihandig) |
 | **Lanzenreiten** |  |  |  |  |  |
 | **Kriegslanze** | 3W6+2 | 2 | 0/0 | 5 | [Niederwerfen](../kampfmanover/Nahkmapfspezialmanover.md#subsubsec-niederwerfen) |
+
+
+---
+
+**Regelbuchnavigation:** ← [Klingenwaffen](Klingenwaffen.md) · ↑ [Waffen](Waffen.md) · [Handgemengewaffen](Handgemengewaffen.md) →

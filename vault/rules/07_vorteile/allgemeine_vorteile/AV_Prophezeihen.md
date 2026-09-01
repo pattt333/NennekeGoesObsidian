@@ -9,3 +9,7 @@
 **Voraussetzungen:** keine
 
 **EP-Wert:** 40 Erfahrungspunkte
+
+---
+
+**Regelbuchnavigation:** ← [AV Privilegien](AV_Privilegien.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV ResGifte](AV_ResGifte.md) →

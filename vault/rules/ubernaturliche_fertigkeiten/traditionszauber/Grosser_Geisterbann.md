@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Grosse Geistheilung](Grosse_Geistheilung.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Hammer des Magus](Hammer_des_Magus.md) →

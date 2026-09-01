@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Geistertausch](Geistertausch.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Geraumiger Schuppenbeutel](Geraumiger_Schuppenbeutel.md) →

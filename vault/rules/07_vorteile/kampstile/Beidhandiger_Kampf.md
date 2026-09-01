@@ -13,3 +13,8 @@
 | **zwei weitere Attr.** |  |
 | **auf jeweils 8** |  |
 | **80EP** | **Beidhändiger Kampf IV** +1 AT. Erlaubt das [Manöver Schlaghagel](../../06_kampf/kampfmanover/Nahkmapfspezialmanover.md#subsubsec-schlaghagel). |
+
+
+---
+
+**Regelbuchnavigation:** ↑ [006 Kampfstile](../006_Kampfstile.md) · [Kraftvoller Kampf](Kraftvoller_Kampf.md) →

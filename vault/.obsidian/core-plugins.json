@@ -2,5 +2,9 @@
   "file-explorer": true,
   "global-search": true,
   "switcher": true,
-  "outline": true
+  "backlink": true,
+  "page-preview": true,
+  "bookmarks": true,
+  "outline": true,
+  "command-palette": true
 }

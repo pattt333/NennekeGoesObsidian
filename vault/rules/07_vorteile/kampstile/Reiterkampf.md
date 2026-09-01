@@ -15,3 +15,8 @@
 | **zwei weitere Attr.** |  |
 | **auf jeweils 8** |  |
 | **80EP** | **Reiterkampf IV** +1AT, VT, Waffenschaden. Erlaubt das [Manöver Durchbohren](../../06_kampf/kampfmanover/Nahkmapfspezialmanover.md#subsubsec-durchbohren). |
+
+
+---
+
+**Regelbuchnavigation:** ← [Parierwaffenkampf](Parierwaffenkampf.md) · ↑ [006 Kampfstile](../006_Kampfstile.md) · [Schildkampf](Schildkampf.md) →

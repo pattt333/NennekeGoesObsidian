@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Blick in Liskas Augen](Blick_in_Liskas_Augen.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Blut des Dolches](Blut_des_Dolches.md) →

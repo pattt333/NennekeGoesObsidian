@@ -25,3 +25,7 @@ Waffe
 **Erlernen:**Dru 4; Geo 12
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Bindung der Schale](Bindung_der_Schale.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Bindung des Iama](Bindung_des_Iama.md) →

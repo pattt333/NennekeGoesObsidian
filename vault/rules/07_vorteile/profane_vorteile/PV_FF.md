@@ -14,3 +14,8 @@
 | **60EP** | **Meister der Improvisation** Du kannst eine weitere Stufe für die Werkstattvoraussetzung überwinden, dafür ist deine Probe aber um weitere -4 erschwert. Du kannst also Rezpte, die normalerweise die beste Werkstatt brauchen auch mit der schlechtesten Werkstatt herstellen, dafür ist die Herstellungsprobe insgesamt um -8 erschwert. |
 | **Attribut 10** |  |
 | **80EP** | **Meisterhandwerker** Deine Hände sind Werkzeuge, die mit allem alles herstellen können was du vorstellst. Du ignorierst -4 Erschwernisse durch unzureichende Werkstattvoraussetzungen. Du kannst beim Herstellen von Gegenständen mit einer Erschwernis von -8 zwei Gegenstände mit den gleichen Materialien herstellen. |
+
+
+---
+
+**Regelbuchnavigation:** ← [PV CH](PV_CH.md) · ↑ [002 ProfaneVorteile](../002_ProfaneVorteile.md) · [PV GE](PV_GE.md) →

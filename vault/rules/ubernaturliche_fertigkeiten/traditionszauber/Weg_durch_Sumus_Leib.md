@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Weg des Windes](Weg_des_Windes.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Wegzeichen](Wegzeichen.md) →

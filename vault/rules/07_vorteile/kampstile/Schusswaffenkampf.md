@@ -13,3 +13,8 @@
 | **zwei weitere Attr.** |  |
 | **auf jeweils 8** |  |
 | **80EP** | **Schusswaffenkampf IV** +1FK. Entfernt die Waffeneigenschaft Schusswaffen. Die Patzerchance wird also wieder um 1 reduziert (auf minimal 1). |
+
+
+---
+
+**Regelbuchnavigation:** ← [Schneller Kampf](Schneller_Kampf.md) · ↑ [006 Kampfstile](../006_Kampfstile.md) · [Wurfwaffenkampf](Wurfwaffenkampf.md) →

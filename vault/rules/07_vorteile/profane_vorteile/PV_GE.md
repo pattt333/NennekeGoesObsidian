@@ -14,3 +14,8 @@
 | **60EP** | **Katzenhaft** Du kannst -2 Erschwernisse durch unsicheren Untergrund ignorieren und gegen den Schaden aus Stürzen, Zusammenstößen usw. kann die halbe GE als Rüstungsschutz verwendet werden. |
 | **Attribut 10** |  |
 | **80EP** | **Körperbeherrschung** Nah- oder Fernkampfangriffen, elementaren Schadenszaubern oder ähnlichen Schadensquellen kann mit einer Athletik (Körperbeherrschung)-Probe entgangen werden. Der Einsatz dieser Fertigkeit erfolgt, nachdem übliche Verteidigungen (Ausweichen, Parade) fehlgeschlagen sind, aber bevor der Schaden bekannt gemacht wird. Anschließend erleidet der Held 2 Stacks Erschöpfung. |
+
+
+---
+
+**Regelbuchnavigation:** ← [PV FF](PV_FF.md) · ↑ [002 ProfaneVorteile](../002_ProfaneVorteile.md) · [PV IN](PV_IN.md) →

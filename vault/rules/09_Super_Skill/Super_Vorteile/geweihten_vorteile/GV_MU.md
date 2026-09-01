@@ -14,3 +14,8 @@
 | **Attribut 10** |  |
 | **Geweihter I** |  |
 | **80EP** | **Streiter der Schöpfung** Alle Proben im Kampf gegen unheilige Wesen sind um +2 erleichtert, Liturgien und Mirakelfertigkeiten sogar um weitere +4. |
+
+
+---
+
+**Regelbuchnavigation:** ← [GV KL](GV_KL.md) · ↑ [Super Vorteile](../Super_Vorteile.md)

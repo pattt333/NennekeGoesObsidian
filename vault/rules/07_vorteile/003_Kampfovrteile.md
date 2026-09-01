@@ -46,3 +46,8 @@ Allgemeine Kampfvorteile haben meist mehrere Eigenschaftsvoraussetzungen, z.B. F
 - [RITTER](kampf_vorteile/RITTER.md)
 
 - [Kampfvorteile](kampf_vorteile/Kampfvorteile.md)
+
+
+---
+
+**Regelbuchnavigation:** ← [002 ProfaneVorteile](002_ProfaneVorteile.md) · ↑ [Vorteile](07_Vorteile.md) · [006 Kampfstile](006_Kampfstile.md) →

@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Hexenbesen](Hexenbesen.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Hexenschuss](Hexenschuss.md) →

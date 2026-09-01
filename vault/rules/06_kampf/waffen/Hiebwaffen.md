@@ -33,3 +33,8 @@
 | **Langaxt** | 3W6 | 1 | -1/-1 | 9 | [Kopflastig](Waffeneigenschaften.md#wf-kopflastig), [Schwer(2)](Waffeneigenschaften.md#wf-schwer), [Rüstungsbrechend](Waffeneigenschaften.md#wf-rustungsbrechend), [Haken](Waffeneigenschaften.md#wf-haken), [Zweihändig](Waffeneigenschaften.md#wf-zweihandig) |
 | **Orknase** | 3W6+1 | 1 | 0/0 | 8 | [Kopflastig](Waffeneigenschaften.md#wf-kopflastig), [Zweihändig](Waffeneigenschaften.md#wf-zweihandig), [Schwer(2)](Waffeneigenschaften.md#wf-schwer) |
 | **Warunker Hammer** | 2W6+3 | 2 | 0/0 | 9 | [Kopflastig](Waffeneigenschaften.md#wf-kopflastig), [Rüstungsbrechend](Waffeneigenschaften.md#wf-rustungsbrechend), [Stumpf](Waffeneigenschaften.md#wf-stumpf), [Haken](Waffeneigenschaften.md#wf-haken), [Zweihändig](Waffeneigenschaften.md#wf-zweihandig) |
+
+
+---
+
+**Regelbuchnavigation:** ← [Waffeneigenschaften](Waffeneigenschaften.md) · ↑ [Waffen](Waffen.md) · [Klingenwaffen](Klingenwaffen.md) →

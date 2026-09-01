@@ -13,3 +13,7 @@ bei dir
 **Erlernen:**Mag 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Aufpeitschender Klang](Aufpeitschender_Klang.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Bann der Keule](Bann_der_Keule.md) →

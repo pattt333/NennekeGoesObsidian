@@ -50,3 +50,7 @@ Elementare Nebeneffekte treten auf, wenn du durch einen solchen Effekt 2LAW an S
 **Niederschmettern** folgt oft auf erzelementare Angriffe. Das Opfer muss eine KK-Probe (20, I) ablegen, um nicht zu stürzen, damit befindet es sich unterlegener Position.
 
 **Zurückstoßen** können vor allen die Sturmböen von Luftelementaren oder besonders kräftige Angriffe verursachen. Misslingt dem Opfer eine KK-Probe (20, I), wird es 4 Schritt zurückgeworfen.
+
+---
+
+**Regelbuchnavigation:** ↑ [Übernatürliche Fähigkeiten](09_Super_Skill.md) · [Energie](Energie.md) →

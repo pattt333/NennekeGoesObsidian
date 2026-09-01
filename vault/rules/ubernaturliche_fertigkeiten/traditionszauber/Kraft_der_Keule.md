@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Korper des Blutgeistes](Korper_des_Blutgeistes.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Krafte der Natur](Krafte_der_Natur.md) →

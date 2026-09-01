@@ -33,3 +33,8 @@
 | **Rondrakamm** | 2W6+2 | 2 | +1/0 | 10 | [Zweihändig](Waffeneigenschaften.md#wf-zweihandig), [Leicht(3)](Waffeneigenschaften.md#wf-leicht) |
 | **Tuzakmesser** | 2W6+2 | 2 | 0/0 | 10 | [Wendig](Waffeneigenschaften.md#wf-wendig), [Zweihändig](Waffeneigenschaften.md#wf-zweihandig), [Leicht(4)](Waffeneigenschaften.md#wf-leicht) |
 | **Zweihänder** | 3W6+1 | 2 | 0/-2 | 8 | [Leicht(1)](Waffeneigenschaften.md#wf-leicht), [Zweihändig](Waffeneigenschaften.md#wf-zweihandig) |
+
+
+---
+
+**Regelbuchnavigation:** ← [Hiebwaffen](Hiebwaffen.md) · ↑ [Waffen](Waffen.md) · [Stangenwaffen](Stangenwaffen.md) →

@@ -11,3 +11,7 @@ Du lässt einen 1 gAsP in die Schale fließen. Fortan leuchten bei der Analyse e
 **Erlernen:**Alch 12; Hex, Mag 16
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Angste mehren](Angste_mehren.md) →

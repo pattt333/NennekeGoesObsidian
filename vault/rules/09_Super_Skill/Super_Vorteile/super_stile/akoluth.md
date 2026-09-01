@@ -9,3 +9,8 @@
 | **Attribut 8** |  |
 | **und zwei weitere auf insgesamt 10** |  |
 | **60EP** | **Unausgebildete II** Mit der Zeit lernt sogar der Instinkt ein wenig Handwerk. Deine ursprünglich chaotische, unberechenbare Gabe findet eine grobe Form. Wo andere komplizierte Berechnungen und sorgfältige Gesten benötigen, vertraust du auf einen einzigen, klaren Impuls. Du ersetzt das komplexe Geflecht aus drei separaten Würfen – für Kraft, Form und Kontrolle – durch einen einzigen, entscheidenden Akt des Willens. Es ist riskanter, ungeschliffener, aber auch direkter und unmittelbarer. Deine Magie ist kein mehrstimmiger Chor mehr, sondern ein einzelner, durchdringender Schrei – und manchmal ist genau das, was gebraucht wird. Statt 3W20 kannst du 1W20 bei deinen übernatürlichen Fertigkeiten einsetzen. Dies ist vor allem bei riskanten Proben von Nutzen. Du musst nur 2 Eng zahlen um deine Meisterfertigkeiten zu wiederholen. |
+
+
+---
+
+**Regelbuchnavigation:** ← [kampf](kampf.md) · ↑ [Uebernatuerliche Stile](../Uebernatuerliche_Stile.md)

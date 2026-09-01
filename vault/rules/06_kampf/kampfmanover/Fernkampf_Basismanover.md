@@ -37,3 +37,7 @@
 **Wirkung:** Verringert die INI um -2. Kann nur einmal pro Angriff eingesetzt werden. Der Vorteil Ruhige Hand verdoppelt den Bonus.
 
 **Erschwernisse:** FK+2
+
+---
+
+**Regelbuchnavigation:** ← [Nahkmapfspezialmanover](Nahkmapfspezialmanover.md) · ↑ [Kampfmanover](../Kampfmanover.md) · [Fernkampf Spezialmanover](Fernkampf_Spezialmanover.md) →

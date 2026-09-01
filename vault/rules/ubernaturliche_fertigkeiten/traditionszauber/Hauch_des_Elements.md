@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Hammer des Magus](Hammer_des_Magus.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Hauch des tieres](Hauch_des_tieres.md) →

@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Warzen spriessen](Warzen_spriessen.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Weg des Dolches](Weg_des_Dolches.md) →

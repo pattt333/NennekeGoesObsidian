@@ -20,3 +20,8 @@
 | **Jagdrohr** | 2W6+4 | 64 | 1 | 10 | [Feuerwaffe](Waffeneigenschaften.md#wf-feuerwaffe), [Zweihändig](Waffeneigenschaften.md#wf-zweihandig), [Ladezeit](Waffeneigenschaften.md#wf-ladezeit), Kugel, [Rüstungsbrechend](Waffeneigenschaften.md#wf-rustungsbrechend), [Scharfschuss(-4)](../kampfmanover/Fernkampf_Spezialmanover.md#subsubsec-scharfschuss), [Schwer(-4)](Waffeneigenschaften.md#wf-schwer) |
 | **Musketon** | 3W6 | 32 | 0 | 10 | [Feuerwaffe](Waffeneigenschaften.md#wf-feuerwaffe), [Zweihändig](Waffeneigenschaften.md#wf-zweihandig), [Ladezeit](Waffeneigenschaften.md#wf-ladezeit), Kugel, Nicht für Reiter, [Gezielter Schuss](../kampfmanover/Fernkampf_Basismanover.md#subsubsec-gezielterschuss) |
 | **Musketonflinte** | 7W3 | 8 | 0 | 10 | [Feuerwaffe](Waffeneigenschaften.md#wf-feuerwaffe), [Zweihändig](Waffeneigenschaften.md#wf-zweihandig), [Ladezeit](Waffeneigenschaften.md#wf-ladezeit), Kugel, Nicht für Reiter, kegelförmiger Flächenangriff im 45°-Winkel vor dem Schützen, [Schwer(-4)](Waffeneigenschaften.md#wf-schwer) |
+
+
+---
+
+**Regelbuchnavigation:** ← [Schusswaffen](Schusswaffen.md) · ↑ [Waffen](Waffen.md) · [Tiere](Tiere.md) →

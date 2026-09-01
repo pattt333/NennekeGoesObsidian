@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Disharmonischer Klang](Disharmonischer_Klang.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Erinnerungsmelodie](Erinnerungsmelodie.md) →

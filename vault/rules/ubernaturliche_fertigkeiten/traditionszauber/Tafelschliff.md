@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Tabu](Tabu.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Tairachs Krieger](Tairachs_Krieger.md) →

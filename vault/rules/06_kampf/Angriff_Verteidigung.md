@@ -74,3 +74,7 @@ In Duellen haben lange Waffen (RW 2 oder höher) einen Vorteil und bekommen +2 a
 ### Kontrollbereich
 
 Der Kontrollbereich ist die Umgebung deines Charakters, bis zur Reichweite seiner längsten Waffe. Wann immer sich ein Gegner in diesem Bereich bewegt, ohne dich zu beachten, darfst du sofort einen Passierschlag.
+
+---
+
+**Regelbuchnavigation:** ← [Haupt Nebenwaffen](Haupt_Nebenwaffen.md) · ↑ [Kampf](06_Kampf.md) · [Fernkampf](Fernkampf.md) →

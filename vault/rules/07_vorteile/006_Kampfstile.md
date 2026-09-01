@@ -33,3 +33,8 @@ Dabei kannst du insgesamt 8 Punkte verteilen: Für je einen Punkt kannst du die 
 - [Schusswaffenkampf](kampstile/Schusswaffenkampf.md)
 
 - [Wurfwaffenkampf](kampstile/Wurfwaffenkampf.md)
+
+
+---
+
+**Regelbuchnavigation:** ← [003 Kampfovrteile](003_Kampfovrteile.md) · ↑ [Vorteile](07_Vorteile.md)

@@ -21,3 +21,7 @@ Der Schuppenbeutel kehrt fliegend mit einer Geschwindigkeit von 10 Meilen pro St
 **Erlernen:**Ach 16
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Apport des Iama](Apport_des_Iama.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Apport des Stabes](Apport_des_Stabes.md) →

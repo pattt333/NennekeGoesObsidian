@@ -16,3 +16,8 @@
 | **Attribut 10** |  |
 | **Zauberer I** |  |
 | **80EP** | **Flinke Magie** Du kannst beim Wirken die Aktion Konzentration als einfache Aktion ausführen dafür kostet es dich die doppleten BasisKosten. Solltest du über den [Vorteil Tradition der Intuitiven IV](../super_stile/intuitiv.md#stil-intuitiv) verfügen, verringern sich die Kosten auf das 1,5fache. |
+
+
+---
+
+**Regelbuchnavigation:** ← [ZV CH](ZV_CH.md) · ↑ [Super Vorteile](../Super_Vorteile.md) · [ZV KL](ZV_KL.md) →

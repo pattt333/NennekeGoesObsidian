@@ -14,3 +14,8 @@
 | **zwei weitere Attr.** |  |
 | **auf jeweils 8** |  |
 | **80EP** | **Tradition der Kampferprobten IV** Du bist zum wahren Schlachtfeld-Asketen geworden. Dein Körper ist nur noch ein Kanal, durch den dein ungebrochener Wille und die explosive Energie deiner Verwundungen fließen. Schmerz existiert nicht mehr als Empfindung, sondern nur noch als reine, messbare Macht. Jede Wunde öffnet ein Tor zu einer tieferen, wilderen Schicht deiner Kraft. In diesem Zustand grenzt deine Magie an Raserei – sie ist kein gezielter Schuss mehr, sondern ein Breitseitenfeuer, gespeist vom eigenen Lebensfunken. Der Effekt von Kampf II wird verbessert. Du erhältst den vollen Wundabzug als Erleichterung für deine übernatürlichen Talente (Damit wird der Wundabzug ausglichen und du erhältst den vollen Wundabzug als Bonus). Kannst du durch andere Effekte Wundabzüge bereits ignorieren, erhälst du den doppelten Wundabzug als Bonus für übernatürliche Talente. |
+
+
+---
+
+**Regelbuchnavigation:** ← [intuitiv](intuitiv.md) · ↑ [Uebernatuerliche Stile](../Uebernatuerliche_Stile.md) · [akoluth](akoluth.md) →

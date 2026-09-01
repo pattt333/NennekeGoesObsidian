@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Weg durch Sumus Leib](Weg_durch_Sumus_Leib.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Weihe der Keule](Weihe_der_Keule.md) →

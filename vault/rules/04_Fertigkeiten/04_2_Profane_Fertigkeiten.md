@@ -39,3 +39,8 @@ Die Fertigkeiten werden grundsätzlich beschrieben und die jeweiligen Anwendungs
 - [Strassenkunde](Profane_Fertigkeiten/Strassenkunde.md)
 
 - [Uberleben](Profane_Fertigkeiten/Uberleben.md)
+
+
+---
+
+**Regelbuchnavigation:** ← [04 1 Kampffertgikeiten](04_1_Kampffertgikeiten.md) · ↑ [Fertigkeiten](04_Fertigkeiten.md) · [04 3 Freie Fertigkeiten](04_3_Freie_Fertigkeiten.md) →

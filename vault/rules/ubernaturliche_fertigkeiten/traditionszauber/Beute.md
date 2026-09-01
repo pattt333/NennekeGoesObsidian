@@ -27,3 +27,7 @@ TP um +1.
 **Erlernen:**Hex 16
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Bann der Keule](Bann_der_Keule.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Bildergalerie](Bildergalerie.md) →

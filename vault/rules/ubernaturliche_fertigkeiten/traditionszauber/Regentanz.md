@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Raub der Geisterkraft](Raub_der_Geisterkraft.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Reines Wasser](Reines_Wasser.md) →

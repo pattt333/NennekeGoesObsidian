@@ -22,3 +22,7 @@ Schicksalspunkte kannst du auf die folgenden Arten einsetzen:
 1. Eine Probe wiederholen: Für einen Schicksalspunkt kannst du eine Probe einmal wiederholen. Außer es war ein Patzer.
 
 Schicksalspunkte werden zu Beginn jedes Abenteuers auf deinen Maximalbetrag zurückgesetzt. Es gibt Vorteile, die es dir erlauben, einen höheren SchiP-Maximalbetrag und damit mehr Schicksalspunkte zu haben.
+
+---
+
+**Regelbuchnavigation:** ← [Proben](01_Proben.md) · ↑ [Startseite](../index.md) · [Eigenschaften](03_Eigenschaften.md) →

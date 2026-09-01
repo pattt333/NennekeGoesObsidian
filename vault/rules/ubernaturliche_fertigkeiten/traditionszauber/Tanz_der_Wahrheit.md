@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Tanz der Unantastbarkeit](Tanz_der_Unantastbarkeit.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Tanz der Weisheit](Tanz_der_Weisheit.md) →

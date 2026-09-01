@@ -23,3 +23,7 @@ Die Schale kehrt fliegend mit einer Geschwindigkeit von 10 Meilen pro Stunde zu 
 **Erlernen:**Alch 12; Hex 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Apport der Kugel](Apport_der_Kugel.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Apport des Dolches](Apport_des_Dolches.md) →

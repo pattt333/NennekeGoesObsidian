@@ -16,3 +16,8 @@
 | **Attribut 10** |  |
 | **Zauberer I/Geweihter I** |  |
 | **80EP** | **Meisterlicher Artefakthersteller** Artefakte kosten nur die halbe gebundene Energie. Alle bisher erstellten Artefakte erstatten die Hälfte der gebundenen Energie zurück. |
+
+
+---
+
+**Regelbuchnavigation:** ← [Uebernatuerliche Stile](../Uebernatuerliche_Stile.md) · ↑ [Super Vorteile](../Super_Vorteile.md) · [SV KO](SV_KO.md) →

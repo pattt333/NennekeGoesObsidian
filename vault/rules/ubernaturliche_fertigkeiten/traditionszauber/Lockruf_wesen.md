@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Lied des Wanderers](Lied_des_Wanderers.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Macht der Luft](Macht_der_Luft.md) →

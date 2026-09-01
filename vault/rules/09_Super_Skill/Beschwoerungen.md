@@ -103,3 +103,8 @@ Durch den Vorteil Beschwörer erhälst du Zugang zu folgenden Modifikationen, di
 | **Langsames Wesen** | +1X | INI-1 |
 | **Resistenz** | -8x | Erhöht die Resistenz gegen profane, magische oder geweihte Waffen um +1 Stufe. |
 | **Regeneration** | -16x | Erhöht Regeneration um +1 Stufe. |
+
+
+---
+
+**Regelbuchnavigation:** ← [Artefakte](Artefakte.md) · ↑ [Übernatürliche Fähigkeiten](09_Super_Skill.md) · [Super Vorteile](Super_Vorteile/Super_Vorteile.md) →

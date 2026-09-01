@@ -44,3 +44,8 @@ Schiffsmagier exisitieren in der offensiven und der defensiven Form. Für beide 
 | --- | --- | --- | --- | --- | --- |
 | **Schiffsmagier (offensiv)** | 2W6+2 | 2 | 4/0 | 5 | [Zerbrechlich](Waffeneigenschaften.md#wf-zerbrechlich), [Große Waffe](Waffeneigenschaften.md#wf-grossewaffe) |
 | **Schiffsmagier (defensiv)** | 2W6+2 | 2 | 0/4 | 5 | [Zerbrechlich](Waffeneigenschaften.md#wf-zerbrechlich), [Große Waffe](Waffeneigenschaften.md#wf-grossewaffe) |
+
+
+---
+
+**Regelbuchnavigation:** ← [Tiere](Tiere.md) · ↑ [Waffen](Waffen.md)

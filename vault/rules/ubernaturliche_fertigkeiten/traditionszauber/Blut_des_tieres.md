@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Blut des Dolches](Blut_des_Dolches.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Blutgeistaufnehmen](Blutgeistaufnehmen.md) →

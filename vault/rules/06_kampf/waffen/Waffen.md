@@ -38,3 +38,8 @@ Bei manchen Waffen, wilden Tieren oder Monstrositäten haben schon gewöhnliche 
 - [Tiere](Tiere.md)
 
 - [Grosse Waffen](Grosse_Waffen.md)
+
+
+---
+
+**Regelbuchnavigation:** ← [Kampfmanover](../Kampfmanover.md) · ↑ [Kampf](../06_Kampf.md)

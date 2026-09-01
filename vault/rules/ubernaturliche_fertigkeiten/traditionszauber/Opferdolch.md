@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Mut der Ahnen](Mut_der_Ahnen.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Optikstein](Optikstein.md) →

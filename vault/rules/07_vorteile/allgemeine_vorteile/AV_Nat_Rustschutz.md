@@ -9,3 +9,7 @@
 **Voraussetzungen:** üblicherweise nur Achaz, Orks oder ähnliche Rassen
 
 **EP-Wert:** 80 Erfahrungspunkte
+
+---
+
+**Regelbuchnavigation:** ← [AV Magieabweisend](AV_Magieabweisend.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV Privilegien](AV_Privilegien.md) →

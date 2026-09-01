@@ -14,3 +14,8 @@
 | **60EP** | **Bedächtig** Du wartest in den meisten Fällen einfach ab was so passiert und zur Not bist du immer bereit deinen Verbündeten schnell zur Seite zu stehen. In einer freien Aktion kannst du mit einer Probe IN (24,I) einem Verbündeten einen deiner Schicksalspunkte übertragen. |
 | **Attribut 10** |  |
 | **80EP** | **Empathie** Bei einer Rast als Rast-Talent kannst du mit einer Probe auf Menschenkenntnis(Beruhigen,20,I) alle deine Gefährten beruhigen und inspirieren, bis zur nächsten Rast, können deine Gefährten eine Probe wiederholen, wie beim Einsatz eines Schicksalpunktes. |
+
+
+---
+
+**Regelbuchnavigation:** ← [PV GE](PV_GE.md) · ↑ [002 ProfaneVorteile](../002_ProfaneVorteile.md) · [PV KK](PV_KK.md) →

@@ -12,3 +12,8 @@ Mit Handwerk schmiedest du Waffen und Rüstungen, fertigst filigrane Mechaniken 
 - Stoff: Dieses Talent deckt den gesamten Bereich der Verarbeitung von Stoffen und anderen fasrigen Materialien ab – vom Zurechtschneiden von für das Nähen bis hin zur Anfertigung von Kleidungsstücken und komplizierten Rüstungen. (VERBILLIGT)
 - Stein: Dieses Talent deckt den gesamten Bereich der Verarbeitung von Steinen und anderen harten Materialien, die nicht unter Metal fallen ab – vom fachgerechten Abbau über das Zurechtschneiden von Blöcken bis hin zur Anfertigung von Statuen, Vasen und Waffen aus Stein.
 - Mechanik: Dieses Talent umfasst Kenntnisse grundlegender mechanischer Gesetze und ihrer Anwendung, beispielsweise Hebelgesetze, Reibung und schiefe Ebenen, aber auch Flaschenzug, Zahnrad und Übersetzung. Proben auf Mechanik können beim Bau von Fallen, Katapulten und Spieluhren anfallen. (VERBILLIGT)
+
+
+---
+
+**Regelbuchnavigation:** ← [Fortbewegungsmittel](Fortbewegungsmittel.md) · ↑ [04 2 Profane Fertigkeiten](../04_2_Profane_Fertigkeiten.md) · [Heilkunde](Heilkunde.md) →

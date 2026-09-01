@@ -54,3 +54,8 @@ Talente: kurze Wurfwaffen, Wurfspeere, Diskusse, Schleudern (VERBILLIGT)
 
 Mit der Fertigkeit Feuerwaffen werden alle Waffen bedient, die mit Schwarzpulver funktionieren.\\
 Talente: Langfeuerwaffen, Kurzfeuerwaffen
+
+
+---
+
+**Regelbuchnavigation:** ↑ [Fertigkeiten](04_Fertigkeiten.md) · [04 2 Profane Fertigkeiten](04_2_Profane_Fertigkeiten.md) →

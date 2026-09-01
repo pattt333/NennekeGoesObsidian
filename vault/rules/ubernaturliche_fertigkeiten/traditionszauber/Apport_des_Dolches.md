@@ -23,3 +23,7 @@ Der Dolch kehrt fliegend mit einer Geschwindigkeit von 10 Meilen pro Stunde zu d
 **Erlernen:**Dru 16
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Apport der Schale](Apport_der_Schale.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Apport des Iama](Apport_des_Iama.md) →

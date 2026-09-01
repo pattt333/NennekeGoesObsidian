@@ -27,3 +27,7 @@ Grundsätzlich kannst du jedes Talent als Rast-Talent ausführen. Wenn ein Talen
 ## Verhandeln
 
 Wie bereits im Kapitel für Materialien erklärt, ist auch Einkaufen als Rast-Talent gedacht. Das Shoppen nach allen möglichen Gegenständen folgt den gleichen Regeln wie das Shoppen nach Materialien.
+
+---
+
+**Regelbuchnavigation:** ← [Vorteile](../07_vorteile/07_Vorteile.md) · ↑ [Startseite](../../index.md) · [Übernatürliche Fähigkeiten](../09_Super_Skill/09_Super_Skill.md) →

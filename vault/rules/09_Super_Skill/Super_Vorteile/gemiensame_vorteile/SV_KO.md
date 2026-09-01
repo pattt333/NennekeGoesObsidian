@@ -16,3 +16,8 @@
 | **Attribut 10** |  |
 | **Zauberer I/Geweihter I** |  |
 | **80EP** | **Mächtiger Astralkörper** Deine Energie erhöht sich um 2*KO. |
+
+
+---
+
+**Regelbuchnavigation:** ← [SV FF](SV_FF.md) · ↑ [Super Vorteile](../Super_Vorteile.md) · [ZV CH](../zauberer_vorteile/ZV_CH.md) →

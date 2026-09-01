@@ -57,3 +57,7 @@ Auch wenn der Wert Magieresistenz genannt wird wirkt diese sowohl gegen Zauber a
 ### Körperkraftzuschlag/Schadensbonus
 
 Der Schadensbonus zählt grundsätzlich für alle Nahkampfwaffen. Nahkampfwaffen verursachen also TP+KKZ Schaden.
+
+---
+
+**Regelbuchnavigation:** ← [Charaktere](02_Charaktere.md) · ↑ [Startseite](../index.md) · [Fertigkeiten](04_Fertigkeiten/04_Fertigkeiten.md) →

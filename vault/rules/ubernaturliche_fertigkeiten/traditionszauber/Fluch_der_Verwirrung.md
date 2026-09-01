@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Flammenschwert](Flammenschwert.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Fluch der Wandlung](Fluch_der_Wandlung.md) →

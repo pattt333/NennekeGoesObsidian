@@ -23,3 +23,7 @@ Bei der Herstellung eines Elixiers lässt du durch die Schale zusätzliche Astra
 **Erlernen:**Alch 12; Hex 16; Mag 18
 
 **EP-Kosten:**60 EP
+
+---
+
+**Regelbuchnavigation:** ← [Arngrimms Hohle](Arngrimms_Hohle.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Astralspeicher](Astralspeicher.md) →

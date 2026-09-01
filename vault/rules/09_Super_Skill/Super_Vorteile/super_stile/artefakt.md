@@ -14,3 +14,8 @@
 | **zwei weitere Attr.** |  |
 | **auf jeweils 8** |  |
 | **80EP** | **Artefakt IV** Du bist ein Meister der gebundenen Magie. Die Energie in deinen Artefakten und in dir selbst reagiert wie ein gut geöltes Uhrwerk auf deinen Willen, sodass komplexe Verstärkungen zum Kinderspiel werden. Artefakt-Notfallreserve: Wenn du einen magischen Gegenstand verwendest, der keine Ladungen/Verwendungen mehr hat, kannst du ihn einmalig durch pure Willenskraft aktivieren (Probe auf die jeweilige übernatürliche Fertigkeit ( 16,I)). Danach ist der Gegenstand für 1W6 Tage völlig unbrauchbar oder bis zum Ende des Abenteuers, was früher Eintritt. |
+
+
+---
+
+**Regelbuchnavigation:** ↑ [Uebernatuerliche Stile](../Uebernatuerliche_Stile.md) · [beherrschung](beherrschung.md) →

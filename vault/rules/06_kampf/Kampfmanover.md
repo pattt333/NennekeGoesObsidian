@@ -35,3 +35,8 @@ Bevor alle Manöver aufgelistet werden, die dein Held einsetzen kann bzw. lernen
 - [Fernkampf Basismanover](kampfmanover/Fernkampf_Basismanover.md)
 
 - [Fernkampf Spezialmanover](kampfmanover/Fernkampf_Spezialmanover.md)
+
+
+---
+
+**Regelbuchnavigation:** ← [Weitere Kampfregeln](Weitere_Kampfregeln.md) · ↑ [Kampf](06_Kampf.md) · [Waffen](waffen/Waffen.md) →

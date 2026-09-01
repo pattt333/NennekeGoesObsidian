@@ -15,3 +15,7 @@ Beispiele für Verbindungen sind:
 **Voraussetzungen:** keine
 
 **EP-Wert:** Meister-/Gruppenentscheid
+
+---
+
+**Regelbuchnavigation:** ← [AV Tierempathie](AV_Tierempathie.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV Zauberer](AV_Zauberer.md) →

@@ -365,3 +365,7 @@ Für 1 Stunde sind alle Fernkampfangriffe um +2 erleichtert.
 **Werkstattstufe:** 2
 
 **Material:** Stärkung
+
+---
+
+**Regelbuchnavigation:** ← [talente-zur-herstellung](talente-zur-herstellung.md) · ↑ [Rast und Herstellung](08_Rast.md) · [holz](holz.md) →

@@ -14,3 +14,8 @@
 | **Attribut 10** |  |
 | **Zauberer I** |  |
 | **80EP** | **Vorbereitendes Zaubern** Du kannst einen Zauber schon im voraus wirken und in Vorbereitung halten. Ein Ziel in Reichweite wird erst in einer Aktion Konflikt ausgewählt. Du kannst nur einen Zauber in Vorbereitung halten. |
+
+
+---
+
+**Regelbuchnavigation:** ← [ZV IN](ZV_IN.md) · ↑ [Super Vorteile](../Super_Vorteile.md) · [ZV MU](ZV_MU.md) →

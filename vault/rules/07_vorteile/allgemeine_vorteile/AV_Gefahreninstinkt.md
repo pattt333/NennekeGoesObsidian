@@ -9,3 +9,7 @@
 **Voraussetzungen:** keine
 
 **EP-Wert:** 100 Erfahrungspunkte
+
+---
+
+**Regelbuchnavigation:** ← [AV Einkommen](AV_Einkommen.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV Geweihter](AV_Geweihter.md) →

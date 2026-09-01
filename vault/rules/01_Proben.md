@@ -102,3 +102,7 @@ Die Einzelproben einer Detailgradprobe müssen übrigens nicht alle auf dieselbe
 > Miraj ist ein meisterhafter Schmied und erschwert sich die Hadwerk(Metall) Proben um -8. Nach erfolgreich absolvierter Detailgradprobe hält er einen Speer in der Hand, dessen Schaft zwar nichts besonderes ist, dessen Spitze jedoch im ganzen Kaiserreich ihresgleichen sucht. Überreicht er dieses Geschenk an den Feldherren, werden seine Gesellschaftsproben in der Folge durch die zwei Stufen Hohe Qualität um +8 erleichtert sein, entscheidet der Spielleiter.
 
 Nicht in allen Fällen ist eine so ausführliche und detaillierte Detailgradprobe jedoch nötig. Meistens wird es genügen, dieselbe Schwierigkeit für alle Einzelproben vorzugeben und auch Hohe Qualität auf alle Einzelproben gleichermaßen anzuwenden, was deutlich schneller vonstatten geht.
+
+---
+
+**Regelbuchnavigation:** ↑ [Startseite](../index.md) · [Charaktere](02_Charaktere.md) →

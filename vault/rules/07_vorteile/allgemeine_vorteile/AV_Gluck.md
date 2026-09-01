@@ -9,3 +9,7 @@
 **Voraussetzungen:** keine
 
 **EP-Wert:** 40 Erfahrungspunkte pro Stufe
+
+---
+
+**Regelbuchnavigation:** ← [AV Geweihter](AV_Geweihter.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV Hasenfuss](AV_Hasenfuss.md) →

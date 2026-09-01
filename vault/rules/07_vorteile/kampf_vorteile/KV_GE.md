@@ -12,3 +12,8 @@
 | **60EP** | **Todesstoß** Erlaubt das Manöver [Todesstoß](../../06_kampf/kampfmanover/Nahkmapfspezialmanover.md#subsubsec-todesstoss). |
 | **Attribut 10** |  |
 | **80EP** | **Präzision** Zeigt der gewertete Würfel bei einem Angriff eine 16 oder höher, richtet der Angriff +GE TP zusätzlich an. |
+
+
+---
+
+**Regelbuchnavigation:** ← [KV FF](KV_FF.md) · ↑ [003 Kampfovrteile](../003_Kampfovrteile.md) · [KV IN](KV_IN.md) →

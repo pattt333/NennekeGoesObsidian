@@ -14,3 +14,8 @@
 | **60EP** | **Eisern** Wundeffekte treten bei dir nur beim Verlust von 3*LAW LeP auf einen Schlag auf, statt schon bei 2*LAW auf einen Schlag. |
 | **Attribut 10** |  |
 | **80EP** | **Belastungsgewöhnung II** Die BE, die du durch die Anzahl deiner Rüstungspunkte erhältst, sinkt um 2 weitere Punkte. |
+
+
+---
+
+**Regelbuchnavigation:** ← [KV KL](KV_KL.md) · ↑ [003 Kampfovrteile](../003_Kampfovrteile.md) · [KV MU](KV_MU.md) →

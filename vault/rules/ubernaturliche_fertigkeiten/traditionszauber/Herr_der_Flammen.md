@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Heimfuhrung der Herde](Heimfuhrung_der_Herde.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Hexenbesen](Hexenbesen.md) →

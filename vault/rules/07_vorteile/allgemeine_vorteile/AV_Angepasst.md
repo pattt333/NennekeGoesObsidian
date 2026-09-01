@@ -24,3 +24,7 @@ Bedingung/Umgebung:
 **Voraussetzungen:** keine
 
 **EP-Wert:** Meister-/Gruppenentscheid (s.o.)
+
+---
+
+**Regelbuchnavigation:** ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV BesondererBesitz](AV_BesondererBesitz.md) →

@@ -28,3 +28,7 @@ mächtiges Unheiligtum ist.
 **Erlernen:**Dru, Geo 18
 
 **EP-Kosten:**20 EP
+
+---
+
+**Regelbuchnavigation:** ← [Macht uber den Regen](Macht_uber_den_Regen.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Matrixstabilisierung](Matrixstabilisierung.md) →

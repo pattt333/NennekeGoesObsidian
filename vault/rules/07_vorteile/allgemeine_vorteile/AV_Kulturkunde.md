@@ -9,3 +9,7 @@
 **Voraussetzungen:** der Held beschäftigt sich mit der Kultur
 
 **EP-Wert:** 20 Erfahrungspunkte pro Stufe
+
+---
+
+**Regelbuchnavigation:** ← [AV Hasenfuss](AV_Hasenfuss.md) · ↑ [001 Allgemeine Vorteile](../001_Allgemeine_Vorteile.md) · [AV Landerkunde](AV_Landerkunde.md) →

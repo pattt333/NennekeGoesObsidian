@@ -54,3 +54,7 @@ eingesetzt werden
 **Erschwernisse:** FK-8
 
 **Voraussetzungen:** Kampfvorteil Meisterschuss, 5KR Cooldown
+
+---
+
+**Regelbuchnavigation:** ← [Fernkampf Basismanover](Fernkampf_Basismanover.md) · ↑ [Kampfmanover](../Kampfmanover.md)

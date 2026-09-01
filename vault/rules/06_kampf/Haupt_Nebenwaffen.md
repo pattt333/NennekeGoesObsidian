@@ -31,3 +31,7 @@ Im Kampf bilden Kavallerist und Reittier eine Einheit. Letzteres wird deswegen w
 Im Reiterkampf bewegt sich ein Charakter mit der GS des Pferdes und verwendet Reiten als Gegenprobe gegen Niederwerfen und Umreißen-Attacken.
 
 Der Charakter kann sich daher bei jeder Attacke und jeder Verteidigung entscheiden, ob er das Pferd oder eine andere Waffe nutzt. Reiten-Attacken sind um +4 erleichtert, wenn das Reittier in einer höheren Größenklasse als das Ziel ist - wie zum Beispiel ein Pferd gegenüber einem Infanteristen (grundsätzlich sind die meisten Reittiere von Helden in einer höheren Größenklasse). Bei einer Reiten-Verteidigung nimmt das Tier keinen Schaden.
+
+---
+
+**Regelbuchnavigation:** ↑ [Kampf](06_Kampf.md) · [Angriff Verteidigung](Angriff_Verteidigung.md) →

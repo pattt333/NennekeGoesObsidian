@@ -26,3 +26,7 @@ Laufen, Nahkampfangriff) ablegt, ist diese um
 **Erlernen:**Bard 12
 
 **EP-Kosten:**40 EP
+
+---
+
+**Regelbuchnavigation:** ← [Aufmerksamer Wachter](Aufmerksamer_Wachter.md) · ↑ [Traditions Zauber](../Traditions_Zauber.md) · [Aura des Stabes](Aura_des_Stabes.md) →
