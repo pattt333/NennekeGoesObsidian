@@ -1,4 +1,5 @@
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -18,6 +19,7 @@ from nenneke_v2_pipeline import (
     navigation_graph,
     note_navigation,
     relative_link,
+    remove_generated_assets,
     source_only_markdown,
 )
 
@@ -102,6 +104,15 @@ class PipelineTest(unittest.TestCase):
         self.assertEqual(design_principles("Chapters/02_Charaktere.tex"), "")
         self.assertIn("[Grundideen des Regeldesigns](grundideen-des-regeldesigns.md)", index)
         self.assertIn("[Grundideen des Regeldesigns](grundideen-des-regeldesigns.md)", sidebar)
+
+    def test_generated_assets_are_removed_on_apply(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            vault = Path(temporary)
+            assets = vault / "assets"
+            assets.mkdir()
+            (assets / "unused.png").write_bytes(b"image")
+            remove_generated_assets(vault)
+            self.assertFalse(assets.exists())
 
 
 if __name__ == "__main__":

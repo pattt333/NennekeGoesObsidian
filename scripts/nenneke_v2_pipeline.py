@@ -29,7 +29,6 @@ VAULT = ROOT / "vault"
 DESIGN_PRINCIPLES = ROOT / "content" / "design-principles"
 PUBLICATION_OUTPUT = ROOT / "output" / "pdf" / "NennekeV2.pdf"
 ROOT_TEX = {"main.tex", "Abstract.tex", "Acknowledgements.tex", "Notations_and_Symbols.tex"}
-IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".svg"}
 INCLUDE_RE = re.compile(r"^\s*\\(?:input|include)\{([^}]+)\}", re.MULTILINE)
 COMMENTED_INCLUDE_RE = re.compile(r"^\s*%\s*\\(?:input|include)\{([^}]+)\}", re.MULTILINE)
 LABEL_RE = re.compile(r"\\label\{([^}]+)\}")
@@ -454,12 +453,6 @@ def generate(archive: Archive, staging: Path = STAGING) -> dict[str, object]:
         if source not in sources:
             content = f"<!-- Source: {source} -->\n\n# {title_for(source)}\n\n*Leere Quelldatei in der autoritativen Quelle.*"
             write_text(staging / target, content + note_navigation(source, source_map, children, parents))
-    assets = staging / "assets"
-    for name, entry in archive.entries.items():
-        if Path(name).suffix.lower() in IMAGE_EXTENSIONS:
-            target = assets / Path(name).name
-            target.parent.mkdir(parents=True, exist_ok=True)
-            target.write_bytes(archive.zip.read(entry))
     publication_sources = archive.include_tree()
     publication_paths = [RULE_DESIGN, *[source_map[source] for source in publication_sources if source in source_map]]
     write_json(REPORTS / "inventory.json", inventory(archive))
@@ -546,6 +539,13 @@ def generated_sidebar(archive: Archive, source_map: dict[str, str | None], child
     return "\n".join(lines)
 
 
+def remove_generated_assets(vault: Path = VAULT) -> None:
+    """Remove obsolete image output owned by the conversion pipeline."""
+    assets = vault / "assets"
+    if assets.exists():
+        shutil.rmtree(assets)
+
+
 def apply_staging(archive: Archive, staging: Path = STAGING) -> None:
     if not staging.is_dir():
         raise FileNotFoundError("Run the convert command before apply.")
@@ -556,6 +556,7 @@ def apply_staging(archive: Archive, staging: Path = STAGING) -> None:
         if source.exists() and not target.exists():
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.move(str(source), str(target))
+    remove_generated_assets()
     for item in staging.iterdir():
         target = VAULT / item.name
         if item.is_dir():
