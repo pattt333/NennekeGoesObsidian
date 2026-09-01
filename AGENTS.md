@@ -52,3 +52,7 @@ Do not add or require end-to-end testing unless the project later adopts it expl
 After validation succeeds, review the diff and automatically commit every change made by the agent for the current task. Do not stage or commit pre-existing, unrelated user changes. Use a concise imperative Conventional Commit message, for example `docs: reorganize combat rules` or `chore: add OpenSpec workflow`.
 
 Do not commit if required validation fails or has not been run. Report the validation result and commit hash in the handoff.
+
+### Root Obsidian workspace state
+
+The tracked root `.obsidian/workspace.json` records transient UI state and can change automatically while an agent works. Unless the user explicitly confirms that a change to this file is intentional, treat it as agent-generated state: do not attribute it to the user, stage it, or commit it. Restore the committed content and re-check Git status before handoff. If the file changes again after restoration, report that fact accurately; if ownership is genuinely unclear, ask before restoring it.
