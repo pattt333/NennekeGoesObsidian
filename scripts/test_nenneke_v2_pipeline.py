@@ -8,10 +8,13 @@ from nenneke_v2_pipeline import (
     Archive,
     clean_inline,
     convert_tex,
+    design_principles,
     destination,
     generated_index,
     generated_rule_index,
     generated_sidebar,
+    insert_after_h1,
+    labels_for,
     navigation_graph,
     note_navigation,
     relative_link,
@@ -75,6 +78,30 @@ class PipelineTest(unittest.TestCase):
         finally:
             archive.close()
         self.assertNotIn("rules/07_vorteile/kampf_vorteile/Kampfvorteile.md", unmatched)
+
+    def test_design_principles_are_reader_navigation_and_chapter_preamble(self):
+        archive = Archive(ARCHIVE)
+        try:
+            source_map = {source: target for source in archive.entries if (target := destination(source))}
+            chapter, _ = convert_tex(
+                "Chapters/06_kampf/06_Kampf.tex",
+                archive.text["Chapters/06_kampf/06_Kampf.tex"],
+                labels_for(archive),
+                source_map,
+            )
+            chapter_with_principles = insert_after_h1(
+                chapter, design_principles("Chapters/06_kampf/06_Kampf.tex")
+            )
+            index = generated_index(archive, source_map)
+            sidebar = generated_sidebar(archive, source_map)
+        finally:
+            archive.close()
+        self.assertIn("## Designprinzipien", chapter_with_principles)
+        self.assertIn("### Aktionsökonomie", chapter_with_principles)
+        self.assertLess(chapter_with_principles.index("## Designprinzipien"), chapter_with_principles.index("Der Kampf ist"))
+        self.assertEqual(design_principles("Chapters/02_Charaktere.tex"), "")
+        self.assertIn("[Grundideen des Regeldesigns](grundideen-des-regeldesigns.md)", index)
+        self.assertIn("[Grundideen des Regeldesigns](grundideen-des-regeldesigns.md)", sidebar)
 
 
 if __name__ == "__main__":

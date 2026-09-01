@@ -2,6 +2,27 @@
 
 # Proben
 
+## Designprinzipien
+
+### Designziel
+
+Das Probensystem bildet die gemeinsame Grundlage zur Auflösung unsicherer Handlungen.
+
+Unterschiedliche Situationen sollen möglichst mit denselben Grundmechanismen abgebildet und über wenige bekannte Stellschrauben angepasst werden.
+
+Schwierigkeit und äußere Umstände sollen bevorzugt über einheitliche Modifikatoren dargestellt werden.
+
+Spieler sollen, wo sinnvoll, bewusst höhere Risiken eingehen können, um bessere oder zusätzliche Ergebnisse zu erzielen.
+
+Unterschiedliche Bedeutung und gewünschte Ausführlichkeit einer Handlung sollen möglichst durch die Skalierung des bestehenden Probensystems dargestellt werden.
+
+Der mechanische Detailgrad richtet sich dabei nach der Bedeutung einer Situation für das Spiel und nicht nach ihrer Dauer in der Spielwelt.
+
+Gruppenproben, Zusammenarbeit und Detailgradproben sind bewusst unterschiedliche Werkzeuge für unterschiedliche spielerische Fragestellungen.
+
+Ihre Existenz widerspricht dem Ziel der Vereinheitlichung nicht, solange sie auf der gemeinsamen Grundlogik des Probensystems aufbauen.
+
+
 Würfel sorgen im Rollenspiel für Spannung.
 Sie werden sorgfältig entwickelte Pläne zum Einsturz bringen, beinahe verlorene Kämpfe zu deinen Gunsten wenden und zeigen, ob du kluge Entscheidungen getroffen hast. In diesem Kapitel erfährst du, wie du die Würfel bei Proben einsetzt. Ilaris verwendet einen schnellen und einfachen Probenwurf, bei dem du mit deinem Würfelwurf und deinem Wert eine Schwierigkeit überbieten musst. Diesen Wurf kannst du mühelos anpassen, um unterschiedliche Umgebungen, verschieden starken Glückseinfluss und die Zusammenarbeit innerhalb deiner Gruppe darzustellen. Anschließend stellen wir die verschiedenen Probenarten vor: In [gewöhnlichen Proben](01_Proben.md#sec-gewohnlicheproben) versuchst du eine vom Spielleiter vorgegebene, feste Schwierigkeit zu erreichen (hier findest Du auch eine [Tabelle zur Probenschwierigkeit](01_Proben.md#sec-gewohnlicheproben)), während du in [Vergleichsproben](01_Proben.md#sec-vergleichsproben) gegen einen Kontrahenten antrittst. [Detailgradproben](01_Proben.md#sec-detailgradproben) bestehen hingegen aus mehreren offenen oder vergleichenden Proben und kommen vor allem in längeren Szenen zum Einsatz.
 

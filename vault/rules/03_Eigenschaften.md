@@ -2,6 +2,19 @@
 
 # Eigenschaften
 
+## Designprinzipien
+
+### Designziel
+
+Eigenschaften sollen die grundlegenden körperlichen und geistigen Fähigkeiten eines Charakters abbilden und als gemeinsame Basis für Fertigkeiten und zentrale abgeleitete Werte dienen.
+
+Jede Eigenschaft soll mehrere klar erkennbare Anwendungsbereiche besitzen und für unterschiedliche Charakterkonzepte relevant sein.
+
+Abgeleitete Werte sollen sich möglichst nachvollziehbar und einheitlich aus Eigenschaften oder anderen bereits bestehenden Charakterwerten ergeben.
+
+Eigenschaften und abgeleitete Werte sollen keine eigenständigen Subsysteme erzeugen, sondern andere Regelbereiche wie Proben, Kampf, Gesundheit und übernatürliche Fähigkeiten mit wenigen gemeinsamen Grundwerten versorgen.
+
+
 Charisma (CH) ist die natürliche Ausstrahlung deines Charakters auf seine Umgebung. Es steht für Führungsqualitäten, Selbstbewusstsein, Überzeugungskraft und ein gewinnendes Wesen. Alle gesellschaftlichen Fertigkeiten hängen von deinem Charisma ab und auch Elementaristen benötigen ein hohes Charisma.
 
 Fingerfertigkeit (FF) ist die manuelle Geschicklichkeit deines Charakters. Er verfügt über eine gute Hand-Augen Koordination und kann feine Bewegungen schnell und fehlerfrei ausführen. Handwerker, Fernkämpfer und Hersteller von Artefakten sollten deswegen nicht auf eine hohe Fingerfertigkeit verzichten.

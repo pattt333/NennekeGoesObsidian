@@ -26,6 +26,7 @@ ARCHIVE = ROOT / "NennekeV2.zip"
 REPORTS = ROOT / "conversion" / "nenneke-v2"
 STAGING = ROOT / "build" / "nenneke-v2" / "vault"
 VAULT = ROOT / "vault"
+DESIGN_PRINCIPLES = ROOT / "content" / "design-principles"
 PUBLICATION_OUTPUT = ROOT / "output" / "pdf" / "NennekeV2.pdf"
 ROOT_TEX = {"main.tex", "Abstract.tex", "Acknowledgements.tex", "Notations_and_Symbols.tex"}
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".svg"}
@@ -54,6 +55,17 @@ TABLE_LOOKUP_SOURCES = (
     "Chapters/09_Super_Skill/09_Super_Skill.tex",
 )
 RULE_INDEX = "regelindex.md"
+RULE_DESIGN = "grundideen-des-regeldesigns.md"
+CHAPTER_DESIGN_SOURCES = {
+    "Chapters/01_Proben.tex": "01_proben.md",
+    "Chapters/03_Eigenschaften.tex": "03_eigenschaften.md",
+    "Chapters/04_Fertigkeiten/04_Fertigkeiten.tex": "04_fertigkeiten.md",
+    "Chapters/05_Gesundheit.tex": "05_gesundheit.md",
+    "Chapters/06_kampf/06_Kampf.tex": "06_kampf.md",
+    "Chapters/07_vorteile/07_Vorteile.tex": "07_vorteile.md",
+    "Chapters/08_rast/08_Rast.tex": "08_rast-und-talente.md",
+    "Chapters/09_Super_Skill/09_Super_Skill.tex": "09_uebernatuerliche-faehigkeiten.md",
+}
 
 
 def write_text(path: Path, content: str) -> None:
@@ -64,6 +76,25 @@ def write_text(path: Path, content: str) -> None:
 def write_json(path: Path, value: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def design_principles(source: str) -> str:
+    """Return the editorial chapter principles supplied outside the ZIP archive."""
+    filename = CHAPTER_DESIGN_SOURCES.get(source)
+    if not filename:
+        return ""
+    return (DESIGN_PRINCIPLES / filename).read_text(encoding="utf-8").strip()
+
+
+def insert_after_h1(content: str, addition: str) -> str:
+    """Insert editorial content immediately after the note's first H1."""
+    if not addition:
+        return content
+    lines = content.splitlines()
+    for index, line in enumerate(lines):
+        if line.startswith("# "):
+            return "\n".join([*lines[: index + 1], "", addition, "", *lines[index + 1 :]])
+    raise ValueError("Generated chapter is missing its H1 heading.")
 
 
 def sha256(path: Path) -> str:
@@ -245,7 +276,7 @@ def source_manifest(archive: Archive, labels: dict[str, dict[str, str]]) -> dict
 def source_only_markdown(archive: Archive) -> list[str]:
     mapped = {target for source in archive.entries if (target := destination(source))}
     current: set[str] = set()
-    ignored_names = {"index.md", "_sidebar.md", RULE_INDEX}
+    ignored_names = {"index.md", "_sidebar.md", RULE_INDEX, RULE_DESIGN}
     for path in VAULT.rglob("*.md"):
         relative = path.relative_to(VAULT)
         if path.name in ignored_names or any(part.startswith(".") for part in relative.parts):
@@ -415,6 +446,7 @@ def generate(archive: Archive, staging: Path = STAGING) -> dict[str, object]:
     for source in sources:
         content, unsupported = convert_tex(source, archive.text[source], labels, source_map)
         target = staging / source_map[source]
+        content = insert_after_h1(content, design_principles(source))
         write_text(target, content + note_navigation(source, source_map, children, parents))
         if unsupported:
             all_unsupported[source] = sorted(unsupported)
@@ -429,7 +461,7 @@ def generate(archive: Archive, staging: Path = STAGING) -> dict[str, object]:
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_bytes(archive.zip.read(entry))
     publication_sources = archive.include_tree()
-    publication_paths = [source_map[source] for source in publication_sources if source in source_map]
+    publication_paths = [RULE_DESIGN, *[source_map[source] for source in publication_sources if source in source_map]]
     write_json(REPORTS / "inventory.json", inventory(archive))
     write_json(REPORTS / "manifest.json", source_manifest(archive, labels))
     write_json(REPORTS / "labels.json", labels)
@@ -447,6 +479,7 @@ def generate(archive: Archive, staging: Path = STAGING) -> dict[str, object]:
     )
     write_text(REPORTS / "migration-report.md", migration_report(archive))
     write_text(staging / "index.md", generated_index(archive, source_map))
+    write_text(staging / RULE_DESIGN, (DESIGN_PRINCIPLES / "00_regeldesign.md").read_text(encoding="utf-8"))
     write_text(staging / RULE_INDEX, generated_rule_index(source_map))
     write_text(staging / "_sidebar.md", generated_sidebar(archive, source_map, children))
     return {"sources": len(sources), "unsupported": all_unsupported, "publicationPaths": publication_paths}
@@ -467,6 +500,7 @@ def generated_index(archive: Archive, source_map: dict[str, str | None]) -> str:
         "# Nenneke\n\n"
         "Aktuelle, aus `NennekeV2.zip` erzeugte Regelwerksfassung.\n\n"
         "## Regelbuch lesen\n\n"
+        f"- [Grundideen des Regeldesigns]({RULE_DESIGN})\n"
         f"{chapters}\n\n"
         "## Am Spieltisch\n\n"
         "Direkteinstiege für häufige Regelfragen:\n\n"
@@ -505,7 +539,7 @@ def generated_sidebar(archive: Archive, source_map: dict[str, str | None], child
                 lines.extend(render_branch(child, depth + 1))
         return lines
 
-    lines = ["- [Startseite](index.md)"]
+    lines = ["- [Startseite](index.md)", f"- [Grundideen des Regeldesigns]({RULE_DESIGN})"]
     for source in children.get("main.tex", []):
         lines.extend(render_branch(source, 0))
     lines.extend(["", f"- [Vollständiger Regelindex]({RULE_INDEX})"])

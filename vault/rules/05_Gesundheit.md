@@ -2,6 +2,43 @@
 
 # Gesundheit
 
+## Designprinzipien
+
+### Verletzungen
+
+Gesundheit soll nicht nur zwischen „kampffähig“ und „kampfunfähig“ unterscheiden.
+
+Mit zunehmenden Verletzungen soll die Leistungsfähigkeit eines Charakters schrittweise sinken.
+
+Zusätzlich sollen besonders schwere einzelne Treffer unmittelbare Nachteile verursachen können, sodass ein massiver Treffer auch bei einem ansonsten noch relativ gesunden Charakter spürbar bleibt.
+
+Langfristige Abnutzung und die Folgen eines schweren Einzelereignisses sollen dabei als zwei unterschiedliche Aspekte von Verletzungen erkennbar bleiben.
+
+### Schaden über Zeit
+
+Wiederkehrende oder andauernde Schadenseffekte sollen nach einer gemeinsamen Grundmechanik funktionieren.
+
+Unterschiedliche Schadensarten sollen sich hauptsächlich durch Ursache, Entfernung oder besondere Wechselwirkungen unterscheiden und nicht jeweils ein eigenes Ablaufsystem benötigen.
+
+### Rüstung
+
+Rüstung soll eine nachvollziehbare Abwägung zwischen Schutz und Einschränkung darstellen.
+
+Mehr Schutz soll die Folgen von Schaden reduzieren, dafür aber einen spielerisch relevanten Preis besitzen.
+
+### Rast und Heilung
+
+Erholung soll über klar definierte Rastphasen abgewickelt werden und nicht davon abhängen, jede einzelne Stunde der Spielwelt zu simulieren.
+
+Rast soll gleichzeitig der gemeinsame Rahmen für Regeneration und längerfristige Tätigkeiten sein.
+
+Heilkundige Fähigkeiten sollen Verletzungen nicht durch ein paralleles Gesundheitssystem behandeln, sondern auf bestehende Zustände und Regenerationsmechanismen einwirken.
+
+### Schadensquellen
+
+Umwelteinflüsse und andere Schadensquellen sollen soweit möglich bestehende Gesundheitsmechanismen verwenden, statt eigene Folgen zu erfinden.
+
+
 Schartige Klingen, heimtückische Gifte oder wilde Schneestürme – in Aventurien geht es häufig um Leben und Tod. Auf den nächsten Seiten erfährst du, wie sich diese Strapazen auf deinen Charakter auswirken und wie er sich wieder erholen kann.
 
 Schaden kann Einschränkungen nach sich ziehen, die zuerst zu Wundabzügen, dann zur Kampfunfähigkeit und schließlich zum Tod führen. Schwere Treffer sind dabei besonders gefährlich, da sie heimtückische Wundschmerzeffekte verursachen können.
@@ -200,7 +237,6 @@ Mehr zum Herstellen von Giften findest du im Kapitel [Alchemy: Gifte und Krankhe
 Stürze
 Stürze richten 1W6 SP pro Schritt Höhe an; bei besonders harten oder weichen Böden sogar 1W6+1 bzw. nur 1W6-1 SP. Du kannst eine Athletik (Körperbeherrschung)-Probe gegen die Standardschwierigkeit + Höhe in Schritt] ablegen, um die effektive Höhe zu halbieren.
 > Nach einem tollkühnen Akt auf dem 5 Schritt hohen Drahtseil fällt Harik dem Boden entgegen. Sein Spieler schafft die Athletik (Körperbeherrschung) gegen (12+5=19) und Harik landet zumindest auf den Beinen. Dennoch verursacht dieser Sturz bei ihm 3W6 Schaden (5/2 = 3 (aufgerundet)).
-
 
 ---
 

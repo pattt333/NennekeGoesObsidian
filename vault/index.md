@@ -4,6 +4,7 @@ Aktuelle, aus `NennekeV2.zip` erzeugte Regelwerksfassung.
 
 ## Regelbuch lesen
 
+- [Grundideen des Regeldesigns](grundideen-des-regeldesigns.md)
 - [Proben](rules/01_Proben.md)
 - [Charaktere](rules/02_Charaktere.md)
 - [Eigenschaften](rules/03_Eigenschaften.md)

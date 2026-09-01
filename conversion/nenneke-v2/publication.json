@@ -4,6 +4,7 @@
   "contributors": "Patrick, Adrian, Isabel, Leonard, Pit, Kevin, Philipp",
   "language": "de",
   "paths": [
+    "grundideen-des-regeldesigns.md",
     "rules/01_Proben.md",
     "rules/02_Charaktere.md",
     "rules/03_Eigenschaften.md",
