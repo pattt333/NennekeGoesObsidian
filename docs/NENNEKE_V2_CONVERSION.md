@@ -27,4 +27,4 @@ npm run nenneke:pdf
 
 ## Publication review
 
-The PDF uses ReportLab with a two-pass table-of-contents build. The initial publication was reviewed on 2026-09-01 against `NennekeV6_3_1.pdf`: the title page, table of contents, a prose-and-quotation page, table layout, chapter page boundaries, and final page render without clipping or overlap. The first-pass blank contents page was removed before this review. The source V2 publication contains 130 Letter-sized pages; its active `main.tex` tree intentionally differs from the supplied V6.3.1 reference.
+The PDF uses ReportLab with a two-pass table-of-contents build. The initial publication was visually reviewed on 2026-09-01 against the supplied V6.3.1 reference: the title page, table of contents, a prose-and-quotation page, table layout, chapter page boundaries, and final page render without clipping or overlap. The first-pass blank contents page was removed before this review. The source V2 publication contains 130 Letter-sized pages; its active `main.tex` tree intentionally differs from that historical reference.
