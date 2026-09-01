@@ -1,33 +1,32 @@
-[]{#subsubsec:z-Chronoklassis label="subsubsec:z-Chronoklassis"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Chronoklassis_Urfossil.tex -->
 
-##  Chronoklassis Urfossil 
+<a id="subsubsec-z-chronoklassis"></a>
+
+### Chronoklassis Urfossil
 
 Du rufst ein Objekt oder Lebewesen aus der Vergangenheit in die Gegenwart. Dabei kannst du maximal einen Zeitabstand von 1 Jahr überwinden und musst den Ort und die Zeit des Zieles kennen. Nach dem Ende des Zaubers fällt das Ziel zurück in die Vergangenheit und hat keine Erinnerung an den Vorfall.
 
-**Mächtige Magie:** Verzehnfacht den maximalen Zeitabstand.
+**Mächtige Magie:**Verzehnfacht den maximalen Zeitabstand.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Ausgangszustand (-4; am Ziel bleiben keine Spuren seiner Zeit in der Gegenwart zurück)
+- Unbekannter Ort (-8; der Ort muss nicht bekannt sein.)
+- Unbekannte Zeit (-8; die Zeit muss nicht bekannt sein.)
 
--   Ausgangszustand (-4; am Ziel bleiben keine Spuren seiner Zeit in der Gegenwart zurück)
+**Vorbereitungszeit:**8 Stunden
 
--   Unbekannter Ort (-8; der Ort muss nicht bekannt sein.)
+**Ziel:**Einzelobjekt oder Einzelwesen
 
--   Unbekannte Zeit (-8; die Zeit muss nicht bekannt sein.)
-
-**Vorbereitungszeit:** 8 Stunden
-
-**Ziel:** Einzelobjekt oder Einzelwesen
-
-**Reichweite:** dereweit
+**Reichweite:**dereweit
 
 **Wirkungsdauer:** 1 Stunde
 
-**AsP-Kosten:** 16 AsP
+**AsP-Kosten:**16 AsP
 
-**Fertigkeiten:** Temporal
+**Fertigkeiten:**Temporal
 
-**Erlernen:** Ach 20
+**Erlernen:**Ach 20
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

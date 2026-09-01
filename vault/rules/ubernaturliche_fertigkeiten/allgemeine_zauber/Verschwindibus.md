@@ -1,27 +1,28 @@
-## Verschwindibus
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Verschwindibus.tex -->
+
+### Verschwindibus
 
 Dein bis zu 2 Stein schweres Ziel verschwindet für die Wirkungsdauer im näheren Limbus. Der Gegenstand darf nicht magisch, geweiht, befestigt oder mit einem Lebewesen in Kontakt sein.
 
-**Mächtige Magie:** Verdoppelt das maximale Gewicht.
+**Mächtige Magie:**Verdoppelt das maximale Gewicht.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Einmischen (-8; auch magische und geweihte Gegenstände können gewählt werden.)
 
--   Einmischen (-8; auch magische und geweihte Gegenstände können gewählt werden.)
+**Vorbereitungszeit:**0 Aktionen
 
-**Vorbereitungszeit:** 0 Aktionen
+**Ziel:**Einzelobjekt
 
-**Ziel:** Einzelobjekt
+**Reichweite:**16 Schritt
 
-**Reichweite:** 16 Schritt
+**Wirkungsdauer:**4 Minuten
 
-**Wirkungsdauer:** 4 Minuten
+**AsP-Kosten:**8 AsP
 
-**AsP-Kosten:** 8 AsP
+**Fertigkeiten:**Kraft
 
-**Fertigkeiten:** Kraft
+**Erlernen:**Sch 20
 
-**Erlernen:** Sch 20
-
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

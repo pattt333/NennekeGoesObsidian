@@ -1,27 +1,28 @@
-[]{#subsubsec:z-Destructibo label="subsubsec:z-Destructibo"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Destructibo_Arcanitas.tex -->
 
-##  Destructibo Arcanitas 
+<a id="subsubsec-z-destructibo"></a>
+
+### Destructibo Arcanitas
 
 Du zerstörst ein magisches Artefakt, einen Untoten, Golem oder eine Chimäre.
 
 **Probenschwierigkeit:** Herstellungsschwierigkeit bzw. Beschwörungsschwierigkeit
 
 **Modifikationen:**
+- Astralkörper abbauen (Probenschwierigkeit MR, 8 AsP; das Ziel verliert 16 AsP.)
 
--   Astralkörper abbauen (Probenschwierigkeit MR, 8 AsP; das Ziel verliert 16 AsP.)
+**Vorbereitungszeit:**1 Stunde
 
-**Vorbereitungszeit:** 1 Stunde
+**Ziel:**Einzelobjekt
 
-**Ziel:** Einzelobjekt
-
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** augenblicklich
 
-**AsP-Kosten:** Halb so viele AsP, wie zur Herstellung/Beschwörung verwendet wurden.
+**AsP-Kosten:**Halb so viele AsP, wie zur Herstellung/Beschwörung verwendet wurden.
 
-**Fertigkeiten:** Antimagie, Kraft
+**Fertigkeiten:**Antimagie, Kraft
 
 **Erlernen:** Mag 18; Ach, Elf, Dru 20
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

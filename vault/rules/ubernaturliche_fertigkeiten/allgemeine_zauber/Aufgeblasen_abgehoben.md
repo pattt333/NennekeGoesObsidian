@@ -1,33 +1,31 @@
-[]{#subsubsec:z_Aufgeblasen label="subsubsec:z_Aufgeblasen"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Aufgeblasen_abgehoben.tex -->
 
-##  Aufgeblasen abgehoben 
+<a id="subsubsec-z-aufgeblasen"></a>
+
+### Aufgeblasen abgehoben
 
 Dein Opfer wirkt aufgeblasen und schwebt langsam immer höher. Dabei ist es wie ein Ballon dem Wind ausgeliefert. Bevor die Wirkungsdauer endet, sinkt es wieder langsam zu Boden.
 
 **Probenschwierigkeit:** Magieresistenz
 
 **Modifikationen:**
+- Höhe begrenzen (-4; die maximale Höhe beträgt 8 Schritt.) •
+- Fesselballon (-4; das Opfer bewegt sich nur vertikal, bleibt aber sonst an Ort und Stelle.)
+- Tierballons (-4; der Zauber wirkt auf Tiere.)
+- Kunstflug (-8; das Opfer fliegt Figuren, die du mit deinen Armen vorgibst. Erfordert Konzentration.)
 
--   Höhe begrenzen (-4; die maximale Höhe beträgt 8 Schritt.) •
+**Vorbereitungszeit:**4 Aktionen
 
--   Fesselballon (-4; das Opfer bewegt sich nur vertikal, bleibt aber sonst an Ort und Stelle.)
+**Ziel:**Einzelperson
 
--   Tierballons (-4; der Zauber wirkt auf Tiere.)
+**Reichweite:**8 Schritt
 
--   Kunstflug (-8; das Opfer fliegt Figuren, die du mit deinen Armen vorgibst. Erfordert Konzentration.)
+**Wirkungsdauer:**1 Stunde
 
-**Vorbereitungszeit:** 4 Aktionen
+**AsP-Kosten:**8 AsP
 
-**Ziel:** Einzelperson
+**Fertigkeiten:**Luft, Verwandlung
 
-**Reichweite:** 8 Schritt
-
-**Wirkungsdauer:** 1 Stunde
-
-**AsP-Kosten:** 8 AsP
-
-**Fertigkeiten:** Luft, Verwandlung
-
-**Erlernen:** Sch 14
+**Erlernen:**Sch 14
 
 **EP-Kosten:** 40 EP

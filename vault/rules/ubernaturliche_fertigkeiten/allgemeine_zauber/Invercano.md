@@ -1,6 +1,8 @@
-[]{#subsubsec:z-Invercano label="subsubsec:z-Invercano"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Invercano.tex -->
 
-##  Invercano Spiegeltrick
+<a id="subsubsec-z-invercano"></a>
+
+### Invercano Spiegeltrick
 
 Du verwandelst deine Hände in silbern glänzende Spiegel. Du kannst den nächsten auf dich gewirkten Zauber auf den Zauberer zurückwerfen, wenn dir eine Konterprobe (IN, 12) gelingt.
 
@@ -9,21 +11,20 @@ Du verwandelst deine Hände in silbern glänzende Spiegel. Du kannst den nächst
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Silberschild (-8, Einzelobjekt, Wirkungsdauer 1 Stunde; du verzauberst einen Schild, dessen Träger die Zauberwirkung nutzen kann.)
 
--   Silberschild (-8, Einzelobjekt, Wirkungsdauer 1 Stunde; du verzauberst einen Schild, dessen Träger die Zauberwirkung nutzen kann.)
+**Vorbereitungszeit:**0 Aktionen
 
-**Vorbereitungszeit:** 0 Aktionen
+**Ziel:**selbst
 
-**Ziel:** selbst
-
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 16 Aktionen
 
-**AsP-Kosten:** 16 AsP
+**AsP-Kosten:**16 AsP
 
-**Fertigkeiten:** Kraft
+**Fertigkeiten:**Kraft
 
-**Erlernen:** Mag 18
+**Erlernen:**Mag 18
 
-**EP-Kosten:** 60 EP
+**EP-Kosten:**60 EP

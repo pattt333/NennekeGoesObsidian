@@ -1,27 +1,27 @@
-##  Pfeil des Wassers 
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Pfeil_des_Wassers.tex -->
+
+### Pfeil des Wassers
 
 Du verzauberst einen Pfeil, sodass er im Flug die Macht des Elements freisetzt. Der Pfeil verursacht Wasserschaden und kann Ertränken verursachen. Der Pfeil wird durch Regen nicht beeinflusst und kann auch unter Wasser uneingeschränkt verwendet werden.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Geschütz (-4; ein größeres Geschoss wie das einer Balliste kann verzaubert werden.)
+- Permanenz (-4, 4 AsP, davon 1 gAsP, Wirkungsdauer bis die Bindung gelöst wird oder der Pfeil verschossen wurde)
 
--   Geschütz (-4; ein größeres Geschoss wie das einer Balliste kann verzaubert werden.)
+**Vorbereitungszeit:**1 Aktion
 
--   Permanenz (-4, 4 AsP, davon 1 gAsP, Wirkungsdauer bis die Bindung gelöst wird oder der Pfeil verschossen wurde)
+**Ziel:**Einzelobjekt
 
-**Vorbereitungszeit:** 1 Aktion
+**Reichweite:**Berührung
 
-**Ziel:** Einzelobjekt
+**Wirkungsdauer:**8 Aktionen
 
-**Reichweite:** Berührung
+**AsP-Kosten:**4 AsP
 
-**Wirkungsdauer:** 8 Aktionen
+**Fertigkeiten:**Wasser
 
-**AsP-Kosten:** 4 AsP
+**Erlernen:**Ach 18
 
-**Fertigkeiten:** Wasser
-
-**Erlernen:** Ach 18
-
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

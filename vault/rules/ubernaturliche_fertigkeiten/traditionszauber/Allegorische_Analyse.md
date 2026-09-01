@@ -1,11 +1,13 @@
-[]{#subsubsec:z-Allegorische label="subsubsec:z-Allegorische"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Allegorische_Analyse.tex -->
 
-## Allegorische Analyse (passiv)
+<a id="subsubsec-z-allegorische"></a>
 
-Du lässt einen 1 gAsP in die Schale fließen. Fortan leuchten bei der Analyse einer Astralstruktur in deiner Schale arkane Symbole auf der Schale auf. Dadurch steigt dein Analysegrad bei [Intensitätsanalysen](#subsubsec:analyse) um 1.
+### Allegorische Analyse (passiv)
 
-**Fertigkeiten:** Schalenzauber
+Du lässt einen 1 gAsP in die Schale fließen. Fortan leuchten bei der Analyse einer Astralstruktur in deiner Schale arkane Symbole auf der Schale auf. Dadurch steigt dein Analysegrad bei [Intensitätsanalysen](../../09_Super_Skill/Artefakte.md#subsubsec-analyse) um 1.
 
-**Erlernen:** Alch 12; Hex, Mag 16
+**Fertigkeiten:**Schalenzauber
 
-**EP-Kosten:** 20 EP
+**Erlernen:**Alch 12; Hex, Mag 16
+
+**EP-Kosten:**20 EP

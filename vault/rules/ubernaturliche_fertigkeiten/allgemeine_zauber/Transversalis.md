@@ -1,4 +1,6 @@
-## Transversalis Teleport
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Transversalis.tex -->
+
+### Transversalis Teleport
 
 Du teleportierst dich an einen beliebigen Ort. Der Ort darf maximal 4 Meilen entfernt sein und du musst schon einmal dort gewesen sein.
 
@@ -7,23 +9,21 @@ Du teleportierst dich an einen beliebigen Ort. Der Ort darf maximal 4 Meilen ent
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
-
--   Anhalter (-4; du kannst eine Person mitnehmen. Mehrfach wählbar.)
-
--   Lastenteleport (-8, Einzelobjekt; du kannst eine Last von maximal 32 Stein teleportieren.)
+- Anhalter (-4; du kannst eine Person mitnehmen. Mehrfach wählbar.)
+- Lastenteleport (-8, Einzelobjekt; du kannst eine Last von maximal 32 Stein teleportieren.)
 
 **Vorbereitungszeit:** 1 Aktion
 
-**Ziel:** selbst
+**Ziel:**selbst
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** augenblicklich
+**Wirkungsdauer:**augenblicklich
 
-**AsP-Kosten:** 16 AsP
+**AsP-Kosten:**16 AsP
 
-**Fertigkeiten:** Kraft
+**Fertigkeiten:**Kraft
 
-**Erlernen:** Mag 18
+**Erlernen:**Mag 18
 
-**EP-Kosten:** 60 EP
+**EP-Kosten:**60 EP

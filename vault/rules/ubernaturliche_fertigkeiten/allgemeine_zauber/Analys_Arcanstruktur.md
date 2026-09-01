@@ -1,10 +1,12 @@
-[]{#subsubsec:z_Analys label="subsubsec:z_Analys"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Analys_Arcanstruktur.tex -->
 
-##  Analys Arcanstruktur 
+<a id="subsubsec-z-analys"></a>
 
-Du analysierst die magische Struktur eines arkanen Artefakts oder eines magischen Wesens. Das entspricht einem Analysegrad von 1 für die Strukturanalyse(mehr dazu siehe [Magische Analyse](#subsubsec:analyse)).
+### Analys Arcanstruktur
 
-**Mächtige Magie:** Der Analysegrad steigt um 1.
+Du analysierst die magische Struktur eines arkanen Artefakts oder eines magischen Wesens. Das entspricht einem Analysegrad von 1 für die Strukturanalyse(mehr dazu siehe [Magische Analyse](../../09_Super_Skill/Artefakte.md#subsubsec-analyse)).
+
+**Mächtige Magie:**Der Analysegrad steigt um 1.
 
 **Probenschwierigkeit:** 16
 
@@ -12,14 +14,14 @@ Du analysierst die magische Struktur eines arkanen Artefakts oder eines magische
 
 **Ziel:** Einzelobjekt, Einzelwesen
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** augenblicklich
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Hellsicht, Kraft
+**Fertigkeiten:**Hellsicht, Kraft
 
-**Erlernen:** Mag 12; Ach 14; Alch, Dru, Elf, Geo, Hex 16
+**Erlernen:**Mag 12; Ach 14; Alch, Dru, Elf, Geo, Hex 16
 
 **EP-Kosten:** 40 EP

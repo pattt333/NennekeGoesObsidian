@@ -1,116 +1,52 @@
-# Übernatürliche Fertigkeiten {#sec:uebernatuerliche-fertigkeiten}
+<!-- Source: Chapters/09_Super_Skill/super_skills.tex -->
+
+## Übernatürliche Fertigkeiten
+
+<a id="sec-uebernatuerliche-fertigkeiten"></a>
 
 Nutzer der Energie erhalten Zugriff auf die übernatürlichen Stile, die dem Nutzer in bestimmten Situationen oder mit bestimmten übernatürlichen Fertigkeiten mehr oder weniger helfen.
 
-Jede übernatürliche Fertigkeit verfügt über eine Vielzahl an Talenten. Im Gegensatz zu profanen Fertigkeiten können die Talente von übernatürlichen Fertigkeiten jedoch nur genutzt werden, wenn du sie kaufst. Die unterschiedlichen übernatürlichen Fertigkeiten für Geweihte und Zauberer findest du später in diesem Kapitel.
+Jede übernatürliche Fertigkeit verfügt über eine Vielzahl an Talenten. Im Gegensatz zu profanen Fertigkeiten können die Talente von übernatürlichen Fertigkeiten jedoch nur genutzt werden, wenn du sie kaufst.
 
 Diese Talente kannst du mit spontanen Modifikationen verstärken, beschleunigen oder auf mehrere Ziele ausweiten.
 
 Anschließend erfährst du, wie du Artefakte erschaffst und analysierst, Dämonen und Elementare beschwörst oder Untote und andere Wesen beherrschst.
 
-## Zauberer Fertigkeiten
+### Widerstandsproben gg. übernatürliche Talente
 
-Folgende übernatürliche Fertigkeiten können mit dem Vorteil Zauberer erworben werden.
+Grundsätzlich kann jeder den Effekt eines übernatürlichen Talentes mit einer Aktion Konzentration durch eine Widerstandsprobe (I) abschütteln. Bei jedem übernatürlichen Talent (Zauber/Liturgie) ist dabei angegeben gegen, welches profane Talent/Attribut dabei geprobt wird. Die zu erreichende Schwierigkeit ist 20 + 4 pro Stufe Hohe Qualität.
 
-[]{#subsec:antimagie label="subsec:antimagie"}
+Diese Probe ist für den Abschüttelnden stets um den Betrag dessen Magieresistenz (MR) erleichtert.
 
-### Antimagie (CH/KL/MU, 3)
+### Übernatürliche Talent Eigenschaften
 
-Mit Antimagie kannst du Zauber während der Vorbereitung stören, bereits gewirkte Zauber aufheben und beschworene Wesenheiten bannen. Gerade Magier der Weißen Gilde gelten als Experten der Antimagie.
+**Aufrechterhalten**: Bevor die Wirkung eines Zaubers oder einer Liturgie endet, kannst du sie um die Basiswirkungsdauer verlängern. Dazu musst du nur die Hälfte der Basiskosten bezahlen.
 
-[]{#subsec:daemonisch label="subsec:daemonisch"}
+**Ballistisch**: Genau wie ein Fernkampfangriff benötigen ballistische Zauber eine direkte Sichtlinie zu ihrem Ziel und sie können wie ein Fernkampfangriff abgewehrt werden.
 
-### Dämonisch (CH/MU/MU, 3)
+**Illusion (Sinn)**: Der Zauber erzeugt ein Trugbild, das die angegebenen Sinne täuscht. Die Illusion kann nicht mit stofflicher Materie interagieren. Ein illusorisches Goldstück kann nicht berührt werden, die Illusion einer Wand lässt keine Gegenstände abprallen und der Hieb eines
+illusionären Schwertes verursacht keinen Schaden. Illusionen wechselwirken aber mit Licht. Sie werfen Schatten und können selbst als Lichtquelle dienen. Fast alle Illusionen haben Fehler. Diese Fehler können mit einer Konterprobe (Wachsamkeit, 16) und einer Aktion Konzentration entdeckt werden, womit die Illusion durchschaut wird und keine Wirkung mehr hat.
 
-Diese finstere Zauberei ruft Dämonen in die dritte Sphäre, erhebt Untote, erschafft Chimären und Golems oder nutzt die Macht der Niederhöllen für andere zerstörerische Effekte.
+**Konzentration**: Der Zauber fordert deine volle Aufmerksamkeit. Du musst während der gesamten Wirkungsdauer die Aktion Konzentration wählen. Kannst oder willst du das nicht, endet der Zauber.
 
-[]{#subsec:eigenschaften label="subsec:eigenschaften"}
+**Objektrituale** sind Talente, die sich immer auf ein bestimmtes Objekt – oder das Vertrautentier – beziehen, das mit einem Bindungsritual an dich gebunden wird. Danach
+kannst du (und nur du) die besonderen Fähigkeiten des Ritualobjekts nutzen. Manche Objektrituale erlauben auch passive Wirkungen, wobei du das Objekt meist berühren musst.
 
-### Eigenschaften (GE/IN/KO, 4)
+Die Bindung erlischt, wenn du sie in einer zeitraubenden Zeremonie freiwillig löst oder wenn das Objekt entzaubert wird, was aber nur durch mächtigste Antimagie oder liturgisches Wirken möglich ist. Zuletzt gilt, dass du niemals zwei Objekte der gleichen Kategorie (zwei Zauberstäbe,
+Vertrautentiere) an dich binden kannst.
 
-Mit Eigenschaftsmagie kannst du deine Fähigkeiten und die deiner Gefährten verbessern oder Feinde behindern.
+#### Elementare Nebeneffekte
 
-[]{#subsec:einfluss label="subsec:einfluss"}
+Elementare Nebeneffekte treten auf, wenn du durch einen solchen Effekt 2LAW an Schaden erleidest.
 
-### Einfluss (CH/CH/IN, 4)
+**Erfrieren** tritt vor allem bei eiselementaren Angriffen auf. Misslingt dem Opfer eine KO-Probe (20, I), erleidet es 2 Stacks Erfrieren.
 
-Als Einflusszauberer kannst du die Gedanken, Sinne und Gefühle deiner Mitmenschen manipulieren. Manche Einflusszauber (z.B. Bannbaladin) wirken äußerst subtil und sind während der Wirkung nicht zu bemerken. Im Zweifelsfall kann das Ziel nach dem Ende der Wirkung eine Konterprobe (KL, 16) ablegen, um sich die Verzauberung bewusst zu machen.
+**Ertränken** wird meist von wasserelementaren Angriffen verursacht. Misslingt dem Opfer eine GE-Probe (20, I), ist es bis zu seiner übernächsten Initiativephase handlungsunfähig.
 
-[]{#subsec:eis label="subsec:eis"}
+**Fesseln** können unter anderem die Ranken von Humuselementaren oder anderen Kreaturen. Misslingt dem Opfer eine GE-Probe (20, I), kann es sich für 4 Initiativephasen nicht von Ort und Stelle bewegen. Es kann jede Runde versuchen mit einer Aktion Bewegung auf GE-Probe (20, I) aus der Umklammerung zu kommen
 
-### Eis (CH/KO/MU, 3)
+**Nachbrennen** wird von Feuerangriffen verursacht. Misslingt dem Opfer eine KO-Probe (20, I), geht es in Flammen auf und erleidet 2 Stacks Brennen.
 
-Neben der Kälte wird Eis auch mit Stillstand, Tod, Gefühlskälte und Vernunft assoziiert. Diese Charakterzüge treffen auch auf die elementaren Wesenheiten des Eises zu.
+**Niederschmettern** folgt oft auf erzelementare Angriffe. Das Opfer muss eine KK-Probe (20, I) ablegen, um nicht zu stürzen, damit befindet es sich unterlegener Position.
 
-[]{#subsec:erz label="subsec:erz"}
-
-### Erz (CH/KL/KO, 3)
-
-Härte und Beständigkeit gelten als Eigenschaften des Erzes, die mit Erzzauberei verstärkt werden können und von Erzelementaren verkörpert werden.
-
-[]{#subsec:feuer label="subsec:feuer"}
-
-### Feuer (CH/IN/MU, 3)
-
-Mit Feuerzauberei kannst du Gegenstände erwärmen oder verbrennen und die lodernden Wesenheiten des Feuers herbeirufen.
-
-[]{#subsec:hellsicht label="subsec:hellsicht"}
-
-### Hellsicht (IN/KL/KL, 4)
-
-Die Hellsicht kann deine Sinne verstärken oder erweitern, sodass du magische Kräfte, Wärme oder Gefühle wahrnehmen kannst. Hellseher sind auch Experten für die Analyse von Zaubern und Artefakten.
-
-[]{#subsec:humus label="subsec:humus"}
-
-### Humus (CH/CH/IN, 4)
-
-Mit Humusmagie kannst du die Kraft der lebenden Natur nutzen, um Wunden zu
-heilen, Pflanzen wachsen zu lassen oder Humuselementare herbeizurufen.
-
-[]{#subsec:illusion label="subsec:illusion"}
-
-### Illusion (CH/FF/IN, 3)
-
-Illusionen sind Trugbilder, mit denen Scharlatane ihr Publikum in den Bann ziehen. Aber auch manche Dämonen erschaffen Illusionen, um ihre Opfer zu täuschen.
-
-[]{#subsec:kraft label="subsec:kraft"}
-
-### Kraft (FF/KL/KO, 3)
-
-Mit dieser Zauberei kannst du die Zauberkraft selbst beherrschen, sie verändern und mit ihr Artefakte und magische Waffen erschaffen oder durch den Limbus reisen.
-
-[]{#subsec:luft label="subsec:luft"}
-
-### Luft (CH/KO/MU, 4)
-
-Luftzauberer können Stürme erzeugen und beruhigen, das Wetter beeinflussen und die unsteten Luftelementare herbeirufen.
-
-[]{#subsec:temporal label="subsec:temporal"}
-
-### Temporal (CH/KL/KO, 3)
-
-Die mysteriöse Temporalmagie greift in den Lauf der Zeit ein und ermöglicht Legenden zufolge immerwährende Zauber oder sogar die Unsterblichkeit. Doch wer die Zeitmagie missbraucht, zieht den Zorn Satinavs auf sich\...
-
-[]{#subsec:umwelt label="subsec:umwelt"}
-
-### Umwelt (KK/KL/MU, 4)
-
-Mit Umweltzaubern kannst du deine direkte Umgebung -- also Wetter, Helligkeit oder Schwerkraft -- verändern oder mittels Telekinese Gegenstände bewegen.
-
-[]{#subsec:verstaendigung label="subsec:verstaendigung"}
-
-### Verständigung (CH/IN/MU, 3)
-
-Mit Verständigung kannst du Gefühle und Gedanken übertragen oder Tiere, Geister oder magische Wesen zur Hilfe rufen.
-
-[]{#subsec:verwandlung label="subsec:verwandlung"}
-
-### Verwandlung (FF/KL/KO, 4)
-
-Verwandler können sich selbst, andere Menschen und sogar Gegenstände verwandeln.
-
-[]{#subsec:wasser label="subsec:wasser"}
-
-### Wasser (CH/KL/MU, 2)
-
-Als Wasserzauberer beherrschst du das unergründlichste aller Elemente und kannst die wechselhaften und unberechenbaren Elementare des Wassers herbeirufen.
+**Zurückstoßen** können vor allen die Sturmböen von Luftelementaren oder besonders kräftige Angriffe verursachen. Misslingt dem Opfer eine KK-Probe (20, I), wird es 4 Schritt zurückgeworfen.

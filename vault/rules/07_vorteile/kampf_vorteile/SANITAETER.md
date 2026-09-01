@@ -1,8 +1,8 @@
-## Sanitäter
+<!-- Source: Chapters/07_vorteile/kampf_vorteile/SANITAETER.tex -->
 
-::: center
-  **Voraussetzung**   **Vorteil** Die folgenden Vorteile sind auch außerhalb des Kampfes aktiv.
-  ------------------- --------------------------------------------------------------------------------------------------------------------------------
-                      **Lebensretter** Deine Wundheilungsproben und Rettungsproben werden nicht mehr durch die Wundmodifikation des Ziels erschwert.
-                      **Geschick des Feldsanitäters** Jeder Effekt, der Heilpunkte generiert, heilt die maximal möglichen Heilpunkte.
-:::
+### Sanitäter
+
+| **Voraussetzung** | **Vorteil** Die folgenden Vorteile sind auch außerhalb des Kampfes aktiv. |
+| --- | --- |
+| **60EP** | **Lebensretter** Deine Wundheilungsproben und Rettungsproben werden nicht mehr durch die Wundmodifikation des Ziels erschwert. |
+| **40EP** | **Geschick des Feldsanitäters** Jeder Effekt, der Heilpunkte generiert, heilt +1W6 HP. |

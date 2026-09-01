@@ -1,25 +1,26 @@
-## Transmutare Körperform
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Transmutare.tex -->
+
+### Transmutare Körperform
 
 Du kannst das Aussehen deines Zieles nach Belieben ändern, musst dabei aber dabei Größe und Gewicht deines Zieles beibehalten.
 
 **Probenschwierigkeit:** Magieresistenz
 
 **Modifikationen:**
+- Neues Leben (-8, Wirkungsdauer bis die Bindung gelöst wird, 32 AsP, davon 8 gAsP)
 
--   Neues Leben (-8, Wirkungsdauer bis die Bindung gelöst wird, 32 AsP, davon 8 gAsP)
+**Vorbereitungszeit:**1 Tag
 
-**Vorbereitungszeit:** 1 Tag
+**Ziel:**Einzelwesen
 
-**Ziel:** Einzelwesen
+**Reichweite:**Berührung
 
-**Reichweite:** Berührung
+**Wirkungsdauer:**1 Monat
 
-**Wirkungsdauer:** 1 Monat
+**AsP-Kosten:**16 AsP
 
-**AsP-Kosten:** 16 AsP
+**Fertigkeiten:**Verwandlung
 
-**Fertigkeiten:** Verwandlung
+**Erlernen:**Alch, Mag 20
 
-**Erlernen:** Alch, Mag 20
-
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

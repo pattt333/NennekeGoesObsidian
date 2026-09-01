@@ -1,23 +1,25 @@
-[]{#subsubsec:z-Koboldgeschenk label="subsubsec:z-Koboldgeschenk"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Koboldgeschenk.tex -->
 
-##  Koboldgeschenk
+<a id="subsubsec-z-koboldgeschenk"></a>
+
+### Koboldgeschenk
 
 Du überreichst deinem Opfer einen maximal faustgroßen Gegenstand, der für ihn als ähnlich großer Gegenstand deiner Wahl erscheint. Dabei handelt es sich um eine Geistillusion, bei dem das Opfer selbst Erklärungen für das Verhalten des Gegenstandes sucht - so wird zum Beispiel ein wegspringender Frosch zu einem wegrollenden Edelstein.
 
 **Probenschwierigkeit:** Magieresistenz
 
-**Vorbereitungszeit:** 2 Aktionen
+**Vorbereitungszeit:**2 Aktionen
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 16 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Einfluss
+**Fertigkeiten:**Einfluss
 
-**Erlernen:** Sch 8
+**Erlernen:**Sch 8
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

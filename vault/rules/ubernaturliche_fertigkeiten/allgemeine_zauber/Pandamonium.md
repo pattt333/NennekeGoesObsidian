@@ -1,6 +1,8 @@
-[]{#subsubsec:z-Pandamonium label="subsubsec:z-Pandamonium"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Pandamonium.tex -->
 
-##  Pandämonium 
+<a id="subsubsec-z-pandamonium"></a>
+
+### Pandämonium
 
 In einem Radius von 2 Schritt um das Ziel brechen Klauen, Mäuler und Tentakel hervor. Jedes Wesen ohne den Vorteil Unheilig erleidet 2W6 TP pro Kampfrunde und kann sich nur mit einer Konterprobe (Athletik (Bewegung), 16) fortbewegen.
 
@@ -8,18 +10,18 @@ In einem Radius von 2 Schritt um das Ziel brechen Klauen, Mäuler und Tentakel h
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 8 Aktionen
+**Vorbereitungszeit:**8 Aktionen
 
-**Ziel:** Zone
+**Ziel:**Zone
 
-**Reichweite:** Reichweite
+**Reichweite:**Reichweite
 
-**Wirkungsdauer:** 1 Stunde
+**Wirkungsdauer:**1 Stunde
 
-**AsP-Kosten:** 16 AsP
+**AsP-Kosten:**16 AsP
 
-**Fertigkeiten:** Dämonisch
+**Fertigkeiten:**Dämonisch
 
-**Erlernen:** Bor 16; Hex 18; Mag 20
+**Erlernen:**Bor 16; Hex 18; Mag 20
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

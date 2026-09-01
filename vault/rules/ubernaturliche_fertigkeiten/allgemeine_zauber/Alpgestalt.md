@@ -1,6 +1,8 @@
-[]{#subsubsec:z_Alpgestalt label="subsubsec:z_Alpgestalt"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Alpgestalt.tex -->
 
-##  Alpgestalt
+<a id="subsubsec-z-alpgestalt"></a>
+
+### Alpgestalt
 
 Du erscheinst deinem Opfer als grauenvolle Gestalt aus den Niederhöllen. Es kann nicht wegsehen und ist vor Angst handlungsunfähig. Wird der Sichtkontakt unterbrochen, endet der Zauber.
 
@@ -9,21 +11,20 @@ Du erscheinst deinem Opfer als grauenvolle Gestalt aus den Niederhöllen. Es kan
 **Probenschwierigkeit:** Magieresistenz
 
 **Modifikationen:**
+- Fremdgestalt (-4; du kannst eine andere Person wählen, die als Alpgestalt erscheint.)
 
--   Fremdgestalt (-4; du kannst eine andere Person wählen, die als Alpgestalt erscheint.)
+**Vorbereitungszeit:**4 Aktionen
 
-**Vorbereitungszeit:** 4 Aktionen
+**Ziel:**Einzelwesen
 
-**Ziel:** Einzelwesen
-
-**Reichweite:** 8 Schritt
+**Reichweite:**8 Schritt
 
 **Wirkungsdauer:** 4 Minuten
 
-**AsP-Kosten:** 16AsP
+**AsP-Kosten:**16AsP
 
-**Fertigkeiten:** Einfluss
+**Fertigkeiten:**Einfluss
 
-**Erlernen:** Dru 18
+**Erlernen:**Dru 18
 
 **EP-Kosten:** 40 EP

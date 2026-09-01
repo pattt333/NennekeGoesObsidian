@@ -1,25 +1,27 @@
-[]{#subsubsec:z-LevthansFeuer label="subsubsec:z-LevthansFeuer"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Levthans_Feuer.tex -->
 
-##  Levthans Feuer 
+<a id="subsubsec-z-levthansfeuer"></a>
+
+### Levthans Feuer
 
 Das Ziel entbrennt in heißer Leidenschaft für dich. Auf einer Skala von abstoßend/uninteressant/neutral/begehrenswert/unwiderstehlich steigt seine Einstellung dir gegenüber um eine Stufe. In einem folgenden Liebesspiel kannst du deine gesamte LeP- und AsP-Regeneration auf das Ziel übertragen oder die gesamte Regeneration des Ziels stehlen.
 
-**Mächtige Magie:** Steigert die Einstellung um eine weitere Stufe.
+**Mächtige Magie:**Steigert die Einstellung um eine weitere Stufe.
 
-**Probenschwierigkeit:** Magieresistenz
+**Probenschwierigkeit:**Magieresistenz
 
-**Vorbereitungszeit:** 2 Aktionen
+**Vorbereitungszeit:**2 Aktionen
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 4 Stunden
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Einfluss, Verwandlung
+**Fertigkeiten:**Einfluss, Verwandlung
 
-**Erlernen:** Hex 16
+**Erlernen:**Hex 16
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

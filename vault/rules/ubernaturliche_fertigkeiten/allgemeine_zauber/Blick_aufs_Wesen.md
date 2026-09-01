@@ -1,6 +1,8 @@
-[]{#subsubsec:z-BlickaufsWesen label="subsubsec:z-BlickaufsWesen"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Blick_aufs_Wesen.tex -->
 
-##  Blick aufs Wesen 
+<a id="subsubsec-z-blickaufswesen"></a>
+
+### Blick aufs Wesen
 
 Der Zauber offenbart dir die Fertigkeiten deines Ziels. Du erhältst einen groben Eindruck von seinen körperlichen, geistigen, handwerklichen, kämpferischen und zauberischen Fähigkeiten.
 
@@ -9,21 +11,20 @@ Der Zauber offenbart dir die Fertigkeiten deines Ziels. Du erhältst einen grobe
 **Probenschwierigkeit:** Magieresistenz
 
 **Modifikationen:**
+- Leuchtende Persönlichkeit (-4; du erkennst in einer Gruppe von bis zu 8 Personen diejenige, die in einem von dir gewählten Bereich am meisten heraussticht. Durch eine Konterprobe (MR, 16) können sich die Personen vor der Entdeckung schützen.)
 
--   Leuchtende Persönlichkeit (-4; du erkennst in einer Gruppe von bis zu 8 Personen diejenige, die in einem von dir gewählten Bereich am meisten heraussticht. Durch eine Konterprobe (MR, 16) können sich die Personen vor der Entdeckung schützen.)
+**Vorbereitungszeit:**16 Aktionen
 
-**Vorbereitungszeit:** 16 Aktionen
+**Ziel:**Einzelwesen
 
-**Ziel:** Einzelwesen
-
-**Reichweite:** 8 Schritt
+**Reichweite:**8 Schritt
 
 **Wirkungsdauer:** augenblicklich
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Hellsicht
+**Fertigkeiten:**Hellsicht
 
-**Erlernen:** Elf 12; Geo, Mag 14; Ach, Alch, Dru, Hex 16
+**Erlernen:**Elf 12; Geo, Mag 14; Ach, Alch, Dru, Hex 16
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

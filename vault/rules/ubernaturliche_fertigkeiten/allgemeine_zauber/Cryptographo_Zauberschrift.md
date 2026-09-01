@@ -1,27 +1,28 @@
-[]{#subsubsec:z-Cryptographo label="subsubsec:z-Cryptographo"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Cryptographo_Zauberschrift.tex -->
 
-##  Cryptographo Zauberschrift 
+<a id="subsubsec-z-cryptographo"></a>
+
+### Cryptographo Zauberschrift
 
 Du verschlüsselt eine Nachricht, sodass sie nur noch mit einem Lösungswort gelesen werden kann. Die Verschlüsselung kann nur mit einer Freien Fertigkeit (z.B. Kryptographin) auf erfahren oder mit einer Konterprobe (KL oder Strukturanalyse, 12) und 4 Stunden Zeitaufwand geknackt werden.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Unlesbares Buch (-4, 16AsP; ein ganzes Buch ist betroffen. Der Zeitaufwand zur kompletten Entzifferung beträgt mehrere Monate.)
 
--   Unlesbares Buch (-4, 16AsP; ein ganzes Buch ist betroffen. Der Zeitaufwand zur kompletten Entzifferung beträgt mehrere Monate.)
+**Vorbereitungszeit:**4 Minuten
 
-**Vorbereitungszeit:** 4 Minuten
+**Ziel:**Einzelobjekt
 
-**Ziel:** Einzelobjekt
-
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 1 Jahr
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Verständigung
+**Fertigkeiten:**Verständigung
 
-**Erlernen:** Mag 12; Alch 16; Ach, Hex, Srl 20
+**Erlernen:**Mag 12; Alch 16; Ach, Hex, Srl 20
 
 **EP-Kosten:** 20 EP

@@ -1,27 +1,28 @@
-[]{#subsubsec:z-Firnlauf label="subsubsec:z-Firnlauf"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Firnlauf.tex -->
 
-##  Firnlauf
+<a id="subsubsec-z-firnlauf"></a>
+
+### Firnlauf
 
 Jede noch so dünne Eis- oder Schneeschicht trägt dich wie trockener Boden. Unter diesen Bedingungen erleidest du keinerlei Erschwernisse oder Geschwindigkeitsabzüge.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Verankerung (-4, 1 AsP; du verankerst dich so auf einer Eisfläche, dass du selbst dann nicht stürzt, wenn sie in bedrohliche Schieflage oder schnelle Bewegung gerät.)
 
--   Verankerung (-4, 1 AsP; du verankerst dich so auf einer Eisfläche, dass du selbst dann nicht stürzt, wenn sie in bedrohliche Schieflage oder schnelle Bewegung gerät.)
+**Vorbereitungszeit:**2 Aktionen
 
-**Vorbereitungszeit:** 2 Aktionen
+**Ziel:**selbst
 
-**Ziel:** selbst
-
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 1 Stunde
 
-**AsP-Kosten:** 8AsP
+**AsP-Kosten:**8AsP
 
-**Fertigkeiten:** Eigenschaften, Eis
+**Fertigkeiten:**Eigenschaften, Eis
 
-**Erlernen:** Dru, Elf 16; Alch, Mag 20
+**Erlernen:**Dru, Elf 16; Alch, Mag 20
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

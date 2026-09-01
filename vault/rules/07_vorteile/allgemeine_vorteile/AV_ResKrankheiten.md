@@ -1,11 +1,19 @@
-[]{#subsec:av-resistenz-immunitat-krankheiten label="subsec:av-resistenz-immunitat-krankheiten"}
+<!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_ResKrankheiten.tex -->
 
-## Resistenz/Immunität Krankheiten
+<a id="subsec-av-resistenz-immunitat-krankheiten"></a>
 
-**Regel:** Resistenz mildert die Auswirkungen von Krankheiten, mit Immunität erkrankst Du niemals.
+### Resistenz Krankheiten
+
+**Regel:** Du erhälst die Möglichkeit mit einer Widerstehenprobe Selbstbeherrschung(Willenskraft/Zähigkeit)(I) und einer Aktion Konzentration alle Stacks an Krankheit zu entfernen.
 
 **Voraussetzungen:** keine
 
-**EP-Wert:** 20 Erfahrungspunkte
+**EP-Wert:** 40 Erfahrungspunkte
 
-**Nachkauf:** extrem selten/selten
+### Immunität Krankheiten
+
+**Regel:** Du kannst Krankheiten in einer einfachen Aktion abwenden, du kannst diese Aktion also mit anderen einfachen Aktionen frei kombinieren. Proben um Gifte abzuwehren können nicht Patzen.
+
+**Voraussetzungen:** Resistenz Krankheiten
+
+**EP-Wert:** 40 Erfahrungspunkte

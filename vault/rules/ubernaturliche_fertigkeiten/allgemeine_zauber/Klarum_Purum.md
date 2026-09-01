@@ -1,6 +1,8 @@
-[]{#subsubsec:z-Klarum label="subsubsec:z-Klarum"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Klarum_Purum.tex -->
 
-##  Klarum Purum 
+<a id="subsubsec-z-klarum"></a>
+
+### Klarum Purum
 
 Du stoppst die Wirkung eines Giftes bis Stufe 16 sofort.
 
@@ -9,21 +11,20 @@ Du stoppst die Wirkung eines Giftes bis Stufe 16 sofort.
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Schutz (Wirkungsdauer 8 Stunden; die verzauberte Person ist resistent gegen Gifte bis zur entsprechenden Giftstufe. War sie bereits resistent, ist sie immun.)
 
--   Schutz (Wirkungsdauer 8 Stunden; die verzauberte Person ist resistent gegen Gifte bis zur entsprechenden Giftstufe. War sie bereits resistent, ist sie immun.)
+**Vorbereitungszeit:**2 Aktionen
 
-**Vorbereitungszeit:** 2 Aktionen
+**Ziel:**Einzelwesen
 
-**Ziel:** Einzelwesen
+**Reichweite:**Berührung
 
-**Reichweite:** Berührung
+**Wirkungsdauer:**augenblicklich
 
-**Wirkungsdauer:** augenblicklich
+**AsP-Kosten:**8 AsP
 
-**AsP-Kosten:** 8 AsP
+**Fertigkeiten:**Humus
 
-**Fertigkeiten:** Humus
+**Erlernen:**Alch, Mag 12; Ach, Dru, Elf, Geo, Hex 18
 
-**Erlernen:** Alch, Mag 12; Ach, Dru, Elf, Geo, Hex 18
-
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

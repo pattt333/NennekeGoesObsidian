@@ -1,74 +1,76 @@
-[]{#sec:angriffverteidigung label="sec:angriffverteidigung"}
+<!-- Source: Chapters/06_kampf/Angriff_Verteidigung.tex -->
 
-# Angriff und Verteidigung 
+<a id="sec-angriffverteidigung"></a>
+
+## Angriff und Verteidigung
 
 In einer Aktion kann dein Charakter einen Feind in Reichweite angreifen. Normalerweise versucht der Angegriffene einen Treffer mit einer Verteidigung zu verhindern und es wird eine vergleichende Probe (I) auf die verwendeten Kampffertigkeiten abgelegt. Gewinnst du den Vergleich, kannst du deinem Gegner Schaden zufügen, der von deiner Waffe abhängt.
 
 Kann sich der Angegriffene nicht verteidigen, etwa weil er kampfunfähig oder überrascht ist oder Aktionen Konzentration aufwendet, ist der Angriff Routine (12, I). Auch hier gelten dieselben Modifikatoren wie für eine normale Verteidigung.
 
-[]{#subsec:ausweichen label="subsec:ausweichen"}
+<a id="subsec-ausweichen"></a>
 
-## Ausweichen
+### Ausweichen
 
-Das Ausweichen ist dennoch für unbewaffnete Kämpfer gegen bewaffnete Kämpfer die beste Wahl der Verteidigung, da sie selbst bei einer erfolgreichen Parade den vollen Schaden erleiden würden (siehe „Zerbrechlich" im Kapitel Waffeneigenschaften). Auch Angriffe von größeren Gegnern und Fernkampfangriffe können nur mit Schilden pariert werden, alle anderen Charaktere müssen hier ausweichen. Ausweichen ist um die doppelte Belastungsstufe erschwert.
+Angriffe von größeren Gegnern und Fernkampfangriffe können nur mit Schilden pariert werden, alle anderen Charaktere müssen hier ausweichen, entweder über das Manöver oder das Talent Ausweichen. Fernkampfangriffen kann NUR über das Talent Ausweichen gemacht werden. Ausweichen ist um die doppelte Belastungsstufe erschwert.
 
-[]{#subsec:kritspatzer label="subsec:kritspatzer"}
+<a id="subsec-kritspatzer"></a>
 
-## Kritischer Erfolg und Patzer
+### Kritischer Erfolg und Patzer
 
 Ein kritischer Erfolg entsteht bei Kampfwürfen, wenn eine 20 gewürfelt wurde. Ein Patzer bei einer 1.
 
-Mit einem kritischen Erfolg bei einem Kampfwurf, wird der entstandene Schaden verdoppelt und du triffst IMMER, auch wenn dein Gegner einen höheren Erfolgswert als du besitzt. Sollte dein Gegner bei seiner Verteidigung auch einen kritischen Erfolg bekommen, zählt wieder das höhere Ergebnis.
+Erzielst du bei einem Angriff oder Passierschlag einen kritischen Treffer, verursacht die Aktion doppelte Trefferpunkte und du triffst auf jeden Fall.
 
-Bei einer kritischen Verteidigung fügt der Angreifer seiner Waffe den eigenen Waffenschaden zu und du verteidigst dich IMMER gegen deinen Gegner, auch wenn er einen höheren Erfolgswert als du besitzt. Sollte dein Gegner bei seinem Angriff auch einen kritischen Erfolg bekommen, zählt wieder das höhere Ergebnis.
+Schaffst du einen kritischen Erfolg bei deiner Verteidigung (Parade/Ausweichen) befindest du dich bis zu deiner nächsten KR in [überlegener Position](Angriff_Verteidigung.md#subsec-modsimkampf) und du verteidigst dich immer.
+
+Wenn beide Parteien zugleich kritten oder patzen, wird das Resultat der Vergleichsprobe wieder normal über die Erfolgswerte bestimmt.
 
 Ein Patzer lässt einen Angriff oder eine Verteidigung spektakulär misslingen und gilt als kritischer Erfolg für den Gegner.
 
-Sollte dein Gegner patzen und du einen kritischen Erfolg erzielen gilt dein Ergebnis sogar als überaus kritischer Erfolg.
+Sollte dein Gegner patzen und du einen kritischen Erfolg erzielen gilt dein Ergebnis weiterhin als "regulärer" kritischer Treffer.
 
-Kritische Erfolge beim Angreifen verdoppeln/vervierfachen den verursachten Schaden.
-Bei kritischen Erfolgen beim Verteidigen erleidet die Waffe deines Gegners den doppleten/vierfachen VERURSACHTEN Schaden (mit allen Manövern etc.).
+<a id="subsec-dunkelheit"></a>
 
-In absoluter Dunkelheit oder unter ähnlich schwierigen Bedingungen wird ein Kampf zu einem chaotischen Kampf. Dabei kann der Spielleiter die Patzerchance auf 2 (oder sogar 3) auf dem W20 erhöhen. Bei diesen zusätzlichen Patzern wird ein zufälliger Kämpfer in Reichweite getroffen - deinen Charakter selbst eingeschlossen.
+### Dunkelheit
 
-[]{#subsec:modsimkampf label="subsec:modsimkampf"}
+In absoluter Dunkelheit oder unter ähnlich schwierigen Bedingungen wird ein Kampf zu einem chaotischen Kampf. Dabei kann der Spielleiter die Patzerchance auf 2 (oder sogar 3) auf dem W20 erhöhen. Bei diesen zusätzlichen Patzern wird ein zufälliger Kämpfer in Reichweite getroffen, der nicht das ursprünglich ausgewählte Ziel ist - deinen Charakter selbst eingeschlossen.
 
-## Modifikatoren im Kampf
+<a id="subsec-modsimkampf"></a>
 
-Häufig modifiziert die Umgebung Proben auf deine Kampffertigkeiten. Der Einfachheit halber sind die häufigsten Modifikatoren in Stufen ( ± 2 /  ± 4 /  ± 8 /  ± 12 ) eingeteilt Diese Stufen können durch Vorteile verändert werden Zum Beispiel senkt Angepasst I ( Dunkelheit ) die Modifikatoren durch schlechte Lichtverhältnisse um eine Stufe Modifikatoren aus unterschiedlichen Quellen ( z B Lichtverhältnisse und Untergrund ) sind immer kumulativ Manchmal betrifft ein Modifikator alle Beteiligten - dann könnt ihr ihn ignorieren Das ändert nichts an der Trefferchance , aber spart wertvolle Zeit Öfters wirkt ein Modifikator aber auf fast alle Beteiligten In diesem Fall solltet ihr nicht die Mehrheit mit einem Malus belegen , sondern stattdessen der Minderheit einen Bonus in gleicher Höher verleihen.
+### Modifikatoren im Nahkampf
 
-::: center
-  **Modifikatoren im Kampf (Beispiele)**                                         
-  -------------------------------------------- ----- --------------------------- ---------------
-  **Position**                                       **Kämpfer**                 
-  Gegner abgewandt                              +4   Ideale Reichweite                 +2
-  Vorteilhaft                                   +2   Unpassende Reichweite             -2
-  Normal                                         0   Jede zusätzliche Reaktion         -4
-  Unvorteilhaft, kniend                         -2   Nebenwaffe                        -4
-  Liegend                                       -4                               
-  **Untergrund**                                     **Sicht**                   
-  Unsicherer Untergrund (knietiefes Wasser)     -4   eingeschränkte Sicht              -4
-  Schwieriger Untergrund (hüfttiefes Wasser)    -8   schlechte Sicht                   -8
-  Sehr schwieriger Untergrund (unter Wasser)    -12  sehr schlechte Sicht              -16
-  Nahezu unpassierbarer Untergrund              -16  Dunkelheit                   Glückstreffer
-:::
+Häufig modifiziert die Umgebung Proben auf deine Kampffertigkeiten. Diese Modifikationen können durch Vorteile reduziert oder ausgeglichen werden. Zum Beispiel senkt Angepasst I (Dunkelheit) die Modifikatoren durch schlechte Lichtverhältnisse. Modifikatoren aus unterschiedlichen Quellen (z.B. Lichtverhältnisse und Untergrund) sind immer kumulativ.
 
-[]{#subsec:reichweite label="subsec:reichweite"}
+Manchmal betrifft ein Modifikator alle Beteiligten - dann könnt ihr ihn ignorieren. Das ändert nichts an der Trefferchance, aber spart wertvolle Zeit. Öfters wirkt ein Modifikator aber auf fast alle Beteiligten. In diesem Fall solltet ihr nicht die Mehrheit mit einem Malus belegen, sondern stattdessen der Minderheit einen Bonus in gleicher Höher verleihen.
 
-## Reichweite
+| **Modifikatoren im Nahkampf (Beispiele)** |  |  |  |
+| --- | --- | --- | --- |
+| **Position** | **Kämpfer** |  |  |
+| Überlegen (zb. Gegner abgewandt) | +4 | Ideale Reichweite | +2 |
+| Vorteilhaft | +2 | Unpassende Reichweite | -2 |
+| Normal | 0 | Jede zusätzliche Reaktion | -4 |
+| Unvorteilhaft (zb. kniend) | -2 | Nebenwaffe | -4 |
+| Unterlegen (Liegend) | -4 |  |  |
+| **Untergrund** | **Sicht** |  |  |
+| Unsicherer Untergrund (knietiefes Wasser) | -4 | eingeschränkte Sicht | -2 |
+| Schwieriger Untergrund (hüfttiefes Wasser) | -8 | schlechte Sicht | -4 |
+| Sehr schwieriger Untergrund (unter Wasser) | -12 | sehr schlechte Sicht | -8 |
+| Nahezu unpassierbarer Untergrund | -16 | Dunkelheit | [Glückstreffer](Angriff_Verteidigung.md#subsec-dunkelheit) |
 
-Ein mächtiger Zweihänder ist auf offenem Feld eine beeindruckende Waffe, doch in einem chaotischen Enterkampf hat er schon manchen Jungspund das Leben gekostet. Spieltechnisch unterscheidet man zwischen Kämpfen auf offenem Feld, wie einer Feldschlacht oder einem Duell, und Kämpfen auf engem Raum, wie in der Garether Kanalisation oder dichtem Unterholz.
+<a id="subsec-reichweite"></a>
 
-Auf offenem Feld bringt eine lange Waffe (Reichweite lang) einen Bonus von +2, eine kurze Waffe (Reichweite kurz) einen Malus von -2. Mittellange Waffen (Reichweite mittel) erleiden weder Bonus noch Malus. Auf engem Raum ist es genau umgekehrt.
+### Reichweite
 
-Führt der Charakter mehrere Waffen, dann zählt der Vor- bzw. Nachteil NUR für seine Hauptwaffe.
+Ein mächtiger Zweihänder ist auf offenem Feld eine beeindruckende Waffe, doch in einem chaotischen Enterkampf hat er schon manchen Jungspund das Leben gekostet. Spieltechnisch unterscheidet man zwischen Duellen und Kampfgetümmel.
 
-> *Miraj kämpft auf einer freien Lichtung mit einem Streithammer (Reichweite Mittel, Hauptwaffe) und einem Schild (Reichweite Kurz, Nebenwaffe) gegen zwei mit Speeren bewaffnete Gegner. Da er seinen Streithammer als Hauptwaffe führt erleidet er durch die offene Umgebung keine Erschwernisse oder Erleichterungen. Seine beiden Gegner können auf der Lichtung jedoch ihre langen Speere gut zum Einsatz bringen (+2 auf alle Aktionen).*
+In einem Duell sind nur 2 Kampfteilnehmer beteiligt auf einem Bodenplan bedeutet das, dass keine anderen Kampfteilnehmer egal ob Freund oder Feind auf einem direkt benachbarten Feld stehen. Sobald ein weiterer anderer Kampfteilnehmer auf einem benachbarten Feld zu einem Kampfteilnehmer steht, gilt das ganze als Kampfgetümmel.\\
+Auf einem Bodenplan kann die Regel auch so visualisiert werden: Kann eine Kette aus mindestens 3 Charakteren gebildet werden, ohne dass zwischen einem der Beteiligten ein leeres Feld liegt, handelt es sich um ein Kampfgetümmel. Dabei ist es egal, ob diese in Reihe, im Pulk oder Rücken an Rücken kämpfen. Ein wilder Haufen Verbündeter ist kein Kampfgetümmel. Erst, wenn mindestens ein Gegner beteiligt ist, handelt es sich wirklich um ein Kampfgetümmel (was insbesondere für [Schüsse in Nahkämpfe](Fernkampf.md#subsec-schusseinkampf) relevant ist).
 
-[]{#subsec:kontrollbereich label="subsec:kontrollbereich"}
+In Duellen haben lange Waffen (RW 2 oder höher) einen Vorteil und bekommen +2 auf alle ihre Proben und kurze Waffen (RW 0) haben einen Nachteil und bekommen -2 auf alle ihre Proben. In Kampfgetümmeln ist es umgekehrt und kurze Waffen (RW 0) haben einen Vorteil (+2) und lange Waffen (RW 2 oder höher) haben einen Nachteil (-2).
 
-## Kontrollbereich
+<a id="subsec-kontrollbereich"></a>
 
-Der Kontrollbereich ist die Umgebung deines Charakters, bis zur Reichweite seiner längsten Waffe. Wann immer sich ein Gegner in diesem Bereich bewegt, ohne dich zu beachten, darfst du sofort einen Passierschlag mit einer ausreichend langen Waffe ausführen.
+### Kontrollbereich
 
-Beim Spiel ohne Bodenpläne befindet sich ein Gegner in deinem Kontrollbereich, wenn er sich mit dir in den Nahkampf bewegt. Ob sich ein Gegner durch deinen Kontrollbereich bewegt, wenn du eine Tür oder andere vergleichbare Engpässe verteidigst, ist Meisterentscheid.
+Der Kontrollbereich ist die Umgebung deines Charakters, bis zur Reichweite seiner längsten Waffe. Wann immer sich ein Gegner in diesem Bereich bewegt, ohne dich zu beachten, darfst du sofort einen Passierschlag.

@@ -1,24 +1,26 @@
-[]{#subsubsec:z-Chrononautos label="subsubsec:z-Chrononautos"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Chrononautus_Zeitenfahrt.tex -->
 
-##  Chrononautos Zeitenfahrt 
+<a id="subsubsec-z-chrononautos"></a>
+
+### Chrononautos Zeitenfahrt
 
 Du erschaffst ein Tor durch die Zeiten. Wer es durchschreitet, gelangt an einen von dir bestimmten Zeitpunkt, der maximal 1 Jahr zurück liegen darf. Das Tor existiert nur in eine Richtung - Zeitreisende werden am Ende der Wirkungsdauer automatisch in ihre Zeit zurückgerissen.
 
-**Mächtige Magie:** Verzehnfacht den maximalen Zeitabstand.
+**Mächtige Magie:**Verzehnfacht den maximalen Zeitabstand.
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 8 Stunden
+**Vorbereitungszeit:**8 Stunden
 
-**Ziel:** Zone
+**Ziel:**Zone
 
-**Reichweite:** 2 Schritt
+**Reichweite:**2 Schritt
 
 **Wirkungsdauer:** 8 Stunden
 
-**AsP-Kosten:** 64 AsP
+**AsP-Kosten:**64 AsP
 
-**Fertigkeiten:** Temporal
+**Fertigkeiten:**Temporal
 
-**Erlernen:** Ach 20
+**Erlernen:**Ach 20
 
 **EP-Kosten:** 80 EP

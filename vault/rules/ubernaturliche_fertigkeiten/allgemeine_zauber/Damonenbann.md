@@ -1,11 +1,13 @@
-[]{#subsubsec:z-Damonenbann label="subsubsec:z-Damonenbann"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Damonenbann.tex -->
 
-##  Dämonenbann 
+<a id="subsubsec-z-damonenbann"></a>
+
+### Dämonenbann
 
 Wirkt gegen Zauber der Fertigkeit Dämonisch und aktive oder gebundene Dämonen, Modifikationen siehe oben.
 
-**Fertigkeiten:** Antimagie, Dämonisch
+**Fertigkeiten:**Antimagie, Dämonisch
 
-**Erlernen:** Dru, Elf, Mag 14; Hex 16; Geo 18
+**Erlernen:**Dru, Elf, Mag 14; Hex 16; Geo 18
 
-**EP-Kosten:** 60 EP
+**EP-Kosten:**60 EP

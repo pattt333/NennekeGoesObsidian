@@ -1,23 +1,25 @@
-## Geisterbann des Dolches
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Geisterbann_des_Dolches.tex -->
+
+### Geisterbann des Dolches
 
 Du ziehst eine Linie mit dem Dolch, die von
 Geistern nicht übertreten werden kann.
 
-**Probenschwierigkeit:** 12
+**Probenschwierigkeit:**12
 
-**Vorbereitungszeit:** 4 Aktionen
+**Vorbereitungszeit:**4 Aktionen
 
-**Ziel:** Zone
+**Ziel:**Zone
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 1 Stunde
+**Wirkungsdauer:**1 Stunde
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Antimagie, Dolchzauber,
+**Fertigkeiten:**Antimagie, Dolchzauber,
 Verständigung
 
-**Erlernen:** Dru 16
+**Erlernen:**Dru 16
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

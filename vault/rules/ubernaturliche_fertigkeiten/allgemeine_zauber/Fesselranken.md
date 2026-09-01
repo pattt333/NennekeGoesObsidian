@@ -1,27 +1,28 @@
-[]{#subsubsec:z-Fesselranken label="subsubsec:z-Fesselranken"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Fesselranken.tex -->
 
-##  Fesselranken 
+<a id="subsubsec-z-fesselranken"></a>
+
+### Fesselranken
 
 Aus dem Humusboden unter deinem Opfer wachsen Ranken hervor, die es mit einem Umklammern-Manöver (-4) festhalten, aus der es sich mit einer Aktion und einer Konterprobe (GE oder KK, 16) befreien kann.
 
 **Probenschwierigkeit:** Magieresistenz
 
 **Modifikationen:**
+- Dornenfessel (-8; jede misslungene Konterprobe fügt dem Opfer 2W6 TP zu.)
 
--   Dornenfessel (-8; jede misslungene Konterprobe fügt dem Opfer 2W6 TP zu.)
+**Vorbereitungszeit:**1 Aktion
 
-**Vorbereitungszeit:** 1 Aktion
+**Ziel:**Einzelperson
 
-**Ziel:** Einzelperson
-
-**Reichweite:** 8 Schritt
+**Reichweite:**8 Schritt
 
 **Wirkungsdauer:** 4 Aktionen
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Humus
+**Fertigkeiten:**Humus
 
 **Erlernen:** Dru, Geo 12; Hex 16
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

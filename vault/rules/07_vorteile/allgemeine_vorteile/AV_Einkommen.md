@@ -1,6 +1,8 @@
-[]{#subsec:av-einkommen label="subsec:av-einkommen"}
+<!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Einkommen.tex -->
 
-## Einkommen I/II/III/IV
+<a id="subsec-av-einkommen"></a>
+
+### Einkommen I/II/III/IV
 
 **Regel:** Deine Familie, Organisation oder ein persönlicher Mäzen stellt dir ein monatliches Einkommen von 4/16/64/256 Dukaten zur Verfügung, die du beispielsweise über eine Filiale der Nordlandbank oder ein Ordenshaus beziehen kannst.
 
@@ -9,5 +11,3 @@ Fern der Zivilisation kannst du nicht auf dein Einkommen zugreifen. Das Einkomme
 **Voraussetzungen:** keine/Einkommen I/Einkommen II/Einkommen III
 
 **EP-Wert:** 5 Erfahrungspunkte pro Stufe
-
-**Nachkauf:** häufig/häufig/häufig/häufig

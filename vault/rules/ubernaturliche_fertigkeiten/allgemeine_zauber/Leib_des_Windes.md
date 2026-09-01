@@ -1,6 +1,8 @@
-[]{#subsubsec:z-LeibWind label="subsubsec:z-LeibWind"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Leib_des_Windes.tex -->
 
-##  Leib des Windes 
+<a id="subsubsec-z-leibwind"></a>
+
+### Leib des Windes
 
 Du harmonierst mit dem Element Luft. Du bist immun gegen Luftschaden, wiegst nur noch die Hälfe und Winde beeinflussen dich nicht.
 
@@ -9,25 +11,22 @@ Du harmonierst mit dem Element Luft. Du bist immun gegen Luftschaden, wiegst nur
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Reise im Wind (-4; du kannst dich mit GS Schritt pro Initiativephase durch die Luft bewegen, als würdest du darin tauchen.)
+- Begleiter (-4; der Zauber betrifft auch eine weitere Person, mit der du permanent Hautkontakt halten musst.)
+- Leib aus Luft (-8; du verwandelst dich in ein Luftelementar mit allen entsprechenden Vorteilen.kreaturen (siehe). Du kannst während der Wirkungsdauer keine Zauber wirken.)
 
--   Reise im Wind (-4; du kannst dich mit GS Schritt pro Initiativephase durch die Luft bewegen, als würdest du darin tauchen.)
+**Vorbereitungszeit:**8 Aktionen
 
--   Begleiter (-4; der Zauber betrifft auch eine weitere Person, mit der du permanent Hautkontakt halten musst.)
+**Ziel:**selbst
 
--   Leib aus Luft (-8; du verwandelst dich in ein Luftelementar mit allen entsprechenden Vorteilen. (siehe). Du kannst während der Wirkungsdauer keine Zauber wirken.)
+**Reichweite:**Berührung
 
-**Vorbereitungszeit:** 8 Aktionen
+**Wirkungsdauer:**1 Stunde
 
-**Ziel:** selbst
+**AsP-Kosten:**16 AsP
 
-**Reichweite:** Berührung
-
-**Wirkungsdauer:** 1 Stunde
-
-**AsP-Kosten:** 16 AsP
-
-**Fertigkeiten:** Luft
+**Fertigkeiten:**Luft
 
 **Erlernen:** Hex 18; Ach, Dru, Geo, Mag 20
 
-**EP-Kosten:** 60 EP
+**EP-Kosten:**60 EP

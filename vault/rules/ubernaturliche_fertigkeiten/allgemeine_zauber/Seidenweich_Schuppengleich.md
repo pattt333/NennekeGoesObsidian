@@ -1,25 +1,26 @@
-## Seidenweich Schuppengleich
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Seidenweich_Schuppengleich.tex -->
+
+### Seidenweich Schuppengleich
 
 Du gibst durch eine Illusion (Tastsinn) dem verzauberten Gegenstand eine Textur deiner Wahl.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Zähneknirschen (-4; die Illusion betrifft nur Gaumen und Zunge.)
 
--   Zähneknirschen (-4; die Illusion betrifft nur Gaumen und Zunge.)
+**Vorbereitungszeit:**4 Aktionen
 
-**Vorbereitungszeit:** 4 Aktionen
+**Ziel:**Einzelobjekt
 
-**Ziel:** Einzelobjekt
+**Reichweite:**Berührung
 
-**Reichweite:** Berührung
+**Wirkungsdauer:**8 Stunden
 
-**Wirkungsdauer:** 8 Stunden
+**AsP-Kosten:**4 AsP
 
-**AsP-Kosten:** 4 AsP
+**Fertigkeiten:**Illusion
 
-**Fertigkeiten:** Illusion
+**Erlernen:**Sch 12; Srl 20
 
-**Erlernen:** Sch 12; Srl 20
-
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

@@ -1,11 +1,19 @@
-[]{#subsec:av-resistenz-immunitat-gifte label="subsec:av-resistenz-immunitat-gifte"}
+<!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_ResGifte.tex -->
 
-## Resistenz/Immunität Gifte
+<a id="subsec-av-resistenz-immunitat-gifte"></a>
 
-**Regel:** Resistenz mildert die Auswirkungen von Giften, mit Immunität sind Gifte gegen dich wirkungslos.
+### Resistenz Gifte
+
+**Regel:** Du erhälst die Möglichkeit mit einer Widerstehenprobe Selbstbeherrschung(Willenskraft/Zähigkeit)(I) und einer Aktion Konzentration alle Stacks an Gift zu entfernen.
 
 **Voraussetzungen:** keine
 
 **EP-Wert:** 40 Erfahrungspunkte
 
-**Nachkauf:** extrem selten/selten
+### Immunität Gifte
+
+**Regel:** Du kannst Gifte in einer einfachen Aktion abwenden, du kannst diese Aktion also mit anderen einfachen Aktionen frei kombinieren. Proben um Gifte abzuwehren können nicht Patzen.
+
+**Voraussetzungen:** Resistenz Gifte
+
+**EP-Wert:** 40 Erfahrungspunkte

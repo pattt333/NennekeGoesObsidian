@@ -1,25 +1,27 @@
-[]{#subsubsec:z-Nuntiovolo label="subsubsec:z-Nuntiovolo"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Nuntiovolo.tex -->
 
-##  Nuntiovolo Botenvogel
+<a id="subsubsec-z-nuntiovolo"></a>
+
+### Nuntiovolo Botenvogel
 
 Eine Rauchgestalt erscheint, die einen kleinen Gegenstand (wie einen Brief) mit etwa 50 Meilen pro Stunde an den gewünschten Zielort bringt. Der Zauber kann nur in der Nacht gewirkt werden und ist unzuverlässig: Wenn dem Spielleiter eine verdeckte Probe (6, I) misslingt, kommt die Rauchgestalt nicht an.
 
-**Mächtige Magie:** Die Schwierigkeit der Probe des Meisters ist 5/4/3/2.
+**Mächtige Magie:**Die Schwierigkeit der Probe des Meisters ist 5/4/3/2.
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 8 Aktionen
+**Vorbereitungszeit:**8 Aktionen
 
-**Ziel:** Zone
+**Ziel:**Zone
 
-**Reichweite:** 100 Meilen
+**Reichweite:**100 Meilen
 
-**Wirkungsdauer:** augenblicklich
+**Wirkungsdauer:**augenblicklich
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Dämonisch
+**Fertigkeiten:**Dämonisch
 
 **Erlernen:** Mag 18; Ach, Bor, Hex 20
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

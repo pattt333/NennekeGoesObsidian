@@ -1,4 +1,6 @@
-## Staub wandle!
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Staub_wandle.tex -->
+
+### Staub wandle!
 
 Du erschaffst einen Golem aus Sand (mehr zu Beschwörungen siehe). Der Golem hat sich nach 1 Stunde an seine Existenz gewöhnt und ist einsatzfähig.
 
@@ -10,8 +12,8 @@ Du erschaffst einen Golem aus Sand (mehr zu Beschwörungen siehe). Der Golem hat
 
 **AsP-Kosten:** nach Golem, ein Viertel der Basiskosten als gAsP
 
-**Fertigkeiten:** Erz
+**Fertigkeiten:**Erz
 
-**Erlernen:** Mag 18
+**Erlernen:**Mag 18
 
-**EP-Kosten:** 60 EP
+**EP-Kosten:**60 EP

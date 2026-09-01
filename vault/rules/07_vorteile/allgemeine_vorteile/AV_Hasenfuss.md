@@ -1,11 +1,11 @@
-[]{#subsec:av-hasenfuss label="subsec:av-hasenfuss"}
+<!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Hasenfuss.tex -->
 
-## Hasenfuß
+<a id="subsec-av-hasenfuss"></a>
 
-**Regel:** Jede Probe auf das Fliehen ist um +4 erleichtert. Also die Athletik(Bewegung)-Probe aus dem Nahkampf und alle Proben bei Verfolgungsjagden.
+### Hasenfuß
+
+**Regel:** Jede Probe auf das Fliehen ist um +2 erleichtert. Also die Athletik(Bewegung)-Probe aus dem Nahkampf und die Probe mit dem Manöver Entfernung verändern und alle Proben bei Verfolgungsjagden wenn man die gejagte Partei ist.
 
 **Voraussetzungen:** BE ohne den Vorteil Rüstungsgewöhnung maximal 1.
 
 **EP-Wert:** 80 Erfahrungspunkte
-
-**Nachkauf:** üblich

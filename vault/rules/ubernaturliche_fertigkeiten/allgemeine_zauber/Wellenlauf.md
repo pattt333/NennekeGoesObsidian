@@ -1,27 +1,27 @@
-## Wellenlauf
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Wellenlauf.tex -->
+
+### Wellenlauf
 
 Wasser ist für dich ein fester, sicherer Untergrund. Du erleidest keine Abzüge durch ungünstige Position und wirst nicht durch Wellen und Strömungen beeinflusst. Erlaubt Aufrechterhalten.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Sinken (-4; du kannst die Zauberwirkung nach Belieben unterdrücken und wieder aktiv werden lassen. Bei Aktivierung unter Wasser wirst du an die Wasseroberfläche gehoben.)
+- Wasserwand (-8; du kannst selbst an Wasserfällen hochklettern, wofür einfache Klettern-Proben anfallen.)
 
--   Sinken (-4; du kannst die Zauberwirkung nach Belieben unterdrücken und wieder aktiv werden lassen. Bei Aktivierung unter Wasser wirst du an die Wasseroberfläche gehoben.)
+**Vorbereitungszeit:**2 Aktionen
 
--   Wasserwand (-8; du kannst selbst an Wasserfällen hochklettern, wofür einfache Klettern-Proben anfallen.)
+**Ziel:**selbst
 
-**Vorbereitungszeit:** 2 Aktionen
+**Reichweite:**Berührung
 
-**Ziel:** selbst
+**Wirkungsdauer:**4 Minuten
 
-**Reichweite:** Berührung
+**AsP-Kosten:**4 AsP
 
-**Wirkungsdauer:** 4 Minuten
+**Fertigkeiten:**Eigenschaften, Wasser
 
-**AsP-Kosten:** 4 AsP
+**Erlernen:**Dru, Geo 12; Elf 14; Ach, Mag 20
 
-**Fertigkeiten:** Eigenschaften, Wasser
-
-**Erlernen:** Dru, Geo 12; Elf 14; Ach, Mag 20
-
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

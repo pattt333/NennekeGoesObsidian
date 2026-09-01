@@ -1,25 +1,27 @@
-[]{#subsubsec:z-Aerogelo Atemqual label="subsubsec:z-Aerogelo Atemqual"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Aerogelo_Atemqual.tex -->
 
-##  Aerogelo Atemqual
+<a id="subsubsec-z-aerogelo-atemqual"></a>
+
+### Aerogelo Atemqual
 
 Die Luft in einem Quader von 4 Schritt Kantenlänge wird so dicht wie Wasser. In der Zone kann man sich nur schwimmend fortbewegen und Kämpfer gelten als unter Wasser (-8).
 
-**Mächtige Magie:** Die Kantenlänge steigt um 2 Schritt.
+**Mächtige Magie:**Die Kantenlänge steigt um 2 Schritt.
 
 **Probenschwierigkeit:** 12
 
 **Vorbereitungszeit:** 4 Aktionen
 
-**Ziel:** Zone
+**Ziel:**Zone
 
-**Reichweite:** 16 Schritt
+**Reichweite:**16 Schritt
 
-**Wirkungsdauer:** 1 Stunde
+**Wirkungsdauer:**1 Stunde
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Luft, Umwelt
+**Fertigkeiten:**Luft, Umwelt
 
-**Erlernen:** Mag 20
+**Erlernen:**Mag 20
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

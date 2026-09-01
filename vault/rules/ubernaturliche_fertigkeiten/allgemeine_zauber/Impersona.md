@@ -1,31 +1,31 @@
-[]{#subsubsec:z-Impersona label="subsubsec:z-Impersona"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Impersona.tex -->
 
-##  Impersona Maskenbild 
+<a id="subsubsec-z-impersona"></a>
+
+### Impersona Maskenbild
 
 Durch eine Illusion (Sicht) erscheint dein Gesicht und dein Haar wie das einer anderen Person. Du kannst nur Ziele kopieren, die du sehr gut kennst.
 
-**Mächtige Magie:** Es reicht, wenn dir das Ziel persönlich bekannt ist/du es eine Weile beobachtet hast/du es vom Hörensagen kennst.
+**Mächtige Magie:**Es reicht, wenn dir das Ziel persönlich bekannt ist/du es eine Weile beobachtet hast/du es vom Hörensagen kennst.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Mal tarnen (-4, 4 AsP; die Illusion betrifft einen anderen Körperteil, wo sie Narben, Tätowierungen und eventuell sogar Dämonenmale verstecken oder erscheinen lassen kann.)
+- Karikatur (nur Srl; das Gesicht ist grotesk überzeichnet und eindeutig als Karikatur erkennbar.)
 
--   Mal tarnen (-4, 4 AsP; die Illusion betrifft einen anderen Körperteil, wo sie Narben, Tätowierungen und eventuell sogar Dämonenmale verstecken oder erscheinen lassen kann.)
+**Vorbereitungszeit:**4 Minuten
 
--   Karikatur (nur Srl; das Gesicht ist grotesk überzeichnet und eindeutig als Karikatur erkennbar.)
+**Ziel:**selbst
 
-**Vorbereitungszeit:** 4 Minuten
-
-**Ziel:** selbst
-
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 4 Stunden
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Illusion
+**Fertigkeiten:**Illusion
 
-**Erlernen:** Mag, Srl 16
+**Erlernen:**Mag, Srl 16
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

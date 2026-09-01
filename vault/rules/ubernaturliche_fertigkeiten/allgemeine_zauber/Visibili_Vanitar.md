@@ -1,21 +1,23 @@
-## Visibili Vanitar
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Visibili_Vanitar.tex -->
+
+### Visibili Vanitar
 
 Dein Ziel wird unsichtbar. Kleidung und andere Gegenstände sind nicht betroffen. Erlaubt Aufrechterhalten.
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 2 Aktionen
+**Vorbereitungszeit:**2 Aktionen
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 4 Minuten
+**Wirkungsdauer:**4 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Verwandlung
+**Fertigkeiten:**Verwandlung
 
-**Erlernen:** Elf 12; Alch, Mag, Sch, Srl 16
+**Erlernen:**Elf 12; Alch, Mag, Sch, Srl 16
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

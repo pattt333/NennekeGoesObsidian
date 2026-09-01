@@ -1,15 +1,15 @@
-# Willkommen auf dem Nenneke Rulebook Vault
+# Nenneke
 
-Das ist die zentrale Wissenbasis unserer Regel.
+Aktuelle, aus `NennekeV2.zip` erzeugte Regelwerksfassung.
 
 ## Kapitel
 
-- [[01_Proben|Proben]] - Allgemeine Regeln zu Würfelproben
-- [[02_Schicksalspunkte|Schicksalspunkte]] - Regeln zu Schicksalspunkten
-- [[03_Eigenschaften|Eigenschaften]]- Alles zu Eigenschaften und abgeleiteten Eigenschaften
-- [[04_Fertigkeiten|Fertigkeiten]] - Alles an Regeln zu Fertigkeiten
-- [[notes/|Notes]] - Session notes and general documentation
-
-## Getting Started
-
-Explore the sections above to find the rules and information you need. Use the search function (Ctrl/Cmd + O) to quickly find specific topics.
+- [01 Proben](rules/01_Proben.md)
+- [02 Charaktere](rules/02_Charaktere.md)
+- [03 Eigenschaften](rules/03_Eigenschaften.md)
+- [04 Fertigkeiten](rules/04_Fertigkeiten/04_Fertigkeiten.md)
+- [05 Gesundheit](rules/05_Gesundheit.md)
+- [06 Kampf](rules/06_kampf/06_Kampf.md)
+- [07 Vorteile](rules/07_vorteile/07_Vorteile.md)
+- [08 Rast](rules/08_rast/08_Rast.md)
+- [09 Super Skill](rules/09_Super_Skill/09_Super_Skill.md)

@@ -1,3 +1,5 @@
-[]{#sec:allgemeinezauber label="sec:allgemeinezauber"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/Allgemeine_Zauber.tex -->
 
-# Allgemeine Zauber
+<a id="sec-allgemeinezauber"></a>
+
+## Allgemeine Zauber

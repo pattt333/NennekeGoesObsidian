@@ -1,23 +1,25 @@
-## Astrale Aufladung
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Astrale_Aufladung.tex -->
+
+### Astrale Aufladung
 
 Bei der Herstellung eines Elixiers lässt du durch die Schale zusätzliche Astralenergie einfließen. Alle Proben zur Herstellung dieses Elixiers sind um +4 erleichtert.
 
-**Mächtige Magie:** Der Bonus steigt um +2.
+**Mächtige Magie:**Der Bonus steigt um +2.
 
-**Probenschwierigkeit:** 12
+**Probenschwierigkeit:**12
 
-**Vorbereitungszeit:** 0 Aktionen
+**Vorbereitungszeit:**0 Aktionen
 
-**Ziel:** Elixier
+**Ziel:**Elixier
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** bis zur Fertigstellung
+**Wirkungsdauer:**bis zur Fertigstellung
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Schalenzauber, Verwandlung
+**Fertigkeiten:**Schalenzauber, Verwandlung
 
-**Erlernen:** Alch 12; Hex 16; Mag 18
+**Erlernen:**Alch 12; Hex 16; Mag 18
 
-**EP-Kosten:** 60 EP
+**EP-Kosten:**60 EP

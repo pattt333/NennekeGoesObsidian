@@ -1,25 +1,27 @@
-## Dämonenbann des Dolches
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Damonenbann_des_Dolches.tex -->
+
+### Dämonenbann des Dolches
 
 Du ziehst eine Linie mit einem Dolch. Dämonen
 können diese Linie nicht übertreten, wenn ihre
 Beschwörungsschwierigkeit maximal 16 beträgt.
 
-**Mächtige Magie:** Erhöht die Beschwörungsschwierigkeit um 4.
+**Mächtige Magie:**Erhöht die Beschwörungsschwierigkeit um 4.
 
-**Probenschwierigkeit:** 12
+**Probenschwierigkeit:**12
 
-**Vorbereitungszeit:** 4 Aktionen
+**Vorbereitungszeit:**4 Aktionen
 
-**Ziel:** Zone
+**Ziel:**Zone
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 1 Stunde
+**Wirkungsdauer:**1 Stunde
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Antimagie, Dolchzauber
+**Fertigkeiten:**Antimagie, Dolchzauber
 
-**Erlernen:** Dru 18
+**Erlernen:**Dru 18
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

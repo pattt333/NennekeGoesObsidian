@@ -1,21 +1,23 @@
-##  Schabernack
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Schabernack.tex -->
 
-Deinem Opfer geschieht ein kleines Missgeschick -- es stolpert, bekommt im Gespräch plötzlich Blähungen, oder ihm rutscht eine unanständige Bemerkung heraus.
+### Schabernack
+
+Deinem Opfer geschieht ein kleines Missgeschick – es stolpert, bekommt im Gespräch plötzlich Blähungen, oder ihm rutscht eine unanständige Bemerkung heraus.
 
 **Probenschwierigkeit:** Magieresistenz
 
-**Vorbereitungszeit:** 2 Aktionen
+**Vorbereitungszeit:**2 Aktionen
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
-**Reichweite:** 8 Schritt
+**Reichweite:**8 Schritt
 
-**Wirkungsdauer:** augenblicklich
+**Wirkungsdauer:**augenblicklich
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Einfluss
+**Fertigkeiten:**Einfluss
 
-**Erlernen:** Sch 8
+**Erlernen:**Sch 8
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

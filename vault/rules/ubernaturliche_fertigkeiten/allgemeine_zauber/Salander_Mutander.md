@@ -1,29 +1,28 @@
-##  Salander Mutander 
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Salander_Mutander.tex -->
+
+### Salander Mutander
 
 Du verwandelst dein Ziel in ein beliebiges anderes, kleineres und leichteres Tier, Humanoiden oder Pflanze. Du musst das Zielwesen schon einmal gesehen haben, es kann nicht übernatürlich sein. Dein Ziel hat in seiner neuen Form nur noch nebulöse Erinnerungen an sein vorheriges Selbst, behält aber seine alte LeP, RS und MR.
 
 **Probenschwierigkeit:** Magieresistenz
 
 **Modifikationen:**
+- Lange Verwandlung (-4, Wirkungsdauer 1 Woche)
+- Permanenz (-4, Wirkungsdauer bis die Bindung gelöst wird, 16 AsP, davon 2 gAsP)
+- Bärenfell und Froschschenkel (-8; du kannst einzelne Gliedmaßen verwandeln.)
 
--   Lange Verwandlung (-4, Wirkungsdauer 1 Woche)
+**Vorbereitungszeit:**4 Aktion
 
--   Permanenz (-4, Wirkungsdauer bis die Bindung gelöst wird, 16 AsP, davon 2 gAsP)
+**Ziel:**Einzelperson
 
--   Bärenfell und Froschschenkel (-8; du kannst einzelne Gliedmaßen verwandeln.)
+**Reichweite:**Berührung
 
-**Vorbereitungszeit:** 4 Aktion
+**Wirkungsdauer:**8 Stunden
 
-**Ziel:** Einzelperson
+**AsP-Kosten:**16 AsP
 
-**Reichweite:** Berührung
-
-**Wirkungsdauer:** 8 Stunden
-
-**AsP-Kosten:** 16 AsP
-
-**Fertigkeiten:** Verwandlung
+**Fertigkeiten:**Verwandlung
 
 **Erlernen:** Ach, Mag 14; Alch, Hex 18; Dru 20
 
-**EP-Kosten:** 60 EP
+**EP-Kosten:**60 EP

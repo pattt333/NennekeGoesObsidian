@@ -1,27 +1,28 @@
-[]{#subsubsec:z-Foramen label="subsubsec:z-Foramen"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Foramen_Foraminor.tex -->
 
-##  Foramen Foraminor 
+<a id="subsubsec-z-foramen"></a>
+
+### Foramen Foraminor
 
 Du öffnest ein Schloss beliebiger Bauart.
 
 **Probenschwierigkeit:** Herstellungsschwierigkeit des Schlosses
 
 **Modifikationen:**
+- Riegel (-4, 8 AsP; auch ein schwerer Riegel wie an einem Stadttor kann hiermit geöffnet werden.)
 
--   Riegel (-4, 8 AsP; auch ein schwerer Riegel wie an einem Stadttor kann hiermit geöffnet werden.)
+**Vorbereitungszeit:**2 Aktionen
 
-**Vorbereitungszeit:** 2 Aktionen
+**Ziel:**Einzelobjekt
 
-**Ziel:** Einzelobjekt
-
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** augenblicklich
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Umwelt
+**Fertigkeiten:**Umwelt
 
-**Erlernen:** Alch, Mag 14; Srl 16; Sch 18
+**Erlernen:**Alch, Mag 14; Srl 16; Sch 18
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

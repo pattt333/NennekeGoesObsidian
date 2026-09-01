@@ -1,29 +1,30 @@
-[]{#subsubsec:z-KommKobold label="subsubsec:z-KommKobold"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Komm_Kobold.tex -->
 
-##  Komm Kobold komm 
+<a id="subsubsec-z-kommkobold"></a>
+
+### Komm Kobold komm
 
 Du rufst einen Kobold zur Hilfe. Befinden sich Kobolde in einem Umkreis von 1 Meile, eilt einer von ihnen herbei. Du kannst den Kobold um einen Gefallen bitten, aber er entscheidet selbst, ob er den Gefallen erfüllt.
 
-**Mächtige Magie:** Verdoppelt den Umkreis
+**Mächtige Magie:**Verdoppelt den Umkreis
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Namensruf (-4, 8 Meilen; du rufst einen dir bereits bekannten Kobold herbei.)
 
--   Namensruf (-4, 8 Meilen; du rufst einen dir bereits bekannten Kobold herbei.)
+**Vorbereitungszeit:**2 Aktionen
 
-**Vorbereitungszeit:** 2 Aktionen
+**Ziel:**Zone
 
-**Ziel:** Zone
-
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** augenblicklich
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Verständigung
+**Fertigkeiten:**Verständigung
 
-**Erlernen:** Sch 8
+**Erlernen:**Sch 8
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

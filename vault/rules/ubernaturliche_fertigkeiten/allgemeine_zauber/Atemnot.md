@@ -1,25 +1,27 @@
-[]{#subsubsec:z_Atemnot  label="subsubsec:z_Atemnot "}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Atemnot.tex -->
 
-##  Atemnot
+<a id="subsubsec-z-atemnot"></a>
+
+### Atemnot
 
 Du entziehst dem Opfer einen Teil seiner Kraft. Es erleidet 2 Punkte Erschöpfung. Du regenerierst halb so viel Erschöpfung, wie du anrichtest.
 
-**Mächtige Magie:** Verursacht 1 weiteren Punkt Erschöpfung.
+**Mächtige Magie:**Verursacht 1 weiteren Punkt Erschöpfung.
 
 **Probenschwierigkeit:** Magieresistenz
 
-**Vorbereitungszeit:** 2 Aktionen
+**Vorbereitungszeit:**2 Aktionen
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
 **Reichweite:** 4 Schritt
 
 **Wirkungsdauer:** augenblicklich
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Eigenschaften
+**Fertigkeiten:**Eigenschaften
 
-**Erlernen:** Dru 14; Ach 18
+**Erlernen:**Dru 14; Ach 18
 
 **EP-Kosten:** 40 EP

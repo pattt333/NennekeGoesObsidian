@@ -1,6 +1,8 @@
-[]{#subsubsec:z-Aeropulvis sanfter Fall label="subsubsec:z-Aeropulvis sanfter Fall"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Aeropulvis_sanfter_Fall.tex -->
 
-##  Aeropulvis sanfter Fall
+<a id="subsubsec-z-aeropulvis-sanfter-fall"></a>
+
+### Aeropulvis sanfter Fall
 
 Halbiert die effektive Höhe eines Sturzes oder Sprunges (kumulativ zur AkrobatikProbe).
 
@@ -8,18 +10,18 @@ Halbiert die effektive Höhe eines Sturzes oder Sprunges (kumulativ zur Akrobati
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 4 Aktionen
+**Vorbereitungszeit:**4 Aktionen
 
-**Ziel:** selbst
+**Ziel:**selbst
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 16 Aktionen
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Luft
+**Fertigkeiten:**Luft
 
-**Erlernen:** Geo 16; Elf 18; Mag 20
+**Erlernen:**Geo 16; Elf 18; Mag 20
 
 **EP-Kosten:** 40EP

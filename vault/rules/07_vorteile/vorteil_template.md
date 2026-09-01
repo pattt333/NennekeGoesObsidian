@@ -1,6 +1,8 @@
-[]{#subsec:vorteil_name label="subsec:vorteil_name"}
+<!-- Source: Chapters/07_vorteile/vorteil_template.tex -->
 
-## Akoluth
+<a id="subsec-vorteil-name"></a>
+
+### Akoluth
 
 **Regel:**
 lorem ipsum

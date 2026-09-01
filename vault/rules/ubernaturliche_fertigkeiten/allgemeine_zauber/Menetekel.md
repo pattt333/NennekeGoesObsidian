@@ -1,6 +1,8 @@
-[]{#subsubsec:z-Menetekel label="subsubsec:z-Menetekel"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Menetekel.tex -->
 
-##  Menetekel Flammenschrift 
+<a id="subsubsec-z-menetekel"></a>
+
+### Menetekel Flammenschrift
 
 Du lässt bis zu 50 Schriftzeichen mit einer Länge von bis zu 8 Schritt Gesamtgröße erscheinen. Die Zeichen sehen wie Flammenlinien, verschmiertes Blut oder astrales Glühen oder Ähnliches aus und sind eine Illusion (Sicht).
 
@@ -8,18 +10,18 @@ Du lässt bis zu 50 Schriftzeichen mit einer Länge von bis zu 8 Schritt Gesamtg
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 8 Aktionen
+**Vorbereitungszeit:**8 Aktionen
 
-**Ziel:** Zone
+**Ziel:**Zone
 
-**Reichweite:** 32 Schritt
+**Reichweite:**32 Schritt
 
 **Wirkungsdauer:** 1 Stunde
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Illusion
+**Fertigkeiten:**Illusion
 
-**Erlernen:** Mag, Srl 14
+**Erlernen:**Mag, Srl 14
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

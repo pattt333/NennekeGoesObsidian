@@ -1,6 +1,8 @@
-[]{#subsubsec:z-GrosseVerwirrung label="subsubsec:z-GrosseVerwirrung"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Grosse_Verwirrung.tex -->
 
-##  Große Verwirrung 
+<a id="subsubsec-z-grosseverwirrung"></a>
+
+### Große Verwirrung
 
 Dein Opfer kann sich nicht mehr konzentrieren. Alle Proben auf KL und IN sind um -4 erschwert, Proben auf Fertigkeiten mit KL und IN um -2.
 
@@ -8,18 +10,18 @@ Dein Opfer kann sich nicht mehr konzentrieren. Alle Proben auf KL und IN sind um
 
 **Probenschwierigkeit:** Magieresistenz
 
-**Vorbereitungszeit:** 0 Aktionen
+**Vorbereitungszeit:**0 Aktionen
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 1 Stunde
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Eigenschaften
+**Fertigkeiten:**Eigenschaften
 
-**Erlernen:** Dru, Geo 8; Sch 18
+**Erlernen:**Dru, Geo 8; Sch 18
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

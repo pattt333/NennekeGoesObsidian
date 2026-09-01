@@ -1,31 +1,31 @@
-[]{#subsubsec:z-abvenum label="subsubsec:z-abvenum"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Abvenum_Reine_Speise.tex -->
 
-## Abvenenum reine Speise 
+<a id="subsubsec-z-abvenum"></a>
+
+### Abvenenum reine Speise
 
 Du reinigst eine Mahlzeit für 10 Personen von Verfallserscheinungen, Giften und Krankheitserregern, bis zu einer Gift-/Krankheitsstufe von 20. Der Geschmack ändert sich nicht.
 
-**Mächtige Magie:** Die maximal aufgehobene Gift-/Krankheitsstufe steigt um 4.
+**Mächtige Magie:**Die maximal aufgehobene Gift-/Krankheitsstufe steigt um 4.
 
-**Probenschwierigkeit:** 12
+**Probenschwierigkeit:**12
 
 **Modifikationen:**
+- Schutz vor Übelkeit (-4; auch ungefährliche, aber unangenehme Inhalte wie Salz im Meerwasser werden entfernt.)
+- Schutz vor Vergiftung (-4, Wirkungsdauer 8 Stunden; du reinigst auch alles, was dem Essen hinzugefügt wird.)
 
--   Schutz vor Übelkeit (-4; auch ungefährliche, aber unangenehme Inhalte wie Salz im Meerwasser werden entfernt.)
+**Vorbereitungszeit:**8 Aktionen
 
--   Schutz vor Vergiftung (-4, Wirkungsdauer 8 Stunden; du reinigst auch alles, was dem Essen hinzugefügt wird.)
+**Ziel:**Einzelobjekt
 
-**Vorbereitungszeit:** 8 Aktionen
-
-**Ziel:** Einzelobjekt
-
-**Reichweite:** 2 Schritt
+**Reichweite:**2 Schritt
 
 **Wirkungsdauer:** augenblicklich
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Verwandlung
+**Fertigkeiten:**Verwandlung
 
-**Erlernen:** Dru, Elf, Hex, Mag 12; Alch, Geo 14; Ach, Sch 16
+**Erlernen:**Dru, Elf, Hex, Mag 12; Alch, Geo 14; Ach, Sch 16
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

@@ -1,16 +1,20 @@
-[]{#subsec:fernkampfbasismanover label="subsec:fernkampfbasismanover"}
+<!-- Source: Chapters/06_kampf/kampfmanover/Fernkampf_Basismanover.tex -->
 
-## Fernkampf Basismanöver {#subsubsec:gezielterschuss}
+<a id="subsec-fernkampfbasismanover"></a>
 
-### Gezielter Schuss (FK-2)
+### Fernkampf Basismanöver
 
-**Wirkung:** Du bestimmst, in welcher Trefferzone du den Gegner triffst.
+<a id="subsubsec-gezielterschuss"></a>
+
+#### Gezielter Schuss (FK-2)
+
+**Wirkung:** Du bestimmst, in welcher Trefferzone du den Gegner triffst. Das Manöver entspricht dem Gezielten Schlag von Nahkämpfern, nur dass es sich hierbei um einen Fernkampfangriff handelt (FK statt AT).
 
 **Erschwernisse:** FK-2
 
-[]{#subsubsec:praziserschusswurf label="subsubsec:praziserschusswurf"}
+<a id="subsubsec-praziserschusswurf"></a>
 
-### Präziser Schuss/Wurf (FK-X)
+#### Präziser Schuss/Wurf (FK-X)
 
 **Wirkung:** Der Angriff richtet +X TP mehr an.
 
@@ -18,17 +22,17 @@
 
 **Erschwernisse:** FK-X
 
-[]{#subsubsec:reichweiteerhohen label="subsubsec:reichweiteerhohen"}
+<a id="subsubsec-reichweiteerhohen"></a>
 
-### Reichweite erhöhen (FK-4)
+#### Reichweite erhöhen (FK-4)
 
 **Wirkung:** Die Reichweite deines Fernkampfangriffes verdoppelt sich. Kann nur zweimal pro Angriff eingesetzt werden.
 
 **Erschwernisse:** FK-4
 
-[]{#subsubsec:zielen label="subsubsec:zielen"}
+<a id="subsubsec-zielen"></a>
 
-### Zielen (FK+2)
+#### Zielen (FK+2)
 
 **Wirkung:** Verringert die INI um -2. Kann nur einmal pro Angriff eingesetzt werden. Der Vorteil Ruhige Hand verdoppelt den Bonus.
 

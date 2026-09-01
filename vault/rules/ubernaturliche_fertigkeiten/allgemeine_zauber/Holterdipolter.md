@@ -1,23 +1,25 @@
-[]{#subsubsec:z-Holterdipolter label="subsubsec:z-Holterdipolter"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Holterdipolter.tex -->
 
-##  Holterdipolter 
+<a id="subsubsec-z-holterdipolter"></a>
+
+### Holterdipolter
 
 In einem Radius von 8 Schritt um dich herum geht alles schief: Menschen stolpern, Knoten öffnen sich und Vasen fallen um. Dabei kommt niemand ernsthaft zu Schaden.
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 1 Aktion
+**Vorbereitungszeit:**1 Aktion
 
-**Ziel:** Zone
+**Ziel:**Zone
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 4 Minuten
 
-**AsP-Kosten:** 16 AsP
+**AsP-Kosten:**16 AsP
 
-**Fertigkeiten:** Umwelt
+**Fertigkeiten:**Umwelt
 
-**Erlernen:** Sch 20
+**Erlernen:**Sch 20
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

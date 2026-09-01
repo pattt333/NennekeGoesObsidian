@@ -1,4 +1,6 @@
-## Solidirid Weg aus Licht
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Solidirid_Weg_aus_Licht.tex -->
+
+### Solidirid Weg aus Licht
 
 Vor dir entsteht eine Brücke aus Licht, die in allen Regenbogenfarben schillert. Die Brücke ist maximal 8 Schritt lang, 1 Schritt breit und kann einen Höhenunterschied von bis zu 1 Schritt pro 4 Schritt länge überwinden. Von oben ist die Brücke undurchdringlich, aber von unten kann sie problemlos durchdrungen werden.
 
@@ -7,23 +9,21 @@ Vor dir entsteht eine Brücke aus Licht, die in allen Regenbogenfarben schillert
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
-
--   Unsichtbare Brücke (-4; die Brücke ist nur für dich sichtbar.)
-
--   Bogentreppe (-4; der maximale Höhenunterschied ist verdoppelt. Mehrfach wählbar.)
+- Unsichtbare Brücke (-4; die Brücke ist nur für dich sichtbar.)
+- Bogentreppe (-4; der maximale Höhenunterschied ist verdoppelt. Mehrfach wählbar.)
 
 **Vorbereitungszeit:** 8 Aktionen
 
-**Ziel:** Zone
+**Ziel:**Zone
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 4 Minuten
+**Wirkungsdauer:**4 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Luft, Umwelt
+**Fertigkeiten:**Luft, Umwelt
 
-**Erlernen:** Elf 16; Mag 20
+**Erlernen:**Elf 16; Mag 20
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

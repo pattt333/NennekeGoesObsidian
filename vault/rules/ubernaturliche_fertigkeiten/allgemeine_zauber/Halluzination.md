@@ -1,27 +1,28 @@
-[]{#subsubsec:z-Halluzination label="subsubsec:z-Halluzination"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Halluzination.tex -->
 
-##  Halluzination 
+<a id="subsubsec-z-halluzination"></a>
 
-Deinem Opfer erscheint eine Halluzination deiner Wahl („ein Oger", „köstlicher Tarf "), die es mit allen fünf Sinnen wahrzunehmen glaubt. Wird das Opfer von der Halluzination „getötet", fällt es für 16 Aktionen in Ohnmacht. Nach dem Erwachen sind alle durch die Halluzination verursachten Wunden verschwunden.
+### Halluzination
+
+Deinem Opfer erscheint eine Halluzination deiner Wahl („ein Oger“, „köstlicher Tarf “), die es mit allen fünf Sinnen wahrzunehmen glaubt. Wird das Opfer von der Halluzination „getötet“, fällt es für 16 Aktionen in Ohnmacht. Nach dem Erwachen sind alle durch die Halluzination verursachten Wunden verschwunden.
 
 **Probenschwierigkeit:** Magieresistenz
 
 **Modifikationen:**
-
--   Traumbilder (-8; die Halluzination erscheint im Traum eines Schlafenden.)
+- Traumbilder (-8; die Halluzination erscheint im Traum eines Schlafenden.)
 
 **Vorbereitungszeit:** 2 Aktionen
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 4 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Einfluss
+**Fertigkeiten:**Einfluss
 
-**Erlernen:** Dru 14; Geo 12; Hex, Mag, Srl 20
+**Erlernen:**Dru 14; Geo 12; Hex, Mag, Srl 20
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

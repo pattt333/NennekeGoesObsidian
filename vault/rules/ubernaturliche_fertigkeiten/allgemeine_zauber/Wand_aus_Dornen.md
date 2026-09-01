@@ -1,4 +1,6 @@
-## Wand aus Dornen
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Wand_aus_Dornen.tex -->
+
+### Wand aus Dornen
 
 Eine 3 Schritt hohe und bis zu 4 Schritt lange Wand aus spitzen Dornen wächst entlang einer von dir bestimmten Linie aus dem Boden. Sie hat eine Härte von 16 und verfügt über Regeneration I (siehe). Um sie zu durchqueren, musst du sie mit einer Konterprobe (GE, 12) betreten. Dann kannst du alle 4 Aktionen eine Konterprobe (GE, 12) zum Verlassen der Wand ablegen und erleidest 2W6 TP.
 
@@ -6,18 +8,18 @@ Eine 3 Schritt hohe und bis zu 4 Schritt lange Wand aus spitzen Dornen wächst e
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 16 Aktionen
+**Vorbereitungszeit:**16 Aktionen
 
-**Ziel:** Zone
+**Ziel:**Zone
 
-**Reichweite:** 8 Schritt
+**Reichweite:**8 Schritt
 
-**Wirkungsdauer:** 16 Minuten
+**Wirkungsdauer:**16 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Humus
+**Fertigkeiten:**Humus
 
-**Erlernen:** Geo, Mag 18; Dru 20
+**Erlernen:**Geo, Mag 18; Dru 20
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

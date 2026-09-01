@@ -1,29 +1,28 @@
-## Vogelzwitschern Glockenspiel
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Vogelzwitschern.tex -->
+
+### Vogelzwitschern Glockenspiel
 
 Ein bestimmtes Geräusch, welches das Ziel erzeugt, klingt wie ein anderes Geräusch ähnlicher Lautstärke. Illusion (Gehör).
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Orchester (-4; du kannst ein weiteres Geräusch des gleichen Zieles verändern. Mehrfach wählbar.)
+- Spieluhr (-4, Einzelobjekt)
+- Permanenz (-4, Wirkungsdauer bis die Bindung gelöst wird, 8 AsP, davon 2 gAsP)
 
--   Orchester (-4; du kannst ein weiteres Geräusch des gleichen Zieles verändern. Mehrfach wählbar.)
+**Vorbereitungszeit:**2 Aktionen
 
--   Spieluhr (-4, Einzelobjekt)
+**Ziel:**Einzelperson
 
--   Permanenz (-4, Wirkungsdauer bis die Bindung gelöst wird, 8 AsP, davon 2 gAsP)
+**Reichweite:**2 Schritt
 
-**Vorbereitungszeit:** 2 Aktionen
+**Wirkungsdauer:**8 Stunden
 
-**Ziel:** Einzelperson
+**AsP-Kosten:**4 AsP
 
-**Reichweite:** 2 Schritt
+**Fertigkeiten:**Illusion
 
-**Wirkungsdauer:** 8 Stunden
+**Erlernen:**Srl 12; Mag 14; Sch 18; Alch 20
 
-**AsP-Kosten:** 4 AsP
-
-**Fertigkeiten:** Illusion
-
-**Erlernen:** Srl 12; Mag 14; Sch 18; Alch 20
-
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

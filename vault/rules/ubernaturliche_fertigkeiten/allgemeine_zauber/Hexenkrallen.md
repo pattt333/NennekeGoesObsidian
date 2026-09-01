@@ -1,25 +1,27 @@
-[]{#subsubsec:z-Hexenkrallen label="subsubsec:z-Hexenkrallen"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Hexenkrallen.tex -->
 
-##  Hexenkrallen 
+<a id="subsubsec-z-hexenkrallen"></a>
+
+### Hexenkrallen
 
 Deine Fingernägel werden lang, scharf und hart wie Raubtierklauen. Sie richten 2W6 TP an und verlieren die Eigenschaft Zerbrechlich.
 
-**Mächtige Magie:** Erhöht die TP um +2.
+**Mächtige Magie:**Erhöht die TP um +2.
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 0 Aktionen
+**Vorbereitungszeit:**0 Aktionen
 
-**Ziel:** selbst
+**Ziel:**selbst
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 16 Aktionen
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Eigenschaften, Verwandlung
+**Fertigkeiten:**Eigenschaften, Verwandlung
 
-**Erlernen:** Hex 18
+**Erlernen:**Hex 18
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

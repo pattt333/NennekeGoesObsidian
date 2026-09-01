@@ -1,4 +1,6 @@
-## Tempus Stasis
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Tempus_Stasis.tex -->
+
+### Tempus Stasis
 
 Du hältst in einem Radius von 8 Schritt die Zeit an - für alles außer dich. Alle betroffenen Wesen und Gegenstände sind unbeweglich und völlig unzerstörbar. Blutungen, Gifte und Krankheiten werden angehalten und Geschosse und Flammenstrahlen bleiben im Flug stehen und bewegen sich erst nach dem Ende der Wirkungsdauer weiter.
 
@@ -6,18 +8,18 @@ Du hältst in einem Radius von 8 Schritt die Zeit an - für alles außer dich. A
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 1 Aktion
+**Vorbereitungszeit:**1 Aktion
 
-**Ziel:** Zone
+**Ziel:**Zone
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 4 Aktionen
+**Wirkungsdauer:**4 Aktionen
 
-**AsP-Kosten:** 16 AsP
+**AsP-Kosten:**16 AsP
 
-**Fertigkeiten:** Temporal
+**Fertigkeiten:**Temporal
 
-**Erlernen:** Ach, Mag 20
+**Erlernen:**Ach, Mag 20
 
-**EP-Kosten:** 60 EP
+**EP-Kosten:**60 EP

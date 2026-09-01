@@ -1,14 +1,14 @@
-## MU-Vorteile
+<!-- Source: Chapters/07_vorteile/kampf_vorteile/KV_MU.tex -->
 
-::: center
-  **Voraussetzung**   **MU**
-  ------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                      
-  **20EP**            **Ausfall** Erlaubt das Manöver [Ausfall](#subsubsec:ausfall).
-                      
-  **40EP**            **Offensiver Kampfstil** Der Verteidigungsmalus durch die Aktion (Volle Offensive) beträgt nur -4, statt -8.
-                      
-  **60EP**            **Gegenschlag** Wenn der Held eine Attacke abwehrt, die mit einem Manöver verstärkt wurde, darf er in seiner nächsten Initiativephase einen Passierschlag ausführen.
-                      
-  **80EP**            **Kalte Wut** Der Held kann sich in kalte Wut versetzen und so die Abzüge durch seine Einschränkungen ignorieren, er muss aber immer noch bei 6 Einschränkungen eine Probe auf Selbstbeherrschung (Zähigkeit) bestehen um Kampffähig zu bleiben und stirbt bei über 8 Einschränkungen.
-:::
+### MU-Vorteile
+
+| **Voraussetzung** | **MU** |
+| --- | --- |
+| **Attribut 4** |  |
+| **20EP** | **Ausfall** Erlaubt das Manöver [Ausfall](../../06_kampf/kampfmanover/Nahkmapfspezialmanover.md#subsubsec-ausfall). |
+| **Attribut 6** |  |
+| **40EP** | **Offensiver Kampfstil** Der Verteidigungsmalus durch die Aktion (Volle Offensive) beträgt nur -4, statt -8. |
+| **Attribut 8** |  |
+| **60EP** | **Gegenschlag** Wenn der Held eine Attacke abwehrt, die mit einem Manöver verstärkt wurde, darf er sofort einen Passierschlag ausführen. |
+| **Attribut 10** |  |
+| **80EP** | **Kalte Wut** Der Held kann sich in kalte Wut versetzen und so die Wundabzüge. |

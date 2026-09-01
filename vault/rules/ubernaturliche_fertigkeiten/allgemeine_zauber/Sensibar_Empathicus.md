@@ -1,23 +1,25 @@
-## Sensibar Empathicus
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Sensibar_Empathicus.tex -->
+
+### Sensibar Empathicus
 
 Du kannst die Gefühle deines Gegenübers erahnen, wodurch deine Menschenkenntnis gegen das Ziel um +4 steigt.
 
-**Mächtige Magie:** Der Bonus steigt um +2.
+**Mächtige Magie:**Der Bonus steigt um +2.
 
 **Probenschwierigkeit:** Magieresistenz
 
-**Vorbereitungszeit:** 4 Aktionen
+**Vorbereitungszeit:**4 Aktionen
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
-**Reichweite:** 4 Schritt
+**Reichweite:**4 Schritt
 
-**Wirkungsdauer:** 1 Stunde
+**Wirkungsdauer:**1 Stunde
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Hellsicht
+**Fertigkeiten:**Hellsicht
 
-**Erlernen:** Elf 8; Hex, Mag 12; Ach, Dru, Geo, Sch, Srl 14; Alch 16
+**Erlernen:**Elf 8; Hex, Mag 12; Ach, Dru, Geo, Sch, Srl 14; Alch 16
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

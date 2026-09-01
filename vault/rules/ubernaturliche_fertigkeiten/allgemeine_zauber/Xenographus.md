@@ -1,22 +1,24 @@
-## Xenographus Schriftenkunde
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Xenographus.tex -->
+
+### Xenographus Schriftenkunde
 
 Du kannst den Sinn eines geschriebenen Satzes verstehen, auch wenn du Schrift und Sprache nicht kennst.
-**Mächtige Magie:** Verdoppelt die Anzahl der Sätze.
+**Mächtige Magie:**Verdoppelt die Anzahl der Sätze.
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 8 Aktionen
+**Vorbereitungszeit:**8 Aktionen
 
-**Ziel:** Einzelobjekt
+**Ziel:**Einzelobjekt
 
-**Reichweite:** 4 Schritt
+**Reichweite:**4 Schritt
 
-**Wirkungsdauer:** augenblicklich
+**Wirkungsdauer:**augenblicklich
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Hellsicht
+**Fertigkeiten:**Hellsicht
 
-**Erlernen:** Alch 18; Mag 20
+**Erlernen:**Alch 18; Mag 20
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

@@ -1,29 +1,30 @@
-[]{#subsubsec:z_Aquafaxius label="subsubsec:z_Aquafaxius"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Aquafaxius.tex -->
 
-##  Aquafaxius
+<a id="subsubsec-z-aquafaxius"></a>
 
-Eine Wasserlanze fügt dem Ziel 2W6+8 TP zu und verursacht Ertränken. [Ballistischer Zauber](#ubernaturlich:ballistisch).
+### Aquafaxius
 
-**Mächtige Magie:** Die TP steigen um 1W6.
+Eine Wasserlanze fügt dem Ziel 2W6+8 TP zu und verursacht Ertränken. [Ballistischer Zauber](../11_Ubernaturliche_Fertigkeiten.md#ubernaturlich-ballistisch).
+
+**Mächtige Magie:**Die TP steigen um 1W6.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Gezielter Strahl (-4; du kannst die Trefferzone bestimmen.)
 
--   Gezielter Strahl (-4; du kannst die Trefferzone bestimmen.)
+**Vorbereitungszeit:**1 Aktion
 
-**Vorbereitungszeit:** 1 Aktion
+**Ziel:**Einzelwesen, Einzelobjekt
 
-**Ziel:** Einzelwesen, Einzelobjekt
-
-**Reichweite:** 16 Schritt
+**Reichweite:**16 Schritt
 
 **Wirkungsdauer:** augenblicklich
 
-**AsP-Kosten:** 16 AsP
+**AsP-Kosten:**16 AsP
 
-**Fertigkeiten:** Wasser
+**Fertigkeiten:**Wasser
 
-**Erlernen:** Ach, Dru, Geo, Mag 18
+**Erlernen:**Ach, Dru, Geo, Mag 18
 
 **EP-Kosten:** 40 EP

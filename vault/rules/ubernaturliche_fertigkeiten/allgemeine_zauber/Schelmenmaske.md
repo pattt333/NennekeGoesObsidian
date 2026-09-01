@@ -1,27 +1,28 @@
-## Schelmenmaske
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Schelmenmaske.tex -->
+
+### Schelmenmaske
 
 Durch eine Illusion (Sicht) gleicht dein Körper dem deines Zieles.. Du kannst nur Ziele kopieren, die du sehr gut kennst.
 
-**Mächtige Magie:** Es reicht, wenn dir das Ziel persönlich bekannt ist/du es eine Weile beobachtet hast/du es vom Hörensagen kennst.
+**Mächtige Magie:**Es reicht, wenn dir das Ziel persönlich bekannt ist/du es eine Weile beobachtet hast/du es vom Hörensagen kennst.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Tier (-4; auch etwa menschengroße Tiere können gewählt werden.)
 
--   Tier (-4; auch etwa menschengroße Tiere können gewählt werden.)
+**Vorbereitungszeit:**2 Aktionen
 
-**Vorbereitungszeit:** 2 Aktionen
+**Ziel:**selbst
 
-**Ziel:** selbst
+**Reichweite:**Berührung
 
-**Reichweite:** Berührung
+**Wirkungsdauer:**4 Minuten
 
-**Wirkungsdauer:** 4 Minuten
+**AsP-Kosten:**8 AsP
 
-**AsP-Kosten:** 8 AsP
+**Fertigkeiten:**Illusion
 
-**Fertigkeiten:** Illusion
+**Erlernen:**Sch 12; Mag, Srl 20
 
-**Erlernen:** Sch 12; Mag, Srl 20
-
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

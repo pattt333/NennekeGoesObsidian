@@ -1,6 +1,8 @@
-[]{#subsubsec:z-Bannbaladin  label="subsubsec:z-Bannbaladin "}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Bannbaladin.tex -->
 
-##  Bannbaladin 
+<a id="subsubsec-z-bannbaladin"></a>
+
+### Bannbaladin
 
 Das Verhältnis des Ziels (siehe Hausregeln - Grundregeln) zu dir verbessert sich um eine Stufe.
 
@@ -9,21 +11,20 @@ Das Verhältnis des Ziels (siehe Hausregeln - Grundregeln) zu dir verbessert sic
 **Probenschwierigkeit:** Magieresistenz
 
 **Modifikationen:**
-
--   gemeinsame Erinnerung (-4; du teilst eine von dir bestimmte positive Erinnerung mit dem Ziel.)
+- gemeinsame Erinnerung (-4; du teilst eine von dir bestimmte positive Erinnerung mit dem Ziel.)
 
 **Vorbereitungszeit:** 2 Aktionen
 
 **Ziel:** Einzelperson
 
-**Reichweite:** 4 Schritt
+**Reichweite:**4 Schritt
 
 **Wirkungsdauer:** 1 Stunde
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Einfluss
+**Fertigkeiten:**Einfluss
 
 **Erlernen:** Elf 8; Mag 12; Alch, Dru, Hex, Srl 18
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

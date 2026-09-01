@@ -1,17 +1,16 @@
-::: center
-  **Voraussetzung**   **KL**
-  ------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------
-                      
-  **Zauberer I**      
-  **20EP**            **Kontrolliertes Zaubern** Du kannst eigene Zauber während ihrer Wirkungsdauer jederzeit beenden.
-                      
-  **Zauberer I**      
-  **40EP**            **Magiekünstler** Benutzt du beim Einsatz eines übernatürlichen Talentes 2 unterschiedliche spontane Modifikationen, ist die Probe um +2 erleichtert.
-                      
-  **Zauberer I**      
-  **60EP**            **Effizientes Zaubern** Ermöglicht die spontane Modifikation Kosten Sparen.
-                      
-  **Zauberer I**      
-  **80EP**            **Vorbereitendes Zaubern** Du kannst die spontane Modifikation Zeit lassen zweimal ausführen.
-                      Die spontane Modifikation Erzwingen gibt eine Erleichterung von +8 statt +4.
-:::
+<!-- Source: Chapters/09_Super_Skill/Super_Vorteile/zauberer_vorteile/ZV_KL.tex -->
+
+| **Voraussetzung** | **KL** |
+| --- | --- |
+| **Attribut 4** |  |
+| **Zauberer I** |  |
+| **20EP** | **Kontrolliertes Zaubern** Du kannst eigene Zauber während ihrer Wirkungsdauer jederzeit beenden. |
+| **Attribut 6** |  |
+| **Zauberer I** |  |
+| **40EP** | **Magiekünstler** Benutzt du beim Einsatz eines übernatürlichen Talentes 2 unterschiedliche spontane Modifikationen, ist die Probe um +2 erleichtert. |
+| **Attribut 8** |  |
+| **Zauberer I** |  |
+| **60EP** | **Effizientes Zaubern** Ermöglicht die spontane Modifikation Kosten Sparen. |
+| **Attribut 10** |  |
+| **Zauberer I** |  |
+| **80EP** | **Vorbereitendes Zaubern** Du kannst einen Zauber schon im voraus wirken und in Vorbereitung halten. Ein Ziel in Reichweite wird erst in einer Aktion Konflikt ausgewählt. Du kannst nur einen Zauber in Vorbereitung halten. |

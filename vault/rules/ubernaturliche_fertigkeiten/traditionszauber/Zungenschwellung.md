@@ -1,4 +1,6 @@
-## Gespür des Dolches
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Zungenschwellung.tex -->
+
+### Gespür des Dolches
 
 Dein Dolch kühlt ab, wenn er dämonisch
 verseuchten Boden berührt. So erfährst du,
@@ -9,20 +11,20 @@ mächtiges Unheiligtum ist.
 
 **Mächtige Magie:**
 
-**Probenschwierigkeit:** 12
+**Probenschwierigkeit:**12
 
-**Vorbereitungszeit:** 0 Aktionen
+**Vorbereitungszeit:**0 Aktionen
 
-**Ziel:** Obsidiandolch
+**Ziel:**Obsidiandolch
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** augenblicklich
+**Wirkungsdauer:**augenblicklich
 
-**AsP-Kosten:** 1 AsP
+**AsP-Kosten:**1 AsP
 
-**Fertigkeiten:** Dolchzauber, Hellsicht
+**Fertigkeiten:**Dolchzauber, Hellsicht
 
-**Erlernen:** Dru, Geo 18
+**Erlernen:**Dru, Geo 18
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

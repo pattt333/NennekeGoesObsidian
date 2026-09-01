@@ -1,21 +1,16 @@
-[]{#stil:artefakt label="stil:artefakt"}
+<!-- Source: Chapters/09_Super_Skill/Super_Vorteile/super_stile/kampf.tex -->
 
-::: center
-  **Voraussetzung**        **Kampf KO**
-  ------------------------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                           
-  **20EP**                 **Kampf I**Du kannst aus den übernatürlichen Fertigkeiten insgesamt 3 wählen zu denen du Zugang erhalten willst. Du kannst alle Talente dieser Fertigkeiten wählen. Energienutzer, die sich auf den Kampf spezailisieren können auch unter schwersten Umstände ihre Fertigkeiten nutzen.
-                           Zu ihren Vertretern zählen größtenteils die Geweihten von Rondra, Kor und Swafnir, manchenorts jedoch auch Phex und manche Kampfmagier.
-                           
-  **40EP**                 **Kampf II**Der Wundabzug schränkt dich beim Wirken von übernatürlichen Fertigkeiten nicht ein.
-                           Du erhälst den halben Wundabzug als Erleichterung für Proben auf übernatürliche Talente (Wundabzug).
-                           Kannst du den Wundabzug ohnehin ignorieren, sind deine übernatürlichen Aktionen um den vollen Wundabzug erleichtert.
-                           Du erhälst standardmäßig also den Wundabzug + Wundabzug/2 als Erleichterung für deine übernatürlichen Talente. Falls du Wundabzüge durch andere Effekte ignorieren kannst, erhälst du den vollen Wundabzug als Bonus zusätzlich zum Ausgleichsbonus.
-                           
-  **60EP**                 **Kampf III**Du kannst die spontane Modifikation Zeit lassen, Erzwingen oder Zeremonie wählen und absofort benutzen.
-                           
-  **zwei weitere Attr.**   
-  **auf jeweils 8**        
-  **80EP**                 **Kampf IV**Der Effekt von Kampf II wird verbessert.
-                           Du erhältst den vollen Wundabzug als Erleichterung für deine übernatürlichen Talente (Damit wird der Wundabzug ausglichen und du erhältst den vollen Wundabzug als Bonus). Kannst du durch andere Effekte Wundabzüge bereits ignorieren, erhälst du den doppelten Wundabzug als Bonus für übernatürliche Talente.
-:::
+<a id="stil-artefakt"></a>
+
+| **Voraussetzung** | **Tradition der Kampferprobten KO** |
+| --- | --- |
+| **Attribut 4** |  |
+| **20EP** | **Tradition der Kampferprobten I** Dein Zugang zur Magie ist nicht der des Studiums oder der Hingabe, sondern der des Schlachtfeldes. Du hast gelernt, den Fokus im Auge des Sturms zu finden – den klaren, kalten Punkt, in dem der Wille schärfer wird, wenn das Blut rauscht und die Klingen singen. Deine Macht ist die des Durchhaltens, des Überwindens, des Weitermachens, wenn andere schon lange kollabiert wären. Sie ist nicht zart, sondern zäh wie Stahl. Du kannst aus den übernatürlichen Fertigkeiten insgesamt 3 wählen, zu denen du Zugang erhalten willst. Du kannst alle Talente dieser Fertigkeiten wählen. |
+| **Attribut 6** |  |
+| **40EP** | **Tradition der Kampferprobten II** Dein Geist hat gelernt, Schmerz in Brennstoff zu verwandeln. Jeder schneidende Atemzug, jeder pochende Schmerz wird nicht zur Ablenkung, sondern zum Ankerpunkt deiner Konzentration. Du ziehst dich in die Festung deines Willens zurück, deren Mauern aus eigener Entschlossenheit und der rohen Energie deiner Wunden errichtet sind. Was andere lähmt, spornt dich an; deine Magie wird zu einem Kriegsschrei, der umso mächtiger ertönt, je mehr du blutest. Der Wundabzug schränkt dich beim Wirken von übernatürlichen Fertigkeiten nicht so stark ein. Du erhälst den halben Wundabzug als Erleichterung für Proben auf übernatürliche Talente (Wundabzug). Kannst du den Wundabzug ohnehin ignorieren, sind deine übernatürlichen Aktionen um den vollen Wundabzug erleichtert. Du erhälst standardmäßig also den Wundabzug + Wundabzug/2 als Erleichterung für deine übernatürlichen Talente. Falls du Wundabzüge durch andere Effekte ignorieren kannst, erhälst du den vollen Wundabzug als Bonus zusätzlich zum Ausgleichsbonus. |
+| **Attribut 8** |  |
+| **60EP** | **Tradition der Kampferprobten III** Auf dem Schlachtfeld gibt es nur den richtigen Moment. Du hast die Disziplin erlangt, die Parameter deiner Macht den Erfordernissen des Kampfes unterzuordnen. Du weißt instinktiv, wann du Zeit opfern musst, um einen mächtigen, andauernden Effekt zu weben, wann du sie mit roher Willenskraft in einen sofortigen, vernichtenden Schlag erzwingen musst, und wann du die verbündeten Willen deiner Kameraden zu einer einzigen, zeremoniellen Waffe bündeln musst. Du kannst die spontane Modifikation Zeit lassen, Erzwingen oder Zeremonie wählen und ab sofort benutzen. |
+| **Attribut 10** |  |
+| **zwei weitere Attr.** |  |
+| **auf jeweils 8** |  |
+| **80EP** | **Tradition der Kampferprobten IV** Du bist zum wahren Schlachtfeld-Asketen geworden. Dein Körper ist nur noch ein Kanal, durch den dein ungebrochener Wille und die explosive Energie deiner Verwundungen fließen. Schmerz existiert nicht mehr als Empfindung, sondern nur noch als reine, messbare Macht. Jede Wunde öffnet ein Tor zu einer tieferen, wilderen Schicht deiner Kraft. In diesem Zustand grenzt deine Magie an Raserei – sie ist kein gezielter Schuss mehr, sondern ein Breitseitenfeuer, gespeist vom eigenen Lebensfunken. Der Effekt von Kampf II wird verbessert. Du erhältst den vollen Wundabzug als Erleichterung für deine übernatürlichen Talente (Damit wird der Wundabzug ausglichen und du erhältst den vollen Wundabzug als Bonus). Kannst du durch andere Effekte Wundabzüge bereits ignorieren, erhälst du den doppelten Wundabzug als Bonus für übernatürliche Talente. |

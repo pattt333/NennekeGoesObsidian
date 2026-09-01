@@ -1,6 +1,8 @@
-[]{#subsubsec:z_bannschwert label="subsubsec:z_bannschwert"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Bannschwert.tex -->
 
-## Bannschwert
+<a id="subsubsec-z-bannschwert"></a>
+
+### Bannschwert
 
 Du legst bannende Zauber auf eine Waffe mit Reichweite 0. Die Waffe gilt als magisch und erleichtert die Bannung von Wesenheiten um +2. Gilt als *Objektritual*.
 

@@ -1,4 +1,6 @@
-##  Psychostabilis
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Psychostabilis.tex -->
+
+### Psychostabilis
 
 Magieresistenz-Proben des Ziels sind um +4 erleichtert.
 
@@ -7,23 +9,21 @@ Magieresistenz-Proben des Ziels sind um +4 erleichtert.
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Schnellsteigerung (-4; Wirkungsdauer 16 Aktionen; verdoppelt die Erleichterung.)
+- Stabilisierung (-8; das Ziel darf sofort eine MR-Probe gegen einen auf es wirkenden Zauber wiederholen. Gelingt sie, wird dieser Zauber für die Wirkungsdauer des Psychostabilis unterdrückt.)
 
--   Schnellsteigerung (-4; Wirkungsdauer 16 Aktionen; verdoppelt die Erleichterung.)
+**Vorbereitungszeit:**2 Aktionen
 
--   Stabilisierung (-8; das Ziel darf sofort eine MR-Probe gegen einen auf es wirkenden Zauber wiederholen. Gelingt sie, wird dieser Zauber für die Wirkungsdauer des Psychostabilis unterdrückt.)
+**Ziel:**Einzelperson
 
-**Vorbereitungszeit:** 2 Aktionen
+**Reichweite:**Berührung
 
-**Ziel:** Einzelperson
+**Wirkungsdauer:**1 Stunde
 
-**Reichweite:** Berührung
+**AsP-Kosten:**8 AsP
 
-**Wirkungsdauer:** 1 Stunde
+**Fertigkeiten:**Antimagie, Eigenschaften
 
-**AsP-Kosten:** 8 AsP
+**Erlernen:**Alch, Mag 12; Dru, Geo, Hex 14; Ach, Srl, Elf 18
 
-**Fertigkeiten:** Antimagie, Eigenschaften
-
-**Erlernen:** Alch, Mag 12; Dru, Geo, Hex 14; Ach, Srl, Elf 18
-
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

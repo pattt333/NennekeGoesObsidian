@@ -1,20 +1,22 @@
-[]{#subsubsec:z-HerbeirufungHumus label="subsubsec:z-HerbeirufungHumus"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Herbeirufung_des_Feuers.tex -->
 
-##  Herbeirufung des Humus
+<a id="subsubsec-z-herbeirufunghumus"></a>
 
-Ruf ein Elementarwesen des jeweiligen Elements herbei ([mehr zu Herbeirufungen](#subsec:beschworung)), das in deiner unmittelbaren Nähe erscheint.
+### Herbeirufung des Humus
+
+Ruf ein Elementarwesen des jeweiligen Elements herbei ([mehr zu Herbeirufungen](../../09_Super_Skill/Beschwoerungen.md#subsec-beschworung)), das in deiner unmittelbaren Nähe erscheint.
 
 **Probenschwierigkeit:** 16/24/32 (Diener/ Dschinn/Meister)
 
-**Vorbereitungszeit:** frei wählbar
+**Vorbereitungszeit:**frei wählbar
 
 **Wirkungsdauer:** augenblicklich
 
-**AsP-Kosten:** 16/32/64 AsP (Diener/Dschinn/Meister)
+**AsP-Kosten:**16/32/64 AsP (Diener/Dschinn/Meister)
 
-**Fertigkeiten:** Humus
+**Fertigkeiten:**Humus
 
-**Erlernen:** Geo 14; Ach, Dru, Mag 16; Alch 18
+**Erlernen:**Geo 14; Ach, Dru, Mag 16; Alch 18
 
 **EP-Kosten:** 60 EP
 

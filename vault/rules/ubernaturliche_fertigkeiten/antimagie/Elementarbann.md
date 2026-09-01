@@ -1,11 +1,13 @@
-[]{#subsubsec:z-Elementarbann  label="subsubsec:z-Elementarbann "}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/antimagie/Elementarbann.tex -->
 
-###  Elementarbann 
+<a id="subsubsec-z-elementarbann"></a>
+
+#### Elementarbann
 
 Wirkt gegen Zauber der Fertigkeiten Eis, Erz, Feuer, Humus, Luft und Wasser sowie gegen Elementare. Modifikationen siehe oben.
 
-**Fertigkeiten:** Antimagie, Eis, Erz, Feuer, Humus, Luft, Wasser
+**Fertigkeiten:**Antimagie, Eis, Erz, Feuer, Humus, Luft, Wasser
 
-**Erlernen:** Dru, Elf, Geo, Mag 18
+**Erlernen:**Dru, Elf, Geo, Mag 18
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

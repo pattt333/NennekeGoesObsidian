@@ -1,23 +1,25 @@
-[]{#subsubsec:z-Objecto Obscuro label="subsubsec:z-Objecto Obscuro"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Objecto_Obscuro.tex -->
 
-##  Objecto Obscuro
+<a id="subsubsec-z-objecto-obscuro"></a>
+
+### Objecto Obscuro
 
 Du machst einen Gegenstand vollkommen unsichtbar. Wird er mit mehr als 1 Schritt pro Initiativephase bewegt, endet der Zauber.
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 4 Aktionen
+**Vorbereitungszeit:**4 Aktionen
 
-**Ziel:** Einzelobjekt
+**Ziel:**Einzelobjekt
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 1 Stunde
+**Wirkungsdauer:**1 Stunde
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Verwandlung
+**Fertigkeiten:**Verwandlung
 
 **Erlernen:** Alch, Mag 18; Ach 20
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

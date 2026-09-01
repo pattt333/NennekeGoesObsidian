@@ -1,17 +1,16 @@
-[]{#pv:kl label="pv:kl"}
+<!-- Source: Chapters/07_vorteile/profane_vorteile/PV_KL.tex -->
 
-## KL-Vorteile
+<a id="pv-kl"></a>
 
-::: center
-  **Voraussetzung**   **KL**
-  ------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                      
-  **20EP**            **Scharfsinnig I** Proben bei Ermittlungen, einer Informationssuche, in der Forschung oder zum Erinnern an Details sind um +2 erleichtert.
-                      
-  **40EP**            **Scharfsinnig II** Proben bei Ermittlungen, einer Informationssuche, in der Forschung oder zum Erinnern an Details sind nochmals um +2 erleichtert.
-                      Bei der Informationssuche erhält der Held zusätzlich eine Stufe Hohe Qualität, wenn der gewertete Würfel 12 oder höher anzeigt.
-                      
-  **60EP**            **Vorbereitung** Der Held kann Proben auf profane Fertigkeiten besonders sorgfältig vorbereiten (sofern Vorbereitung sinnvoll ist). Wenn der Held die doppelte Zeit für die Probe aufwendet erhält er eine Erleichterung von +4.
-                      
-  **80EP**            **Eingebung** Pro Abenteuer kann der Spieler W3 Tipps von seinem Spielleiter erbitten. Diese Tipps sollen nicht das Abenteuer lösen, können den Spieler aber auf Fehler in seinem Plan oder bisher übersehene Aspekte oder Zusammenhänge aufmerksam machen.
-:::
+### KL-Vorteile
+
+| **Voraussetzung** | **KL** |
+| --- | --- |
+| **Attribut 4** |  |
+| **20EP** | **Scharfsinnig I** Proben bei Ermittlungen, einer Informationssuche, in der Forschung oder zum Erinnern an Details sind um +1 erleichtert. |
+| **Attribut 6** |  |
+| **40EP** | **Scharfsinnig II** Proben bei Ermittlungen, einer Informationssuche, in der Forschung oder zum Erinnern an Details sind nochmals um +1 erleichtert. Bei der Informationssuche erhält der Held zusätzlich eine Stufe Hohe Qualität, wenn der gewertete Würfel 12 oder höher anzeigt. |
+| **Attribut 8** |  |
+| **60EP** | **Vorbereitung** Wenn du bei Rast-Proben einen kritischen Erfolg erzielst, darfst du zusätzlich zu sonstigen Vorteilen durch den Erfolg, ein weiteres Rast-Talent einsetzen. |
+| **Attribut 10** |  |
+| **80EP** | **Eingebung** Bei profanen Proben für Ermittlungen, einer Informationssuche, in der Forschung oder zum Erinnern würfelst du einen W6, das Ergebnis wird als Hohe Qualität auf deine Probe gerechnet. |

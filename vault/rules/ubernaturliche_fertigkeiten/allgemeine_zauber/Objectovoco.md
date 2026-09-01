@@ -1,6 +1,8 @@
-[]{#subsubsec:z-Objectovoco label="subsubsec:z-Objectovoco"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Objectovoco.tex -->
 
-##  Objectovoco 
+<a id="subsubsec-z-objectovoco"></a>
+
+### Objectovoco
 
 Du verzauberst einen Gegenstand, sodass er dir 4 Ja/Nein-Fragen beantwortet. Beachte, dass die meisten Gegenstände nicht gerade intelligent sind und nur Dinge wahrnehmen, mit denen sie direkt in Kontakt stehen.
 
@@ -8,18 +10,18 @@ Du verzauberst einen Gegenstand, sodass er dir 4 Ja/Nein-Fragen beantwortet. Bea
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 8 Aktionen
+**Vorbereitungszeit:**8 Aktionen
 
-**Ziel:** Einzelobjekt
+**Ziel:**Einzelobjekt
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 4 Minuten
+**Wirkungsdauer:**4 Minuten
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Verständigung
+**Fertigkeiten:**Verständigung
 
-**Erlernen:** Mag 14; Dru, Elf 16; Geo 18; Hex, Srl 20
+**Erlernen:**Mag 14; Dru, Elf 16; Geo 18; Hex, Srl 20
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

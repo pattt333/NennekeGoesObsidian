@@ -1,19 +1,21 @@
-[]{#subsubsec:z-Invocatio label="subsubsec:z-Invocatio"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Invocation.tex -->
 
-##  Invocatio
+<a id="subsubsec-z-invocatio"></a>
 
-Ruf einen Dämon herbei ([mehr zur Dämonenbeschwörung siehe](#subsec:beschworung)), der in deiner unmittelbaren Nähe erscheint.
+### Invocatio
+
+Ruf einen Dämon herbei ([mehr zur Dämonenbeschwörung siehe](../../09_Super_Skill/Beschwoerungen.md#subsec-beschworung)), der in deiner unmittelbaren Nähe erscheint.
 
 **Probenschwierigkeit:** nach Dämon
 
-**Vorbereitungszeit:** frei wählbar
+**Vorbereitungszeit:**frei wählbar
 
 **Wirkungsdauer:** augenblicklich
 
-**AsP-Kosten:** nach Dämon
+**AsP-Kosten:**nach Dämon
 
-**Fertigkeiten:** Dämonsich
+**Fertigkeiten:**Dämonsich
 
 **Erlernen:** Mag 14; Bor, Hex 16; Ach, Alch, Dru 18
 
-**EP-Kosten:** 50 EP
+**EP-Kosten:**50 EP

@@ -1,17 +1,16 @@
-[]{#pv:ko label="pv:ko"}
+<!-- Source: Chapters/07_vorteile/profane_vorteile/PV_KO.tex -->
 
-## KO-Vorteile
+<a id="pv-ko"></a>
 
-::: center
-  **Voraussetzung**   **KO**
-  ------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                      
-  **20EP**            **Abgehärtet I** Proben zur Abwehr gegen Gifte und Krankheiten sind um +4 Punkte erleichtert.
-                      
-  **40EP**            **Abgehärtet II** Proben zur Abwehr gegen Gifte und Krankheiten sind um +4 weitere Punkte erleichtert und Proben auf Selbstbeherrschung (Zähigkeit) gegen Wundschmerzeffekte sind um +2 erleichtert.
-                      
-  **60EP**            **Schnelle Heilung** Der Held regeneriert 2 Wunden pro Ruhephase und immer noch 1 Wunde, wenn die Schlafphase unterbrochen wurde.
-                      
-  **80EP**            **Unverwüstlich** +1WS
-                      Wenn Zähigkeitsproben zum Ignorieren von Kampfunfähigkeit misslingen, erleidet der Held keine Erschöpfung.
-:::
+### KO-Vorteile
+
+| **Voraussetzung** | **KO** |
+| --- | --- |
+| **Attribut 4** |  |
+| **20EP** | **Abgehärtet I** Proben zur Abwehr oder zum Abwenden gegen/von Gifte und Krankheiten sind um +2 Punkte erleichtert. |
+| **Attribut 6** |  |
+| **40EP** | **Abgehärtet II** Proben zur Abwehr oder zum Abwenden gegen/von Gifte und Krankheiten sind um +2 weitere Punkte erleichtert und Proben auf Selbstbeherrschung (Zähigkeit) gegen Wundschmerzeffekte sind um +2 erleichtert. |
+| **Attribut 8** |  |
+| **60EP** | **Schnelle Heilung** Der Held regeneriert +LAW zusätzliche LeP bei einer Rast. |
+| **Attribut 10** |  |
+| **80EP** | **Unverwüstlich** +5*KO LeP. Wenn du durch LeP-Verlust anfängst zu bluten, bekommst du nur 1 Stack Blutung |

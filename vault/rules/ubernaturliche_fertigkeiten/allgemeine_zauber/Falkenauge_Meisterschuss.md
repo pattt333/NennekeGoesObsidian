@@ -1,29 +1,30 @@
-[]{#subsubsec:z-Falkenauge label="subsubsec:z-Falkenauge"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Falkenauge_Meisterschuss.tex -->
 
-##  Falkenauge Meisterschuss
+<a id="subsubsec-z-falkenauge"></a>
+
+### Falkenauge Meisterschuss
 
 Durch ein geistiges Band mit dem Ziel ist dein nächster Fernkampfangriff um +4 erleichtert.
 
-**Mächtige Magie:** Der Bonus steigt um +2
+**Mächtige Magie:**Der Bonus steigt um +2
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Dauerndes Band (-8, 8 AsP; der Zauber wirkt auf alle Fernkampfangriffe während der Wirkungsdauer.)
 
--   Dauerndes Band (-8, 8 AsP; der Zauber wirkt auf alle Fernkampfangriffe während der Wirkungsdauer.)
+**Vorbereitungszeit:**1 Aktion
 
-**Vorbereitungszeit:** 1 Aktion
+**Ziel:**Einzelperson
 
-**Ziel:** Einzelperson
-
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 8 Aktionen
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Eigenschaften
+**Fertigkeiten:**Eigenschaften
 
-**Erlernen:** Elf 12
+**Erlernen:**Elf 12
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

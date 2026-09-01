@@ -1,58 +1,79 @@
-[]{#subsec:nahkampfbasismanover label="subsec:nahkampfbasismanover"}
+<!-- Source: Chapters/06_kampf/kampfmanover/Basismanover.tex -->
 
-## Nahkampf Basismanöver
+<a id="subsec-nahkampfbasismanover"></a>
+
+### Nahkampf Basismanöver
 
 Jeder Charakter kann jedes Basismanöver einsetzen. Er muss dazu keine besonderen Voraussetzungen erfüllen.
 
-[]{#subsubsec:binden label="subsubsec:binden"}
+<a id="subsubsec-ausweichen"></a>
 
-### Binden (PA -X)
+#### Ausweichen (PA -2-BE)
 
-**Wirkung:** Du erschwerst die Parade deines Charakters um --X. Bis zum Ende der nächsten eigenen KR sind alle Verteidigungen deines Gegners um --X erschwert.
+**Wirkung:** Der Verteidiger entgeht dem Angriff und seinen Auswirkungen vollständig. Ausweichen ist die sinnvollste waffenlose Abwehr gegen Bewaffnete.
+
+**Erschwernis:** PA -2-BE
+
+<a id="subsubsec-binden"></a>
+
+#### Binden (PA -X)
+
+**Wirkung:** Du erschwerst die Parade deines Charakters um –X. Bis zum Ende der nächsten eigenen KR sind alle Verteidigungen deines Gegners um –X erschwert.
 
 **Erschwernis:** PA -X
 
-[]{#subsubsec:entfernungverandern label="subsubsec:entfernungverandern"}
+<a id="subsubsec-entfernungverandern"></a>
 
-### Entfernung verändern (AT-2BE)
+#### Entfernung verändern (AT-2BE)
 
-**Wirkung:** Dein Held kann sich aus dem Nahkampf lösen oder die Entfernung zu seinem Gegner verändern ohne Passierschläge zu erleiden. Andere Gegner dürfen in einer Aktion nachrücken.
+**Wirkung:** Dein Held kann sich aus dem Nahkampf lösen oder die Entfernung zu seinem Gegner verändern ohne Passierschläge zu erleiden. Man kommt mit diesem Manöver nur aus der Waffenreichweite seines Gegner. Danach müsste man noch weiter weglaufen.
 
 **Erschwernis:** AT -2BE
 
-[]{#subsubsec:entwaffnen label="subsubsec:entwaffnen"}
+<a id="subsubsec-entwaffnen"></a>
 
-### Entwaffnen AT-4; PA-4
+#### Entwaffnen AT-4; PA-4
 
-**Wirkung:** Dem Ziel wird die Waffe entrissen, die danach zwischen den Kämpfern am Boden liegt.
+**Wirkung:** Dem Ziel wird die Waffe entrissen, die danach zwischen den Kämpfern am Boden liegt. Das Aufheben der
+Waffe benötigt eine Aktion Konflikt; falls ein anderer Kämpfer das in einer Reaktion verhindern möchte, ist zusätzlich eine
+vergleichende GE-Probe (I) notwendig.
 
-Das Manöver senkt den Schaden des Angriffes auf 0. Sollte der Angriff ohnehin keinen Schaden anrichten -- etwa durch andere Manöver -- ist das Manöver nicht möglich.
+Das Manöver senkt den Schaden des Angriffes auf 0. Sollte der Angriff ohnehin keinen Schaden anrichten – etwa durch andere Manöver – ist das Manöver nicht möglich.
 
 **Gegenprobe:** KK
 
-**Erschwernis:** AT--4; PA-4
+**Erschwernis:** AT–4; PA-4
 
-[]{#subsubsec:gezielterangriff label="subsubsec:gezielterangriff"}
+<a id="subsubsec-gezielterschlag"></a>
 
-### Gezielter Angriff (AT-2)
+#### Gezielter Schlag (AT-2)
 
-**Wirkung:** Mit diesem Manöver kann man gezielt eine Trefferzone angreifen. Dazu ist eine Attacke nötig, die entsprechend dem Zonenaufschlag erschwert ist.
+**Wirkung:** Mit diesem Manöver kann man gezielt eine Trefferzone angreifen. Das Manöver entspricht dem Gezielten Schuss von Fernkämpfern, nur dass es sich hierbei um einen Nahkampfangriff handelt (AT statt FK).
 
 **Erschwernis:** AT-2
 
-[]{#subsubsec:umklammern label="subsubsec:umklammern"}
+<a id="subsubsec-stumpferschlag"></a>
 
-### Umklammern (AT-X)
+#### Stumpfer Schlag (AT-2)
 
-**Wirkung:** Handlungen des Umklammerten sind um -X erschwert (kumulativ) und die Grund-GS des Ziels wird für 2KR um die Hälfte reduziert. Das Manöver senkt den Schaden des Angriffes auf 0. Sollte der Angriff ohnehin keinen Schaden anrichten -- etwa durch andere Manöver -- ist das Manöver nicht möglich.
+**Wirkung:** Das Manöver verursacht einen Stack Erschöpfung.
+
+**Erschwernis:** AT-2
+
+<a id="subsubsec-umklammern"></a>
+
+#### Umklammern (AT-X)
+
+**Wirkung:** Handlungen des Umklammerten sind um -X erschwert (kumulativ) und die Grund-GS des Ziels wird um die Hälfte reduziert. Das Manöver senkt den Schaden des Angriffes auf 0. Sollte der Angriff ohnehin keinen Schaden anrichten – etwa durch andere Manöver – ist das Manöver nicht möglich.
+Dein Gegner kann sich mit einer Probe auf KK(20) und einer Aktion Bewegung aus der Umklammerung lösen.
 
 **Erschwernis:** AT-X
 
 **Voraussetzungen:** Ziel darf nicht einer höheren Größenkategorie angehören.
 
-[]{#subsubsec:umreissen label="subsubsec:umreissen"}
+<a id="subsubsec-umreissen"></a>
 
-### Umreißen (AT)
+#### Umreißen (AT)
 
 **Wirkung:** Dein Ziel stürzt und liegt am Boden. Das Manöver senkt den Schaden des Angriffes auf 0. Sollte der Angriff ohnehin keinen Schaden anrichten, ist das Manöver nicht möglich.
 
@@ -60,18 +81,10 @@ Das Manöver senkt den Schaden des Angriffes auf 0. Sollte der Angriff ohnehin k
 
 **Erschwernis:** -
 
-[]{#subsubsec:wuchtschlag label="subsubsec:wuchtschlag"}
+<a id="subsubsec-wuchtschlag"></a>
 
-### Wuchtschlag (AT-X)
+#### Wuchtschlag (AT-X)
 
-**Wirkung:** Die Attacke wird um --X erschwert. Bei Erfolg werden die Trefferpunkte +X erhöht.
+**Wirkung:** Die Attacke wird um –X erschwert. Bei Erfolg werden die Trefferpunkte +X erhöht.
 
 **Erschwernis:** AT-X
-
-[]{#subsubsec:maneuver-waffe-angreifen label="subsubsec:maneuver-waffe-angreifen"}
-
-### Waffe Angreifen (AT-2)
-
-**Wirkung:** Du führst einen direkten Angriff auf eine Waffe deines Gegners aus. Nur die Waffe wird dadruch beschädigt, der Träger erhält keinen Schaden daruch.
-
-**Erschwernis:** AT-2

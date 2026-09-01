@@ -1,4 +1,6 @@
-##  Ruhe Körper, Ruhe Geist 
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Ruhe_Korper_Ruhe_Geist.tex -->
+
+### Ruhe Körper, Ruhe Geist
 
 Dein Ziel sinkt in einen tiefen Schlaf. Dabei regeneriert eine Wunde.
 
@@ -6,18 +8,18 @@ Dein Ziel sinkt in einen tiefen Schlaf. Dabei regeneriert eine Wunde.
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 16 Aktionen
+**Vorbereitungszeit:**16 Aktionen
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 8 Stunden
+**Wirkungsdauer:**8 Stunden
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Humus
+**Fertigkeiten:**Humus
 
 **Erlernen:** Elf 14; Ach, Alch, Dru, Hex, Mag 18
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

@@ -1,25 +1,27 @@
-[]{#subsubsec:z-Glacioflumen label="subsubsec:z-Glacioflumen"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Glacioflumen_Fluss_und_Eis.tex -->
 
-##  Glacioflumen Fluss aus Eis 
+<a id="subsubsec-z-glacioflumen"></a>
+
+### Glacioflumen Fluss aus Eis
 
 Du erzeugst eine dünne Schicht aus Eis auf dem Boden. Die Schicht gilt als eisiger Untergrund, was alle Proben im Kampf und zum Stehenbleiben um -4 erschwert. Ihre Fläche beträgt 16 Rechtschritt, ihre Form kannst du bestimmen.
 
-**Mächtige Magie:** Verdoppelt die Fläche.
+**Mächtige Magie:**Verdoppelt die Fläche.
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 2 Aktionen
+**Vorbereitungszeit:**2 Aktionen
 
-**Ziel:** Zone
+**Ziel:**Zone
 
-**Reichweite:** 16 Schritt
+**Reichweite:**16 Schritt
 
-**Wirkungsdauer:** 4 Minuten
+**Wirkungsdauer:**4 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Eis
+**Fertigkeiten:**Eis
 
-**Erlernen:** Sch 18; Elf 20
+**Erlernen:**Sch 18; Elf 20
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

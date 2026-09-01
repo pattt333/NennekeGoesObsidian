@@ -1,6 +1,8 @@
-[]{#subsubsec:z_Axxeleratus label="subsubsec:z_Axxeleratus"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Axxeleratus_Bliutzgeschwind.tex -->
 
-##  Axxeleratus Blitzgeschwind 
+<a id="subsubsec-z-axxeleratus"></a>
+
+### Axxeleratus Blitzgeschwind
 
 Die GS deines Zieles erhöht sich um +4 und alle AT und VT sind um +2 erleichtert, Ausweichen um weitere +2.
 
@@ -8,18 +10,18 @@ Die GS deines Zieles erhöht sich um +4 und alle AT und VT sind um +2 erleichter
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 0 Aktionen
+**Vorbereitungszeit:**0 Aktionen
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
-**Reichweite:** 4 Schritt
+**Reichweite:**4 Schritt
 
 **Wirkungsdauer:** 16 Aktionen
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Eigenschaften
+**Fertigkeiten:**Eigenschaften
 
-**Erlernen:** Elf 12; Ach, Sch 14; Mag 18
+**Erlernen:**Elf 12; Ach, Sch 14; Mag 18
 
 **EP-Kosten:** 40 EP

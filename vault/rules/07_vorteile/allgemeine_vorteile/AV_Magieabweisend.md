@@ -1,11 +1,11 @@
-[]{#subsec:av-magieabweisend label="subsec:av-magieabweisend"}
+<!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Magieabweisend.tex -->
 
-## Magieabweisend
+<a id="subsec-av-magieabweisend"></a>
 
-**Regel:** Zauber wirken auf dich deutlich schwächer. Du ignorierst bei allen Zaubern eine Stufe der spontanen Modifikation Hohe Qualität. Zauber ohne Hohe Qualität haben auf dich keine Wirkung.
+### Magieabweisend
+
+**Regel:** +4MR. Du kannst Widerstandsproben gg. übernatürliche Talente in einer einfachen sozialen Aktion ausführen, du kannst diese Aktion also mit anderen einfachen Aktionen frei kombinieren und sie gilt nicht als Konzentration und kann damit nicht unterbrochen werden.
 
 **Voraussetzungen:** keine
 
 **EP-Wert:** 80 Erfahrungspunkte
-
-**Nachkauf:** extrem selten

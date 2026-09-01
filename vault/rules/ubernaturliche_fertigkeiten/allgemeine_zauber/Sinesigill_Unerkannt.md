@@ -1,4 +1,6 @@
-## Sinesigill Unerkannt
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Sinesigill_Unerkannt.tex -->
+
+### Sinesigill Unerkannt
 
 Während der Wirkungsdauer ist dein Gildensiegel von einer Illusion (Sicht) verdeckt und auch vor ungezielter Hellsicht verborgen.
 
@@ -6,20 +8,20 @@ Während der Wirkungsdauer ist dein Gildensiegel von einer Illusion (Sicht) verd
 
 **Modifikationen:**
 
--   Fremde Hand (-4, Einzelperson)
+- Fremde Hand (-4, Einzelperson)
 
-**Vorbereitungszeit:** 16 Aktionen
+**Vorbereitungszeit:**16 Aktionen
 
-**Ziel:** selbst
+**Ziel:**selbst
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 8 Stunden
+**Wirkungsdauer:**8 Stunden
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Antimagie, Illusion
+**Fertigkeiten:**Antimagie, Illusion
 
-**Erlernen:** Mag 20
+**Erlernen:**Mag 20
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

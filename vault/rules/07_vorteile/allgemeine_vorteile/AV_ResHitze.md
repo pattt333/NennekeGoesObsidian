@@ -1,6 +1,8 @@
-[]{#subsec:av-resistenz-hitze label="subsec:av-resistenz-hitze"}
+<!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_ResHitze.tex -->
 
-## Resistenz-Hitze
+<a id="subsec-av-resistenz-hitze"></a>
+
+### Resistenz-Hitze
 
 **Regel:** Verschiebt die Temperaturstufe bei hohen Temperaturen um eine Stufe in Richtung normal.
 

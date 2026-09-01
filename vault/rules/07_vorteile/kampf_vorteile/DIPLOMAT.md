@@ -1,8 +1,8 @@
-## Diplomat
+<!-- Source: Chapters/07_vorteile/kampf_vorteile/DIPLOMAT.tex -->
 
-::: center
-  **Voraussetzung**   **Vorteil**
-  ------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                      **Menschenkenner** Mit einer freien Aktion und einer Probe Menschenkenntnis (Motivation erkennen) gg. 24 (I) kannst du die Wundschwelle eines Gegners herausfinden.
-                      **Kenne deinen Feind** Du weißt im Kampf genau wie viele Wunden deine Gegner erlitten haben. Dafür ist eine freie Aktion und eine Probe Heilkunde (Wunden) gg. 24 (I) notwendig.
-:::
+### Diplomat
+
+| **Voraussetzung** | **Vorteil** |
+| --- | --- |
+| **40EP** | **Menschenkenner** Mit einer freien Aktion und einer Probe Menschenkenntnis (Motivation erkennen) gg. 24 (I) kannst du die max LeP eines Gegners herausfinden. |
+| **40EP** | **Kenne deinen Feind** Du weißt im Kampf genau wie viel Schaden dein Gegner erlitten hat. Dafür ist eine freie Aktion und eine Probe Heilkunde (Wunden) gg. 24 (I) notwendig. |

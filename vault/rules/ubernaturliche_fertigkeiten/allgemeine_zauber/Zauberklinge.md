@@ -1,31 +1,29 @@
-## Zauberklinge Geisterspeer
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Zauberklinge.tex -->
+
+### Zauberklinge Geisterspeer
 
 Die verzauberte Waffe gilt während der Wirkungsdauer als magisch.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Schnellverzauberung (-4, 2 Aktionen, Wirkungsdauer 1 Stunde)
+- Personalisierung (-4; der Zauber wirkt nur, solange der beim Zaubern gewählte Träger die Waffe führt.)
+- Namenssigille (-8; erfordert den wahren Namen eines Dämons. Wann immer der Dämon Wunden durch diese Waffe erleidet, erleidet er einen zusätzlichen W6 Schaden.)
+- Permanenz (-4, Wirkungsdauer bis die Bindung gelöst wird, 16 AsP, davon 2 gAsP)
 
--   Schnellverzauberung (-4, 2 Aktionen, Wirkungsdauer 1 Stunde)
+**Vorbereitungszeit:**16 Aktionen
 
--   Personalisierung (-4; der Zauber wirkt nur, solange der beim Zaubern gewählte Träger die Waffe führt.)
+**Ziel:**Einzelobjekt
 
--   Namenssigille (-8; erfordert den wahren Namen eines Dämons. Wann immer der Dämon Wunden durch diese Waffe erleidet, erleidet er einen zusätzlichen W6 Schaden.)
+**Reichweite:**Berührung
 
--   Permanenz (-4, Wirkungsdauer bis die Bindung gelöst wird, 16 AsP, davon 2 gAsP)
+**Wirkungsdauer:**1 Woche
 
-**Vorbereitungszeit:** 16 Aktionen
+**AsP-Kosten:**8 AsP
 
-**Ziel:** Einzelobjekt
+**Fertigkeiten:**Kraft, Verwandlung
 
-**Reichweite:** Berührung
+**Erlernen:**Ach, Mag 18; Elf, Hex, Geo, Dru 20
 
-**Wirkungsdauer:** 1 Woche
-
-**AsP-Kosten:** 8 AsP
-
-**Fertigkeiten:** Kraft, Verwandlung
-
-**Erlernen:** Ach, Mag 18; Elf, Hex, Geo, Dru 20
-
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

@@ -1,11 +1,11 @@
-[]{#subsec:av-gefahreninstinkt label="subsec:av-gefahreninstinkt"}
+<!-- Source: Chapters/07_vorteile/allgemeine_vorteile/AV_Gefahreninstinkt.tex -->
 
-## Gefahreninstinkt
+<a id="subsec-av-gefahreninstinkt"></a>
 
-**Regel:** Mit der Gabe des Gefahreninstinkts kannst du mit dem Talent Wachsamkeit auch Gefahren wahrnehmen, die mit gewöhnlichen Sinnen nicht wahrzunehmen sind. Dazu gehören etwa magische Fallen oder eine bald losbrechende Lawine. Ist die Gefahr auch mit gewöhnlichen Sinnen wahrnehmbar, erhältst du eine Erleichterung von +4.
+### Gefahreninstinkt
+
+**Regel:** Mit der Gabe des Gefahreninstinkts kannst du mit Sinnesschärfe (Wahrnehmen) auch Gefahren wahrnehmen, die mit gewöhnlichen Sinnen nicht wahrzunehmen sind. Dazu gehören etwa magische Fallen oder eine bald losbrechende Lawine. Ist die Gefahr auch mit gewöhnlichen Sinnen wahrnehmbar, erhältst du eine Erleichterung von +4.
 
 **Voraussetzungen:** keine
 
 **EP-Wert:** 100 Erfahrungspunkte
-
-**Nachkauf:** extrem selten

@@ -1,6 +1,8 @@
-[]{#subsubsec:z-Krotensprung label="subsubsec:z-Krotensprung"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Krotensprung.tex -->
 
-##  Krötensprung
+<a id="subsubsec-z-krotensprung"></a>
+
+### Krötensprung
 
 Der nächste Sprung deines Zieles ist gewaltig. Er kann bis zu 8 Schritt Weite und 4 Schritt Höhe überwinden und die effektive Sturzhöhe sinkt um 4 Schritt.
 
@@ -9,21 +11,20 @@ Der nächste Sprung deines Zieles ist gewaltig. Er kann bis zu 8 Schritt Weite u
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Krötengang (-4, Wirkungsdauer 16 Aktionen, 8 AsP; dein Ziel kann beliebig oft springen.)
 
--   Krötengang (-4, Wirkungsdauer 16 Aktionen, 8 AsP; dein Ziel kann beliebig oft springen.)
+**Vorbereitungszeit:**2 Aktionen
 
-**Vorbereitungszeit:** 2 Aktionen
+**Ziel:**Einzelperson
 
-**Ziel:** Einzelperson
-
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 16 Aktionen
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Eigenschaften
+**Fertigkeiten:**Eigenschaften
 
-**Erlernen:** Hex 16; Ach, Elf 1
+**Erlernen:**Hex 16; Ach, Elf 1
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

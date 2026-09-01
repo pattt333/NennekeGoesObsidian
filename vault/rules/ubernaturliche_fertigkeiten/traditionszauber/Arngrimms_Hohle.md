@@ -1,23 +1,25 @@
-## Arngrimms Höhle
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Arngrimms_Hohle.tex -->
+
+### Arngrimms Höhle
 
 In einem abgeschlossenen Raum wie einer Jurte oder einer kleinen Höhle steigt die um +1, bis maximal auf normal.
 
-**Mächtige Magie:** Für je zwei Stufen steigt die Temperaturstufe um weitere +1.
+**Mächtige Magie:**Für je zwei Stufen steigt die Temperaturstufe um weitere +1.
 
-**Probenschwierigkeit:** 12
+**Probenschwierigkeit:**12
 
-**Vorbereitungszeit:** 4 Minuten
+**Vorbereitungszeit:**4 Minuten
 
-**Ziel:** Zone
+**Ziel:**Zone
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 1 Tag
+**Wirkungsdauer:**1 Tag
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Feuer, Geister der Stärkung, Umwelt
+**Fertigkeiten:**Feuer, Geister der Stärkung, Umwelt
 
-**Erlernen:** Smn 14
+**Erlernen:**Smn 14
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

@@ -1,21 +1,23 @@
-## Seelentier erkennen
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Seelentier_erkennen.tex -->
+
+### Seelentier erkennen
 
 Du erkennst das Seelentier deines Zieles. Wenn dir das Tier und seine assoziierten Eigenschafen bekannt sind, erleichtert dir das alle künftigen gesellschaftlichen Proben dem Ziel gegenüber um +2.
 
 **Probenschwierigkeit:** Magieresistenz
 
-**Vorbereitungszeit:** 4 Aktionen
+**Vorbereitungszeit:**4 Aktionen
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
-**Reichweite:** 4 Schritt
+**Reichweite:**4 Schritt
 
-**Wirkungsdauer:** augenblicklich
+**Wirkungsdauer:**augenblicklich
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Hellsicht
+**Fertigkeiten:**Hellsicht
 
-**Erlernen:** Hex 18
+**Erlernen:**Hex 18
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

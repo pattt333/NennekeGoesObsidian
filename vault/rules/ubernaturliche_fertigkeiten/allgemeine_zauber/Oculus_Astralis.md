@@ -1,25 +1,27 @@
-[]{#subsubsec:z-Oculus label="subsubsec:z-Oculus"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Oculus_Astralis.tex -->
 
-##  Oculus Astralis
+<a id="subsubsec-z-oculus"></a>
 
-Du wirfst einen Blick in die Welt der Magie. Während nichtmagische Gegenstände nur schwer zu erkennen sind, erscheint Magie als Ansammlung pulsierender Kraftfäden (Analysegrad 1 der Intensitätsanalyse, siehe). Während der Wirkungsdauer kannst du deine Sinnenschärfe zur [Strukturanalyse](#subsec:analyse) verwenden, wodurch du 1 Punkt Erschöpfung erleidest. Außerdem kannst du dich im Limbus orientieren.
+### Oculus Astralis
 
-**Mächtige Magie:** Der Analysegrad der Intensitätsanalyse steigt um +1.
+Du wirfst einen Blick in die Welt der Magie. Während nichtmagische Gegenstände nur schwer zu erkennen sind, erscheint Magie als Ansammlung pulsierender Kraftfäden (Analysegrad 1 der Intensitätsanalyse, siehe). Während der Wirkungsdauer kannst du deine Sinnenschärfe zur Strukturanalyse verwenden, wodurch du 1 Punkt Erschöpfung erleidest. Außerdem kannst du dich im Limbus orientieren.
+
+**Mächtige Magie:**Der Analysegrad der Intensitätsanalyse steigt um +1.
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 8 Aktionen
+**Vorbereitungszeit:**8 Aktionen
 
-**Ziel:** selbst
+**Ziel:**selbst
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 16 Minuten
+**Wirkungsdauer:**16 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Hellsicht, Kraft
+**Fertigkeiten:**Hellsicht, Kraft
 
-**Erlernen:** Mag 18
+**Erlernen:**Mag 18
 
-**EP-Kosten:** 60 EP
+**EP-Kosten:**60 EP

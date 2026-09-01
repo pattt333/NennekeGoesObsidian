@@ -1,27 +1,28 @@
-[]{#subsubsec:z-Kusch label="subsubsec:z-Kusch"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Kusch.tex -->
 
-##  Kusch!
+<a id="subsubsec-z-kusch"></a>
+
+### Kusch!
 
 Das verzauberte Tier flieht vor dir.
 
 **Probenschwierigkeit:** Magieresistenz
 
 **Modifikationen:**
+- Schrecken des Schwarms (-4; du verscheuchst einen Schwarm Kleintiere.)
 
--   Schrecken des Schwarms (-4; du verscheuchst einen Schwarm Kleintiere.)
+**Vorbereitungszeit:**0 Aktionen
 
-**Vorbereitungszeit:** 0 Aktionen
+**Ziel:**einzelnes Tier
 
-**Ziel:** einzelnes Tier
-
-**Reichweite:** 8 Schritt
+**Reichweite:**8 Schritt
 
 **Wirkungsdauer:** 1 Stunde
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Einfluss
+**Fertigkeiten:**Einfluss
 
 **Erlernen:** Geo, Sch 16
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

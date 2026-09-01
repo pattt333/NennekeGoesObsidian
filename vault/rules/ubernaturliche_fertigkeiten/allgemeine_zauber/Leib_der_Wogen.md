@@ -1,31 +1,30 @@
-[]{#subsubsec:z-LeibWogen label="subsubsec:z-LeibWogen"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Leib_der_Wogen.tex -->
 
-##  Leib der Wogen 
+<a id="subsubsec-z-leibwogen"></a>
+
+### Leib der Wogen
 
 Du harmonierst mit dem Element Wasser. Du bist immun gegen Wasserschaden und Strömungen und der Druck unter Wasser beeinflussen dich nicht.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Reise ins Wasser (-4; du kannst dich mit GS Schritt pro KR durchs Wasser bewegen.)
+- Begleiter (-4; der Zauber betrifft auch eine weitere Person, mit der du permanent Hautkontakt halten musst.)
+- Leib aus Wasser (-8; du verwandelst dich in ein Wasserelementar mit allen entsprechenden Vorteilen .
 
--   Reise ins Wasser (-4; du kannst dich mit GS Schritt pro KR durchs Wasser bewegen.)
+**Vorbereitungszeit:**8 Aktionen
 
--   Begleiter (-4; der Zauber betrifft auch eine weitere Person, mit der du permanent Hautkontakt halten musst.)
+**Ziel:**selbst
 
--   Leib aus Wasser (-8; du verwandelst dich in ein Wasserelementar mit allen entsprechenden Vorteilen .
+**Reichweite:**Berührung
 
-**Vorbereitungszeit:** 8 Aktionen
+**Wirkungsdauer:**1 Stunde
 
-**Ziel:** selbst
+**AsP-Kosten:**16 AsP
 
-**Reichweite:** Berührung
+**Fertigkeiten:**Wasser
 
-**Wirkungsdauer:** 1 Stunde
+**Erlernen:**Ach 18; Elf, Geo 20
 
-**AsP-Kosten:** 16 AsP
-
-**Fertigkeiten:** Wasser
-
-**Erlernen:** Ach 18; Elf, Geo 20
-
-**EP-Kosten:** 60 EP
+**EP-Kosten:**60 EP

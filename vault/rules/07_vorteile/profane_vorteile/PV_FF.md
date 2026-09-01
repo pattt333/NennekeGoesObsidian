@@ -1,17 +1,16 @@
-[]{#pv:ff label="pv:ff"}
+<!-- Source: Chapters/07_vorteile/profane_vorteile/PV_FF.tex -->
 
-## FF-Vorteile
+<a id="pv-ff"></a>
 
-::: center
-  **Voraussetzung**   **FF**
-  ------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                      
-  **20EP**            **Routiniert I**Die Basiszeit zur Herstellung handwerklicher Produkte, zur Wundversorgung und zum Schlösser knacken verkürzt sich um ein Viertel des unmodifizierten Wertes.
-                      
-  **40EP**            **Routiniert II** Die Basiszeit zur Herstellung handwerklicher Produkte, zur Wundversorgung und zum Schlösser knacken verkürzt sich um ein weiteres Viertel des unmodifizierten Wertes (also mit Routiniert I um die Hälfte).
-                      Bei Proben auf Handwerk und Heilkunde gelten Patzer nur als misslungene Proben .
-                      
-  **60EP**            **Meister der Improvisation** Unzureichendes Werkzeug oder minderwertige Verbrauchsmaterialien gelten um eine Stufe höher. Zum Beispiel bist du dazu in der Lage schon mit einer Dorfwerkstatt ein Vinsalter Ei herzustellen, für das du normalerweise eine Mechanikerwerkstatt benötigst. Minderwertige Verbrauchsmaterialien zählen für dich wie normale Verbrauchsmaterialien, sie erschweren deine Probe also nicht um -4.
-                      
-  **80EP**            **Meisterwerk** Mit hervorragenden Materialien und dem doppelten Zeitaufwand kann der Held ein Meisterwerk schaffen. Dieses erhält verbesserte Eigenschaften nach Meisterentscheid. Zusätzlich dazu noch bekommt der Gegenstand noch 2x die Modifikation hohe Qualität. Dies bedeutet, dass du immer mindestens den Effekt von zwei Stufen Hohe Qualität erhältst, wenn du ein Meisterwerk herstellst. Solche Meisterwerke sind extrem selten und Gegenstand von Sagen und Legenden. Der Vorteil kann nur mit Handwerksfertigkeiten genutzt werden.
-:::
+### FF-Vorteile
+
+| **Voraussetzung** | **FF** |
+| --- | --- |
+| **Attribut 4** |  |
+| **20EP** | **Routiniert I**Du kannst ein Rast-Talent mehr einsetzen bei einer Rast. |
+| **Attribut 6** |  |
+| **40EP** | **Routiniert II** Du kannst ein weiteres Rast-Talent pro Rast einsetzen. Bei Proben auf Rast-Talente gelten Patzer nur als misslungene Proben . |
+| **Attribut 8** |  |
+| **60EP** | **Meister der Improvisation** Du kannst eine weitere Stufe für die Werkstattvoraussetzung überwinden, dafür ist deine Probe aber um weitere -4 erschwert. Du kannst also Rezpte, die normalerweise die beste Werkstatt brauchen auch mit der schlechtesten Werkstatt herstellen, dafür ist die Herstellungsprobe insgesamt um -8 erschwert. |
+| **Attribut 10** |  |
+| **80EP** | **Meisterhandwerker** Deine Hände sind Werkzeuge, die mit allem alles herstellen können was du vorstellst. Du ignorierst -4 Erschwernisse durch unzureichende Werkstattvoraussetzungen. Du kannst beim Herstellen von Gegenständen mit einer Erschwernis von -8 zwei Gegenstände mit den gleichen Materialien herstellen. |

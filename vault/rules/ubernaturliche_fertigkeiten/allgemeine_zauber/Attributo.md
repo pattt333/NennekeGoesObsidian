@@ -1,28 +1,30 @@
-[]{#subsubsec:z_Attributo  label="subsubsec:z_Attributo "}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Attributo.tex -->
 
-##  Attributo 
+<a id="subsubsec-z-attributo"></a>
+
+### Attributo
 
 Wähle ein Attribut aus. Proben auf dieses Attribut sind um +2, Fertigkeitsproben mit diesem Attribut um +1 erleichtert.
 
-**Mächtige Magie:** Der Bonus steigt um +2/+1.
+**Mächtige Magie:**Der Bonus steigt um +2/+1.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
 
--   Schnellsteigerung (-4, Wirkungsdauer 16 Aktionen; verdoppelt die Erleichterung. Das ist nur gemeinsam mit Hohe Qualität sinnvoll.)
+- Schnellsteigerung (-4, Wirkungsdauer 16 Aktionen; verdoppelt die Erleichterung. Das ist nur gemeinsam mit Hohe Qualität sinnvoll.)
 
 **Vorbereitungszeit:** 8 Aktionen
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 1 Stunde
+**Wirkungsdauer:**1 Stunde
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Eigenschaften
+**Fertigkeiten:**Eigenschaften
 
 **Erlernen:** Alch 8; Ach, Dru, Elf, Geo, Hex, Mag, Sch, Srl 14
 

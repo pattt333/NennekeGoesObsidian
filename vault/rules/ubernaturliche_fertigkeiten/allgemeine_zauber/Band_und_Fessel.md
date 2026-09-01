@@ -1,6 +1,8 @@
-[]{#subsubsec:z-BandundFessel label="subsubsec:z-BandundFessel"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Band_und_Fessel.tex -->
 
-##  Band und Fessel 
+<a id="subsubsec-z-bandundfessel"></a>
+
+### Band und Fessel
 
 Dein Opfer kann einen kreisförmigen Bereich von bis zu 4 Schritt Radius nicht verlassen. Alle zwei Stunden darf es versuchen, sich mit einer Konterprobe (MU, 12) vom Zauber zu befreien. Dabei handelt es sich um eine mentale Barriere. Wird das Ziel mit Gewalt über die Barriere getragen - wogegen es sich wehren wird - endet der Effekt.
 
@@ -8,16 +10,16 @@ Dein Opfer kann einen kreisförmigen Bereich von bis zu 4 Schritt Radius nicht v
 
 **Vorbereitungszeit:** 4 Aktionen
 
-**Ziel:** Einzelwesen
+**Ziel:**Einzelwesen
 
-**Reichweite:** 8 Schritt
+**Reichweite:**8 Schritt
 
 **Wirkungsdauer:** 8 Stunden
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Einfluss
+**Fertigkeiten:**Einfluss
 
-**Erlernen:** Elf 14; Hex 16; Dru, Mag 18; Ach, Bor, Geo 20
+**Erlernen:**Elf 14; Hex 16; Dru, Mag 18; Ach, Bor, Geo 20
 
 **EP-Kosten:** 40 EP

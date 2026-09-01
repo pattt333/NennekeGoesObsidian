@@ -1,21 +1,23 @@
-## Schelmenrausch
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Schelmenrausch.tex -->
+
+### Schelmenrausch
 
 Du versetzt dein Ziel in einen friedvoll-glücklichen Rauschzustand. Alle seine Proben sind um -4 erschwert. Das Ziel erwacht aus der Trance, wenn es in direkter Lebensgefahr schwebt.
 
 **Probenschwierigkeit:** Magieresistenz
 
-**Vorbereitungszeit:** 2 Aktionen
+**Vorbereitungszeit:**2 Aktionen
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
-**Reichweite:** 4 Schritt
+**Reichweite:**4 Schritt
 
-**Wirkungsdauer:** 4 Minuten
+**Wirkungsdauer:**4 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Einfluss
+**Fertigkeiten:**Einfluss
 
-**Erlernen:** Sch 14
+**Erlernen:**Sch 14
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

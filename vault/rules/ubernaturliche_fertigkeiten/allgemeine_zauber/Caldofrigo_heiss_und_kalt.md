@@ -1,31 +1,31 @@
-[]{#subsubsec:z-Caldofrigo label="subsubsec:z-Caldofrigo"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Caldofrigo_heiss_und_kalt.tex -->
 
-##  Caldofrigo heiß und kalt 
+<a id="subsubsec-z-caldofrigo"></a>
 
-Du veränderst die [Temperaturstufe](#subsec:temperatur) eines Objektes um zwei Stufen.
+### Caldofrigo heiß und kalt
 
-**Mächtige Magie:** Du veränderst die Temperatur um eine weitere Stufe.
+Du veränderst die [Temperaturstufe](../../05_Gesundheit.md#subsec-temperatur) eines Objektes um zwei Stufen.
+
+**Mächtige Magie:**Du veränderst die Temperatur um eine weitere Stufe.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Zone (-4, selbst, 32 AsP; der Zauber betrifft einen Umkreis von 8 Schritt um dich herum.)
+- Ferne Zone (-8, Zone, 8 Schritt, 32 AsP)
 
--   Zone (-4, selbst, 32 AsP; der Zauber betrifft einen Umkreis von 8 Schritt um dich herum.)
+**Vorbereitungszeit:**16 Aktionen
 
--   Ferne Zone (-8, Zone, 8 Schritt, 32 AsP)
+**Ziel:**Einzelobjekt
 
-**Vorbereitungszeit:** 16 Aktionen
-
-**Ziel:** Einzelobjekt
-
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 16 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
 **Fertigkeiten:** Eis, Feuer, Verwandlung
 
-**Erlernen:** Ach, Dru, Mag 16; Alch, Geo 18
+**Erlernen:**Ach, Dru, Mag 16; Alch, Geo 18
 
 **EP-Kosten:** 60 EP

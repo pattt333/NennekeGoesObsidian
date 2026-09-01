@@ -1,25 +1,27 @@
-[]{#subsubsec:z-Hollenpein label="subsubsec:z-Hollenpein"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Hollenpein_zerreisse_dich.tex -->
 
-##  Höllenpein zerreiße dich! 
+<a id="subsubsec-z-hollenpein"></a>
+
+### Höllenpein zerreiße dich!
 
 Dein Opfer windet sich in schrecklichen Schmerzen und ist bis zum Ende der Wirkungsdauer handlungsunfähig. Am Ende der Wirkungsdauer erleidet es 2 Punkte Erschöpfung. Die Wirkung endet vorzeitig, wenn das Opfer Schaden nimmt.
 
-**Mächtige Magie:** Das Opfer erleidet einen weiteren Punkt Erschöpfung.
+**Mächtige Magie:**Das Opfer erleidet einen weiteren Punkt Erschöpfung.
 
 **Probenschwierigkeit:** Magieresistenz
 
-**Vorbereitungszeit:** 2 Aktionen
+**Vorbereitungszeit:**2 Aktionen
 
-**Ziel:** Einzelwesen
+**Ziel:**Einzelwesen
 
-**Reichweite:** 8 Schritt
+**Reichweite:**8 Schritt
 
 **Wirkungsdauer:** 16 Aktionen
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Dämonisch, Einfluss
+**Fertigkeiten:**Dämonisch, Einfluss
 
-**Erlernen:** Bor 8; Alch, Mag 18
+**Erlernen:**Bor 8; Alch, Mag 18
 
-**EP-Kosten:** 60 EP
+**EP-Kosten:**60 EP

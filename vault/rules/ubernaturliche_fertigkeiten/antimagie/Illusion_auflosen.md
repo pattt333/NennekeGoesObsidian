@@ -1,11 +1,13 @@
-[]{#subsubsec:z-IllusionAuflosen label="subsubsec:z-IllusionAuflosen"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/antimagie/Illusion_auflosen.tex -->
 
-###  Illusion auflösen 
+<a id="subsubsec-z-illusionauflosen"></a>
+
+#### Illusion auflösen
 
 Wirkt gegen Zauber der Fertigkeit Illusion, Modifikationen siehe oben.
 
 **Fertigkeiten:** Antimagie, Illusion
 
-**Erlernen:** Mag, Srl 14; Hex, Sch 18
+**Erlernen:**Mag, Srl 14; Hex, Sch 18
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

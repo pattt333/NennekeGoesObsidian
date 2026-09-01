@@ -7,7 +7,13 @@
     "pdf": "cd vault && docsify-pdf-converter",
     "pdf:custom": "cd vault && docsify-pdf-converter --cover _coverpage.md",
     "validate:links": "node scripts/vault-health-check.js",
-    "validate:orphans": "node scripts/find-orphaned-files.js"
+    "validate:orphans": "node scripts/find-orphaned-files.js",
+    "nenneke:inventory": "node scripts/run_nenneke_pipeline.js inventory",
+    "nenneke:convert": "node scripts/run_nenneke_pipeline.js convert",
+    "nenneke:apply": "node scripts/run_nenneke_pipeline.js apply",
+    "nenneke:validate": "node scripts/run_nenneke_pipeline.js validate",
+    "nenneke:test": "node scripts/run_nenneke_pipeline.js test",
+    "nenneke:pdf": "node scripts/run_nenneke_pipeline.js publish"
   },
   "keywords": ["docsify", "documentation", "ttrpg"],
   "author": "",

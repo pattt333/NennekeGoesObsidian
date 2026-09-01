@@ -1,27 +1,27 @@
-## Widerwille Ungemach
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Widerwille_Ungemach.tex -->
+
+### Widerwille Ungemach
 
 Das verzauberte Objekt wird von Umstehenden gemieden. Der Spielleiter erwähnt es nur, wenn die Spieler danach suchen und ihnen eine Konterprobe (Magieresistenz oder Sinnesschärfe (Wahrnehmen), 12) gelingt.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Räumlicher Widerwille (-8,Zone; der Zauber betrifft einen ganzen Raum)
+- Permanenz (-4, Wirkungsdauer bis die Bindung gelöst wird, 16 AsP, davon 2 gAsP)
 
--   Räumlicher Widerwille (-8,Zone; der Zauber betrifft einen ganzen Raum)
+**Vorbereitungszeit:**4 Minuten
 
--   Permanenz (-4, Wirkungsdauer bis die Bindung gelöst wird, 16 AsP, davon 2 gAsP)
+**Ziel:**Einzelobjekt
 
-**Vorbereitungszeit:** 4 Minuten
+**Reichweite:**Berührung
 
-**Ziel:** Einzelobjekt
+**Wirkungsdauer:**1 Monat
 
-**Reichweite:** Berührung
+**AsP-Kosten:**8 AsP
 
-**Wirkungsdauer:** 1 Monat
+**Fertigkeiten:**Einfluss, Illusion
 
-**AsP-Kosten:** 8 AsP
+**Erlernen:**Alch, Mag, Srl 18
 
-**Fertigkeiten:** Einfluss, Illusion
-
-**Erlernen:** Alch, Mag, Srl 18
-
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

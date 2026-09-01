@@ -1,29 +1,29 @@
-## Tiere besprechen
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Tiere_besprechen.tex -->
+
+### Tiere besprechen
 
 Dein Ziel erhält 2W6+6 LeP, für jede Überschreitung der WS wird eine Einschränkung geheilt.
 
-**Mächtige Magie:** Erhöht die Heilpunkte um 4.
+**Mächtige Magie:**Erhöht die Heilpunkte um 4.
 
 **Probenschwierigkeit:** 12+Wund-Mod des Ziels
 
 **Modifikationen:**
+- Blutung stoppen (Probenschwierigkeit 12, 8 Aktionen; du stoppst eine Blutung.)
+- Bann des Siechtums (Du beendest ein Gift oder eine Krankheit bis maximal Stufe 16. Mächtige Magie erhöht die maximal aufgehobene Gift-/Krankheitsstufe um 4.)
 
--   Blutung stoppen (Probenschwierigkeit 12, 8 Aktionen; du stoppst eine Blutung.)
+**Vorbereitungszeit:**4 Minuten
 
--   Bann des Siechtums (Du beendest ein Gift oder eine Krankheit bis maximal Stufe 16. Mächtige Magie erhöht die maximal aufgehobene Gift-/Krankheitsstufe um 4.)
+**Ziel:**Tier
 
-**Vorbereitungszeit:** 4 Minuten
+**Reichweite:**Berührung
 
-**Ziel:** Tier
+**Wirkungsdauer:**augenblicklich
 
-**Reichweite:** Berührung
+**AsP-Kosten:**8 AsP
 
-**Wirkungsdauer:** augenblicklich
+**Fertigkeiten:**Humus, Verwandlung
 
-**AsP-Kosten:** 8 AsP
+**Erlernen:**Hex 12; Dru, Geo 20
 
-**Fertigkeiten:** Humus, Verwandlung
-
-**Erlernen:** Hex 12; Dru, Geo 20
-
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

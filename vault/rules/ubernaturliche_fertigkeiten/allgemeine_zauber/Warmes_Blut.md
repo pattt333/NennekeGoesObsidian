@@ -1,21 +1,23 @@
-## Warmes Blut
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Warmes_Blut.tex -->
+
+### Warmes Blut
 
 Durch diesen Zauber siehst du die Wärmestrahlung deiner Umgebung. Kaltes erscheint schwarz bis grünblau, Warmblüter sind gelb und Feuer ist orange bis tiefrot.
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 4 Aktionen
+**Vorbereitungszeit:**4 Aktionen
 
-**Ziel:** selbst
+**Ziel:**selbst
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 1 Stunde
+**Wirkungsdauer:**1 Stunde
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Eigenschaften, Feuer, Hellsicht
+**Fertigkeiten:**Eigenschaften, Feuer, Hellsicht
 
-**Erlernen:** Ach 8; Alch 20
+**Erlernen:**Ach 8; Alch 20
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

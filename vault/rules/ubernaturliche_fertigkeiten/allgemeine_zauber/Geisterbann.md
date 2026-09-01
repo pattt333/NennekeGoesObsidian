@@ -1,6 +1,8 @@
-[]{#subsubsec:z-Geisteraustreiben label="subsubsec:z-Geisteraustreiben"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Geisterbann.tex -->
 
-##  Geister aus Treiben 
+<a id="subsubsec-z-geisteraustreiben"></a>
+
+### Geister aus Treiben
 
 Du zeichnest ein Pentagramm, durch das ein Geist deiner Wahl verschwindet. Er kann 1 Woche lang nicht mehr umherspuken.
 
@@ -10,16 +12,16 @@ Du zeichnest ein Pentagramm, durch das ein Geist deiner Wahl verschwindet. Er ka
 
 **Vorbereitungszeit:** 16 Aktionen
 
-**Ziel:** einzelner Geist
+**Ziel:**einzelner Geist
 
-**Reichweite:** 32 Schritt
+**Reichweite:**32 Schritt
 
-**Wirkungsdauer:** augenblicklich
+**Wirkungsdauer:**augenblicklich
 
-**AsP-Kosten:** 16 AsP
+**AsP-Kosten:**16 AsP
 
-**Fertigkeiten:** Antimagie, Verständigung
+**Fertigkeiten:**Antimagie, Verständigung
 
-**Erlernen:** Dru 8; Mag 14; Geo, Hex 16
+**Erlernen:**Dru 8; Mag 14; Geo, Hex 16
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

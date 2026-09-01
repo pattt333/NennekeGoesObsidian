@@ -1,6 +1,8 @@
-[]{#subsubsec:z_AurisNasusOculus label="subsubsec:z_AurisNasusOculus"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Auris_Nasus_Oculus.tex -->
 
-##  Auris Nasus Oculus 
+<a id="subsubsec-z-aurisnasusoculus"></a>
+
+### Auris Nasus Oculus
 
 Eine Illusion (Sicht, Gehör oder Geruch) deiner Wahl erscheint. Ihre maximale Größe beträgt PW Illusion x 4 Raumschritt.
 
@@ -9,23 +11,21 @@ Eine Illusion (Sicht, Gehör oder Geruch) deiner Wahl erscheint. Ihre maximale G
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Bewegte Illusion (-4; die Illusion führt eine beim Zaubern bestimmte Bewegung aus.)
+- Kontrollierte Illusion (-4; du kannst die Illusion aktiv steuern, was Konzentration erfordert.)
 
--   Bewegte Illusion (-4; die Illusion führt eine beim Zaubern bestimmte Bewegung aus.)
-
--   Kontrollierte Illusion (-4; du kannst die Illusion aktiv steuern, was Konzentration erfordert.)
-
-**Vorbereitungszeit:** 2 Aktionen
+**Vorbereitungszeit:**2 Aktionen
 
 **Ziel:** Zone
 
-**Reichweite:** 32 Schritt
+**Reichweite:**32 Schritt
 
 **Wirkungsdauer:** 16 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Illusion
+**Fertigkeiten:**Illusion
 
-**Erlernen:** Srl 12; Mag 14
+**Erlernen:**Srl 12; Mag 14
 
 **EP-Kosten:** 60 EP

@@ -1,4 +1,6 @@
-## Unberührt von Satinav
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Unberuhrt_von_Satinav.tex -->
+
+### Unberührt von Satinav
 
 Du stoppst den natürlichen Verfall eines Gegenstandes von bis zu 16 Stein Gewicht. Der Gegenstand wird weder verrotten, noch von Parasiten befallen - er bleibt genau wie zum Zeitpunkt der Verzauberung.
 
@@ -6,18 +8,18 @@ Du stoppst den natürlichen Verfall eines Gegenstandes von bis zu 16 Stein Gewic
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 4 Minuten
+**Vorbereitungszeit:**4 Minuten
 
-**Ziel:** Einzelobjekt
+**Ziel:**Einzelobjekt
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 1 Woche
+**Wirkungsdauer:**1 Woche
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Temporal, Verwandlung
+**Fertigkeiten:**Temporal, Verwandlung
 
-**Erlernen:** Ach 12; Alch 14; Mag 16
+**Erlernen:**Ach 12; Alch 14; Mag 16
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

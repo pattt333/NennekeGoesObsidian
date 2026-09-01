@@ -1,27 +1,28 @@
-[]{#subsubsec:z-Memorans label="subsubsec:z-Memorans"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Memorans.tex -->
 
-##  Memorans Gedächtniskraft 
+<a id="subsubsec-z-memorans"></a>
+
+### Memorans Gedächtniskraft
 
 Du kannst dir sämtliche Bilder, Schriftstücke, Inschriften und ähnliches für immer einprägen. Eine Seite eines Buches kostet dich etwa eine Minute.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Drachengedächtnis (-8, Wirkungsdauer 16 Aktionen; alles, was du während der Wirkungsdauer siehst, ist dir für immer ins Gedächtnis gebrannt.)
 
--   Drachengedächtnis (-8, Wirkungsdauer 16 Aktionen; alles, was du während der Wirkungsdauer siehst, ist dir für immer ins Gedächtnis gebrannt.)
+**Vorbereitungszeit:**4 Minuten
 
-**Vorbereitungszeit:** 4 Minuten
+**Ziel:**selbst
 
-**Ziel:** selbst
-
-**Reichweite:** 4 Schritt
+**Reichweite:**4 Schritt
 
 **Wirkungsdauer:** 4 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Eigenschaften, Hellsicht
+**Fertigkeiten:**Eigenschaften, Hellsicht
 
-**Erlernen:** Alch, Mag 16; Dru 20
+**Erlernen:**Alch, Mag 16; Dru 20
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

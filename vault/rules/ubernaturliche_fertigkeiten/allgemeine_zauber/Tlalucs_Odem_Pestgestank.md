@@ -1,4 +1,6 @@
-## Tlalucs Odem Pestgestank
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Tlalucs_Odem_Pestgestank.tex -->
+
+### Tlalucs Odem Pestgestank
 
 Eine miasmatische Wolke breitet sich aus deinem Mund kegelförmig aus. Jedes Ziel in der Wolke nimmt 2W6 SP und muss eine Konterprobe (Selbstbeherrschung (Zähigkeit), 12) bestehen, um nicht einen Malus von -4 auf sämtliche Proben zu erleiden.
 
@@ -7,23 +9,21 @@ Eine miasmatische Wolke breitet sich aus deinem Mund kegelförmig aus. Jedes Zie
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Miasmafaxius: -4, Einzelperson, 8 AsP
+- Miasmasphaero: -4; die Wolke breitet sich in alle Richtungen aus, trifft aber auch dich selbst.
 
--   Miasmafaxius: -4, Einzelperson, 8 AsP
+**Vorbereitungszeit:**2 Aktionen
 
--   Miasmasphaero: -4; die Wolke breitet sich in alle Richtungen aus, trifft aber auch dich selbst.
+**Ziel:**Zone
 
-**Vorbereitungszeit:** 2 Aktionen
+**Reichweite:**8 Schritt
 
-**Ziel:** Zone
+**Wirkungsdauer:**8 Aktionen
 
-**Reichweite:** 8 Schritt
+**AsP-Kosten:**16 AsP
 
-**Wirkungsdauer:** 8 Aktionen
+**Fertigkeiten:**Dämonisch
 
-**AsP-Kosten:** 16 AsP
+**Erlernen:**Mag 18; Bor, Dru, Hex 20
 
-**Fertigkeiten:** Dämonisch
-
-**Erlernen:** Mag 18; Bor, Dru, Hex 20
-
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

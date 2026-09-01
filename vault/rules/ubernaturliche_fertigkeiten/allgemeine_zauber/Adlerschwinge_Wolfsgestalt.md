@@ -1,28 +1,29 @@
-[]{#subsubsec:z-Adlerschwinge label="subsubsec:z-Adlerschwinge"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Adlerschwinge_Wolfsgestalt.tex -->
 
-##  Adlerschwinge Wolfsgestalt (Tier) 
+<a id="subsubsec-z-adlerschwinge"></a>
+
+### Adlerschwinge Wolfsgestalt (Tier)
 
 Du verwandelst dich in das beim Erlernen gewählte Tier, wobei du deine geistigen Fähigkeiten behältst. Die körperlichen Fähigkeiten entsprechen denen des Tiers. Du kannst in Tiergestalt nicht zaubern. Erlaubt Aufrechterhalten.
 
-**Mächtige Magie:** Das Tier ist ein überdurchschnittlicher/ außergewöhnlicher/ herausragender/ einzigartiger Vertreter seiner Art, was die Werte des Tieres nach Spielleiterentscheid erhöht.
+**Mächtige Magie:**Das Tier ist ein überdurchschnittlicher/ außergewöhnlicher/ herausragender/ einzigartiger Vertreter seiner Art, was die Werte des Tieres nach Spielleiterentscheid erhöht.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Seelentier (Wirkungsdauer 1 Tag, nur Elf; du kannst dich in dein Seelentier verwandeln. Dabei können die Instinkte des Tieres überhand nehmen.)
 
--   Seelentier (Wirkungsdauer 1 Tag, nur Elf; du kannst dich in dein Seelentier verwandeln. Dabei können die Instinkte des Tieres überhand nehmen.)
+**Vorbereitungszeit:**8 Aktionen
 
-**Vorbereitungszeit:** 8 Aktionen
+**Ziel:**selbst
 
-**Ziel:** selbst
-
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 1 Stunde
 
-**AsP-Kosten:** 16 AsP
+**AsP-Kosten:**16 AsP
 
-**Fertigkeiten:** Verwandlung
+**Fertigkeiten:**Verwandlung
 
 **Erlernen:** Elf 8; Ach, Alch, Mag 18; Dru, Hex 20
 

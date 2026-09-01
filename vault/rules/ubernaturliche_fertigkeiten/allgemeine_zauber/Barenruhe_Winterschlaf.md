@@ -1,26 +1,27 @@
-[]{#subsubsec:z-BarenruheWinterschlaf label="subsubsec:z-BarenruheWinterschlaf"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Barenruhe_Winterschlaf.tex -->
 
-##  Bärenruhe Winterschlaf 
+<a id="subsubsec-z-barenruhewinterschlaf"></a>
 
-**Mächtige Magie:** Du versetzt dein Ziel in einen tiefen Winterschlaf. Während des Schlafes benötigt es keine Nahrung, und kein Wasser. Gifte, Krankheiten und Kälte fügen ihm keinen Schaden zu. Dafür regeneriert es auch nicht.
+### Bärenruhe Winterschlaf
+
+**Mächtige Magie:**Du versetzt dein Ziel in einen tiefen Winterschlaf. Während des Schlafes benötigt es keine Nahrung, und kein Wasser. Gifte, Krankheiten und Kälte fügen ihm keinen Schaden zu. Dafür regeneriert es auch nicht.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Der lange Schlaf (-4, Wirkungsdauer 1 Monat, 16 AsP)
 
--   Der lange Schlaf (-4, Wirkungsdauer 1 Monat, 16 AsP)
+**Vorbereitungszeit:**4 Minuten
 
-**Vorbereitungszeit:** 4 Minuten
+**Ziel:**Einzelwesen
 
-**Ziel:** Einzelwesen
-
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 1 Tag
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Verwandlung
+**Fertigkeiten:**Verwandlung
 
 **Erlernen:** Elf 16; Ach, Mag 18
 

@@ -1,29 +1,29 @@
-[]{#subsubsec:z-Nackedei  label="subsubsec:z-Nackedei "}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Nackedei.tex -->
 
-##  Nackedei 
+<a id="subsubsec-z-nackedei"></a>
+
+### Nackedei
 
 Sämtliche Kleidung des Opfers fällt plötzlich zu Boden. Dein Ziel ist splitterfasernackt.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Blechdose (-4; der Zauber betrifft auch Rüstungsteile.)
+- Absatteln (-4; der Zauber betrifft auch Pferdegeschirr und Sattelgurte, wenn dein Ziel ein Reiter ist.)
 
--   Blechdose (-4; der Zauber betrifft auch Rüstungsteile.)
+**Vorbereitungszeit:**0 Aktionen
 
--   Absatteln (-4; der Zauber betrifft auch Pferdegeschirr und Sattelgurte, wenn dein Ziel ein Reiter ist.)
+**Ziel:**Einzelperson
 
-**Vorbereitungszeit:** 0 Aktionen
-
-**Ziel:** Einzelperson
-
-**Reichweite:** 8 Schritt
+**Reichweite:**8 Schritt
 
 **Wirkungsdauer:** augenblicklich
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Umwelt
+**Fertigkeiten:**Umwelt
 
-**Erlernen:** Sch 12
+**Erlernen:**Sch 12
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

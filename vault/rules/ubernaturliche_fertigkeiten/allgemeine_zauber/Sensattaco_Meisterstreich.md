@@ -1,4 +1,6 @@
-## Sensattaco Meisterstreich
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Sensattaco_Meisterstreich.tex -->
+
+### Sensattaco Meisterstreich
 
 Dein Ziel erkennt intuitiv die Lücken in der Verteidigung des Gegners. Seine AT sind um +2 erleichtert und seine Chance auf einen Kritischen Treffer bei einer AT steigt um 1 auf dem W20 (zum Beispiel von 20 auf 19-20).
 
@@ -6,18 +8,18 @@ Dein Ziel erkennt intuitiv die Lücken in der Verteidigung des Gegners. Seine AT
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 1 Aktion
+**Vorbereitungszeit:**1 Aktion
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 16 Aktionen
+**Wirkungsdauer:**16 Aktionen
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Eigenschaften, Hellsicht
+**Fertigkeiten:**Eigenschaften, Hellsicht
 
-**Erlernen:** Mag 18
+**Erlernen:**Mag 18
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

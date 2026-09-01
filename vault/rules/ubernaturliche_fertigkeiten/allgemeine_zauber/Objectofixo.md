@@ -1,33 +1,32 @@
-[]{#subsubsec:z-Objectofixo label="subsubsec:z-Objectofixo"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Objectofixo.tex -->
 
-##  Objectofixo
+<a id="subsubsec-z-objectofixo"></a>
+
+### Objectofixo
 
 Du fixierst einen Gegenstand von maximal 2 Stein auf einer waagrechten Fläche. Während der Wirkungsdauer kann er nicht bewegt werden
 
-**Mächtige Magie:** Das maximale Gewicht verdoppelt sich.
+**Mächtige Magie:**Das maximale Gewicht verdoppelt sich.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Bilderhaken (-4; du fixierst einen Gegenstand auf einer senkrechten Fläche)
+- Spinnenfest (-8; du fixierst einen Gegenstand unter einer waagrechten Fläche.)
+- Lufthaken (-8; du fixierst einen Gegenstand relativ zum Deremittelpunkt.)
 
--   Bilderhaken (-4; du fixierst einen Gegenstand auf einer senkrechten Fläche)
+**Vorbereitungszeit:**4 Aktionen
 
--   Spinnenfest (-8; du fixierst einen Gegenstand unter einer waagrechten Fläche.)
+**Ziel:**Einzelobjekt
 
--   Lufthaken (-8; du fixierst einen Gegenstand relativ zum Deremittelpunkt.)
+**Reichweite:**Berührung
 
-**Vorbereitungszeit:** 4 Aktionen
+**Wirkungsdauer:**4 Stunden
 
-**Ziel:** Einzelobjekt
+**AsP-Kosten:**4 AsP
 
-**Reichweite:** Berührung
+**Fertigkeiten:**Temporal, Verwandlung
 
-**Wirkungsdauer:** 4 Stunden
+**Erlernen:**Ach 14; Mag 16; Alch 18
 
-**AsP-Kosten:** 4 AsP
-
-**Fertigkeiten:** Temporal, Verwandlung
-
-**Erlernen:** Ach 14; Mag 16; Alch 18
-
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

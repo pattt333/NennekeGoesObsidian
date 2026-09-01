@@ -1,23 +1,25 @@
-##  Respondami Wahrheitszwang 
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Respondami_Wahrheitszwang.tex -->
+
+### Respondami Wahrheitszwang
 
 Das Ziel muss eine Ja/Nein-Frage wahrheitsgemäß beantworten. Ist die Frage nicht mit Ja oder Nein zu beantworten, erleidet es 1W6 SP.
 
 **Mächtige Magie:** Erlaubt eine weitere Frage.
 
-**Probenschwierigkeit:** Magieresistenz
+**Probenschwierigkeit:**Magieresistenz
 
-**Vorbereitungszeit:** 1 Aktion
+**Vorbereitungszeit:**1 Aktion
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
-**Reichweite:** 2 Schritt
+**Reichweite:**2 Schritt
 
-**Wirkungsdauer:** 4 Minuten
+**Wirkungsdauer:**4 Minuten
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Einfluss
+**Fertigkeiten:**Einfluss
 
-**Erlernen:** Dru, Geo, Mag 14; Elf, Hex 16; Alch 18
+**Erlernen:**Dru, Geo, Mag 14; Elf, Hex 16; Alch 18
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

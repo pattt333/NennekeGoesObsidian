@@ -14,3 +14,7 @@ Thumbs.db
 
 # Backup files
 backups/
+
+# Generated Nenneke conversion and publication output
+build/
+output/

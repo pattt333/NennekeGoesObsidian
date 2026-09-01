@@ -1,29 +1,30 @@
-[]{#subsubsec:z-bannschwert label="subsubsec:z-bannschwert"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/zzzzauber-template.tex -->
 
-### Bannschwert
+<a id="subsubsec-z-bannschwert"></a>
+
+#### Bannschwert
 
 Du legst bannende Zauber auf eine Waffe mit Reichweite 0. Die Waffe gilt als magisch und erleichtert die Bannung von Wesenheiten um +2. Gilt als *Objektritual*.
 
-**Mächtige Magie:** Für 2/4 Stufen kannst du eine Waffe mit Reichweite 1/2 verzaubern.
+**Mächtige Magie:**Für 2/4 Stufen kannst du eine Waffe mit Reichweite 1/2 verzaubern.
 
 **Modifikationen:**
+- modifikation
 
--   modifikation
+**Probenschwierigkeit:**12
 
-**Probenschwierigkeit:** 12
+**Vorbereitungszeit:**1 Stunde
 
-**Vorbereitungszeit:** 1 Stunde
+**Ziel:**Einzelobjekt
 
-**Ziel:** Einzelobjekt
+**Reichweite:**Berührung
 
-**Reichweite:** Berührung
+**Wirkungsdauer:**bis die Bindung gelöst wird
 
-**Wirkungsdauer:** bis die Bindung gelöst wird
+**AsP-Kosten:**16 AsP, davon 4 gAsP
 
-**AsP-Kosten:** 16 AsP, davon 4 gAsP
-
-**Fertigkeiten:** Antimagie, Dämonisch
+**Fertigkeiten:**Antimagie, Dämonisch
 
 **Erlernen:**
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

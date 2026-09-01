@@ -1,24 +1,26 @@
-[]{#subsubsec:z-Hartesschmelze label="subsubsec:z-Hartesschmelze"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Hartes_Schmelze.tex -->
 
-##  Hartes schmelze! 
+<a id="subsubsec-z-hartesschmelze"></a>
+
+### Hartes schmelze!
 
 Du verzauberst eine kopfgroße Menge an hartem Material, sodass es formbar wie Wachs wird. Nach dem Ende der Wirkungsdauer erstarrt das Material in seiner aktuellen Form.
 
-**Mächtige Magie:** Verdoppelt die Menge
+**Mächtige Magie:**Verdoppelt die Menge
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 1 Aktion
+**Vorbereitungszeit:**1 Aktion
 
 **Ziel:** Einzelobjekt oder Teilobjekt
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 16 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
 **Fertigkeiten:** Dämonisch (nicht Geo, Mag), Verwandlung, Wasser
 
-**Erlernen:** Bor 14; Ach, Dru, Geo 16; Alch, Mag 18
+**Erlernen:**Bor 14; Ach, Dru, Geo 16; Alch, Mag 18
 
-**EP-Kosten:** 60 EP
+**EP-Kosten:**60 EP

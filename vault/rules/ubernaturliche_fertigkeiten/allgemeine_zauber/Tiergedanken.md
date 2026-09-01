@@ -1,4 +1,6 @@
-## Tiergedanken
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Tiergedanken.tex -->
+
+### Tiergedanken
 
 Du siehst die Gedanken des Tiers als verschwommene Bilder.
 
@@ -6,18 +8,18 @@ Du siehst die Gedanken des Tiers als verschwommene Bilder.
 
 **Probenschwierigkeit:** Magieresistenz
 
-**Vorbereitungszeit:** 4 Aktionen
+**Vorbereitungszeit:**4 Aktionen
 
-**Ziel:** Tier
+**Ziel:**Tier
 
-**Reichweite:** 8 Schritt
+**Reichweite:**8 Schritt
 
-**Wirkungsdauer:** 4 Minuten
+**Wirkungsdauer:**4 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Hellsicht, Verständigung
+**Fertigkeiten:**Hellsicht, Verständigung
 
-**Erlernen:** Elf, Geo 14; Ach, Dru, Hex 16
+**Erlernen:**Elf, Geo 14; Ach, Dru, Hex 16
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

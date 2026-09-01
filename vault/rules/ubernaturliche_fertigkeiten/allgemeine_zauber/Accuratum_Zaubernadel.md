@@ -1,29 +1,30 @@
-[]{#subsubsec:z-accuratum label="subsubsec:z-accuratum"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Accuratum_Zaubernadel.tex -->
 
-##  Accuratum Zaubernadel 
+<a id="subsubsec-z-accuratum"></a>
+
+### Accuratum Zaubernadel
 
 Du veränderst die Farbe und den Schnitt eines Kleidungsstückes nach deinen Wünschen.
 
 **Mächtige Magie:**
 
-**Probenschwierigkeit:** 12
+**Probenschwierigkeit:**12
 
 **Modifikationen:**
+- Haltbarkeit (-4, Wirkungsdauer 1 Jahr, 8 AsP)
 
--   Haltbarkeit (-4, Wirkungsdauer 1 Jahr, 8 AsP)
+**Vorbereitungszeit:**16 Aktionen
 
-**Vorbereitungszeit:** 16 Aktionen
+**Ziel:**Einzelobjekt
 
-**Ziel:** Einzelobjekt
-
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 1 Woche
 
-**AsP-Kosten:** 4 AsP
+**AsP-Kosten:**4 AsP
 
-**Fertigkeiten:** Verwandlung
+**Fertigkeiten:**Verwandlung
 
-**Erlernen:** Alch, Mag, Srl 16; Hex 20
+**Erlernen:**Alch, Mag, Srl 16; Hex 20
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

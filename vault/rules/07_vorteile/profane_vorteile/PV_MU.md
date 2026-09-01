@@ -1,16 +1,16 @@
-[]{#pv:mu label="pv:mu"}
+<!-- Source: Chapters/07_vorteile/profane_vorteile/PV_MU.tex -->
 
-## MU-Vorteile
+<a id="pv-mu"></a>
 
-::: center
-  **Voraussetzung**   **MU**
-  ------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                      
-  **20EP**            **Willensstark I** +4MR
-                      
-  **40EP**            **Willensstark II** +4MR. Auf den Helden wirkende Furcht-Effekte zählen als eine Stufe niedriger.
-                      
-  **60EP**            **Geistpanzer** Gegen direkten Schaden aus Zaubern wie Fulminictus, Ingisphaero oder Hexengalle kann der Held seinen halben MU-Wert zu seiner Wundschwelle addieren.
-                      
-  **80EP**            **Unbeugsamkeit** +6MR. Mit einer Aktion und einer Konterprobe auf MU (16,I) kann der Held einen auf ihm wirkenden Zauber abschütteln. Danach erhält er eine Stufe Erschöpfung.
-:::
+### MU-Vorteile
+
+| **Voraussetzung** | **MU** |
+| --- | --- |
+| **Attribut 4** |  |
+| **20EP** | **Willensstark I** +1MR |
+| **Attribut 6** |  |
+| **40EP** | **Willensstark II** +1MR. Mit einer Aktion Konzentration und einer Probe auf Selbstbeherrschung Willenskraft (24,I) kannst du bis zu 3 Stacks Furcht auf dir entfernen. |
+| **Attribut 8** |  |
+| **60EP** | **Geistpanzer** Direkter Schaden aus Zaubern wie Fulminictus, Ingisphaero oder Hexengalle wird um den MU-Wert des Helden reduziert. |
+| **Attribut 10** |  |
+| **80EP** | **Unbeugsamkeit** Deine MR steigt um MU/4 Punkte. Statt mit dem angegeben Talent kannst du bei Widerstandsproben gg. Zauber/Liturgien/Anrufungen einfach auf deinen MU proben. Die Proben können nicht patzen. |

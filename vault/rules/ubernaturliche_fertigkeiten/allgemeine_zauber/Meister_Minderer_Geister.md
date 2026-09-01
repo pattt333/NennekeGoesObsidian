@@ -1,25 +1,27 @@
-[]{#subsubsec:z-MeistermindererGeister label="subsubsec:z-MeistermindererGeister"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Meister_Minderer_Geister.tex -->
 
-##  Meister minderer Geister 
+<a id="subsubsec-z-meisterminderergeister"></a>
+
+### Meister minderer Geister
 
 Du rufst Mindergeister herbei. Befinden sich Mindergeister in einem Umkreis von 1 Meile, eilt bis zu ein Dutzend von ihnen herbei. Sie verhalten sich ihrem Naturell gemäß.
 
-**Mächtige Magie:** Verdoppelt den Umkreis.
+**Mächtige Magie:**Verdoppelt den Umkreis.
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 2 Aktionen
+**Vorbereitungszeit:**2 Aktionen
 
-**Ziel:** Einzelwesen
+**Ziel:**Einzelwesen
 
-**Reichweite:** 1 Meile
+**Reichweite:**1 Meile
 
 **Wirkungsdauer:** augenblicklich
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Verständigung
+**Fertigkeiten:**Verständigung
 
 **Erlernen:** Sch 8; Geo 14; Dru 20
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

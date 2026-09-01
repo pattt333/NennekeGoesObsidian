@@ -1,29 +1,30 @@
-[]{#subsubsec:z-Dunkelheit label="subsubsec:z-Dunkelheit"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Dunkelheit.tex -->
 
-##  Dunkelheit 
+<a id="subsubsec-z-dunkelheit"></a>
+
+### Dunkelheit
 
 Um deinen Körper herum entsteht eine Zone der Dunkelheit, die Helligkeit sinkt um eine Stufe (etwa von normal auf Dämmerung, von Sternenlicht auf absolute Dunkelheit). Du selbst wirst durch den Zauber nicht betroffen.
 
-**Mächtige Magie:** Senkt die Helligkeit um eine weitere Stufe.
+**Mächtige Magie:**Senkt die Helligkeit um eine weitere Stufe.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Begleiter (-4; die Dunkelheit bewegt sich mit dir.)
 
--   Begleiter (-4; die Dunkelheit bewegt sich mit dir.)
+**Vorbereitungszeit:**8 Aktionen
 
-**Vorbereitungszeit:** 8 Aktionen
+**Ziel:**Zone
 
-**Ziel:** Zone
-
-**Reichweite:** 4 Schritt (Radius)
+**Reichweite:**4 Schritt (Radius)
 
 **Wirkungsdauer:** 4 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Umwelt
+**Fertigkeiten:**Umwelt
 
-**Erlernen:** Dru 8; Alch, Geo, Mag 16; Ach, Hex, Srl 18; Elf 20
+**Erlernen:**Dru 8; Alch, Geo, Mag 16; Ach, Hex, Srl 18; Elf 20
 
 **EP-Kosten:** 40 EP

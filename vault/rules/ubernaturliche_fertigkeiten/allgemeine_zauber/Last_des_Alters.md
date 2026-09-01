@@ -1,29 +1,30 @@
-[]{#subsubsec:z-LastdesAlters label="subsubsec:z-LastdesAlters"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Last_des_Alters.tex -->
 
-##  Last des Alters 
+<a id="subsubsec-z-lastdesalters"></a>
+
+### Last des Alters
 
 Dein Opfer altert schlagartig um 8 Jahre. Die Auswirkungen des höheren Alters sind Spielleiterentscheid.
 
-**Mächtige Magie:** Das Opfer altert um weitere 4 Jahre.
+**Mächtige Magie:**Das Opfer altert um weitere 4 Jahre.
 
 **Probenschwierigkeit:** Magieresistenz
 
 **Modifikationen:**
+- Verschrumpelte Glieder (-4, 8 AsP, davon 1 gAsP; der Zauber betrifft nur ein einziges Körperteil des Opfers.)
 
--   Verschrumpelte Glieder (-4, 8 AsP, davon 1 gAsP; der Zauber betrifft nur ein einziges Körperteil des Opfers.)
+**Vorbereitungszeit:**1 Stunde
 
-**Vorbereitungszeit:** 1 Stunde
+**Ziel:**Einzelperson
 
-**Ziel:** Einzelperson
-
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** bis die Bindung gelöst wird
 
-**AsP-Kosten:** 16 AsP, davon 2 gAsP
+**AsP-Kosten:**16 AsP, davon 2 gAsP
 
-**Fertigkeiten:** Temporal, Verwandlung
+**Fertigkeiten:**Temporal, Verwandlung
 
-**Erlernen:** Bor 20
+**Erlernen:**Bor 20
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

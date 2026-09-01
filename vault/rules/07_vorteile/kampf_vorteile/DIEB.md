@@ -1,8 +1,8 @@
-## Dieb
+<!-- Source: Chapters/07_vorteile/kampf_vorteile/DIEB.tex -->
 
-::: center
-  **Voraussetzung**   **Vorteil**
-  ------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                      **Ablenkung** Du kannst das Manöver [Binden](#subsubsec:binden) mit einer Probe auf Taschendiebstahl ausführen, statt mit einer Kampffertigkeit.
-                      **Geschick des Taschenspielers** Statt mit einer Kampffertigkeit kannst du bei Reaktionen mit Taschendiebstahl das Manöver [Entwaffnen](#subsubsec:entwaffnen) ausführen.
-:::
+### Dieb
+
+| **Voraussetzung** | **Vorteil** |
+| --- | --- |
+| **80EP** | **Ablenkung** Du kannst das Manöver [Binden](../../06_kampf/kampfmanover/Basismanover.md#subsubsec-binden) mit einer Probe auf Taschendiebstahl ausführen, statt mit einer Kampffertigkeit. |
+| **100EP** | **Geschick des Taschenspielers** Statt mit einer Kampffertigkeit kannst du bei Reaktionen mit Taschendiebstahl das Manöver [Entwaffnen](../../06_kampf/kampfmanover/Basismanover.md#subsubsec-entwaffnen) ausführen. |

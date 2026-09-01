@@ -1,29 +1,28 @@
-##  Pectetondo Zauberhaar
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Pectetondo_Zauberhaar.tex -->
+
+### Pectetondo Zauberhaar
 
 Du kannst den Schnitt und die Farbe deiner Haare und deines Bartes verändern. Dein Haar wächst während der Wirkungsdauer nicht.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Farbtopf (-4; auch unnatürliche Farben sind wählbar.)
+- Ohne Kamm (0 Aktionen, 1 AsP; eine bereits mit diesem Zauber geformte Figur kann mit dieser Modifikation wieder in den vorgesehenen Zustand gebracht werden.)
+- Winterpelz und Katzenfell (-4; sämtliches Körperhaar kann verändert werden.)
 
--   Farbtopf (-4; auch unnatürliche Farben sind wählbar.)
+**Vorbereitungszeit:**2 Aktionen
 
--   Ohne Kamm (0 Aktionen, 1 AsP; eine bereits mit diesem Zauber geformte Figur kann mit dieser Modifikation wieder in den vorgesehenen Zustand gebracht werden.)
+**Ziel:**selbst
 
--   Winterpelz und Katzenfell (-4; sämtliches Körperhaar kann verändert werden.)
+**Reichweite:**Berührung
 
-**Vorbereitungszeit:** 2 Aktionen
+**Wirkungsdauer:**1 Woche
 
-**Ziel:** selbst
+**AsP-Kosten:**4 AsP
 
-**Reichweite:** Berührung
+**Fertigkeiten:**Verwandlung
 
-**Wirkungsdauer:** 1 Woche
+**Erlernen:**Alch, Mag, Srl 14; Hex 18; Sch 20
 
-**AsP-Kosten:** 4 AsP
-
-**Fertigkeiten:** Verwandlung
-
-**Erlernen:** Alch, Mag, Srl 14; Hex 18; Sch 20
-
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

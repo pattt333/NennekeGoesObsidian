@@ -1,3 +1,5 @@
-[]{#sec:liturgien label="sec:liturgien"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/Liturgien.tex -->
 
-# Liturigen
+<a id="sec-liturgien"></a>
+
+## Liturigen

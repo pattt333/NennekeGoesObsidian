@@ -1,20 +1,22 @@
-[]{#subsubsec:z-HerbeirufungLuft label="subsubsec:z-HerbeirufungLuft"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Herbeirufung_des_Humus.tex -->
 
-##  Herbeirufung der Luft 
+<a id="subsubsec-z-herbeirufungluft"></a>
+
+### Herbeirufung der Luft
 
 Ruf ein Elementarwesen des jeweiligen Elements herbei (mehr zu Herbeirufungen), das in deiner unmittelbaren Nähe erscheint.
 
 **Probenschwierigkeit:** 16/24/32 (Diener/ Dschinn/Meister)
 
-**Vorbereitungszeit:** frei wählbar
+**Vorbereitungszeit:**frei wählbar
 
 **Wirkungsdauer:** augenblicklich
 
-**AsP-Kosten:** 16/32/64 AsP (Diener/Dschinn/Meister)
+**AsP-Kosten:**16/32/64 AsP (Diener/Dschinn/Meister)
 
-**Fertigkeiten:** Luft
+**Fertigkeiten:**Luft
 
-**Erlernen:** Geo 14; Ach, Dru, Mag 16; Alch 18
+**Erlernen:**Geo 14; Ach, Dru, Mag 16; Alch 18
 
 **EP-Kosten:** 60 EP
 

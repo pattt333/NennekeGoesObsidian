@@ -1,27 +1,28 @@
-[]{#subsubsec:z-FluchderPestilenz label="subsubsec:z-FluchderPestilenz"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Fluch_der_Pestilenz.tex -->
 
-##  Fluch der Pestilenz 
+<a id="subsubsec-z-fluchderpestilenz"></a>
+
+### Fluch der Pestilenz
 
 Du infizierst dein Opfer mit einer dir bekannten Krankheit deiner Wahl, die dann ihren natürlichen Krankheitsverlauf nimmt. Die maximale Krankheitsstufe ist 16.
 
 **Probenschwierigkeit:** Magieresistenz
 
 **Modifikationen:**
+- Einzelfall: -6; die Krankheit ist nicht ansteckend.
 
--   Einzelfall: -6; die Krankheit ist nicht ansteckend.
+**Vorbereitungszeit:**4 Aktionen
 
-**Vorbereitungszeit:** 4 Aktionen
+**Ziel:**Einzelperson
 
-**Ziel:** Einzelperson
-
-**Reichweite:** 4 Schritt
+**Reichweite:**4 Schritt
 
 **Wirkungsdauer:** augenblicklich
 
-**AsP-Kosten:** 16 AsP
+**AsP-Kosten:**16 AsP
 
-**Fertigkeiten:** Dämonisch
+**Fertigkeiten:**Dämonisch
 
-**Erlernen:** Dru 14; Bor, Hex, Mag 20
+**Erlernen:**Dru 14; Bor, Hex, Mag 20
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

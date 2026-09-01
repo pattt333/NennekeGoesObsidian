@@ -1,11 +1,13 @@
-[]{#subsubsec:z-Kraftmagieneutralisieren label="subsubsec:z-Kraftmagieneutralisieren"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/antimagie/Kraftmagie_neutralisieren.tex -->
 
-###  Kraftmagie neutralisieren
+<a id="subsubsec-z-kraftmagieneutralisieren"></a>
+
+#### Kraftmagie neutralisieren
 
 Wirkt gegen Zauber der Fertigkeit Kraft, Modifikationen siehe oben.
 
-**Fertigkeiten:** Antimagie, Kraft
+**Fertigkeiten:**Antimagie, Kraft
 
-**Erlernen:** Mag 18
+**Erlernen:**Mag 18
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

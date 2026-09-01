@@ -1,16 +1,16 @@
-[]{#pv:ch label="pv:ch"}
+<!-- Source: Chapters/07_vorteile/profane_vorteile/PV_CH.tex -->
 
-## CH-Vorteile
+<a id="pv-ch"></a>
 
-::: center
-  **Voraussetzung**   **CH**
-  ------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                      
-  **20EP**            **Eindrucksvoll I** In Rededuellen sind Proben auf Betören und Einschüchtern um +2 erleichtert.
-                      
-  **40EP**            **Eindrucksvoll II** Proben auf Autorität, Beeinflussung und Diplomatie sind um +2 erleichtert. Bei sozialen Konflikten kann das Verhältnis um bis zu 2 Stufen angehoben werden, statt einer.
-                      
-  **60EP**            **Soziale Anpassungsfähigkeit** Du bist immun gegen alle Auswirkungen durch [ungewohnte Umgebung](#subsec:ungewohnteumgebung).
-                      
-  **80EP**            **Starke Aura**Während eines Rededuells kannst du eine CH-Probe gegen die Willenskraft deines Gegenübers ablegen. Wenn die Probe gelingt, kannst du eine Probe in diesem Rededuell wiederholen.
-:::
+### CH-Vorteile
+
+| **Voraussetzung** | **CH** |
+| --- | --- |
+| **Attribut 4** |  |
+| **20EP** | **Eindrucksvoll I** Proben auf Autorität, Beeinflussung und Diplomatie sind außerhalb des Kampfes um +1 erleichtert. |
+| **Attribut 6** |  |
+| **40EP** | **Eindrucksvoll II** Proben auf Autorität, Beeinflussung und Diplomatie sind außerhalb des Kampfes um +1 erleichtert. Bei Proben auf Autorität, Beeinflussung und Diplomatie gelten Patzer als gewöhnlich misslungen. |
+| **Attribut 8** |  |
+| **60EP** | **Soziale Anpassungsfähigkeit** Proben auf Autorität, Beeinflussung und Diplomatie zählen außerhalb des Kampfes schon ab einer 19 als kritischer Erfolg. |
+| **Attribut 10** |  |
+| **80EP** | **Starke Aura** Bei Proben auf Autorität, Beeinflussung und Diplomatie kannst du bei einer gelungenen CH-Probe gg. Selbstbeherrschung (Willenskraft) deines Gegenübers, die Probe wiederholen. Außerhalb des Kampfes. |

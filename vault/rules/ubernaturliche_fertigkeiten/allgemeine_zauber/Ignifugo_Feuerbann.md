@@ -1,6 +1,8 @@
-[]{#subsubsec:z-IgnifugoFeuerbann label="subsubsec:z-IgnifugoFeuerbann"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Ignifugo_Feuerbann.tex -->
 
-##  Ignifugo Feuerbann 
+<a id="subsubsec-z-ignifugofeuerbann"></a>
+
+### Ignifugo Feuerbann
 
 Du löschst ein Feuer bis zur Größe eines Kaminfeuers.
 
@@ -9,23 +11,21 @@ Du löschst ein Feuer bis zur Größe eines Kaminfeuers.
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Feuerdiebstahl (-4, Wirkungsdauer 1 Stunde, 1 AsP; du kannst ein maximal fackelgroßes Feuer von seiner alten Quelle nehmen und in deiner Hand mit dir tragen.)
+- Selbstlöschung (-4, 0 Aktionen, 4 AsP; du löschst dich selbst.)
 
--   Feuerdiebstahl (-4, Wirkungsdauer 1 Stunde, 1 AsP; du kannst ein maximal fackelgroßes Feuer von seiner alten Quelle nehmen und in deiner Hand mit dir tragen.)
+**Vorbereitungszeit:**2 Aktionen
 
--   Selbstlöschung (-4, 0 Aktionen, 4 AsP; du löschst dich selbst.)
+**Ziel:**Zone
 
-**Vorbereitungszeit:** 2 Aktionen
-
-**Ziel:** Zone
-
-**Reichweite:** 32 Schritt
+**Reichweite:**32 Schritt
 
 **Wirkungsdauer:** augenblicklich
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Feuer ,Umwelt
+**Fertigkeiten:**Feuer ,Umwelt
 
-**Erlernen:** Dru 14; Alch, Geo, Sch, Srl 16; Mag 18
+**Erlernen:**Dru 14; Alch, Geo, Sch, Srl 16; Mag 18
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

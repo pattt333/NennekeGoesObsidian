@@ -1,27 +1,28 @@
-[]{#subsubsec:z-LangerLulatsch label="subsubsec:z-LangerLulatsch"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Langer_Lulatsch.tex -->
 
-##  Langer Lulatsch 
+<a id="subsubsec-z-langerlulatsch"></a>
+
+### Langer Lulatsch
 
 Dein Opfer dehnt sich entweder auf seine dreifache Größe aus oder schrumpf auf ein Drittel. Das Gewicht des Opfers bleibt gleich. Alle seine körperlichen Tätigkeiten sind um -4 erschwert.
 
 **Probenschwierigkeit:** Magieresistenz
 
 **Modifikationen:**
+- Langfinger/Wurstfinger (-6 pro Gliedmaß; der Zauber betrifft nur einzelne Gliedmaßen.)
 
--   Langfinger/Wurstfinger (-6 pro Gliedmaß; der Zauber betrifft nur einzelne Gliedmaßen.)
+**Vorbereitungszeit:**1 Aktion
 
-**Vorbereitungszeit:** 1 Aktion
+**Ziel:**Einzelperson
 
-**Ziel:** Einzelperson
-
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 4 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Verwandlung
+**Fertigkeiten:**Verwandlung
 
-**Erlernen:** Sch 12
+**Erlernen:**Sch 12
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

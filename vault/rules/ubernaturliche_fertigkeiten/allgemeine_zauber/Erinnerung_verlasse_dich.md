@@ -1,21 +1,23 @@
-[]{#subsubsec:z-Erinnerung label="subsubsec:z-Erinnerung"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Erinnerung_verlasse_dich.tex -->
 
-##  Erinnerung verlasse dich! 
+<a id="subsubsec-z-erinnerung"></a>
+
+### Erinnerung verlasse dich!
 
 Dein Ziel verliert sämtliche Erinnerung an sein voriges Leben und kann sich im Nachhinein nicht an Ereignisse während der Wirkungsdauer erinnern.
 
-**Vorbereitungszeit:** 1 Aktion
+**Vorbereitungszeit:**1 Aktion
 
-**Ziel:** Einzelperson
+**Ziel:**Einzelperson
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
 **Wirkungsdauer:** 4 Stunden
 
-**AsP-Kosten:** 16 AsP
+**AsP-Kosten:**16 AsP
 
-**Fertigkeiten:** Dämonisch, Einfluss
+**Fertigkeiten:**Dämonisch, Einfluss
 
-**Erlernen:** Bor 16; Mag 18
+**Erlernen:**Bor 16; Mag 18
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

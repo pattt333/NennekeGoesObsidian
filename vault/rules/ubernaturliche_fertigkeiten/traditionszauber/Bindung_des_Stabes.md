@@ -1,4 +1,6 @@
-## Bindung des Dolches
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/traditionszauber/Bindung_des_Stabes.tex -->
+
+### Bindung des Dolches
 
 Du stellst eine enge magische Bindung zu
 deinem Ritualgegenstand her, welche die
@@ -6,20 +8,20 @@ Voraussetzung für alle weiteren Talente dieser
 Fertigkeit ist. Außerdem wird der Ritualgegenstand unzerbrechlich und gilt als magische
 Waffe
 
-**Probenschwierigkeit:** 12
+**Probenschwierigkeit:**12
 
-**Vorbereitungszeit:** 8 Stunden
+**Vorbereitungszeit:**8 Stunden
 
-**Ziel:** Ritualgegenstand
+**Ziel:**Ritualgegenstand
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** permanent
+**Wirkungsdauer:**permanent
 
-**AsP-Kosten:** 16 AsP
+**AsP-Kosten:**16 AsP
 
-**Fertigkeiten:** Dolchzauber, Kraft
+**Fertigkeiten:**Dolchzauber, Kraft
 
-**Erlernen:** Dru 4; Geo 12
+**Erlernen:**Dru 4; Geo 12
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

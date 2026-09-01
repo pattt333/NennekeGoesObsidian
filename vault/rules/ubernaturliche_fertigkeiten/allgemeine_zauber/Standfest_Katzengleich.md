@@ -1,23 +1,25 @@
-## Standfest Katzengleich
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Standfest_Katzengleich.tex -->
+
+### Standfest Katzengleich
 
 Deine Geschicklichkeit erhöht sich. Alle Proben, um auf den Beinen zu bleiben, sind um +6 erleichtert und deine Patzerchance im Kampf sinkt um 1 auf dem W20.
 
-**Mächtige Magie:** Der Bonus steigt um +2.
+**Mächtige Magie:**Der Bonus steigt um +2.
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 2 Aktionen
+**Vorbereitungszeit:**2 Aktionen
 
-**Ziel:** selbst
+**Ziel:**selbst
 
-**Reichweite:** Berührung
+**Reichweite:**Berührung
 
-**Wirkungsdauer:** 16 Aktionen
+**Wirkungsdauer:**16 Aktionen
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Eigenschaften
+**Fertigkeiten:**Eigenschaften
 
-**Erlernen:** Elf 14; Ach 20
+**Erlernen:**Elf 14; Ach 20
 
-**EP-Kosten:** 40 EP
+**EP-Kosten:**40 EP

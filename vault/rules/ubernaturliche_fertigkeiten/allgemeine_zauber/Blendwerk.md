@@ -1,6 +1,8 @@
-[]{#subsubsec:z-Blendwerk  label="subsubsec:z-Blendwerk "}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Blendwerk.tex -->
 
-##  Blendwerk 
+<a id="subsubsec-z-blendwerk"></a>
+
+### Blendwerk
 
 Eine Illusion (Sicht) deiner Wahl erscheint. Ihre maximale Größe beträgt PW Illusion x 4 Raumschritt. Die Illusion führt eine beim Zaubern bestimmte Bewegung aus. Erfordert Konzentration.
 
@@ -8,16 +10,16 @@ Eine Illusion (Sicht) deiner Wahl erscheint. Ihre maximale Größe beträgt PW I
 
 **Vorbereitungszeit:** 2 Aktionen
 
-**Ziel:** Zone
+**Ziel:**Zone
 
-**Reichweite:** 32 Schritt
+**Reichweite:**32 Schritt
 
 **Wirkungsdauer:** 16 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Illusion
+**Fertigkeiten:**Illusion
 
-**Erlernen:** Sch 8; Mag, Srl 18
+**Erlernen:**Sch 8; Mag, Srl 18
 
 **EP-Kosten:** 40 EP

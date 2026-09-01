@@ -1,25 +1,26 @@
-##  Sapefacta Zauberschwamm 
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Sapefecta_Zauberschwamm.tex -->
+
+### Sapefacta Zauberschwamm
 
 Deine Kleidung ist so sauber, als wäre sie frisch gewaschen.
 
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Läusekamm (-4; du wirst auch von Kleintieren und Ungeziefer befreit.)
 
--   Läusekamm (-4; du wirst auch von Kleintieren und Ungeziefer befreit.)
+**Vorbereitungszeit:**4 Aktionen
 
-**Vorbereitungszeit:** 4 Aktionen
+**Ziel:**selbst
 
-**Ziel:** selbst
+**Reichweite:**Berührung
 
-**Reichweite:** Berührung
+**Wirkungsdauer:**augenblicklich
 
-**Wirkungsdauer:** augenblicklich
+**AsP-Kosten:**1 AsP
 
-**AsP-Kosten:** 1 AsP
+**Fertigkeiten:**Luft, Umwelt, Wasser
 
-**Fertigkeiten:** Luft, Umwelt, Wasser
+**Erlernen:**Alch 12; Mag 14; Dru, Srl 16; Hex 20
 
-**Erlernen:** Alch 12; Mag 14; Dru, Srl 16; Hex 20
-
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

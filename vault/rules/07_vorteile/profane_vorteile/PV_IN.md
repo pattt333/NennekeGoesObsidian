@@ -1,16 +1,16 @@
-[]{#pv:in label="pv:in"}
+<!-- Source: Chapters/07_vorteile/profane_vorteile/PV_IN.tex -->
 
-## IN-Vorteile
+<a id="pv-in"></a>
 
-::: center
-  **Voraussetzung**   **IN**
-  ------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                      
-  **20EP**            **Vorausschauend I** In Rededuellen sind Proben auf Rhetorik und Überreden um +2 erleichtert.
-                      
-  **40EP**            **Vorausschauend II** In Rededuellen sind Proben auf Rhetorik und Überreden um +2 erleichtert. Bei Proben auf Überreden, Rhetorik und Menschenkenntnis gelten Patzer als gewöhnlich misslungen, außer sie entstehen durch eine ungewohnte Umgebung.
-                      
-  **60EP**            **Bedächtig** Wenn du in einem Rededuell abwartest, ist deine Probe um +4 erleichtert.
-                      
-  **80EP**            **Empathie** Du kannst eine IN-Probe gegen die Willenskraft deines Gegenübers ablegen. Wenn die Probe gelingt, erfährst du eine seiner Schwächen. Eine einmal abgelegte Probe, egal ob ge- oder misslungen, kannst du nur wiederholen, wenn du das Gegenüber besser kennengelernt hast.
-:::
+### IN-Vorteile
+
+| **Voraussetzung** | **IN** |
+| --- | --- |
+| **Attribut 4** |  |
+| **20EP** | **Vorausschauend I** Proben auf Derekunde, Menschenkenntnis und Sinnesschärfe sind um +1 erleichtert, außerhalb des Kampfes. |
+| **Attribut 6** |  |
+| **40EP** | **Vorausschauend II** Proben auf Derekunde, Menschenkenntnis und Sinnesschärfe sind um +1 erleichtert, außerhalb des Kampfes. Du kannst bei diesen Fertigkeiten nicht mehr Patzen. |
+| **Attribut 8** |  |
+| **60EP** | **Bedächtig** Du wartest in den meisten Fällen einfach ab was so passiert und zur Not bist du immer bereit deinen Verbündeten schnell zur Seite zu stehen. In einer freien Aktion kannst du mit einer Probe IN (24,I) einem Verbündeten einen deiner Schicksalspunkte übertragen. |
+| **Attribut 10** |  |
+| **80EP** | **Empathie** Bei einer Rast als Rast-Talent kannst du mit einer Probe auf Menschenkenntnis(Beruhigen,20,I) alle deine Gefährten beruhigen und inspirieren, bis zur nächsten Rast, können deine Gefährten eine Probe wiederholen, wie beim Einsatz eines Schicksalpunktes. |

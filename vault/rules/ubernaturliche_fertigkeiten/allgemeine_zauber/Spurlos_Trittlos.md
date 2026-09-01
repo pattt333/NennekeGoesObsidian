@@ -1,4 +1,6 @@
-## Spurlos Trittlos
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Spurlos_Trittlos.tex -->
+
+### Spurlos Trittlos
 
 Du tarnst deine Fährte mit Magie. Alle Proben zur Verfolgung deiner Fährte sind um -4 erschwert.
 
@@ -7,23 +9,21 @@ Du tarnst deine Fährte mit Magie. Alle Proben zur Verfolgung deiner Fährte sin
 **Probenschwierigkeit:** 12
 
 **Modifikationen:**
+- Andere Person (-4, Ziel Einzelperson)
+- Zone (-4, Zone, 16 AsP; der Zauber betrifft alle in einem Umkreis von 4 Schritt.)
 
--   Andere Person (-4, Ziel Einzelperson)
+**Vorbereitungszeit:**4 Aktionen
 
--   Zone (-4, Zone, 16 AsP; der Zauber betrifft alle in einem Umkreis von 4 Schritt.)
+**Ziel:**selbst
 
-**Vorbereitungszeit:** 4 Aktionen
+**Reichweite:**Berührung
 
-**Ziel:** selbst
+**Wirkungsdauer:**1 Stunde
 
-**Reichweite:** Berührung
+**AsP-Kosten:**4 AsP
 
-**Wirkungsdauer:** 1 Stunde
+**Fertigkeiten:**Umwelt
 
-**AsP-Kosten:** 4 AsP
+**Erlernen:**Elf 12; Dru, Geo 18; Hex 20
 
-**Fertigkeiten:** Umwelt
-
-**Erlernen:** Elf 12; Dru, Geo 18; Hex 20
-
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP

@@ -1,25 +1,27 @@
-[]{#subsubsec:z-Hexenknoten label="subsubsec:z-Hexenknoten"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Hexenknoten.tex -->
 
-##  Hexenknoten 
+<a id="subsubsec-z-hexenknoten"></a>
+
+### Hexenknoten
 
 Wenn den Umstehenden keine Konterprobe (MR, 16) gelingt, erscheint ihnen der Zauber als eine bis zu 4 Schritt lange, furchteinflößende Barriere, die sie keinesfalls durchschreiten wollen. Das Aussehen der Barriere bestimmt die Hexe.
 
-**Mächtige Magie:** Erhöht die Länge der Barriere um 4 Schritt.
+**Mächtige Magie:**Erhöht die Länge der Barriere um 4 Schritt.
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 4 Aktionen
+**Vorbereitungszeit:**4 Aktionen
 
-**Ziel:** Zone
+**Ziel:**Zone
 
-**Reichweite:** 4 Schritt
+**Reichweite:**4 Schritt
 
-**Wirkungsdauer:** 4 Minuten
+**Wirkungsdauer:**4 Minuten
 
-**AsP-Kosten:** 8 AsP
+**AsP-Kosten:**8 AsP
 
-**Fertigkeiten:** Einfluss, Illusion
+**Fertigkeiten:**Einfluss, Illusion
 
-**Erlernen:** Hex 8; Dru, Mag, Srl 20
+**Erlernen:**Hex 8; Dru, Mag, Srl 20
 
 **EP-Kosten:** 40 EP

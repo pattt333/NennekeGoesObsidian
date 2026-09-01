@@ -1,6 +1,8 @@
-[]{#subsubsec:z-Klickeradomms label="subsubsec:z-Klickeradomms"}
+<!-- Source: Chapters/ubernaturliche_fertigkeiten/allgemeine_zauber/Klickeradomms.tex -->
 
-##  Klickeradomms
+<a id="subsubsec-z-klickeradomms"></a>
+
+### Klickeradomms
 
 Du zerbrichst einen Gegenstand, den du auch mit einem Fausthieb zertrümmern könntest. Der Gegenstand darf maximal 1 Stein wiegen.
 
@@ -8,18 +10,18 @@ Du zerbrichst einen Gegenstand, den du auch mit einem Fausthieb zertrümmern kö
 
 **Probenschwierigkeit:** 12
 
-**Vorbereitungszeit:** 0 Aktionen
+**Vorbereitungszeit:**0 Aktionen
 
-**Ziel:** Einzelobjekt
+**Ziel:**Einzelobjekt
 
-**Reichweite:** 8 Schritt
+**Reichweite:**8 Schritt
 
-**Wirkungsdauer:** augenblicklich
+**Wirkungsdauer:**augenblicklich
 
-**AsP-Kosten:** 2 AsP
+**AsP-Kosten:**2 AsP
 
-**Fertigkeiten:** Umwelt
+**Fertigkeiten:**Umwelt
 
-**Erlernen:** Sch 8; Hex, Mag, Srl 18
+**Erlernen:**Sch 8; Hex, Mag, Srl 18
 
-**EP-Kosten:** 20 EP
+**EP-Kosten:**20 EP
