@@ -65,6 +65,19 @@ Auf eine fettgedruckte Bezeichnung kann direkt eine Aufzählung folgen. Der PDF-
 - Magiekunde: Beschreibung
 ~~~
 
+## Bewusste Absatzabstände
+
+Eine Leerzeile trennt zwei normale Absätze. Zusätzliche Leerzeilen innerhalb desselben Abschnitts sind erlaubt und haben Bedeutung: Der PDF-Build erhält jede weitere Leerzeile als zusätzlichen sichtbaren Abstand. So lassen sich eng zusammenhängende Regelabsätze bewusst von einem neuen Gedankengang absetzen, ohne Sonderformatierung einzufügen.
+
+~~~markdown
+Erster Absatz mit einer Regel.
+
+
+Zweiter Absatz mit bewusst größerem Abstand im PDF.
+~~~
+
+Diese Abstände bleiben Teil der Markdown-Quelle; sie werden weder beim PDF-Build noch durch Validierungswerkzeuge entfernt. Innerhalb von Codeblöcken bleiben Leerzeilen immer unverändert und sind keine Layout-Anweisung.
+
 ## Gesundheitssegmenttabellen
 
 Die Segmenttabellen in [Gesundheit](../vault/rules/05_Gesundheit.md) verwenden in ihren Kopfzellen semantische HTML-Spans. Sie bleiben normale Markdown-Tabellen; nur die Bezeichnungen der farbigen Bereiche erhalten eine Klasse:

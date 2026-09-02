@@ -13,6 +13,7 @@ const VAULT = path.join(ROOT, "vault");
 const HEALTH_SEGMENT_FILTER = path.join(ROOT, "scripts", "health-segment-tables.lua");
 const PDF_TYPOGRAPHY_FILTER = path.join(ROOT, "scripts", "pdf-typography.lua");
 const RULE_EXAMPLE_FILTER = path.join(ROOT, "scripts", "pdf-rule-examples.lua");
+const EXTRA_PDF_SPACING = "```{=typst}\n#v(0.85em)\n```";
 const ADDRESSABLE_ROOTS = [path.join(VAULT, "rules"), path.join(VAULT, "grundideen-des-regeldesigns.md")];
 const EXTERNAL_LINK = /^(?:[a-z][a-z0-9+.-]*:|#)/i;
 const EMBED_RE = /!\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]/g;
@@ -260,6 +261,43 @@ function resolveConfiguredBook(root = ROOT) {
   return { config, files: resolveBookTree(entrypoint, VAULT) };
 }
 
+function preserveIntentionalPdfSpacing(content) {
+  const lines = content.split(/\r?\n/);
+  const output = [];
+  let blankLines = 0;
+  let fenceMarker = null;
+
+  const flushBlankLines = () => {
+    if (!blankLines) return;
+    output.push("");
+    for (let index = 1; index < blankLines; index += 1) output.push(EXTRA_PDF_SPACING, "");
+    blankLines = 0;
+  };
+
+  for (const line of lines) {
+    const fence = line.match(/^\s*(`{3,}|~{3,})/);
+    if (fenceMarker) {
+      output.push(line);
+      if (fence && fence[1][0] === fenceMarker) fenceMarker = null;
+      continue;
+    }
+    if (fence) {
+      flushBlankLines();
+      output.push(line);
+      fenceMarker = fence[1][0];
+      continue;
+    }
+    if (/^\s*$/.test(line)) {
+      blankLines += 1;
+      continue;
+    }
+    flushBlankLines();
+    output.push(line);
+  }
+  flushBlankLines();
+  return output.join("\n");
+}
+
 function buildPdf(root = ROOT) {
   const { config, files } = resolveConfiguredBook(root);
   if (!config.output) throw new Error("book.yaml is missing output.file.");
@@ -273,13 +311,13 @@ function buildPdf(root = ROOT) {
       chapterBreakPending = true;
       continue;
     }
-    const content = splitFrontmatter(fs.readFileSync(file, "utf8")).body
+    const content = preserveIntentionalPdfSpacing(splitFrontmatter(fs.readFileSync(file, "utf8")).body
       .replace(EMBED_RE, "")
       .replace(/<!--[\s\S]*?-->/g, "")
       .replace(/^\*\*Regelbuchnavigation:\*\*.*$/gm, "")
       .replace(/(?:\r?\n\s*---\s*)+$/g, "")
       .replace(/^(\*\*[^*\r\n]+:\*\*)\r?\n(?=-\s)/gm, "$1\n\n")
-      .trim();
+      .trim());
     if (!content) continue;
     if (chapterBreakPending) {
       parts.push("\`\`\`{=typst}\n#pagebreak()\n\`\`\`");
@@ -367,6 +405,10 @@ function selfTest() {
   if (segmentFilter.status !== 0) throw new Error(segmentFilter.stderr || "Health segment filter test failed.");
   assert.match(segmentFilter.stdout, /fill: rgb\("#f89883"\)/);
   assert.match(segmentFilter.stdout, /fill: rgb\("#80fa99"\)/);
+  assert.strictEqual(preserveIntentionalPdfSpacing("Erster Absatz\n\nZweiter Absatz"), "Erster Absatz\n\nZweiter Absatz");
+  assert.strictEqual(preserveIntentionalPdfSpacing("Erster Absatz\n\n\nZweiter Absatz"), `Erster Absatz\n\n${EXTRA_PDF_SPACING}\n\nZweiter Absatz`);
+  const fencedCode = "```\nErste Zeile\n\n\nZweite Zeile\n```\n\nDanach";
+  assert.strictEqual(preserveIntentionalPdfSpacing(fencedCode), fencedCode);
   fs.rmSync(temporary, { recursive: true, force: true });
 }
 
