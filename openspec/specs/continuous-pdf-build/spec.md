@@ -1,5 +1,8 @@
-## MODIFIED Requirements
+# continuous-pdf-build Specification
 
+## Purpose
+TBD - created by archiving change automate-main-rulebook-releases. Update Purpose after archive.
+## Requirements
 ### Requirement: Main-branch PDF build
 GitHub Actions SHALL validate the rulebook and build the configured PDF on every push to `main` and on manual dispatch. After a successful push-to-`main` build, the workflow SHALL create a versioned GitHub Release containing the PDF.
 
