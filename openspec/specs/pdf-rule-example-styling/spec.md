@@ -13,4 +13,3 @@ The PDF build SHALL render every Markdown block quote as a visually distinct, br
 #### Scenario: Obsidian source
 - **WHEN** a reader opens the same note in Obsidian
 - **THEN** the source remains a standard Markdown block quote.
-
