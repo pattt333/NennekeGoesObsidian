@@ -269,7 +269,7 @@ function buildPdf(root = ROOT) {
   for (const file of files) {
     const relative = path.relative(VAULT, file);
     if (relative.startsWith(path.join("book", "chapters") + path.sep)) {
-      chapterBreakPending = parts.length > 0;
+      chapterBreakPending = true;
       continue;
     }
     const content = splitFrontmatter(fs.readFileSync(file, "utf8")).body
