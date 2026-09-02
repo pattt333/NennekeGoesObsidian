@@ -11,7 +11,7 @@ tags:
 
 ### Magieabweisend
 
-**Regel:** +4MR. Du kannst Widerstandsproben gg. übernatürliche Talente in einer einfachen sozialen Aktion ausführen, du kannst diese Aktion also mit anderen einfachen Aktionen frei kombinieren und sie gilt nicht als Konzentration und kann damit nicht unterbrochen werden.
+**Regel:** +4MR. Du kannst Widerstandsproben gegen übernatürliche Talente als einfache Aktion statt als Aktion Konzentration ausführen. Diese Aktion kann mit anderen einfachen Aktionen kombiniert werden, gilt nicht als Konzentration und kann daher nicht unterbrochen werden.
 
 **Voraussetzungen:** keine
 

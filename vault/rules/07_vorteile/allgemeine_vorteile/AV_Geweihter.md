@@ -13,7 +13,7 @@ tags:
 
 **Regel:** Der Charakter erhält Zugang zu übernatürlichen Fertigkeiten, Aktionen und Vorteilen. Er erhöht seine Energie auf 8/ 16/ 24/ 32/ 40.
 
-Durch diesen Vorteil regeneriert der Charakter 1 Energie pro Ruhephase bis zu seinem Maximum.
+Durch diesen Vorteil regeneriert der Charakter pro Rast 1/10 seiner maximalen Energie.
 
 Jeder Geweihte kann bis zu 3 Miraklenfertigkeiten wählen aus den verfügbaren profanen Fertigkeiten. Dies ermöglicht dem Geweihten Mirakel für diese profanen Fertigkeiten zu wirken.
 

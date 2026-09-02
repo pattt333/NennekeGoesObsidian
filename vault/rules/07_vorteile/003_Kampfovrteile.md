@@ -11,10 +11,10 @@ tags:
 
 ## Kampf Vorteile
 
-Kampfvorteile setzen meistens eine bestimmte Eigenschaft voraus, z.B. FF 13 und sind fast ausschließlich für den Kampf einsetzbar (sie haben nur im Kampf einen Nutzen).
+Kampfvorteile setzen meistens eine bestimmte Eigenschaft voraus und sind fast ausschließlich für den Kampf einsetzbar (sie haben nur im Kampf einen Nutzen). Die Vorteiltabellen verwenden dafür die Stufen Attribut 4, Attribut 6, Attribut 8 und Attribut 10.
 Kampfvorteile kann jeder Charakter erlernen, der die nötigen Voraussetzungen dafür erfüllt und die benötigten EP-Wert dafür bezahlt.
 
-Allgemeine Kampfvorteile haben meist mehrere Eigenschaftsvoraussetzungen, z.B. FF13, IN13. Die anderen Kampfvorteile beziehen sich jeweils auf eine der 8 Eigenschaften und besitzen auf ihrer Höchsten Stufe (Voraussetzung: 19 in deiner Herausragenden Eigenschaft)meist legendäre Effekte.
+Allgemeine Kampfvorteile haben meist mehrere Eigenschaftsvoraussetzungen. Die anderen Kampfvorteile beziehen sich jeweils auf eine der acht Eigenschaften und besitzen auf ihrer höchsten Stufe meist legendäre Effekte.
 
 - [KV CH](kampf_vorteile/KV_CH.md)
 

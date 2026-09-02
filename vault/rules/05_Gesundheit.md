@@ -79,7 +79,9 @@ Jede DoT-Kategorie funktioniert nach denselben Grundregeln:
 - **Schaden:** Jeder Stack verursacht 2 Schadenspunkte
 - **Auffrischung:** Wird ein neuer Stack derselben Kategorie hinzugefügt (auch wenn das Maximum bereits erreicht ist), wird die Wirkungsdauer aller Stacks dieser Kategorie auf 3 Kampfrunden zurückgesetzt
 
-Die unterschiedlichen Kategorien-DoTs können ganz oder teilweise durch bestimmte Talente oder Gegenstände entfernt werden. Brennen kann meist durch Ausklopfen, Rollen oder Wasser entfernt werden, Erfrieren geht mit Wärme wieder weg und Blutungen lassen sich durch eine Heilkundeprobe und eine Bandage stoppen. Nur Gifte und Krankheiten benötigen Tinkturen, Kräuter oder Antidots, um entfernt zu werden.
+Die unterschiedlichen Kategorien-DoTs können ganz oder teilweise durch bestimmte Talente oder Gegenstände entfernt werden. Brennen kann meist durch Ausklopfen, Rollen oder Wasser entfernt werden, Erfrieren geht mit Wärme wieder weg und Blutungen lassen sich durch eine Heilkundeprobe und eine Bandage verringern. Nur Gifte und Krankheiten benötigen Tinkturen, Kräuter oder Antidots, um entfernt zu werden.
+
+Erschöpfung und Furcht werden ebenfalls in Stacks gezählt. Jeder Stack Erschöpfung oder Furcht verursacht einen Malus von −2 auf alle Proben.
 
 > Miraj wird von einem Feuerelementar angegriffen. Jeder Angriff des Elementars hat als Nebeneffekt, dass Miraj einen Stack Brennen bekommt.
 > Miraj hat bereits 2 Stacks Brennen, die folglich am Ende jeder KR 2*2 = 4 SP verursachen. Da das Elementar in den letzten Runden andere Aktionen ausgeführt hatte und auch sonst nichts an Miraj Brennen Stacks verursacht hat, sind die Stacks aktuell nur noch 1KR aktiv. Jetzt greift es ihn jedoch wieder an und es verursacht einen neuen Stack Brennen. Dadurch leidet Miraj nun unter 3 Stacks Brennen zugleich (also 6 SP am Ende jeder KR) und auch die Wirkungsdauer aller Stacks wird wieder auf 3KR zurückgesetzt.
@@ -191,18 +193,21 @@ Es gibt Vorteile, die die Anzahl von Rast-Talenten erhöht wodurch du pro Rast m
 
 ### Regeneration
 
-Pro Rast regeneriert ein Charakter LAW an LeP. Falls der Charakter AsP oder KaP besitzt, regeneriert er 1/8 AsP bzw. 1/10 KaP (dieser Wert kann durch Vorteile, Sonderfertigkeiten oder auf andere Weise erhöht werden).
+Pro Rast regeneriert ein Charakter LAW an LeP. Besitzt er Energie, gelten deren Regenerationswerte aus den jeweiligen Energievorteilen.
 
 <a id="sec-heilkunde"></a>
 
 ## Heilkunde
 
 Ein erfahrener Heilkundiger kann lebensbedrohliche Situationen abwenden und die Regeneration deutlich beschleunigen. Mit erster Hilfe und etwas Verbandsmaterial kann ein Patient in kritischem Zustand stabilisiert werden. Beim Einsatz von Heilkunde im Kampf ist deine INI um -8 reduziert. Heilung erfordert eine (volle) Aktion Konzentration.
-| **Effekt** | **Dauer** | **Schwierigkeit** | **Auswirkung** |
-| --- | --- | --- | --- |
-| **Blutung** | Stacks Blutung in Aktionen | 16 | stoppt Blutung |
-| **Gift** | Stacks Gift in Aktionen | Giftstufe | stoppt Gift |
-| **Krankheit** | Stacks Krankheit in Aktionen | Krankheitsstufe | erkennt Krankheit |
+
+
+| **Effekt** | **Schwierigkeit** | **Auswirkung** |
+| --- | --- | --- |
+| **Blutung** | 16 | entfernt 1 Stack Blutung |
+| **Gift** | Giftstufe | entfernt 1 Stack Gift |
+| **Krankheit** | Krankheitsstufe | entfernt 1 Stack Krankheit |
+
 
 Darauf folgen heilungsfördernde Maßnahmen, wodurch der Patient während einer Rast zusätzlich LAW an LeP regeneriert. Eine solche Probe kannst du für einen Patienten nur einmal pro Rast versuchen und ein Patient kann nur von einer erfolgreichen Behandlung pro Rast profitieren. **Außerdem benötigst du heilende Salben oder ähnliche Hilfsmittel, Verbandsmaterial und sauberes Wasser**. Die Schwierigkeit der Probe beträgt 16 + den Betrag der aktuellen [Wundabzüge](05_Gesundheit.md#sec-wundabzuge) des Patienten. Bei misslungener Probe regeneriert der Patient auch bei einer Rast keine LeP (statt wie üblich LAW an LeP). Bei einem Patzer erhält er zusätzlich 2 Stacks Blutung. Bei einem Krit konntest du dich um einen zusätzlichen Kameraden kümmern und er profitiert ebenfalls von den heilungsfördernden Maßnahmen im selben Umfang.
 

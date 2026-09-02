@@ -15,7 +15,7 @@ tags:
 | **Attribut 4** |  |
 | **20EP** | **Schildkampf I** +1VT |
 | **Attribut 6** |  |
-| **40EP** | **Schildkampf II** +1VT. Dein Schild ignoriert die üblichen [Erschwernisse für Nebenwaffen](../../06_kampf/Haupt_Nebenwaffen.md#sec-hauptnebenwaffen). Außerdem kannst du die erste VT in einer KR als Freie Aktion ausführen. |
+| **40EP** | **Schildkampf II** +1VT. Dein Schild ignoriert die üblichen [Erschwernisse für Nebenwaffen](../../06_kampf/Haupt_Nebenwaffen.md#sec-hauptnebenwaffen). Außerdem kannst du die erste VT in einer KR als Freie Reaktion ausführen. |
 | **Attribut 8** |  |
 | **60EP** | **Schildkampf III** +1VT. Du kannst für Verbündete in GS*2 Reichweite Verteidigungen ausführen. Diese haben dabei die Chance sich zuerst zu verteidigen, falls sie sich dazu entscheiden sich nicht zu verteidigen, kannst du die Verteidigung ausführen. |
 | **Attribut 10** |  |

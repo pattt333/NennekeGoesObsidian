@@ -11,7 +11,7 @@ tags:
 
 ### Resistenz Kälte
 
-**Regel:** Verschiebt die Temperaturstufe bei niedrigen Temperaturen um eine Stufe in Richtung normal.
+**Regel:** Die Erschwernisse durch niedrige Temperaturen halbieren sich. Das Intervall, in dem sich Stacks Erfrieren ansammeln, verdoppelt sich.
 
 **Voraussetzungen:** keine
 

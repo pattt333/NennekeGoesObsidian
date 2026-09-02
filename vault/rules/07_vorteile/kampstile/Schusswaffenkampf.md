@@ -13,7 +13,7 @@ tags:
 | **Attribut 4** |  |
 | **20EP** | **Schusswaffenkampf I** +1FK |
 | **Attribut 6** |  |
-| **40EP** | **Schusswaffenkampf II** +1FK. Du kannst Zielen ein weiteres Mal pro KR einsetzen (also mit Geduld bis zu 2x). Zusätzlich sind Fernkampfangriffe beim Reiten nicht mehr erschwert. |
+| **40EP** | **Schusswaffenkampf II** +1FK. Du kannst Zielen ein weiteres Mal einsetzen. Zusätzlich sind Fernkampfangriffe beim Reiten nicht mehr erschwert. |
 | **Attribut 8** |  |
 | **60EP** | **Schusswaffenkampf III** +1FK. Erlaubt das [Manöver Scharfschuss](../../06_kampf/kampfmanover/Fernkampf_Spezialmanover.md#subsubsec-scharfschuss). |
 | **Attribut 10** |  |

@@ -11,7 +11,7 @@ tags:
 
 ### Resistenz-Hitze
 
-**Regel:** Verschiebt die Temperaturstufe bei hohen Temperaturen um eine Stufe in Richtung normal.
+**Regel:** Die Erschwernisse durch hohe Temperaturen halbieren sich. Das Intervall, in dem sich Stacks Brennen ansammeln, verdoppelt sich.
 
 **Voraussetzungen:** keine
 

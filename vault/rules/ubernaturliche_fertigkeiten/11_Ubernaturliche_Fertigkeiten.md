@@ -57,9 +57,9 @@ Die folgenden Waffeneigenschaften haben allesamt einige Gemeinsamkeiten. Wie [Wu
 
 Manchmal entstehen diese Effekte auch ohne dass Schaden angerichtet wird, etwa durch einen Zauber. Dann wird statt der Attributsprobe eine [Konterprobe](11_Ubernaturliche_Fertigkeiten.md#ubernaturlich-konterprobe) abgelegt. Misslingt sie, tritt der entsprechende Effekt ein.
 
-**Erfrieren** tritt vor allem bei eiselementaren Angriffen auf. Misslingt dem Opfer eine KO-Probe (20, I), erleidet es einen Punkt Erschöpfung.
+**Erfrieren** tritt vor allem bei eiselementaren Angriffen auf. Misslingt dem Opfer eine KO-Probe (20, I), erleidet es einen Stack Erschöpfung.
 
-> *Erleidet ein Spielercharakter drei Wunden durch einen Angriff mit Erfrieren, muss ihm eine KO-Probe (24, I) gelingen, um keinen Punkt Erschöpfung zu erleiden.*
+> *Erleidet ein Spielercharakter drei Wunden durch einen Angriff mit Erfrieren, muss ihm eine KO-Probe (24, I) gelingen, um keinen Stack Erschöpfung zu erleiden.*
 
 **Ertränken** wird meist von wasserelementaren Angriffen verursacht. Misslingt dem Opfer eine GE-Probe (20, I), ist es bis zu seiner übernächsten Initiativephase handlungsunfähig.
 

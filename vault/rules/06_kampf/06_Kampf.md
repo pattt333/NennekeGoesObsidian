@@ -121,7 +121,7 @@ In seiner Initiativephase kann dein Charakter eine volle oder bis zu zwei versch
 - **Bewegung (einfach)(+2 INI):** Du läufst, reitest oder schwingst an einem Seil. In einer normalen Kampfsituation kannst du so GS Schritt zurücklegen. Auf unsicherem Untergrund sinkt dieser Wert auf die Hälfe, in liegender oder kniender Position auf ein Viertel. Ist mit sich selbst kombinierbar
 - **Konzentration (voll):** Du führst eine Handlung aus, die deine volle Konzentration erfordert. Du kannst bis zu deiner Initiativephase keine Freien Aktionen oder Reaktionen ausführen und musst bei Störungen eine Willenskraft-Probe (16, I) ablegen. Erleidest du Schaden, steigt die Schwierigkeit der Probe um +4 Punkte pro soeben erlittener Wunde. Bei Misslingen verfällt deine Aktion.
 - Übernatürliches Talent ausführen (INI je nach Zauber)
-- Heilkunde (-8 INI): Du verbindest jemanden, bei gelingen verliert der Charakter alle Stacks Blutung.
+- Heilkunde (-8 INI): Du verbindest jemanden; bei Gelingen verliert der Charakter 1 Stack Blutung.
 - eine Falle entschärfen oder Ähnliches (-4 INI)
 - Fernkampf
 
@@ -148,6 +148,8 @@ Reaktionen kannst du aufwenden, um auf Ereignisse außerhalb deiner Initiativeph
 - **Passierschlag:** Passierschläge sind Angriffe, die als Reaktion auf manche Manöver ausgeführt werden. Zum Beispiel wenn ein Gegner sich durch deinen Kontrollbereich bewegt. Passierschläge können nur mit Vorteilen mit bestimmten Manövern modifiziert werden.
 
 Du kannst so viele Reaktionen ausführen wie nötig, doch das wird mit jeder Reaktion schwieriger. Jede Reaktion nach der ersten erleidet einen kumulativen Malus von –4.
+
+Eine **Freie Reaktion** ist eine Reaktion, die keinen Malus durch mehrfache Reaktionen erhält und den Malus für nachfolgende Reaktionen nicht erhöht. Sie ist nicht dasselbe wie eine Freie Aktion und wird bei der Zählung der Reaktionen ignoriert.
 
 > *In der letzten Szene war die erste Verteidigung der Wache nicht erschwert, die zweite um –4 und die dritte sogar um –8.*
 

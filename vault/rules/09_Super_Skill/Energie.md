@@ -15,7 +15,7 @@ Magiebegabte oder geweihte Charaktere können Energie (EN) in sich aufnehmen und
 
 > *Hazzim besitzt den Vorteil Zauberer IV und hat 9 zusätzliche Energie gekauft, insgesamt verfügt er dadurch über 41 (32 + 9) Energie. Möchte er einen weiteren Energiepunkt erwerben, kostet ihn das 10 EP.*
 
-Pro Rast regenerieren Zauberer 1/8 Energie und Geweihte 1/10 Energie, aber nicht über das Maximum hinaus. Die Regeneration kann über [spezielle Vorteile](Super_Vorteile/gemiensame_vorteile/SV_KO.md#zv-ko) erhöht werden.
+Pro Rast regeneriert Energie entsprechend dem jeweiligen Energievorteil, aber nicht über das Maximum hinaus. Die Regeneration kann über [spezielle Vorteile](Super_Vorteile/gemiensame_vorteile/SV_KO.md#zv-ko) erhöht werden.
 
 Langfristige und mächtige, übernatürliche Wirkungen wie Artefakte erfordern, dass du einen Teil der dafür benötigten Energie bindest. Du kannst diese gebundenen Enrg (gEnrg) nicht regenerieren oder auf andere Arten zurückgewinnen, solange die Energie gebunden ist. Die Bindung kann aber jederzeit mit einem Ritual beendet werden, womit der Effekt verfliegt. Normalerweise musst du das Artefakt dazu berühren.
 

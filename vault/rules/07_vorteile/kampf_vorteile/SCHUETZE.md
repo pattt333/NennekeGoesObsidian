@@ -11,7 +11,7 @@ tags:
 
 | **Voraussetzung** | **Vorteil** |
 | --- | --- |
-| **80EP** | **Geduld** Du kannst das Manöver [Zielen](../../06_kampf/kampfmanover/Fernkampf_Basismanover.md#subsubsec-zielen) bis zu 2 Mal ausführen, statt 1 Mal. |
+| **80EP** | **Geduld** Du kannst [Zielen](../../06_kampf/kampfmanover/Fernkampf_Basismanover.md#subsubsec-zielen) ein weiteres Mal einsetzen. |
 | **20EP** | **Festnageln** Ermöglicht das Manöver [Festnageln](../../06_kampf/kampfmanover/Fernkampf_Spezialmanover.md#subsubsec-festnageln) mit Fernkampfwaffen. |
 
 

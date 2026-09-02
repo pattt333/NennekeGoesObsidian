@@ -19,7 +19,7 @@ tags:
 
 ### Immunität Krankheiten
 
-**Regel:** Du kannst Krankheiten in einer einfachen Aktion abwenden, du kannst diese Aktion also mit anderen einfachen Aktionen frei kombinieren. Proben um Gifte abzuwehren können nicht Patzen.
+**Regel:** Du kannst Krankheiten in einer einfachen Aktion abwenden, du kannst diese Aktion also mit anderen einfachen Aktionen frei kombinieren. Proben um Krankheiten abzuwehren können nicht patzen.
 
 **Voraussetzungen:** Resistenz Krankheiten
 

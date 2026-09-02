@@ -21,9 +21,7 @@ Die Vorteile verstärken alle getragenen Waffen, sind aber an gewisse Voraussetz
 
 Das Wechseln des Kampfstils kostet eine Aktion Bereit machen. Jeder Kampfstil besteht aus vier Stufen, die aufeinander aufbauen. Um die nächste Stufe zu erwerben, muss dein Charakter die vorherige Stufe beherrschen und die für den Kampfstil erforderliche Eigenschaft in der geforderten Höhe besitzen.
 
-Mit der vierten Stufe eines Kampfstils ist dein Charakter ein Waffenmeister. Er verlässt die bekannten Pfade und entwickelt seinen eigenen, individuellen Kampfstil. Das geschieht unter der Anleitung eines extrem erfahrenen Meisters der Kampfkunst, der einen ähnlichen Stil pflegt und mögliche Anwärter meist genau prüft.
-
-Dabei kannst du insgesamt 8 Punkte verteilen: Für je einen Punkt kannst du die fixe Erschwernis eines Manöver senken (bis maximal auf die Hälfe), für 4 Punkte die AT oder VT um einen Punkt erhöhen oder für bis zu 4 Punkte ein passendes, neues Manöver erfinden. Besondere Vorteile wie eine geringere Patzerchance, höhere Reichweite oder Schaden sind ebenfalls möglich. Solche Vorteile - wie der Waffenmeister ganz allgemein – und ihre Kosten sollten unbedingt mit der Gruppe und dem Spielleiter abgesprochen sein.
+Mit der vierten Stufe eines Kampfstils erreicht dein Charakter die Meisterschaft dieses Stils. Jeder Kampfstil besitzt vier feste Stufen; auch die vierte Stufe verleiht ausschließlich den in der jeweiligen Tabelle angegebenen festen Vorteil.
 
 - [Beidhandiger Kampf](kampstile/Beidhandiger_Kampf.md)
 

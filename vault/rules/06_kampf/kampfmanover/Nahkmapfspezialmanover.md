@@ -109,7 +109,7 @@ Beide Angriffe richten sich gegen denselben Feind. Sie werden separat ausgewürf
 
 **Erschwernisse:** 2xAT–4
 
-**Voraussetzungen:** beritten, Kampf mit der Fertigkeit Stangenwaffen (Lanzenreiten), Vorteil Ritter aus Leidenschaft, 1KR Cooldown
+**Voraussetzungen:** beritten, Kampf mit der Fertigkeit Stangenwaffen (Lanzenreiten), Vorteil Frontalangriff, 1KR Cooldown
 
 <a id="subsubsec-hammerschlag"></a>
 
@@ -131,7 +131,7 @@ Der Angriff zählt immer als in beengter Umgebung.
 
 **Erschwernisse:** Verbergen-2
 
-**Voraussetzungen:** Waffe mit Reichweite 0, 2KR Cooldown, Vorteil Unehrenhafter Kampf
+**Voraussetzungen:** Waffe mit Reichweite 0, 2KR Cooldown, Vorteil Hinterhältiger Stoß
 
 <a id="subsec-inspirierender-angriff"></a>
 

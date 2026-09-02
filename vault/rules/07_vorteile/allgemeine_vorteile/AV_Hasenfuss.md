@@ -11,9 +11,9 @@ tags:
 
 ### Hasenfuß
 
-**Regel:** Jede Probe auf das Fliehen ist um +2 erleichtert. Also die Athletik(Bewegung)-Probe aus dem Nahkampf und die Probe mit dem Manöver Entfernung verändern und alle Proben bei Verfolgungsjagden wenn man die gejagte Partei ist.
+**Regel:** Proben sind um +2 erleichtert, wenn du dich mit Athletik (Bewegung) aus dem Nahkampf löst, mit dem Manöver Entfernung verändern deine Entfernung veränderst oder bei einer Verfolgungsjagd die gejagte Partei bist. Die Aktion Flucht selbst erfordert keine Probe.
 
-**Voraussetzungen:** BE ohne den Vorteil Rüstungsgewöhnung maximal 1.
+**Voraussetzungen:** BE ohne die Vorteile Belastungsgewöhnung I und Belastungsgewöhnung II maximal 1.
 
 **EP-Wert:** 80 Erfahrungspunkte
 

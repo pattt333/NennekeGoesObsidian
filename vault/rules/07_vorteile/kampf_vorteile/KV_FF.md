@@ -12,7 +12,7 @@ tags:
 | **Voraussetzung** | **FF** |
 | --- | --- |
 | **Attribut 4** |  |
-| **20EP** | **Ruhige Hand** Du kannst Zielen ein weiteres Mal pro KR einsetzen (also mit Geduld bis zu 2x). |
+| **20EP** | **Ruhige Hand** Du kannst Zielen ein weiteres Mal einsetzen. |
 | **Attribut 6** |  |
 | **40EP** | **Reflexschuss** Im Fernkampf kannst du -4 Abzüge durch Bewegung, Wind oder Größe ignorieren. |
 | **Attribut 8** |  |

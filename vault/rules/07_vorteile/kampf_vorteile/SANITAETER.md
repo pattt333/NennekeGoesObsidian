@@ -11,7 +11,7 @@ tags:
 
 | **Voraussetzung** | **Vorteil** Die folgenden Vorteile sind auch außerhalb des Kampfes aktiv. |
 | --- | --- |
-| **60EP** | **Lebensretter** Deine Wundheilungsproben und Rettungsproben werden nicht mehr durch die Wundmodifikation des Ziels erschwert. |
+| **60EP** | **Lebensretter** Deine Wundheilungsproben werden nicht mehr durch die Wundmodifikation des Ziels erschwert. Deine Heilkundeproben gegen Blutung, Krankheit und Gift können mit Hoher Qualität verbessert werden und entfernen pro HQ einen zusätzlichen Stack. |
 | **40EP** | **Geschick des Feldsanitäters** Jeder Effekt, der Heilpunkte generiert, heilt +1W6 HP. |
 
 

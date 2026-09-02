@@ -41,7 +41,7 @@ tags:
 
 #### Zielen (FK+2)
 
-**Wirkung:** Verringert die INI um -2. Kann nur einmal pro Angriff eingesetzt werden. Der Vorteil Ruhige Hand verdoppelt den Bonus.
+**Wirkung:** Verringert die INI um -2. Kann pro Angriff nur einmal eingesetzt werden. Vorteile, die Zielen erweitern, erlauben zusätzliche Anwendungen von Zielen; sie verändern nicht den Bonus einer einzelnen Anwendung.
 
 **Erschwernisse:** FK+2
 
