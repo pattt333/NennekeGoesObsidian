@@ -45,7 +45,7 @@ Besondere oder hochwertige Materialien sollen dagegen als relevante Belohnungen 
 
 ### Rezepte
 
-Konkrete Rezepte dürfen sich in ihren Ergebnissen unterscheiden, sollen aber soweit möglich dieselbe Herstellungsstruktur verwenden.
+Konkrete Rezepte dürfen sich in ihren Ergebnissen unterscheiden, sollen aber soweit möglich dieselbe Herstellungsstruktur verwenden (vorallem in Fall von Alchemie oder ähnlichen Herstellungsfertigkeiten, die manigfaltiger sind als "Stelle ein Schwert her").
 
 ### Einkaufen
 

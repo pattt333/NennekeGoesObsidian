@@ -69,14 +69,6 @@ Häufig wiederkehrende Manövereffekte sollen möglichst auf wenigen gemeinsamen
 
 Spezialmanöver sind zulässig, wenn sie tatsächlich ein anderes taktisches Verhalten oder eine charakteristische Kampfweise erzeugen.
 
-### Kampfstile
-
-Unterschiedliche Kampfcharaktere sollen sich durch ihre Entscheidungen und bevorzugten Kampfweisen spürbar unterschiedlich spielen.
-
-Vorteile, Kampfstile und Spezialmanöver sollen vorhandene taktische Optionen verändern, verbessern oder gezielt neue Spielweisen eröffnen.
-
-Neue Sondermechanismen sollen nur entstehen, wenn diese für die Identität der jeweiligen Kampfweise notwendig sind.
-
 ### Nahkampf und Fernkampf
 
 Nahkampf und Fernkampf dürfen unterschiedliche taktische Anforderungen besitzen, sollen aber soweit sinnvoll dieselben Grundregeln verwenden.
@@ -138,13 +130,13 @@ In seiner Initiativephase kann dein Charakter eine volle oder bis zu zwei versch
 
 ## Freie Aktionen
 
-Zusätzlich kannst du in deiner Initiativephase beliebig viele verschiedene Freie Aktionen ausführen. Du kannst in einer Freien Aktion:
+Manche Aktionen sind entweder klein genug oder nicht zu relevant für das Kampfgeschehen. Wenn sie eine dieser beiden Voraussetzungen erfüllt, gilt sie als freie Aktion. Frei Aktionen sollen **niemals** wirklich kampfentscheidende Aktionen abbilden auch nicht durch Vorteile oder Zauber. 
+
+Im Folgendem findest du einige Beispiele (die Liste ist nicht vollständig, soll aber einen groben Eindruck ermitteln):
 - einen kurzen Satz rufen
 - dich umdrehen
 - einen Gegner provozieren
 - einen Gegenstand fallen lassen
-
-Es ist völlig egal, ob du Freie Aktionen vor-, nach oder zwischen zwei Aktionen nutzt. Allerdings darf niemals eine andere (Freie) Aktion unterbrochen werden und du darfst dieselbe Freie Aktion nicht zweimal ausführen, zum Beispiel um zwei Sätze zu sprechen oder dich zweimal zu bewegen.
 
 <a id="sec-reaktionen"></a>
 

@@ -49,8 +49,8 @@ Proben werden nach folgendem Grundprinzip abgelegt:
 > Bedächtig hebt Valeria ihren Kelch an ihre Lippen und nimmt
 > den Geruch des Weins in sich auf, als die Spielleiterin eine Wachsamkeits-Probe mit einer Schwierigkeit von 20 verlangt. Valerias Spielerin Christiane würfelt 14, 3, 14. Also gilt die 14 und ergibt gemeinsam mit Valerias Probenwert von 11 einen Erfolgswert von 25 (14+11). Das liegt deutlich über der geforderten Schwierigkeit. Ein metallischer Geruch durchströmt Valerias Nase – Gift!
 
-Der Probenwert beträgt bei Eigenschaftsproben das Doppelte der Eigenschaft, bei Fertigkeitsproben die Summe aus Basiswert und Fertigkeitswert.
-Blutige Anfänger besitzen einen Probenwert von 2, legendäre Helden einen von 22, und die meisten Charaktere bewegen sich irgendwo dazwischen.
+Der Probenwert beträgt bei Eigenschaftsproben das Doppelte der Eigenschaft, bei Fertigkeitsproben die Summe aus Basiswert und Fertigkeitswert. Blutige Anfänger besitzen einen Probenwert von 2, legendäre Helden einen von 22, und die meisten Charaktere bewegen sich irgendwo dazwischen.
+
 Wenn bei einem Probenwurf eine römische Eins [I] angegeben ist heißt dies, dass die Probe nur mit einem Würfel durchgeführt wird. Das kommt meist in zeitkritischen oder Kampfsituationen vor. Sowohl die Versagenschance als auch die Wahrscheinlichkeit eines kritischen Erfolgs sind höher, was die Probe spannender macht.
 
 <a id="sec-erleichter-erschwern"></a>
