@@ -22,10 +22,12 @@ output/
 # Python bytecode caches
 __pycache__/
 
-# Personal Obsidian state inside the reader vault
-vault/.obsidian/workspace.json
-vault/.obsidian/workspace-mobile.json
-vault/.obsidian/graph.json
-vault/.obsidian/bookmarks.json
-vault/.obsidian/hotkeys.json
-vault/.obsidian/plugins/
+# Personal Obsidian state
+# The reader vault intentionally versions only its shared appearance and
+# the health-segment stylesheet.
+/.obsidian/
+vault/.obsidian/*
+!vault/.obsidian/appearance.json
+!vault/.obsidian/snippets/
+vault/.obsidian/snippets/*
+!vault/.obsidian/snippets/health-segment-tables.css

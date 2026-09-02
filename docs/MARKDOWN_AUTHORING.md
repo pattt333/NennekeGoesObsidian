@@ -80,7 +80,16 @@ Die Segmenttabellen in [Gesundheit](../vault/rules/05_Gesundheit.md) verwenden i
 
 Die Legende bei der Tabelle bleibt verpflichtend: Die Bedeutung der Bereiche muss auch ohne Farbe lesbar sein. Pflege die Werte weiter direkt als Tabellenzellen und erstelle weder eine Bildkopie noch eine gesonderte PDF-Quelle.
 
-Docsify lädt die Darstellung automatisch aus `vault/styles/health-segment-tables.css`. Für Obsidian öffnest du **Einstellungen → Darstellung → CSS-Snippets**, aktualisierst die Snippets und aktivierst `health-segment-tables`. Die Snippet-Datei liegt bereits unter `.obsidian/snippets/`; dabei wird keine persönliche `workspace.json` verändert. Der PDF-Build wertet dieselben Klassen automatisch aus.
+Docsify lädt die Darstellung automatisch aus `vault/styles/health-segment-tables.css`. Im Obsidian-Vault ist das Snippet bereits über `vault/.obsidian/appearance.json` aktiviert; nach einem frischen Klon genügt es, den Ordner `vault/` zu öffnen. Der PDF-Build wertet dieselben Klassen automatisch aus.
+
+## Gemeinsame Obsidian-Konfiguration
+
+Der Obsidian-Vault ist der Ordner `vault/`. Für alle gemeinsam versioniert werden nur zwei Obsidian-Dateien:
+
+- `vault/.obsidian/appearance.json` aktiviert die gemeinsame Darstellung.
+- `vault/.obsidian/snippets/health-segment-tables.css` definiert sie.
+
+Arbeitsbereiche, zuletzt geöffnete Dateien, Graphansichten, persönliche Tastenkürzel und lokale Kern-Plugin-Einstellungen bleiben bewusst lokal und sind in `.gitignore` ausgeschlossen. Ergänze eine weitere Datei unter `vault/.obsidian/` nur dann als Ausnahme in `.gitignore`, wenn sie für jede Person beim Lesen oder Pflegen des Regelwerks zwingend benötigt wird.
 
 ## Überschriften zitieren
 
