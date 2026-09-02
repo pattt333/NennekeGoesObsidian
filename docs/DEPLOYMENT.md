@@ -86,6 +86,18 @@ Zum Herunterladen öffnest du im GitHub-Repository den Bereich **Releases**, wä
 
 Ein manuell gestarteter Workflow dient nur der Validierung und dem PDF-Build. Er erstellt absichtlich weder Tag noch Release, damit ein erneuter Testlauf keine neue Regelwerksversion veröffentlicht. Lokal ist dieselbe Ausgabe mit `npm run pdf` möglich; sie benötigt Pandoc und Typst.
 
+### Aktuelle PDF in Nextcloud
+
+Nach jeder erfolgreichen automatischen Release lädt derselbe Release-Job die PDF zusätzlich als stets aktuelle Datei `Nenneke.pdf` in den konfigurierten Nextcloud-Ordner. Die versionierten Dateien verbleiben weiterhin bei GitHub Releases.
+
+Die Wartung hinterlegt dafür unter **Settings → Secrets and variables → Actions** ausschließlich diese Repository-Secrets:
+
+- `NEXTCLOUD_WEBDAV_URL`: die vollständige WebDAV-Adresse des Zielordners, ohne Dateinamen.
+- `NEXTCLOUD_USERNAME`: der Nextcloud-Benutzername.
+- `NEXTCLOUD_APP_PASSWORD`: ein in Nextcloud erzeugtes App-Passwort, niemals das reguläre Kontopasswort.
+
+Manuelle Workflow-Läufe laden keine Datei nach Nextcloud hoch.
+
 ## Troubleshooting
 
 ### Site does not load

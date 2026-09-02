@@ -94,3 +94,14 @@ jobs:
             --target "${{ github.sha }}" \
             --title "Nenneke ${{ steps.version.outputs.tag }}" \
             --generate-notes
+
+      - name: Aktuelle PDF nach Nextcloud hochladen
+        env:
+          NEXTCLOUD_WEBDAV_URL: ${{ secrets.NEXTCLOUD_WEBDAV_URL }}
+          NEXTCLOUD_USERNAME: ${{ secrets.NEXTCLOUD_USERNAME }}
+          NEXTCLOUD_APP_PASSWORD: ${{ secrets.NEXTCLOUD_APP_PASSWORD }}
+        run: |
+          curl --fail --silent --show-error --retry 3 --retry-all-errors \
+            --user "$NEXTCLOUD_USERNAME:$NEXTCLOUD_APP_PASSWORD" \
+            --upload-file "release/Nenneke.pdf" \
+            "${NEXTCLOUD_WEBDAV_URL%/}/Nenneke.pdf"
