@@ -149,7 +149,7 @@ Reaktionen kannst du aufwenden, um auf Ereignisse außerhalb deiner Initiativeph
 
 Du kannst so viele Reaktionen ausführen wie nötig, doch das wird mit jeder Reaktion schwieriger. Jede Reaktion nach der ersten erleidet einen kumulativen Malus von –4.
 
-Eine **Freie Reaktion** ist eine Reaktion, die keinen Malus durch mehrfache Reaktionen erhält und den Malus für nachfolgende Reaktionen nicht erhöht. Sie ist nicht dasselbe wie eine Freie Aktion und wird bei der Zählung der Reaktionen ignoriert.
+Eine **Freie Reaktion** ist eine Reaktion, die den Malus für nachfolgende Reaktionen nicht erhöht. Sie ist nicht dasselbe wie eine Freie Aktion und wird bei der Zählung der Reaktionen ignoriert.
 
 > *In der letzten Szene war die erste Verteidigung der Wache nicht erschwert, die zweite um –4 und die dritte sogar um –8.*
 

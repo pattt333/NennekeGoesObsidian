@@ -55,6 +55,10 @@ Kampfstile sollen nicht lediglich Werte erhöhen, sondern eine erkennbare bevorz
 
 Mit zunehmender Investition darf ein Kampfstil stärker von den allgemeinen Kampfregeln abweichen und charakteristische Manöver oder Regeländerungen freischalten.
 
+### Reaktionsvorteile
+
+Reaktionsvorteile können neue Reaktionsgelegenheiten schaffen oder bestimmte Reaktionen als freie Reaktionen ermöglichen.
+
 
 Mit Vorteilen und Nachteilen kann der Spieler seinem Charakter mehr Tiefe verleihen, als es die Werte und Eigenheiten vermögen. Beim Blick in das Inhaltsverzeichnis fällt sofort auf, dass der großen Zahl Vorteile nur wenige Nachteile gegenüberstehen. Diese beschränken sich auch im Gegensatz zu DSA5 hauptsächlich auf leicht zu merkende und gut zu verrechnende Einschränkungen. Hintergrund sind empirische Studien die zu belegen scheinen, dass Spieler komplexe und an Situationen gebundene Nachteile leicht vergessen, die Vorteile jedoch leichter berücksichtigen. Vorteile sollten derart gewählt werden, dass sie das Bild das der Spieler von seinem Helden hat ergänzen. Sie sollten also nicht nur zur bloßen Maximierung der Fähigkeiten des Charakters eingesetzt werden.
 
