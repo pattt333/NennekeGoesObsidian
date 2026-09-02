@@ -11,4 +11,4 @@
 ## 3. Handoff
 
 - [x] 3.1 Review and commit the task-scoped implementation.
-- [ ] 3.2 Sync and archive the completed OpenSpec change.
+- [x] 3.2 Sync and archive the completed OpenSpec change.
