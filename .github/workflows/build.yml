@@ -44,3 +44,53 @@ jobs:
           name: Nenneke-PDF
           path: build/Nenneke.pdf
           if-no-files-found: error
+
+  release-pdf:
+    name: Regelbuch-Release veröffentlichen
+    needs: build-pdf
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: regelbuch-release-main
+      cancel-in-progress: false
+
+    steps:
+      - name: Repository samt Tags auschecken
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Nächste Regelwerksversion bestimmen
+        id: version
+        shell: bash
+        run: |
+          git fetch --force --tags
+          latest_tag="$(git tag --list --sort=-version:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | head -n 1 || true)"
+
+          if [[ -z "$latest_tag" ]]; then
+            release_tag="v6.3.1"
+          else
+            IFS=. read -r major minor patch <<< "${latest_tag#v}"
+            release_tag="v${major}.${minor}.$((10#$patch + 1))"
+          fi
+
+          echo "tag=$release_tag" >> "$GITHUB_OUTPUT"
+          echo "filename=Nenneke-$release_tag.pdf" >> "$GITHUB_OUTPUT"
+
+      - name: PDF für Release herunterladen
+        uses: actions/download-artifact@v4
+        with:
+          name: Nenneke-PDF
+          path: release
+
+      - name: GitHub Release mit PDF erstellen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ steps.version.outputs.tag }}" \
+            "release/Nenneke.pdf#${{ steps.version.outputs.filename }}" \
+            --target "${{ github.sha }}" \
+            --title "Nenneke ${{ steps.version.outputs.tag }}" \
+            --generate-notes

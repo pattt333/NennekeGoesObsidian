@@ -29,8 +29,8 @@
 ## 5. Continuous PDF build
 
 - [x] 5.1 Add `.github/workflows/build.yml` for push-to-`main` and manual validation/PDF builds.
-- [x] 5.2 Upload the generated PDF as a workflow artifact without committing it back to the repository or creating a release.
-- [ ] 5.3 Verify a GitHub Actions run and document how maintainers retrieve the build output.
+- [x] 5.2 Upload the generated PDF as a workflow artifact without committing it back to the repository.
+- [ ] 5.3 Verify a GitHub Actions run and document how maintainers retrieve the build output and release.
 
 ## 6. Retrieval preparation
 

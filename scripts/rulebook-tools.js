@@ -54,10 +54,13 @@ function headingSlug(value) {
 }
 
 function splitFrontmatter(content) {
-  if (!content.startsWith("---\n")) return { fields: {}, body: content };
-  const closing = content.indexOf("\n---\n", 4);
+  const lineEnding = content.startsWith("---\r\n") ? "\r\n" : "\n";
+  const opening = `---${lineEnding}`;
+  if (!content.startsWith(opening)) return { fields: {}, body: content };
+  const closingDelimiter = `${lineEnding}---${lineEnding}`;
+  const closing = content.indexOf(closingDelimiter, opening.length);
   if (closing < 0) throw new Error("Unclosed YAML frontmatter.");
-  const frontmatter = content.slice(4, closing).split("\n");
+  const frontmatter = content.slice(opening.length, closing).split(/\r?\n/);
   const fields = { tags: [] };
   let listKey = null;
   for (const line of frontmatter) {
@@ -77,7 +80,7 @@ function splitFrontmatter(content) {
       listKey = null;
     }
   }
-  return { fields, body: content.slice(closing + 5) };
+  return { fields, body: content.slice(closing + closingDelimiter.length) };
 }
 
 function parseScalar(value) {
@@ -105,7 +108,7 @@ function yaml(value) {
   return JSON.stringify(String(value));
 }
 
-function renderFrontmatter(fields) {
+function renderFrontmatter(fields, lineEnding = "\n") {
   return [
     "---",
     `id: ${fields.id}`,
@@ -115,7 +118,7 @@ function renderFrontmatter(fields) {
     ...fields.tags.map(tag => `  - ${tag}`),
     "---",
     "",
-  ].join("\n");
+  ].join(lineEnding);
 }
 
 function assignIds(vault = VAULT) {
@@ -124,6 +127,7 @@ function assignIds(vault = VAULT) {
   for (const file of addressableFiles(vault)) {
     const content = fs.readFileSync(file, "utf8");
     const { fields, body } = splitFrontmatter(content);
+    const lineEnding = content.includes("\r\n") ? "\r\n" : "\n";
     const id = fields.id || deriveId(file, vault);
     if (seen.has(id)) throw new Error(`Duplicate rule ID ${id}: ${file} and ${seen.get(id)}`);
     seen.set(id, file);
@@ -131,7 +135,7 @@ function assignIds(vault = VAULT) {
     const relative = path.relative(path.join(vault, "rules"), file);
     const primaryTag = id.startsWith("design.") ? "design" : slug(relative.split(path.sep)[0]);
     const tags = Array.isArray(fields.tags) && fields.tags.length ? fields.tags.map(slug) : [primaryTag];
-    const next = renderFrontmatter({ id, title: fields.title || titleFrom(body, path.basename(file, ".md")), type, tags }) + body.replace(/^\n+/, "");
+    const next = renderFrontmatter({ id, title: fields.title || titleFrom(body, path.basename(file, ".md")), type, tags }, lineEnding) + body.replace(/^\r?\n+/, "");
     if (next !== content) {
       fs.writeFileSync(file, next, "utf8");
       changes.push(path.relative(vault, file).replace(/\\/g, "/"));
@@ -351,6 +355,8 @@ function selfTest() {
     content: "## Abschnitt\n\nInhalt",
     contentHash: crypto.createHash("sha256").update("## Abschnitt\n\nInhalt").digest("hex"),
   });
+  write("rules/crlf.md", "---\r\nid: rule.crlf\r\ntitle: \"CRLF\"\r\ntype: rule\r\ntags:\r\n  - test\r\n---\r\n\r\n# CRLF\r\n");
+  assert.strictEqual(validateMetadata(vault), 2);
   const segmentFilter = spawnSync("pandoc", ["--from=markdown+raw_html", "--to=typst", "--lua-filter", HEALTH_SEGMENT_FILTER], {
     input: "| Segment | <span class=\"health-segment--critical\">1.</span> | <span class=\"health-segment--safe\">7.+8.</span> |\n| --- | --- | --- |\n| **50 LeP** | 1-7 | 43-50 |\n",
     encoding: "utf8",

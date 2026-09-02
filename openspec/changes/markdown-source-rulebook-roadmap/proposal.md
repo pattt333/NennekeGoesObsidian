@@ -8,7 +8,7 @@ The current vault is a complete Markdown representation of the ZIP archive, so t
 - Define concise German authoring conventions for headings, tables, rule boxes, examples, formulas, links, metadata, and source-managed assets.
 - Add stable IDs to addressable rules and major rule sections, without assigning an ID to every paragraph.
 - Replace the fixed PDF input list with a small versioned `book.yaml` and a build-only Markdown entry tree. The tree uses recursive Obsidian embeds for book inclusion and keeps normal links as cross-references.
-- Add a GitHub Actions build workflow for merges to `main` that validates Markdown and generates the PDF as a build artifact.
+- Add a GitHub Actions build workflow for merges to `main` that validates Markdown, generates the PDF, and publishes the validated output through the chosen release automation.
 - Prepare a provider-neutral, citation-oriented retrieval contract for a future external RAG service; Discord and Foundry remain outside this repository.
 
 ## Capabilities

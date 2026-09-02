@@ -42,9 +42,9 @@ The build entry tree owns the one canonical PDF order. Its `![[...]]` embeds mea
 
 The PDF implementation is selected by a small fidelity spike, with Pandoc plus Typst as the preferred Markdown-first candidate; the selected toolchain must run locally and in CI.
 
-### 5. Build but do not commit or release generated PDFs in CI
+### 5. Build without committing generated PDFs in CI
 
-`.github/workflows/build.yml` runs on pushes to `main` and manually. It validates the vault, builds the PDF, and uploads it as a workflow artifact. It neither commits generated output nor creates releases; publication destinations are a later product decision.
+`.github/workflows/build.yml` runs on pushes to `main` and manually. It validates the vault and builds the PDF without committing generated output. The artifact remains available for every successful run; its approved release-publication policy is maintained in the follow-up release automation change.
 
 ### 6. Prepare RAG inputs, not an RAG product
 

@@ -78,9 +78,13 @@ Review `docs/MAINTENANCE.md` for the full maintenance-script reference.
 
 ## PDF-Ausgabe
 
-Nach jedem Push auf main erstellt GitHub Actions die Regelbuch-PDF und stellt sie ausschließlich als Workflow-Artefakt Nenneke-PDF bereit. Es wird kein Release und keine PDF-Datei im Repository erzeugt. Lokal ist dieselbe Ausgabe mit `npm run pdf` möglich; sie benötigt Pandoc und Typst.
+Nach jedem erfolgreichen Push auf `main` validiert GitHub Actions das Regelbuch, erzeugt die PDF und veröffentlicht sie automatisch als GitHub Release. Die erste automatisch erstellte Release ist `v6.3.1`; jeder folgende erfolgreiche `main`-Build erhöht die Patch-Version (`v6.3.2`, `v6.3.3` usw.). Die PDF wird dabei als `Nenneke-vX.Y.Z.pdf` an die jeweilige Release angehängt. Es wird keine PDF-Datei in das Repository zurückgeschrieben.
 
-Zum Herunterladen öffnest du im GitHub-Repository den Reiter Actions, wählst den erfolgreichen Lauf Regelbuch-PDF und lädst im Abschnitt Artifacts das Paket Nenneke-PDF herunter. Es enthält build/Nenneke.pdf.
+Damit die Action Tag und Release anlegen darf, muss einmalig im GitHub-Repository unter **Settings → Actions → General → Workflow permissions** die Option **Read and write permissions** erlaubt sein. Wird diese Einstellung durch eine Organisation oder ein Ruleset eingeschränkt, muss sie dort entsprechend freigegeben werden.
+
+Zum Herunterladen öffnest du im GitHub-Repository den Bereich **Releases**, wählst die gewünschte Nenneke-Version und lädst die angehängte PDF herunter. Die gleiche unversionierte Datei ist weiterhin im erfolgreichen Workflow-Lauf unter **Actions → Regelbuch-PDF → Artifacts → Nenneke-PDF** verfügbar.
+
+Ein manuell gestarteter Workflow dient nur der Validierung und dem PDF-Build. Er erstellt absichtlich weder Tag noch Release, damit ein erneuter Testlauf keine neue Regelwerksversion veröffentlicht. Lokal ist dieselbe Ausgabe mit `npm run pdf` möglich; sie benötigt Pandoc und Typst.
 
 ## Troubleshooting
 
