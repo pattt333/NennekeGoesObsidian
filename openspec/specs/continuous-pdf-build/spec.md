@@ -31,3 +31,14 @@ The rulebook metadata validator SHALL accept valid YAML frontmatter using either
 #### Scenario: CRLF-authored rule note
 - **WHEN** an addressable rule note has valid frontmatter separated with CRLF line endings
 - **THEN** metadata validation recognizes its ID, title, type, and tags without reporting missing metadata.
+
+### Requirement: Current PDF in Nextcloud
+After a successful automated `main`-branch rulebook release, the workflow SHALL upload the same generated PDF to the configured Nextcloud WebDAV folder as `Nenneke.pdf`. The workflow MUST obtain the WebDAV URL, username, and app password only from GitHub Actions Secrets.
+
+#### Scenario: Successful release upload
+- **WHEN** a push-to-`main` build and GitHub Release succeed
+- **THEN** the configured Nextcloud folder contains the release PDF as `Nenneke.pdf`.
+
+#### Scenario: Manual build
+- **WHEN** a maintainer starts the workflow manually
+- **THEN** the workflow does not access Nextcloud or upload a PDF.
