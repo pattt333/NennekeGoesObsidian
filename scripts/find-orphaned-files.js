@@ -208,7 +208,7 @@ function main() {
       return false;
     }
     // The PDF-only include tree has its own entry point and resolver.
-    if (file.startsWith('book\\')) {
+    if (file.split(path.sep)[0] === 'book') {
       return false;
     }
     return !reachable.has(file);
