@@ -3,7 +3,6 @@
 ![[../grundideen-des-regeldesigns]]
 
 ![[chapters/01-proben]]
-![[chapters/02-charaktere]]
 ![[chapters/03-eigenschaften]]
 ![[chapters/04-fertigkeiten]]
 ![[chapters/05-gesundheit]]

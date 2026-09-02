@@ -11,6 +11,7 @@ const { spawnSync } = require("child_process");
 const ROOT = path.resolve(__dirname, "..");
 const VAULT = path.join(ROOT, "vault");
 const HEALTH_SEGMENT_FILTER = path.join(ROOT, "scripts", "health-segment-tables.lua");
+const RULE_EXAMPLE_FILTER = path.join(ROOT, "scripts", "pdf-rule-examples.lua");
 const ADDRESSABLE_ROOTS = [path.join(VAULT, "rules"), path.join(VAULT, "grundideen-des-regeldesigns.md")];
 const EXTERNAL_LINK = /^(?:[a-z][a-z0-9+.-]*:|#)/i;
 const EMBED_RE = /!\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]/g;
@@ -290,7 +291,7 @@ function buildPdf(root = ROOT) {
   const output = path.resolve(root, config.output);
   fs.writeFileSync(intermediate, combined, "utf8");
   fs.mkdirSync(path.dirname(output), { recursive: true });
-  const result = spawnSync("pandoc", [intermediate, "--from=markdown+raw_html", "--lua-filter", HEALTH_SEGMENT_FILTER, "--output", output, "--toc", "--number-sections", "--top-level-division=chapter", `--pdf-engine=${config.pdfEngine}`, "--metadata", `title=${config.title}`, "--metadata", "lang=de-DE"], { cwd: root, encoding: "utf8" });
+  const result = spawnSync("pandoc", [intermediate, "--from=markdown+raw_html", "--lua-filter", HEALTH_SEGMENT_FILTER, "--lua-filter", RULE_EXAMPLE_FILTER, "--output", output, "--toc", "--number-sections", "--top-level-division=chapter", `--pdf-engine=${config.pdfEngine}`, "--metadata", `title=${config.title}`, "--metadata", "lang=de-DE"], { cwd: root, encoding: "utf8" });
   if (result.error) throw new Error(`Could not run pandoc: ${result.error.message}`);
   if (result.status !== 0) throw new Error(result.stderr || "Pandoc PDF build failed.");
   return { output, files };

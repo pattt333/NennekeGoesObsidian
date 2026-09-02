@@ -6,7 +6,6 @@ Aktuelle Regelwerksfassung. Die Markdown-Dateien dieses Vaults sind die maßgebl
 
 - [Grundideen des Regeldesigns](grundideen-des-regeldesigns.md)
 - [Proben](rules/01_Proben.md)
-- [Charaktere](rules/02_Charaktere.md)
 - [Eigenschaften](rules/03_Eigenschaften.md)
 - [Fertigkeiten](rules/04_Fertigkeiten/04_Fertigkeiten.md)
 - [Gesundheit](rules/05_Gesundheit.md)

@@ -9,13 +9,17 @@ tags:
 
 # Proben
 
+Würfel sorgen im Rollenspiel für Spannung.
+
+Sie werden sorgfältig entwickelte Pläne zum Einsturz bringen, beinahe verlorene Kämpfe zu deinen Gunsten wenden und zeigen, ob du kluge Entscheidungen getroffen hast. In diesem Kapitel erfährst du, wie du die Würfel bei Proben einsetzt. Ilaris verwendet einen schnellen und einfachen Probenwurf, bei dem du mit deinem Würfelwurf und deinem Wert eine Schwierigkeit überbieten musst. Diesen Wurf kannst du mühelos anpassen, um unterschiedliche Umgebungen, verschieden starken Glückseinfluss und die Zusammenarbeit innerhalb deiner Gruppe darzustellen.
+
+Anschließend stellen wir die verschiedenen Probenarten vor: In [gewöhnlichen Proben](01_Proben.md#sec-gewohnlicheproben) versuchst du eine vom Spielleiter vorgegebene, feste Schwierigkeit zu erreichen (hier findest Du auch eine [Tabelle zur Probenschwierigkeit](01_Proben.md#sec-gewohnlicheproben)), während du in [Vergleichsproben](01_Proben.md#sec-vergleichsproben) gegen einen Kontrahenten antrittst. [Detailgradproben](01_Proben.md#sec-detailgradproben) bestehen hingegen aus mehreren offenen oder vergleichenden Proben und kommen vor allem in längeren Szenen zum Einsatz.
+
+In manchen Fällen kann es vorkommen, dass gerechnet und dabei auch gerundet werden muss. Hierbei gilt stets die Regel, dass AUFgerundet wird. Bereits ein Wert von 10,1 wird also zu einer 11 gerundet. Ausnahmen (wie bei SchiP-Einsatz) bestätigen die Regel.
+
 ## Designprinzipien
 
-### Designziel
-
 Das Probensystem bildet die gemeinsame Grundlage zur Auflösung unsicherer Handlungen.
-
-Unterschiedliche Situationen sollen möglichst mit denselben Grundmechanismen abgebildet und über wenige bekannte Stellschrauben angepasst werden.
 
 Schwierigkeit und äußere Umstände sollen bevorzugt über einheitliche Modifikatoren dargestellt werden.
 
@@ -28,12 +32,6 @@ Der mechanische Detailgrad richtet sich dabei nach der Bedeutung einer Situation
 Gruppenproben, Zusammenarbeit und Detailgradproben sind bewusst unterschiedliche Werkzeuge für unterschiedliche spielerische Fragestellungen.
 
 Ihre Existenz widerspricht dem Ziel der Vereinheitlichung nicht, solange sie auf der gemeinsamen Grundlogik des Probensystems aufbauen.
-
-
-Würfel sorgen im Rollenspiel für Spannung.
-Sie werden sorgfältig entwickelte Pläne zum Einsturz bringen, beinahe verlorene Kämpfe zu deinen Gunsten wenden und zeigen, ob du kluge Entscheidungen getroffen hast. In diesem Kapitel erfährst du, wie du die Würfel bei Proben einsetzt. Ilaris verwendet einen schnellen und einfachen Probenwurf, bei dem du mit deinem Würfelwurf und deinem Wert eine Schwierigkeit überbieten musst. Diesen Wurf kannst du mühelos anpassen, um unterschiedliche Umgebungen, verschieden starken Glückseinfluss und die Zusammenarbeit innerhalb deiner Gruppe darzustellen. Anschließend stellen wir die verschiedenen Probenarten vor: In [gewöhnlichen Proben](01_Proben.md#sec-gewohnlicheproben) versuchst du eine vom Spielleiter vorgegebene, feste Schwierigkeit zu erreichen (hier findest Du auch eine [Tabelle zur Probenschwierigkeit](01_Proben.md#sec-gewohnlicheproben)), während du in [Vergleichsproben](01_Proben.md#sec-vergleichsproben) gegen einen Kontrahenten antrittst. [Detailgradproben](01_Proben.md#sec-detailgradproben) bestehen hingegen aus mehreren offenen oder vergleichenden Proben und kommen vor allem in längeren Szenen zum Einsatz.
-
-In manchen Fällen kann es vorkommen, dass gerechnet und dabei auch gerundet werden muss. Hierbei gilt stets die Regel, dass AUFgerundet wird. Bereits ein Wert von 10,1 wird also zu einer 11 gerundet. Ausnahmen (wie bei SchiP-Einsatz) bestätigen die Regel.
 
 <a id="sec-probenwurf"></a>
 
@@ -68,8 +66,7 @@ schärfere Schwerter schmieden, tödlichere Gifte brauen oder deine Gegner stär
 
 Zeigen 2 Würfel bei einem Probenwurf eine 20, dann gilt dies als kritischer Erfolg. Dein Charakter erzielt einen außergewöhnlichen, ja herausragenden Erfolg. Zeigen zwei der Würfel eine 1, ist dies hingegen einen Patzer, durch den sich dein Charakter in eine unangenehme oder sogar lebensbedrohliche Situation gebracht hat.
 
-> Irgendwer will mich tot sehen! Irion drängt sich durch die bronzehäutigen Tänzer und vorbei an zwei matronenhaften Grandinnen, die verlogene Komplimente austauschen. Nur hinaus! Eine Verbergen-Probe soll klären, wie unauffällig Irion dabei ist. Der Spieler von Irion würfelt 1, 5, 1, also einen Patzer. Als er sich nach Verfolgern umsieht, stößt Irion gegen eine Haussklavin. Eine Amphore zerschellt klirrend auf dem Boden
-> und alle Blicke richten sich auf Irion.
+> Irgendwer will mich tot sehen! Irion drängt sich durch die bronzehäutigen Tänzer und vorbei an zwei matronenhaften Grandinnen, die verlogene Komplimente austauschen. Nur hinaus! Eine Verbergen-Probe soll klären, wie unauffällig Irion dabei ist. Der Spieler von Irion würfelt 1, 5, 1, also einen Patzer. Als er sich nach Verfolgern umsieht, stößt Irion gegen eine Haussklavin. Eine Amphore zerschellt klirrend auf dem Boden und alle Blicke richten sich auf Irion.
 
 Das Resultat verrät dir situationsabhängig der Meister.
 
@@ -94,6 +91,7 @@ Dabei würfelt EIN Spieler eine Probe, deren Ergebnis für die GANZE Gruppe bind
 
 Die meisten Proben sind sogenannte gewöhnliche Proben, in denen der Spielleiter die Probenschwierigkeit festlegt. Erfahrene Spielleiter können das intuitiv, aber bis dorthin kannst du in der folgenden Tabelle nachschlagen. Links bestimmst du, wie herausfordernd die Probe sein soll, die Zahlen in der ersten Spalte verraten dir dabei die Erfolgswahrscheinlichkeit. Oben kannst
 du die Erfahrung der Charaktere anhand ihres Probenwerts (PW) einordnen.
+
 > In der vorherigen Situation hat die Spielleiterin die Probenschwierigkeit mit Hilfe der Tabelle bestimmt. Sie beschließt, dass die Probe für einen unerfahrenen Charakter (PW 6) anspruchsvoll ist und verlangt daher eine Schwierigkeit von 16. Zum Glück ist Valeria jedoch erprobt in gesellschaftlichen Angelegenheiten (PW 10), wodurch die Probe für sie nur gewöhnlich ist.
 
 | % | **2** | **6** | **10** | **14** | **18** | **22** |  |
@@ -119,18 +117,21 @@ Beide Kontrahenten legen eine Fertigkeitsprobe ab. Wie üblich wird das Würfele
 ## Detailgradproben
 
 Wenn ihr einen Dieb über die Gassenschluchten des nächtlichen Khunchoms verfolgt oder ein lebenswichtiges Gegengift braut, wollt ihr diese Situation vielleicht nicht mit einer einzigen Probe abhandeln. Für solche Fälle gibt es Detailgradproben. In einer solchen Probe bestimmt der Spielleiter den Detailgrad (DG). Um erfolgreich zu sein, müssen dir insgesamt so viele Einzelproben gelingen, wie der Detailgrad beträgt – und zwar, bevor dir dieselbe Anzahl an Einzelproben misslungen ist. (Eine [gewöhnliche Probe](01_Proben.md#sec-gewohnlicheproben) entspricht also einem Detailgrad von 1.)
+
 > Bei einem Detailgrad von 3 müssen dir also insgesamt 3 Proben gelingen, bevor dir 3 Proben misslungen sind.
 
 Wenn der Spielleiter den Detailgrad festlegt, sollte er sich folgende Fragen stellen: Wie wichtig ist die Handlung für das Abenteuer und die Spieler? Wie genau soll sie ausgespielt werden? Je bedeutsamer und dramatischer die Handlung, desto höher sollte der Detailgrad gewählt werden. Wie lange diese Handlung im Spiel dauert, ist hingegen völlig egal. Auch eine stundenlange, dröge Verhandlung sollte mit einem Detailgrad von 1 abgehandelt werden – also mit einer gewöhnlichen Probe. Normalerweise liegt der Detailgrad bei 2–4.
+
 Normalerweise gibt der Spielleiter - wie bei einer gewöhnlichen Probe die Schwierigkeit(en) der Einzelproben vor, was sich beispielsweise bei Jagden, Recherchen und im Handwerk anbietet. Es gibt aber auch vergleichende Detailgradproben, die bei sozialen Konflikten, Verfolgungsjagden und Massenkämpfen vorkommen können.
 
 Die Einzelproben einer Detailgradprobe müssen übrigens nicht alle auf dieselbe Fertigkeit abgelegt werden. In einem gesellschaftlichen Konflikt könntest du etwa zuerst dem Gegenüber schmeicheln (Beeinflussung(Betören)), um ihm dann unverblümt zu drohen (Autorität(Einschüchtern)), während ein Speer mit einer Kombination aus Handwerk(Holzbearbeitung) und Handwerk(Metall) gefertigt wird. Wenn du eine Detailgradprobe mit freiwilligen Erschwernissen versiehst (z.B. Hohe Qualität), musst du diese Erschwernisse bei jeder Einzelprobe abziehen. Der Spielleiter kann aber auch unterschiedliche Schwierigkeiten und Effekte für Hohe Qualität für jede der Einzelproben festlegen, wenn das dem Spielfluss und Ergebnis zugute kommt.
 
-> Miraj möchte einen Speer mit einer ziselierten Spitze herstellen, um diesen dem Feldherren als Geschenk zu überreichen. Der Spielleiter gibt eine Detailgradprobe mit DG3 vor. Dabei soll Miraj abwechselnd auf Handwerk(Holzbearbeitung) und Handwerk(Metall) proben. Während der Holzschaft selbst für einen unerfahrenen Handwerker (PW6) einfach herzustellen wäre (Schwierigkeit 14), ist das Schmieden und verzieren der Spitze nach Mirajs Beschreibung auch für einen sehr erfahrenen Schmied (PW14) anspruchsvoll (Schwierigkeit 24). \\
+> Miraj möchte einen Speer mit einer ziselierten Spitze herstellen, um diesen dem Feldherren als Geschenk zu überreichen. Der Spielleiter gibt eine Detailgradprobe mit DG3 vor. Dabei soll Miraj abwechselnd auf Handwerk(Holzbearbeitung) und Handwerk(Metall) proben. Während der Holzschaft selbst für einen unerfahrenen Handwerker (PW6) einfach herzustellen wäre (Schwierigkeit 14), ist das Schmieden und verzieren der Spitze nach Mirajs Beschreibung auch für einen sehr erfahrenen Schmied (PW14) anspruchsvoll (Schwierigkeit 24).
+
 > Miraj ist ein meisterhafter Schmied und erschwert sich die Hadwerk(Metall) Proben um -8. Nach erfolgreich absolvierter Detailgradprobe hält er einen Speer in der Hand, dessen Schaft zwar nichts besonderes ist, dessen Spitze jedoch im ganzen Kaiserreich ihresgleichen sucht. Überreicht er dieses Geschenk an den Feldherren, werden seine Gesellschaftsproben in der Folge durch die zwei Stufen Hohe Qualität um +8 erleichtert sein, entscheidet der Spielleiter.
 
 Nicht in allen Fällen ist eine so ausführliche und detaillierte Detailgradprobe jedoch nötig. Meistens wird es genügen, dieselbe Schwierigkeit für alle Einzelproben vorzugeben und auch Hohe Qualität auf alle Einzelproben gleichermaßen anzuwenden, was deutlich schneller vonstatten geht.
 
 ---
 
-**Regelbuchnavigation:** ↑ [Startseite](../index.md) · [Charaktere](02_Charaktere.md) →
+**Regelbuchnavigation:** ↑ [Startseite](../index.md)

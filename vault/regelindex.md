@@ -5,7 +5,6 @@ Alle aus der maßgeblichen Quelle erzeugten Regelnotizen.
 ## Grundlagen
 
 - [Proben](rules/01_Proben.md)
-- [Charaktere](rules/02_Charaktere.md)
 - [Eigenschaften](rules/03_Eigenschaften.md)
 - [Gesundheit](rules/05_Gesundheit.md)
 

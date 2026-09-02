@@ -93,6 +93,7 @@ Diese Unterschiede sollen möglichst durch wiederkehrende Werte und Waffeneigens
 Der Kampf ist der geläufigste Weg, wie einem Helden Wunden zugefügt werden können, er zu Bluten beginnt oder dem Tod nahekommt. Informationen dazu, wie auch zur Heilung, Rettung, Stabilisierung und zu Trefferzonen und Rüstungsschutz finden sich im Grundlagen-Kapitel Gesundheit.
 
 Ein gelungener Erstschlag kann den Kampf beenden, bevor er richtig begonnen hat. Entscheidend ist dabei die Reaktionsgeschwindigkeit, also die Initiative (INI). Der Kämpfer mit der höchsten Initiative beginnt den Kampf und kann in seiner Kampfrunde handeln (bei einem Gleichstand handeln Spielercharaktere vor NSC, darüber hinaus entscheidet der Spielleiter).
+
 > Leise wie Schatten pirschen sich die Stammeskrieger und Isna-Iti an die Wache der Blasshäute heran, die gerade noch aufspringen kann – der Kampf beginnt. Die erfahrenen Stammeskrieger verfügen über eine INI von 7, Isna-Iti und die Wache kommt lediglich auf eine INI von 4. Damit handeln zuerst die Stammeskrieger, dann Isna-Iti (weil sie ein Spielercharakter ist) und dann die Wache. Danach sind wieder die Stammeskrieger an der Reihe.
 
 <a id="sub-inisystem"></a>
@@ -155,6 +156,7 @@ Reaktionen kannst du aufwenden, um auf Ereignisse außerhalb deiner Initiativeph
 - **Passierschlag:** Passierschläge sind Angriffe, die als Reaktion auf manche Manöver ausgeführt werden. Zum Beispiel wenn ein Gegner sich durch deinen Kontrollbereich bewegt. Passierschläge können nur mit Vorteilen mit bestimmten Manövern modifiziert werden.
 
 Du kannst so viele Reaktionen ausführen wie nötig, doch das wird mit jeder Reaktion schwieriger. Jede Reaktion nach der ersten erleidet einen kumulativen Malus von –4.
+
 > *In der letzten Szene war die erste Verteidigung der Wache nicht erschwert, die zweite um –4 und die dritte sogar um –8.*
 
 <a id="sec-aufstehenimkampf"></a>

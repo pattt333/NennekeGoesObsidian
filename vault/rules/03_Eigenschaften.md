@@ -9,9 +9,11 @@ tags:
 
 # Eigenschaften
 
-## Designprinzipien
+Wie stark ist er? Wie reagieren andere auf ihre charismatische Aura? Gerät er schnell außer Atem? Steht das Schicksal heute auf meiner Seite?
 
-### Designziel
+Typische Fragen, die sich ein Abenteurer und ein Spieler oft stellen und im Folgenden beantwortet werden.
+
+## Designprinzipien
 
 Eigenschaften sollen die grundlegenden körperlichen und geistigen Fähigkeiten eines Charakters abbilden und als gemeinsame Basis für Fertigkeiten und zentrale abgeleitete Werte dienen.
 
@@ -20,6 +22,25 @@ Jede Eigenschaft soll mehrere klar erkennbare Anwendungsbereiche besitzen und f�
 Abgeleitete Werte sollen sich möglichst nachvollziehbar und einheitlich aus Eigenschaften oder anderen bereits bestehenden Charakterwerten ergeben.
 
 Eigenschaften und abgeleitete Werte sollen keine eigenständigen Subsysteme erzeugen, sondern andere Regelbereiche wie Proben, Kampf, Gesundheit und übernatürliche Fähigkeiten mit wenigen gemeinsamen Grundwerten versorgen.
+
+Schicksalspunkte stellen mit Absicht eine eigene Ressource für jeden Charakter dar, um sein Schicksal im richtigen Moment zu beeinflussen.
+
+<a id="sec-schip"></a>
+
+## Schicksalspunkte (SchiPs)
+
+Schicksalspunkte kannst du auf die folgenden Arten einsetzen:
+1. Glückliche Fügung: Du kannst einen Schicksalspunkt (SchiP) einsetzen, der dir einen zusätzlichen Würfel für die nächste Probe verleiht. Statt drei Würfeln würfelst du vier und der zweithöchste Wert zählt. Statt einem Würfel würfelst du zwei und der höchste Wert zählt. Hierbei können niemals Patzer entstehen!
+2. Nur ein Kratzer: Unmittelbar nachdem du Schaden erlitten hast, kannst du einen Schicksalspunkt einsetzen. Dadurch werden die gerade erlittenen Trefferpunkte halbiert. Hierbei wird ausnahmsweise abgerundet.
+3. Von der Schippe springen: Du kannst 1 Punkt deines SchiP-Maximalbetrags aufwenden, um den Tod deines Charakters abzuwenden. Dazu musst du deinem Spielleiter einen plausiblen Vorschlag machen, wie dein Charakter die tödliche Situation überlebt. Von der Schippe springen lässt deinen Charakter übrigens nicht ungeschoren davonkommen. Eher überlebt er einen eigentlich tödlichen Sturz schwer verletzt oder wird von den Feinden für tot gehalten und ausgeplündert. Da du durch diese Einsatzart deinen Maximalbetrag an SchiPs reduzierst, musst du hierfür keinen SchiP übrig haben. Die Auswirkungen wirst du dafür zu Beginn jedes folgenden Abenteuers spüren.
+4. Eine Probe nachträglich verbessern: Für einen Schicksalspunkt kannst du eine gewürfelte Probe einmalig um +4 verbessern.
+5. Eine Probe wiederholen: Für einen Schicksalspunkt kannst du eine Probe einmal wiederholen. Außer es war ein Patzer.
+
+Schicksalspunkte werden zu Beginn jedes Abenteuers auf deinen Maximalbetrag zurückgesetzt. Es gibt Vorteile, die es dir erlauben, einen höheren SchiP-Maximalbetrag und damit mehr Schicksalspunkte zu haben.
+
+<a id="sec-eigenschaften"></a>
+
+## Die Eigenschaften
 
 
 Charisma (CH) ist die natürliche Ausstrahlung deines Charakters auf seine Umgebung. Es steht für Führungsqualitäten, Selbstbewusstsein, Überzeugungskraft und ein gewinnendes Wesen. Alle gesellschaftlichen Fertigkeiten hängen von deinem Charisma ab und auch Elementaristen benötigen ein hohes Charisma.
@@ -80,4 +101,4 @@ Der Schadensbonus zählt grundsätzlich für alle Nahkampfwaffen. Nahkampfwaffen
 
 ---
 
-**Regelbuchnavigation:** ← [Charaktere](02_Charaktere.md) · ↑ [Startseite](../index.md) · [Fertigkeiten](04_Fertigkeiten/04_Fertigkeiten.md) →
+**Regelbuchnavigation:** ↑ [Startseite](../index.md) · [Fertigkeiten](04_Fertigkeiten/04_Fertigkeiten.md) →

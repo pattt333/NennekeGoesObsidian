@@ -5,9 +5,9 @@ type: design-principles
 tags:
   - design
 ---
-# Grundideen des Regeldesigns
+# Grundideen des Regeldesigns {-}
 
-## Grundgedanke des Regeldesigns
+## Grundgedanke des Regeldesigns {-}
 
 Nenneke soll kein möglichst kurzes Regelwerk sein, sondern ein möglichst **einheitliches und nachvollziehbares**.
 

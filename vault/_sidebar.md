@@ -1,7 +1,6 @@
 - [Startseite](index.md)
 - [Grundideen des Regeldesigns](grundideen-des-regeldesigns.md)
 - [Proben](rules/01_Proben.md)
-- [Charaktere](rules/02_Charaktere.md)
 - [Eigenschaften](rules/03_Eigenschaften.md)
 - [Fertigkeiten](rules/04_Fertigkeiten/04_Fertigkeiten.md)
   - [04 1 Kampffertgikeiten](rules/04_Fertigkeiten/04_1_Kampffertgikeiten.md)
