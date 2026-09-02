@@ -17,6 +17,7 @@ Anschließend stellen wir die verschiedenen Probenarten vor: In [gewöhnlichen P
 
 In manchen Fällen kann es vorkommen, dass gerechnet und dabei auch gerundet werden muss. Hierbei gilt stets die Regel, dass AUFgerundet wird. Bereits ein Wert von 10,1 wird also zu einer 11 gerundet. Ausnahmen (wie bei SchiP-Einsatz) bestätigen die Regel.
 
+
 ## Designprinzipien
 
 Das Probensystem bildet die gemeinsame Grundlage zur Auflösung unsicherer Handlungen.
@@ -32,6 +33,8 @@ Der mechanische Detailgrad richtet sich dabei nach der Bedeutung einer Situation
 Gruppenproben, Zusammenarbeit und Detailgradproben sind bewusst unterschiedliche Werkzeuge für unterschiedliche spielerische Fragestellungen.
 
 Ihre Existenz widerspricht dem Ziel der Vereinheitlichung nicht, solange sie auf der gemeinsamen Grundlogik des Probensystems aufbauen.
+
+
 
 <a id="sec-probenwurf"></a>
 

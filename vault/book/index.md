@@ -1,5 +1,3 @@
-# Nenneke
-
 ![[../grundideen-des-regeldesigns]]
 
 ![[chapters/01-proben]]

@@ -286,7 +286,7 @@ function buildPdf(root = ROOT) {
     }
     parts.push(content);
   }
-  const combined = parts.join("\n\n\n") + "\n";
+  const combined = ["\`\`\`{=typst}\n#pagebreak()\n\`\`\`", ...parts].join("\n\n\n") + "\n";
   const intermediate = path.join(buildDirectory, "Nenneke.md");
   const output = path.resolve(root, config.output);
   fs.writeFileSync(intermediate, combined, "utf8");
