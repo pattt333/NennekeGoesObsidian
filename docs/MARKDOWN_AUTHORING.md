@@ -37,6 +37,8 @@ Nutze Überschriften in der Reihenfolge #, ## und bei Bedarf ###. Tabellen bleib
 | 1 | kurze Wirkung |
 ~~~
 
+Im PDF erhält jede Markdown-Tabelle automatisch ein vollständiges, dezentes Raster: alle Zeilen und Spalten sind durch feine graue Linien getrennt. Dafür ist keine besondere Markdown-Syntax nötig; Obsidian und Docsify zeigen die Tabelle weiterhin mit ihrer eigenen Darstellung.
+
 Regelboxen, Beispiele und Hinweise verwenden eine klare Zwischenüberschrift:
 
 ~~~markdown

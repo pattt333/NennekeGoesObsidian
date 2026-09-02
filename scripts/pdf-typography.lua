@@ -5,6 +5,7 @@ function Pandoc(document)
 #show heading.where(level: 2): set block(above: 1.55em, below: 0.7em)
 #show heading.where(level: 3): set block(above: 1.25em, below: 0.55em)
 #show list: set block(above: 0.45em, below: 0.65em)
+#show table: set table(stroke: 0.5pt + luma(150))
 ]])
   table.insert(document.blocks, 1, typography)
   return document
